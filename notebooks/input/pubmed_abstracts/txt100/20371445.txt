@@ -1,0 +1,21 @@
+BACKGROUND: Treatment for refractory lymphoma in frail patients (older, poor
+performance status, or concomitant diseases) has not been defined.
+PATIENTS AND METHODS: A total of 100 frail patients naive to rituximab therapy
+were allocated to be treated with ESHAP (etoposide, methylprednisolone, cytosine 
+arabinoside, and platinum; 53 patients) or RESHAP (rituximab plus ESHAP; 47
+patients). Granulocyte colony-stimulating factor was used to ameliorate the
+presence of severe granulocytopenia.
+RESULTS: Overall response rate (ORR) and complete response (CR) were similar
+among ESHAP and R-ESHAP (ORR, 33 patients [62%] and 28 patients [60%],
+respectively; CR, 20 patients [37%] and 18 patients [36%], respectively).
+Actuarial curves at 5 years showed that progression-free survival (PFS) and
+overall survival (OS) were similar: 51% and 31% in the ESHAP arm and 50% and 26%,
+respectively, in R-ESHAP. Toxicity was severe in both groups; grade 4
+granulocytopenia was observed in 30% and 32% of ESHAP and R-ESHAP arms,
+respectively. Viral infections were more frequent in R-ESHAP (52 cases) than in
+ESHAP (3 cases).
+CONCLUSION: Frail patients, who generally have not been accepted in controlled
+clinical trials, can be treated with aggressive chemotherapy because tolerance is
+well and improvement in outcome is feasible. Although ESHAP retains the clinical 
+efficacy previously reported in nonfrail patients, the addition of rituximab did 
+not improve response rate, PFS, or OS.

@@ -1,0 +1,30 @@
+PURPOSE: Sorafenib, an oral multikinase inhibitor, has shown preliminary activity
+in non-small-cell lung cancer (NSCLC). Patients with advanced NSCLC were treated 
+with erlotinib with or without sorafenib in this multicenter phase II trial.
+PATIENTS AND METHODS: Key eligibility criteria included the following: stage IIIB
+or IV NSCLC; one to two prior regimens; Eastern Cooperative Oncology Group
+performance status of 0 to 2; and measurable disease. Patients were randomly
+assigned 2:1 to sorafenib (400 mg orally twice a day) plus erlotinib (150 mg
+orally daily) or placebo plus erlotinib and stratified by squamous/nonsquamous
+histology and prior bevacizumab. Treatment efficacy, measured by progression-free
+survival (PFS) and overall response rate (ORR), was compared. Treatment of 168
+patients allowed detection of 40% improvement in the historical PFS of 2.2 months
+with single-agent erlotinib.
+RESULTS: One hundred sixty-eight patients enrolled from February 2008 to February
+2009. Clinical characteristics of the two groups were similar. ORRs for
+sorafenib/erlotinib and placebo/erlotinib were 8% and 11%, respectively (P =
+.56); disease control rates were 54% and 38%, respectively (P = .056). Median PFS
+was 3.38 months for sorafenib/erlotinib versus 1.94 months for placebo/erlotinib 
+(hazard ratio, 0.86; 95% CI, 0.60 to 1.22; P = .196). Seventy-two patients
+consented to analyses of tumor epidermal growth factor receptor (EGFR). In 67
+patients with EGFR wild-type (WT) tumors, median PFS was 3.38 months for
+sorafenib/erlotinib versus 1.77 months for placebo/erlotinib (P = .018); median
+overall survival (OS) was 8 months for sorafenib/erlotinib versus 4.5 months for 
+placebo/erlotinib (P = .019). An OS advantage for sorafenib/erlotinib was
+suggested among 43 patients with fluorescent in situ hybridization (FISH)
+EGFR-negative tumors (P = .064). Both regimens were tolerable, with modest
+toxicity increase with sorafenib.
+CONCLUSION: Although there was little difference in ORR or PFS, subset analyses
+in EGFR WT and EGFR FISH-negative patients suggest a benefit for the combination 
+of erlotinib/sorafenib compared with single-agent erlotinib with respect to PFS
+and OS.

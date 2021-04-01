@@ -1,0 +1,24 @@
+PURPOSE: Patients with metastatic breast cancer who are pretreated with
+anthracyclines frequently receive taxane-based combinations. This phase III study
+compared the efficacy and safety of gemcitabine-docetaxel (GD) with
+capecitabine-docetaxel (CD) in advanced breast cancer.
+PATIENTS AND METHODS: Patients were randomly assigned to GD (G 1,000 mg/m(2) days
+1 and 8; D 75 mg/m(2) day 1) or CD (C 1,250 mg/m(2) twice daily days 1 through
+14; D 75 mg/m(2) day 1) every 21 days. Comparison of progression-free survival
+(PFS) was the primary objective.
+RESULTS: Patient characteristics were balanced between arms (N = 305). Median PFS
+was 8.05 months (95% CI, 6.60 to 8.71) for GD and 7.98 (95% CI, 6.93 to 8.77) for
+CD (log-rank P = .121). Overall response rate (ORR) was 32% in both arms, and
+overall survival (OS) was not different between arms (P = .983). Time to
+treatment failure (TTF; defined as discontinuation, progressive disease, death as
+a result of any cause, or the start of a new anticancer therapy) was superior in 
+the GD arm (P = .059). Hematologic toxicity was similar in both arms, except for 
+grades 3 to 4 leukopenia (GD, 78%; CD, 66%; P = .025) and transfusions (GD, 17%; 
+CD, 7%; P = .0051). Grades 3 to 4 diarrhea, mucositis, and hand-and-foot syndrome
+were significantly higher in the CD arm. Fewer patients in the GD arm
+discontinued because of drug-related adverse events (13% v 27% in CD; P = .002).
+CONCLUSION: No difference was observed between GD and CD arms in PFS, ORR, and
+OS. TTF was longer in the GD arm. These findings, combined with a nonhematologic 
+toxicity profile that favors GD over approved doses of CD, suggest that
+gemcitabine may be a better option than capecitabine in combination with
+docetaxel in this clinical setting.

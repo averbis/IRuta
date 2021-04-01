@@ -1,0 +1,23 @@
+PURPOSE: This phase II study evaluated the safety and efficacy of single-agent
+amrubicin versus topotecan in patients with small-cell lung cancer (SCLC)
+sensitive to first-line platinum-based chemotherapy.
+PATIENTS AND METHODS: Patients were randomly assigned 2:1 to amrubicin (40
+mg/m(2)/d in a 5-minute intravenous [IV] infusion, days 1 through 3, every 21
+days) or topotecan (1.5 mg/m(2)/d in a 30-minute IV infusion, days 1 through 5,
+every 21 days). The primary efficacy end point was overall response rate (ORR)
+for amrubicin. Secondary end points included time to progression, median
+progression-free survival (PFS), and median overall survival (OS).
+RESULTS: Of 76 patients enrolled, 50 patients were randomly assigned to
+amrubicin, and 26 patients were randomly assigned to topotecan. Amrubicin
+treatment resulted in a significantly higher ORR than topotecan (44% v 15%; P =
+.021). Median PFS and median OS were 4.5 months and 9.2 months with amrubicin and
+3.3 months and 7.6 months with topotecan, respectively. Tolerability was similar 
+with both agents. However, grade 3 or worse neutropenia and thrombocytopenia
+seemed to be more frequent in the topotecan group as compared with the amrubicin 
+group (78% and 61% v 61% and 39%, respectively).
+CONCLUSION: Amrubicin shows promising activity, with an ORR of 44% compared with 
+an ORR of 15% for topotecan as second-line treatment in patients with SCLC
+sensitive to first-line platinum-based chemotherapy. In addition, the safety
+profiles were comparable; however, a trend was noted for more frequent grade 3 or
+worse neutropenia and thrombocytopenia in the topotecan group as compared with
+the amrubicin group. Additional studies are ongoing.

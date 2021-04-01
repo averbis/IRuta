@@ -1,0 +1,24 @@
+PURPOSE: Sunitinib has demonstrated antitumor activity in metastatic renal cell
+carcinoma (mRCC) when given at 50 mg/d on a 4-weeks-on 2-weeks-off regimen.
+Herein, we report results of an open-label, multicenter phase II mRCC study of
+sunitinib administered on a continuous once-daily dosing regimen.
+PATIENTS AND METHODS: Eligibility criteria included histologically proven mRCC
+with measurable disease, failure of one prior cytokine regimen, and good
+performance status. Patients were randomly assigned to a sunitinib starting dose 
+of 37.5 mg/d in the morning (AM) or evening (PM). RECIST-defined objective
+response rate (ORR) was the primary end point. Secondary end points included
+progression-free survival (PFS), overall survival (OS), adverse events (AEs), and
+quality-of-life measures.
+RESULTS: One hundred seven patients were randomly assigned to AM (n = 54) or PM
+(n = 53) dosing and on study for a median 8.3 months. Eighty-three patients
+discontinued, 65 due to disease progression and 16 because of AEs; two patients
+withdrew consent. Dosing was reduced to 25 mg/d in 46 patients (43%) due to grade
+3/4 AEs. The most common grade 3 treatment-related AEs were asthenia/fatigue
+(16%), diarrhea (11%), hypertension (11%), hand-foot syndrome (9%), and anorexia 
+(8%). ORR was 20% with a 7.2-month median response duration. Median PFS and OS
+were 8.2 and 19.8 months, respectively, at median follow-up of 26.4 months.
+Efficacy, tolerability, and quality-of-life results were similar between patients
+dosed in the AM or PM.
+CONCLUSION: Sunitinib 37.5 mg, administered on a continuous once-daily dosing
+regimen, has a manageable safety profile as second-line mRCC therapy, providing
+flexible dosing, which can be explored in combination studies.

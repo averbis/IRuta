@@ -1,0 +1,17 @@
+BACKGROUND: Combination of capecitabine and irinotecan (XELIRI regimen) is an
+active and well tolerated treatment for metastatic colorectal cancer (mCRC). The 
+aim of this study was to evaluate the efficacy and safety of this regimen in
+combination with bevacizumab (BV), as first-line treatment for mCRC.
+PATIENTS AND METHODS: A total of 46 consecutive patients received a combination
+of BV (5?mg?kg?¹, day 1), irinotecan (175?mg?m?², day 1) and capecitabine
+(1000?mg?m?² twice daily on day 2-8), every 2 weeks. Patients were treated until 
+disease progression or unacceptable toxicity. The primary objective was to
+determine the progression-free survival (PFS) and safety profile.
+RESULTS: The overall response rate (ORR) was 67.4%, with a disease control rate
+(ORR+stable disease) of 93.5%. Median PFS and overall survival (OS) were 12.3
+months (95% confidence interval (CI): 6.5-18.1 months) and 23.7 months (95% CI:
+16.7-30.6 months), respectively. The most frequent grade 3/4 treatment-related
+adverse events were asthenia (7%), diarrhoea (7%), nausea (9%) and vomiting (7%).
+CONCLUSION: Bevacizumab combined with biweekly XELIRI is a highly active
+first-line regimen for mCRC treatment, showing encouraging PFS, ORR and OS with a
+good tolerability.

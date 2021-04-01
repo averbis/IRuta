@@ -1,0 +1,28 @@
+BACKGROUND: Gemcitabine infusion at the fixed dose rate of 10 mg/m(2) per minute 
+(FDR-gemcitabine) has pharmacokinetic advantages and may result in improved
+therapeutic efficacy.
+METHODS: Between April 2002 and September 2003, 40 patients with advanced-stage
+pancreatic adenocarcinoma (PDAC; n = 27) or biliary tree carcinoma (BTC; n = 13) 
+were treated with weekly FDR-gemcitabine (1000 mg/m(2)). The primary end point
+was the response rate. The secondary end points were progression-free and overall
+survival (PFS and OS), tumor marker response, and clinical benefit response
+(CBR).
+RESULTS: The overall response rate (ORR) on an intent-to-treat basis was 15% (95%
+confidence interval [95% CI], 4-26%). A positive CBR was obtained in 14 of 29
+(48%) patients. Seventeen of 25 (68%) patients had a reduction in carbohydrate
+antigen 19-9 (CA 19-9) of > 25%. The median time to treatment failure and the
+median PFS were 17 weeks (95% CI, 13-22 weeks) and 19 weeks (95% CI, 15-23
+weeks), respectively. The median OS was 40 weeks (95% CI, 36-45 weeks) and the
+1-year actuarial survival rate was 25.8%. Multivariate analysis showed that a
+performance status score of 0-1 at study entry and locally advanced disease were 
+the only independent predictors of longer PFS and OS, whereas a reduction in CA
+19-9 serum levels > 75% was an independent predictor of longer PFS, but had no
+impact on OS. Toxicity was mild with Grade 3-4 neutropenia (according to the
+National Cancer Institute-Common Toxicity Criteria [version 2.0]) in 18 of 427
+treatment weeks (4.2%), and Grade 3 anemia and thrombocytopenia in 6 of 427
+treatment weeks (1.4%) and 9 of 427 treatment weeks (2.1%), respectively, and
+asymptomatic Grade 3-4 transaminase elevation in 21 of 427 treatment weeks
+(4.9%).
+CONCLUSIONS: FDR-gemcitabine at the weekly dose of 1000 mg/m(2) demonstrated
+promising activity, despite negligible toxicity, in patients with advanced-stage 
+PDAC and BTC.

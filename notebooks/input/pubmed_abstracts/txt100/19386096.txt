@@ -1,0 +1,29 @@
+BACKGROUND: Phase II studies have shown that the combination of capecitabine and 
+irinotecan (the XELIRI regimen) is active in metastatic colorectal cancer (MCRC).
+There are, however, no data about the use of the XELIRI regimen in the
+neoadjuvant treatment.
+METHODS: Patients with unresectable liver-only metastases of MCRC with < or = 75 
+years of age were randomised to either the XELIRI (irinotecan 250 mg/m(2) given
+on day one and capecitabine 1000 mg/m(2) twice daily from day 2-15, every 21
+days) or the FOLFIRI arm (irinotecan 180 mg/m(2), 5-FU 400 mg/m(2), LV 200
+mg/m(2), 5-FU 2400 mg/m(2) (46-h infusion)--all given on day one, every 14 days).
+Primary end points were objective response rate (ORR) and rate of radical (R0)
+surgical resection. Secondary end points were progression-free survival (PFS),
+overall survival (OS) and safety.
+RESULTS: Altogether 87 patients were enrolled (41 pts in the XELIRI and 46 pts in
+the FOLFIRI arm). The median age was 63 years (63 years in the XELIRI and 62
+years in the FOLFIRI arm) (p = 0.33). ORR was 49% in the XELIRI and 48% in the
+FOLFIRI arm (p = 0.76). The rate of radical R0 resection was 24% in both arms of 
+patients. At the end of treatment, 37% of patients in the XELIRI and 26% of
+patients in the FOLFIRI arm were without evidence of the disease (CR+R0
+resection) (p = 0.56). There were no statistical differences in grade 3 or 4
+adverse events between both arms: diarrhoea 7% vs. 6%, neutropenia 5% vs. 13%,
+ischemic stroke 0 vs. 2%, acute coronary syndrome 2% vs. 4%, respectively. At the
+median follow up of 17 (range 1-39) months, the median PFS was 10.3 months in the
+XELIRI and 9.3 months in the FOLFIRI arm (p = 0.78), the median OS was 30.7
+months in the XELIRI arm and 16.6 months in the FOLFIRI arm (p = 0.16).
+CONCLUSION: The XELIRI regimen showed similar ORR as the FOLFIRI regimen in the
+neoadjuvant treatment of patients with MCRC. In addition, the XELIRI regimen
+showed similar PFS and OS with acceptable toxicity compared to the FOLFIRI
+regimen.
+TRIAL REGISTRATION: Current Controlled Trials ISRCTN19912492.

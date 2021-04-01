@@ -1,0 +1,21 @@
+PURPOSE: This study assessed the efficacy and safety of linifanib in patients
+with advanced renal cell carcinoma (RCC) who were previously treated with
+sunitinib.
+MATERIALS AND METHODS: This open-label, multicentre, phase 2 trial of oral
+linifanib 0.25 mg/kg/day enrolled patients who had prior nephrectomy and adequate
+organ function. The primary end-point was objective response rate (ORR) per
+response evaluation criteria in solid tumors (RECIST) by central imaging.
+Secondary end-points were progression-free survival (PFS), overall survival (OS) 
+and time to progression (TTP). Safety was also assessed.
+RESULTS: Fifty-three patients, median age 61 years (range 40-80) were enrolled
+(August 2007 to October 2008) across 12 North-American centres. Median number of 
+prior therapies was 2 (range 1-4); 43 patients (81%) had clear-cell histology.
+ORR was 13.2%, median PFS was 5.4 months (95% Confidence Interval (CI): 3.6, 6.0)
+and TTP was the same; median OS was 14.5 months (95% CI: 10.8, 24.1). The most
+common treatment-related adverse events (AEs) were diarrhoea (74%), fatigue (74%)
+and hypertension (66%), and the most common treatment-related Grade 3/4 AE was
+hypertension (40%).
+CONCLUSIONS: Linifanib demonstrated clinically meaningful activity in patients
+with advanced RCC after sunitinib failure. At 0.25 mg/kg/day, significant dose
+modifications were required. An alternative, fixed-dosing strategy is being
+evaluated in other trials.

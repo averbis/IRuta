@@ -1,0 +1,26 @@
+BACKGROUND: In this pilot study, the authors assessed the feasibility of
+combination epratuzumab and rituximab plus cyclophosphamide, doxorubicin,
+vincristine, and prednisone (ER-CHOP) in patients with newly diagnosed diffuse
+large B-cell lymphoma (DLBCL).
+METHODS: Patients received chemotherapy on the following schedule: epratuzumab
+360 mg/m2, rituximab 375 mg/m2, and standard-dose CHOP every 3 weeks for 6 to 8
+cycles. The primary endpoint was the incidence of grade 4 neutropenia and grade 3
+or 4 antibody infusional toxicity. Secondary endpoints were the complete response
+(CR) rate, the overall response rate (ORR), and progression-free survival (PFS). 
+Weekly blood counts were obtained to monitor hematologic toxicity. Fifteen
+patients were enrolled and treated. Baseline patient characteristics included a
+median age of 63 years (range, 42-78 years), 60% of patients had stage III or IV 
+disease, 7 patients had a low-risk International Prognostic Index (IPI) score (0 
+or 1), 7 patients had an intermediate-risk IPI score (2 or 3), and 1 patient was 
+high risk.
+RESULTS: Grade 3 or 4 neutropenia was observed in 14 patients (93%) or in 28 of
+92 treatment cycles (30%). Three patients developed grade > or =3 infection or
+fever. Eleven patients (73%) required dose reductions. No grade 3 antibody
+infusion-related toxicity was reported. Thirteen of 15 patients responded (ORR,
+87%,), including 10 CRs (67%), 3 partial responses (20%), 1 patient with stable
+disease, and 1 patient with disease progression. At a median follow-up of 30
+months, 13 of 15 patients remained alive. The 1-year PFS and OS rates were 93%
+and 100%, respectively; and the 2-year PFS and OS rates were 86% and 86%,
+respectively.
+CONCLUSIONS: ER-CHOP every 21 days was feasible as treatment for newly diagnosed 
+patients with DLBCL. A Phase II multicenter study is underway.

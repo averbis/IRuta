@@ -1,0 +1,22 @@
+PURPOSE: To evaluate the antitumor activity and safety of YM155, a novel,
+small-molecule suppressor of survivin, as single-agent therapy in patients with
+previously treated, advanced non-small-cell lung cancer (NSCLC).
+PATIENTS AND METHODS: Patients with stage IIIb/IV NSCLC who had experienced
+treatment failure during one or two prior chemotherapy regimens (at least one of 
+which was platinum based) received YM155 as a continuous intravenous infusion
+(4.8 mg/m(2)/d) over 168 hours followed by observation for 14 days in 21-day
+treatment cycles. The primary end point was objective tumor response rate (ORR). 
+Secondary end points included duration of stable disease (SD), progression-free
+survival (PFS), overall survival (OS), safety and pharmacokinetic profiles, and
+pharmacodynamic evaluations.
+RESULTS: Thirty-seven patients received YM155. Two patients achieved a confirmed 
+partial response, with an ORR of 5.4% (95% CI, 0.7% to 18.2%). An additional 14
+patients (37.8%) achieved SD resulting in a disease control rate of 43.2% (95%
+CI, 27.1% to 60.5%). Median duration of PFS was 1.7 months (95% CI, 1.3 to 2.8
+months). Median duration of OS was 6.6 months (95% CI, 4 to 12.2 months), with a 
+1-year survival rate of 35.1%. Treatment with YM155 was well tolerated with the
+majority of treatment discontinuations not treatment related.
+CONCLUSION: YM155 exhibited modest single-agent activity in patients with
+refractory, advanced NSCLC. A favorable safety/tolerability profile was reported.
+Further evaluation of YM155 in combination with chemotherapy and other targeted
+agents may be warranted.

@@ -1,0 +1,25 @@
+OBJECTIVE: To explore the applicability of Durie Salmon (DS) and International
+Staging System (ISS) for Chinese patients with multiple myeloma (MM) and to
+evaluate the efficacy of major therapeutic options and the influence of various
+prognostic factors on survival were also evaluated.
+METHODS: The patient survival was compared with regards to DS and ISS. Fourteen
+clinical and laboratory parameters were analyzed by univariate and multivariate
+process. Response rate, overall survival (OS) and progression-free survival (PFS)
+of 182 patients treated with different regimens were retrospectively analyzed.
+RESULTS: The median survival of patients with DS stages I, II and III were 79, 82
+and 43 months, respectively. There was no significance between stage I and
+II/III. The median survival of patients with ISS stages I, II and III were 79, 49
+and 43 months, respectively. Multivariate analysis suggested that age, percentage
+of plasma cell in bone marrow, C-reactive protein (CRP) and beta2-microglobulin
+(2-MG) were independent prognostic factors for OS. The overall response rate
+(ORR) of 182 patients was 69.2% and median OS and PFS were 49.0+/-5.0 and
+19.0+/-2.1 months, respectively. The 5- and 10-year OS were 34% and 19%,
+respectively. Compared with those not receiving thalidomide induction, the
+patients on a VAD-like regimen combined with thalidomide showed a superior ORR
+(81.5% vs 59.7%, P=0.008), a longer OS (79.0+/-29.5 vs 37.0+/-4.8 months,
+P=0.001) and a longer PFS (24.0+/-6.0 vs 14.0+/-2.7 months, P=0.033).
+CONCLUSION: ISS is more applicable than DS, especially for low risk patients. The
+efficacy of VAD-like regimen combined Thal as first-line treatment is proven to
+be reliable. Induction therapy including thalidomide can not only improve the
+ORR, but also delay the relapse or progression of disease. It may even prolong
+the patient survival.

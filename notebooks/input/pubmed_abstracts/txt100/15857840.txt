@@ -1,0 +1,22 @@
+BACKGROUND: Mucinous carcinoma of the colon and rectum (mucinous CRC) is a
+histological subtype of colorectal adenocarcinoma for which there is little data 
+on chemotherapy responsiveness. The purpose of this study was to investigate
+specifically the efficacy of fluorouracil-based first-line chemotherapy in
+patients with advanced mucinous CRC.
+PATIENTS AND METHODS: All patients with advanced mucinous CRC enrolled in three
+prospective randomized trials evaluating infused 5-fluorouracil as first-line
+treatment were compared with patients with non-mucinous subtypes enrolled in the 
+same trials in a case-control study. Prognostic factors associated with overall
+response rate (ORR), progression-free survival (PFS) and overall survival (OS)
+were identified using univariate and multivariate logistic and/or Cox
+proportional hazards analyses.
+RESULTS: The study included 135 patients (45 cases and 90 controls). The response
+rates for cases and controls were 22% [95% confidence interval (CI), 11% to 38%] 
+and 47% (95% CI, 36.1% to 58.2%), respectively (P=0.0058). Median OS for the
+mucinous CRC patients was 11.8 months (95% CI, 8.87-14.8) compared with 17.9
+months (95% CI, 13.38-22.39) in the control group (univariate analysis, P=0.056);
+after correcting for significant prognostic factors by multivariate Cox
+regression analysis, P=0.0372 and hazard ratio (HR)=1.497 (1.02-2.19).
+CONCLUSION: Patients with advanced mucinous CRC have a poorer response to
+fluorouracil-based first-line chemotherapy and reduced survival compared with
+patients with non-mucinous CRC.

@@ -1,0 +1,25 @@
+OBJECTIVE: Panitumumab, a fully human monoclonal antibody targeting epidermal
+growth factor receptor (EGFR), has antitumor activity and an acceptable safety
+profile in patients with metastatic colorectal cancer (mCRC). This Phase 2 study 
+evaluated efficacy, pharmacokinetics and safety of panitumumab in Japanese
+patients with mCRC who developed progressive disease during or after
+fluoropyrimidine, irinotecan and oxaliplatin chemotherapy.
+METHODS: Eligible patients had histologically proven colorectal adenocarcinoma
+and EGFR tumor expression in > or =1% of tumor cells by immunohistochemistry.
+Patients received panitumumab 6 mg/kg every 2 weeks until disease progression or 
+unacceptable toxicity. The primary endpoint was objective response rate (ORR) per
+modified Response Evaluation Criteria in Solid Tumors (RECIST) by independent
+central review. Secondary endpoints included progression-free survival (PFS),
+overall survival (OS), pharmacokinetic parameters and incidence of adverse
+events.
+RESULTS: Fifty-two patients received at least one dose of panitumumab. Seven
+patients had partial responses for a confirmed ORR of 13.5% (95% CI: 5.6, 25.8). 
+Median PFS was 8.0 weeks (95% CI: 7.4, 11.4) and median OS was 9.3 months (95%
+CI: 7.1, 12.8). Panitumumab pharmacokinetics were consistent with prior studies
+in Japanese and non-Japanese patients. The most common treatment-related adverse 
+events (all, worst grade 3) were acne (81%, 2%), dry skin (62%, 0%), rash (46%,
+2%), paronychia (33%, 2%), pruritus (33%, 0%) and hypomagnesemia (33%, 0%). No
+adverse event of infusion reaction was reported by the investigators.
+CONCLUSIONS: Panitumumab monotherapy was active in Japanese patients with
+chemotherapy-refractory mCRC, with pharmacokinetic and safety profiles similar to
+those seen in prior studies.

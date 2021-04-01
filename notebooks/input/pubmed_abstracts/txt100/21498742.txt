@@ -1,0 +1,30 @@
+BACKGROUND: Capecitabine is a widely accepted option in pre-treated metastatic
+breast cancer (MBC) patients. However, little is known about specific activity in
+molecularly defined subgroups of patients. Here, response, survival and
+prognostic factors were examined in a prospectively characterized cohort of human
+epidermal growth factor receptor 2 (HER2) negative MBC patients receiving
+capecitabine following anthracycline and taxane failure.
+PATIENTS AND METHODS: Medical records from 75 HER2-negative MBC pre-treated with 
+anthracycline and/or taxane and receiving capecitabine monotherapy at the
+Institut Paoli-Calmettes between 2002 and 2009 were reviewed. Univariate and
+multivariate analysis according the Cox regression model were employed to
+identify factors predictive for response, progression-free survival (PFS) and
+overall survival (OS).
+RESULTS: Overall, the objective response rate (ORR) was 29.3% (95% CI: 20-40).
+The ORR in HER2-negative/hormonal receptor (HRe) positive and
+HER2-negative/HRe-negative patients were 37% (95% CI: 26-50) and 0% (95% CI:
+0-19), respectively, (p=0.003, Fisher's test). With a median follow-up of 35.2
+months after capecitabine initiation, median PFS was 6.6 months (95% CI:
+4.7-10.4) and median OS was 18.4 months (95% CI:14.1-24.9). In univariate
+analysis, HRe-negative status was the strongest prognostic factor for PFS (hazard
+ratio (HR)=2.09; p-value=0.015, log-rank test). In multivariate analysis, only
+three variables (HRe-negative status, initial disease-free interval <24 months
+and extra-regional lymph node involvement) were considered independently
+associated with poor PFS, while five variables (grade 2/3, initial disease-free
+interval <24 months, central nervous system metastases, interval between
+diagnosis of metastases and capecitabine initiation <24 months, and number of
+metastatic sites on capecitabine initiation) were associated with poor OS.
+CONCLUSION: The median OS of pretreated patients with HER2-negative MBC receiving
+capecitabine is approximately 18 months, but HER2-negative/HRe-negative patients 
+have a low probablility of response/disease control to capecitabine and require
+innovative therapies.

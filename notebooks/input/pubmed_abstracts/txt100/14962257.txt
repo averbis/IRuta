@@ -1,0 +1,22 @@
+Chemotherapy followed by autologous transplantation may be an efficient salvage
+treatment in malignant lymphomas. We investigated the feasibility, tolerability
+and efficacy of an outpatient schedule of dexamethasone, cytarabine and cisplatin
+(DHAP), followed by peripheral blood progenitor cell autografting as salvage
+treatment in patients with high grade (HG), low grade (LG) non-Hodgkin's lymphoma
+(NHL) and Hodgkin's Disease (HD). A total of 159 DHAP courses (median: 2, range: 
+1-5), was administered on outpatient basis to 79 patients (31 LG-NHL, 28 HG-NHL
+and 20 HD), with the intention to mobilize and to transplant. A successful
+collection was not achieved in 40% LG-NHL, 10% HD and 20% HG-NHL patients. The
+risk to fail the collection was significantly related to the number of previous
+chemotherapy courses (>6) (P = 0.005, RR = 1.4), to the pretransplant status (P =
+0.04, RR = 13.5) and to the previous fludarabine administration (P = 0.01, RR =
+20). High dose therapy (HDT) was feasible in 60 patients (76%). The overall
+treatment related mortality was 3.8%. The overall response rate (ORR) was 81%
+with a 57.6% overall survival (OS) at 62 months (95% CI: 45-69.3%) and a
+progression free survival (PFS) of 42% at 74 months (95% CI: 26.7-58%). The
+diagnosis of HG-NHL and the non-response to DHAP resulted to reduce respectively 
+the OS (P = 0.007, RR = 2.8) and PFS probability (P = 0.01, RR = 4.1). In
+conclusion this outpatient schedule of DHAP is a well tolerated, efficient
+salvage and mobilizing regimen not only in HG-NHL, but also in LG-NHL and in HD. 
+Randomized studies are needed to better define the role of DHAP in LG-NHL and HD 
+patients.

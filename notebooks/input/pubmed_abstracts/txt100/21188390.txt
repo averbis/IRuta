@@ -1,0 +1,28 @@
+PURPOSE: The aim of this study is to evaluate the influence of germline vascular 
+endothelial growth factor (VEGF) gene polymorphisms (VGPs) on the efficacy of the
+anti-VEGF antibody bevacizumab (Bev) in metastatic colorectal cancer (MCRC)
+patients.
+METHODS: Forty MCRC patients eligible for a first-line therapy were enrolled in
+this prospective trial and treated with FOLinate/Fluorouracil/Irinotecan
+(FOLFIRI)?+?Bev (male/female?=?22:18, age (median)?=?61 years). Eight VGPs within
+the promoter/5'UTR region were evaluated in patient blood samples. Primary
+endpoint was association between VGPs and median progression-free survival
+(mPFS). Overall radiological response rate (ORR), overall survival (OS), and
+toxicity were assessed as secondary outcomes.
+RESULTS: VGPs -2578, -1512, -1451, -1411, and -460 were in complete linkage
+disequilibrium and therefore analyzed as haplotype (two variants: Haplo1: A-18 bp
+insertion-T-4G-C and Haplo2: C-18 bp deletion-C-5G-T, respectively). Seventeen
+patients Haplo2/Haplo2 had significantly shorter mPFS compared to 23 patients
+Haplo1/Haplo1 or Haplo1/Haplo2 (mPFS, 9 vs. 15.4 months, respectively, p?=?0.02; 
+hazard ratio (HR), 2.64). Also, VGPs -152 (G/G vs. G/A?+?A/A) and -1154 (G/G vs. 
+G/A?+?A/A) were significantly associated with PFS (mPFS, 8.9 vs. 15.4 months,
+p?=?0.007; HR, 3.53 and 9.8 vs. 16 months, p?=?0.03, HR, 2.32, respectively). In 
+the multivariate analysis including also biochemical variables known to influence
+prognosis, VGP -1154 retained an independent predictive value for mPFS (G/G over 
+G/A?+?A/A?=?HR, 4.43; p?=?0.02). With regard to ORR, only VGP -634 was
+significantly associated with response (G/G vs. G/C?+?C/C?=?64% vs. 14%,
+p?=?0.03). No significant influence on OS and toxicity by the investigated VGPs
+was observed.
+CONCLUSIONS: Although these data need to be confirmed in larger trials,
+investigation of germline VGPs may help identify patients who are more sensitive 
+to anti-VEGF agents.

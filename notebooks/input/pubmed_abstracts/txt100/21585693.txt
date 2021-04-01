@@ -1,0 +1,23 @@
+AIM: To evaluate the efficacy and safety of radioimmunotherapy (RIT) with
+radioiodinated human/murine chimeric anti-CD20 monoclonal antibody rituximab
+((131)I-rituximab) for treating Korean patients with relapsed or refractory
+B-cell non-Hodgkin's lymphomas (NHL).
+METHODS: All patients received unlabeled rituximab 70 mg immediately prior to the
+administration of a therapeutic dose (median dose: 7.3 GBq) of (131)I-rituximab. 
+The tumor response was evaluated 1 month later by contrast enhanced (18)
+F-fludeoxyglucose positron emission tomography-computed tomography.
+RESULTS: Between May 2004 and October 2006, 24 patients received single treatment
+with (131)I-rituximab. The overall response rate (ORR) was 29%; 46% (three
+complete responses, two partial responses (PR) for patients with low grade B-cell
+NHL (LGL) and 9% (one PR) for patients with diffuse large B-cell lymphoma
+(DLBCL). After a median follow-up of 55 months, the median progression-free
+survival (PFS) for all the patients was 2.2 months. The median overall survival
+(OS) was 11.3 months. There were statistically significant differences between
+the LGL and the DLBCL for the median PFS (4.5 months vs 1.3 months, respectively,
+P = 0.0007) and the median OS (30.3 months vs 6.5 months, respectively, P =
+0.0295). Grades 3-4 thrombocytopenia and neutropenia occurred in 33% (8/24) and
+21% (5/24) of the patients, respectively.
+CONCLUSION: RIT with (131)I-rituximab seems to be effective and tolerable for
+patients with refractory LGL, although this treatment had modest activity in
+patients with refractory DLBCL. Further studies are warranted to determine the
+efficacy of (131)I-rituximab for treating the patients with DLBCL.

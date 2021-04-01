@@ -1,0 +1,86 @@
+plugins {
+    id 'java'
+    id('io.github.spencerpark.jupyter-kernel-installer') version '2.1.0'
+}
+
+import org.apache.tools.ant.filters.ReplaceTokens
+import io.github.spencerpark.gradle.*
+
+group = 'de.averbis.textanalysis'
+version = '0.1.0'
+
+wrapper {
+    gradleVersion = '4.8.1'
+    distributionType = Wrapper.DistributionType.ALL
+}
+
+compileJava {
+    sourceCompatibility = 1.8
+    targetCompatibility = 1.8
+}
+
+configurations {
+    shade
+    // transitive true to make sure that the dependencies of shade dependencies also get shaded
+    // into the jar
+    shade.transitive = true
+    compile.extendsFrom(shade)
+}
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+}
+
+dependencies {
+		shade group: 'org.apache.commons', name: 'commons-csv', version: '1.5'
+		shade group: 'commons-codec', name: 'commons-codec', version: '1.10'
+		shade group: 'org.apache.uima', name: 'ruta-core', version: '3.0.1'
+		
+    shade group: 'io.github.spencerpark', name: 'jupyter-jvm-basekernel', version: '2.3.0'
+
+    shade group: 'org.apache.ivy', name: 'ivy', version: '2.5.0-rc1'
+    //shade group: 'org.apache.maven', name: 'maven-settings-builder', version: '3.6.0'
+    shade group: 'org.apache.maven', name: 'maven-model-builder', version: '3.6.0'
+
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    testCompile group: 'org.assertj', name: 'assertj-core', version: '3.14.0'
+}
+
+jar {
+    //Include all shaded dependencies in the jar
+    from configurations.shade
+            .collect { it.isDirectory() ? it : zipTree(it) }
+
+    manifest {
+        attributes('Main-class': 'de.averbis.textanalysis.jupyter.ruta.IRuta')
+    }
+}
+
+processResources {
+    def tokens = [
+            'version': project.version,
+            'project': project.name
+    ]
+    inputs.properties(tokens)
+    filter ReplaceTokens, tokens: tokens
+}
+
+jupyter {
+    kernelName = 'ruta'
+    kernelDisplayName = 'UIMA Ruta'
+    kernelLanguage = 'ruta'
+    kernelInterruptMode = 'message'
+    kernelResources = files('src/main/resources/kernel')
+}
+
+installKernel {
+    kernelInstallPath = commandLineSpecifiedPath(userInstallPath)
+}
+
+zipKernel {
+    installers {
+        with 'python'
+    }
+}
+

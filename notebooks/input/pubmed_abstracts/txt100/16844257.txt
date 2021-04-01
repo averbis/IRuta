@@ -1,0 +1,22 @@
+BACKGROUND AND AIMS: Platinum-based doublets are recommended as treatment for
+advanced or metastatic non-small-cell lung cancer (NSCLC); however, chemotherapy 
+must be tailored to limit side effects. A phase II study was conducted to
+evaluate the efficacy and safety of oxaliplatin combined with docetaxel for
+NSCLC.
+METHODS: Patients with stage IIIB or IV, chemotherapy-naive NSCLC received
+docetaxel 70 mg/m(2), oxaliplatin 130 mg/m(2), and pegfilgrastim 6 mg every 21
+days for up to six cycles. Primary endpoint was overall response rate (ORR),
+secondary endpoints were progression-free (PFS) and overall survival (OS), and
+safety.
+RESULTS: Twenty-nine patients were treated; 93% had stage IV disease and 28% had 
+brain metastases. In 27 evaluable patients with follow-up, there were 10 partial 
+responses for an ORR of 37% (90% confidence interval [CI], 22-55%). Median PFS
+was 4.6 months (95% CI, 2.6-6.5 months); 12-month PFS was 14.8% (95% CI,
+3.4-34.0%). Median OS was 10.9 months (95% CI, 8.9-16.8 months); 12-month OS was 
+40% (95% CI, 19-61%) and 18-month OS was 16% (95% CI, 1-46%). In 29 treated
+patients, there were no unusual or unexpected adverse events. The most common
+grade 3 and 4 toxicities were anemia (14% of patients) and hyperglycemia (10%);
+there were only two reports of neutropenia; both were grade 1 or 2.
+CONCLUSION: These phase II findings suggest that the combination of oxaliplatin
+and docetaxel is active and well tolerated, and should be further investigated as
+a feasible treatment alternative for patients with advanced or metastatic NSCLC.

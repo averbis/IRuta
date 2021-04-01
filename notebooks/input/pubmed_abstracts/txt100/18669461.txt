@@ -1,0 +1,25 @@
+PURPOSE: To assess the safety and efficacy of sunitinib in patients with
+bevacizumab-refractory metastatic renal cell carcinoma (mRCC) and explore
+biomarkers for sunitinib response.
+PATIENTS AND METHODS: Patients with mRCC and disease progression after
+bevacizumab-based therapy received oral sunitinib 50 mg once daily in 6-week
+cycles on a 4/2 schedule (4 weeks with treatment followed by 2 weeks without
+treatment) in a phase II multicenter study. The primary end point was objective
+response rate (ORR). Secondary end points included progression-free survival
+(PFS), duration of response (DR), overall survival (OS), and safety. Plasma
+soluble proteins (vascular endothelial growth factor [VEGF]-A, VEGF-C, soluble
+VEGF receptor [sVEGFR]-3, and placental growth factor [PlGF]) levels were
+measured.
+RESULTS: Sixty-one patients were enrolled. The ORR was 23.0% (95% CI, 13.2% to
+35.5%), median PFS was 30.4 weeks (95% CI, 18.3 to 36.7 weeks), median DR was
+44.1 weeks (95% CI, 25.0 to 102.7 weeks), and median OS was 47.1 weeks (95% CI,
+36.9 to 79.4 weeks). Mean plasma VEGF-A and PlGF levels significantly increased
+whereas VEGF-C and sVEGFR-3 levels decreased with sunitinib treatment. Lower
+baseline levels of sVEGFR-3 and VEGF-C were associated with longer PFS and ORR.
+Most treatment-related adverse events were of mild-to-moderate intensity and
+included fatigue, hypertension, and hand-foot syndrome.
+CONCLUSION: Sunitinib has substantial antitumor activity in patients with
+bevacizumab-refractory mRCC and modulates circulating VEGF pathway biomarkers.
+These data support the hypothesis that sunitinib inhibits signaling pathways
+involved in bevacizumab resistance. Baseline levels of sVEGFR-3 and VEGF-C may
+have potential utility as biomarkers of clinical efficacy in this setting.

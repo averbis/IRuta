@@ -1,0 +1,20 @@
+BACKGROUND: Patients with B-cell chronic lymphocytic leukemia (CLL) with 17p
+deletion respond poorly to chemotherapy. This retrospective study evaluated the
+benefit of alemtuzumab monotherapy in unselected patients with advanced CLL in
+the various cytogenetic subgroups.
+PATIENTS AND METHODS: Data were collected from 105 consecutive, pretreated,
+cytogenetically defined patients who had received alemtuzumab. Response,
+progression-free survival (PFS), and overall survival (OS) were assessed.
+RESULTS: The hierarchic incidence of cytogenetic abnormalities was: 13q deletion 
+(as sole abnormality), 18%; trisomy 12, 13%; 11q deletion, 19%; 17p deletion,
+33%; and none of these, 16%. Overall response rate (ORR) was 43% in the total
+cohort and 49% in the subgroup of 17p-deleted patients (n = 35). From the start
+of alemtuzumab monotherapy, median PFS in the total cohort and in the subgroup of
+17p-deleted patients was 7.0 and 7.1 months, respectively. Median OS in the total
+cohort and in 17p-deleted patients was 32.8 and 19.1 months, respectively. The
+poor-risk group of patients with CLL (i.e. fludarabine resistant, 17p deletion; n
+= 20) showed encouraging ORR, PFS, and OS (35%, 7.0 and 19.2 months,
+respectively).
+CONCLUSIONS: Alemtuzumab was effective in treating patients with CLL across the
+cytogenetic categories evaluated, but there were differences. In patients with
+CLL with 17p deletion quite favorable ORR, PFS, and OS were achieved.

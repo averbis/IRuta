@@ -1,0 +1,28 @@
+BACKGROUND & OBJECTIVE: Present chemotherapy for hepatocellular carcinoma (HCC)
+is not effective. To improve the effect of chemotherapy, in vitro chemo-drug
+sensitive testing system, adenosine triphosphate tumor chemosensitive assay
+(ATP-TCA) system, was used to evaluate efficacies of chemotherapeutic drugs, and 
+to guide clinical individual chemotherapy for HCC patients.
+METHODS: ATP-TCA system was applied to test efficacies of 5-fluorouracil (5-FU), 
+mitomycin (MMC), cisplatin (DDP), oxaliplatin (OXA), epirubicin (EPI),
+gemcitabine (GEM), irinotecan (CPT-11), etoposide (VP-16), and paclitaxel (PTX)
+on 50 HCC samples. Twenty-three HCC patients received ATP-TCA-directed
+chemotherapy (ATP-TCA group)û 20 HCC patients received surgery and routine
+treatments (control group). Clinical outcomes of these patients were observed for
+162 weeks.
+RESULTS: The assessable rate of ATP-TCA result is 90.8%. In the 50 samples, the
+sensitive (moderate to high degree) rates were 46% to PTX, 44% to CPT-11, 36% to 
+GEM, 14% to MMC, 12% to EPI, 8% to DDP, 6% to VP-16, 6% to OXA, and 4% to 5-FU,
+respectively. In clinical trial, at the research end-point, no significant
+differences were found in partial remission (PR), complete remission (CR), stable
+disease (SD), and mortality between ATP-TCA group and control group (P > 0.05),
+but progression disease (PD) rate was significantly higher in control group than 
+in ATP-TCA group (60.00% vs.13.04%, P=0.003); significant differences were found 
+in overall response rate (ORR) (60.86% vs. 30.00%, P =0.043), overall survival
+(OS) (78.91 weeks vs. 27.21 weeks, P=0.006), and progress-free survival (PFS)
+(30.52 weeks vs. 4.78 weeks, P=0.005) between ATP-TCA group and control group.
+CONCLUSIONS: ATP-TCA system might be useful in evaluating the efficacy of
+chemotherapeutic drugs on HCC samples, and in planning individualized
+chemotherapy regimen for HCC patients. PTX, CPT-11 and GEM might be potential
+drugs for the treatment of HCC. ATP-TCA-guided chemotherapy might prolong
+survival time of HCC patients.

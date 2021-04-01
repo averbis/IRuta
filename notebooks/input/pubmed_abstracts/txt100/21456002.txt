@@ -1,0 +1,26 @@
+BACKGROUND: Tasisulam sodium (hereafter, tasisulam) is a novel anticancer agent
+that induces apoptosis through the intrinsic pathway and has antiangiogenic
+activity in preclinical models. Tasisulam demonstrated activity across a broad
+range of tumors, including melanoma. The primary objective of this phase 2 study 
+was to determine the objective response rate (ORR) in patients who had received 1
+previous systemic chemotherapy for unresectable/metastatic melanoma; secondary
+objectives were to evaluate the clinical response rate (CRR), progression-free
+survival (PFS), overall survival (OS), duration of response, safety, and
+pharmacokinetics.
+METHODS: Tasisulam was administered intravenously on Day 1 of 21-day cycles
+according to a lean body weight-based dosing algorithm targeting a peak plasma
+concentration (C(max)) of 420 µg/mL.
+RESULTS: In 68 enrolled patients, the median age was 59 years (range, 26-83
+years). No patients had a complete response (CR), 8 patients had a partial
+response (PR), and 24 patients had stable disease (SD); the ORR (CR + PR) was
+11.8%, and the CRR (CR + PR + SD) was 47.1%. The median PFS was 2.6 months, and
+the median OS was 9.6 months. The predominant treatment-related grade 3/4
+toxicity was thrombocytopenia (20.6% of patients). Tasisulam exhibited a
+biexponential disposition with a predicted distribution half-life of 0.3 hours to
+2.8 hours and a median terminal elimination half-life of 10 days (consistent with
+the turnover of albumin), suggesting that tasisulam is very tightly bound to
+albumin.
+CONCLUSIONS: Tasisulam administered at a targeted C(max) of 420 µg/mL on Day 1 of
+21-day cycles demonstrated activity and tolerable toxicity as second-line
+treatment in malignant melanoma. These results led to a registration trial in
+metastatic melanoma.

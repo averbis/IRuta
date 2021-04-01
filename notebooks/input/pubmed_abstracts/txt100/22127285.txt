@@ -1,0 +1,19 @@
+BACKGROUND: Src inhibitors sensitise melanoma cells to chemotherapy in
+preclinical models. The combination of dasatinib and dacarbazine was tested in a 
+phase I trial in melanoma.
+METHODS: Patients had ECOG performance status 0-2 and normal organ function.
+Dacarbazine was administered on day 1 and dasatinib on day 2 through 19 of each
+21-day cycle. Both were escalated from 50 mg b.i.d. of dasatinib and 800 mg m(-2)
+of dacarbazine. Available pre-treatment biopsies were sequenced for BRAF, NRAS,
+and C-Kit mutations.
+RESULTS: Dose-limiting toxicity was reached at dasatinib 70 mg b.i.d./dacarbazine
+1000 mg m(-2), and was predominantly haematological. In 29 patients receiving
+dasatinib 70 mg b.i.d., the objective response rate (ORR) was 13.8%, the clinical
+benefit rate (ORR+SD) was 72.4%, the 6-month progression-free survival (PFS) was 
+20.7%, and the 12-month overall survival (OS) was 34.5%. Two out of three
+patients who were wild type for BRAF, NRAS, and c-KIT mutations had confirmed
+partial responses, and one had a minor response.
+CONCLUSION: The recommended phase II dose is dasatinib 70 mg b.i.d with
+dacarbazine 800 mg m(-2). PFS and OS data for dasatinib at 70 mg b.i.d. with
+dacarbazine compared favourably with historical controls. Preliminary data
+support evaluating tumour mutation status further as a biomarker of response.

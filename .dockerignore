@@ -1,0 +1,7 @@
+# Exclude everything
+*
+
+# Except the notebooks and the kernel
+!notebooks
+!build/distributions/*
+!input

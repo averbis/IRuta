@@ -1,0 +1,25 @@
+PURPOSE: This single-center, open-label, phase II trial evaluated the bortezomib,
+pegylated liposomal doxorubicin (PLD), and dexamethasone combination regimen
+(VDD) as initial treatment for patients with newly diagnosed multiple myeloma
+(MM).
+PATIENTS AND METHODS: Enrolled patients (N = 40) received up to six 3-week cycles
+of treatment with bortezomib 1.3 mg/m(2) intravenously (IV) on days 1, 4, 8, and 
+11; PLD 30 mg/m(2) IV on day 4; and dexamethasone 20 to 40 mg daily as specified 
+in the study design. The primary end point was the complete/near-complete
+response (CR/nCR) rate after six cycles. Secondary end points included overall
+response rate (ORR), progression-free survival (PFS), and overall survival (OS). 
+The impact of VDD on stem-cell mobilization and collection also was evaluated.
+RESULTS: After six cycles, the ORR was 85.0% (CR/nCR, 37.5%; very good partial
+response [VGPR] or better, 57.5%). Patients who underwent stem-cell
+transplantation (SCT) after VDD (n = 30) experienced increased rates of VGPR or
+better (53.3% to 76.6% after SCT). Overall, 1-year PFS and OS rates were 92.5%
+and 97.5%, respectively. Those who achieved VGPR or better after treatment with
+VDD showed a significantly greater 1-year PFS versus those who achieved less than
+VGPR (100% v 82%, respectively; P = .03). Similar results were observed in
+patients who underwent SCT. Grades 3 or 4 hematologic toxicities occurred in < or
+= 10% of patients; grade 2 painful neuropathy occurred in 7.5%; and grade 3
+palmar-plantar erythrodysesthesia occurred in 2.5%.
+CONCLUSION: VDD is highly effective for initial treatment of MM followed by SCT
+in appropriate patients, and it has a reasonable safety profile. Achievement of
+VGPR or better with this initial therapy predicted longer PFS, regardless of the 
+consolidation therapy given.

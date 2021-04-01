@@ -1,0 +1,21 @@
+BACKGROUND: This phase II study estimated the difference in objective response
+rate (ORR) among patients with advanced nonsquamous non-small-cell lung cancer
+(NSCLC) receiving paclitaxel-carboplatin (CP) plus motesanib or bevacizumab.
+PATIENTS AND METHODS: Chemotherapy-naive patients (N = 186) were randomized 1:1:1
+to receive CP plus motesanib 125 mg once daily (qd) (arm A), motesanib 75 mg
+twice daily (b.i.d.) 5 days on/2 days off (arm B), or bevacizumab 15 mg/kg every 
+3 weeks (q3w) (arm C). The primary end point was ORR (per RECIST). Other end
+points included progression-free survival (PFS), overall survival (OS), motesanib
+pharmacokinetics, and adverse events (AEs).
+RESULTS: ORRs in the three arms were as follows: arm A, 30% (95% confidence
+interval 18% to 43%); arm B, 23% (13% to 36%); and arm C, 37% (25% to 50%).
+Median PFS in arm A was 7.7 months, arm B 5.8 months, and arm C 8.3 months;
+median OS for arm A was 14.0 months, arm B 12.8 months, and arm C 14.0 months.
+Incidence of AEs was greater in arms A and B than in arm C. More grade 5 AEs not 
+attributable to disease progression occurred in arm B (n = 10) than in arms A (n 
+= 4) and C (n = 4). Motesanib plasma C(max) and C(min) values were consistent
+with its pharmacokinetic properties observed in previous studies.
+CONCLUSIONS: The efficacy of 125 mg qd motesanib or bevacizumab plus CP was
+estimated to be comparable. Toxicity was higher but manageable in both motesanib 
+arms. Efficacy and tolerability of motesanib 125 mg qd plus CP in advanced
+nonsquamous NSCLC are being further investigated in a phase III study.

@@ -1,0 +1,24 @@
+PURPOSE: Sarcomas are among the most proangiogenic malignancies in preclinical
+models. Phase I study results for ABT-510, which inhibits angiogenesis via a
+novel thrombospondin-mimetic mechanism, suggested activity in soft tissue sarcoma
+(STS) patients. This phase II study further evaluated the safety and efficacy of 
+ABT-510 in advanced STS patients.
+PATIENTS AND METHODS: Patients with metastatic or unresectable STS were randomly 
+assigned to treatment with one of two ABT-510 dose schedules (20 mg once a day
+[20 mg], n = 42; or 100 mg twice a day [200 mg], n = 46), which were
+self-administered subcutaneously in 28-day treatment periods. End points included
+progression-free survival (PFS), objective response rate (ORR), overall survival 
+(OS), and safety.
+RESULTS: Median PFS for the 20-mg arm was 94 days, with 4- and 6-month PFS rate
+estimates of 42% and 24%, respectively. Median PFS for the 200-mg arm was 64
+days, with 4- and 6-month PFS rate estimates of 41% and 32%, respectively.
+Although only one objective response was noted, stable disease was observed in
+52% (20 mg) and 48% (200 mg) of patients. Median OS was 431 days (20 mg) and 295 
+days (200 mg). ABT-510 was well tolerated. Rare treatment-related grade 3 or 4
+adverse events were one event each of hypotension, deep vein thrombosis, and
+hypophosphatemia. ABT-510 pharmacokinetics were dose proportional, time
+independent, and consistent with those in previous studies.
+CONCLUSION: ABT-510 had a favorable safety profile, and the rate of disease
+control and OS times were encouraging. However, with low ORR and lack of dose
+response, the study failed to yield compelling evidence of strong single-agent
+activity in STS.

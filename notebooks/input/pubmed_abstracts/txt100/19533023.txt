@@ -1,0 +1,20 @@
+This phase II trial evaluated efficacy and safety of temozolomide (TMZ) in
+combination with irinotecan (CPT-11) before radiotherapy in patients with newly
+diagnosed glioblastoma multiforme (GBM). Prior to radiotherapy, patients were
+treated with a maximum of three 6-week cycles of TMZ and CPT-11. Patients
+received TMZ at a dose of 200 mg/m(2)/day on days 1-5 and CPT-11 on days 1, 8,
+22, and 29, with a dose adjustment for enzyme-inducing antiepileptic drug use.
+The primary end point was objective response rate (ORR). Secondary end points
+included progression-free survival (PFS), overall survival (OS), safety, and
+tumor O(6)-methylguanine-DNA methyltransferase (MGMT) expression. Of the 42
+patients treated, 8 (19%) patients achieved a partial response. Median PFS and
+median OS were 3.1 and 13.8 months, respectively. Grade 3 or 4 AEs were
+documented in 36% of patients, most of which were hematologic (29%). Twenty-four 
+percent of patients had grade 3 or 4 non-hematologic AEs, with gastrointestinal
+AEs being the most common (12%) Two patients died, one of intracranial hemorrhage
+and one of treatment-related renal failure. Low MGMT expression, compared with
+high MGMT expression, showed no significant difference in ORR (25 vs. 8%), median
+PFS (14 vs. 5 months) or OS (21 vs. 15 months). Although TMZ plus CPT-11 is at
+least comparable in efficacy to TMZ alone, this combination appears more toxic
+and poorly tolerated. The lack of correlation of activity with MGMT expression is
+intriguing, but needs further evaluation in subsequent trials.

@@ -1,0 +1,19 @@
+Three-drug combination of fluoropyrimidine, irinotecan and oxaliplatin has shown 
+survival benefits in patients with metastatic colorectal cancer (mCRC). Recently 
+we performed a phase II study of a new 3-drug regimen, TIROX (S-1 plus irinotecan
+and oxaliplatin) to evaluate efficacy and safety in refractory mCRC patients.
+Patients with refractory to all of 3 drugs, age > or = 18 years, PS 0-2, > or = 1
+measurable lesion(s) and adequate organ functions were eligible. S-1 was given 40
+mg/m(2) twice a day on D1-14, oxaliplatin 85 mg/m(2) and irinotecan 150 mg/m(2)
+on D1 every 3 weeks. The primary endpoint was overall response rate (ORR).
+Between Mar 2007 and Nov 2007, 19 patients (of 18 planned) were enrolled; median 
+age 50 years; M/F 12/7; PS 0/1/2 5/13/1; colon/rectum 11/8. By intent-to-treat
+analysis, ORR was 21.1% (95% CI, 8.7-43.7) and disease control rate was 52.6%
+(95% CI 31.5-72.8) with four PRs and six SDs. Median duration of disease control 
+was 4.3 months (95% CI 1.7-6.9). Median PFS was 2.6 months (95% CI 2.2-2.9) and
+median OS was 9.8 months (95% CI 5.3-14.4) after median F/U of 15.4 months. G3/4 
+toxicities per pt included neutropenia (five, 26.3%), febrile neutropenia (two,
+10.5%), thrombocytopenia (one, 5.3%), diarrhea (two, 10.5%) and fatigue (two,
+10.5%). TIROX seemed to be feasible and efficacious for refractory mCRC patients,
+and could be an alternative for patients with good PS but no further treatment
+options.

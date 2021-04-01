@@ -1,0 +1,39 @@
+<div class="annotation-viewer _testRenderId">
+  <script type="text/javascript">
+    var scriptBlock = document.currentScript;
+    var viewerBlock = $(scriptBlock).closest(".annotation-viewer");
+    require(["kernelspecs/ruta/annotations"], function (annotations) {
+      try {
+        annotations.onload(viewerBlock);
+      } catch (error) {
+        console.error(error);
+      }
+    });
+  </script>
+	<style type="text/css">._testRenderId .t0 .t0{color:white;background:mediumpurple;}
+._testRenderId .text.t0 .t0{cursor:pointer;}
+._testRenderId .annotations.t0 .t0.inline-block{display:inline-block;}
+._testRenderId .t1 .t1{color:white;background:black;}
+._testRenderId .text.t1 .t1{cursor:pointer;}
+._testRenderId .annotations.t1 .t1.inline-block{display:inline-block;}
+._testRenderId .t0-1 .t0{color:white;background:mediumpurple;}
+._testRenderId .t1-1 .t1{color:white;background:black;}
+</style>
+  <div class="controls t0 t1">
+    <button class="on">all on</button>
+    <button class="off">all off</button>
+   <label class="t0" title="uima.tcas.Annotation"><input type="checkbox" value="t0"/>Annotation</label> <label class="t1" title="uima.tcas.DocumentAnnotation"><input type="checkbox" value="t1"/>DocumentAnnotation</label></div>
+  <div class="cas">
+    <div class="text-wrapper">
+    	<pre class="text"><b class=" t0 a0 t1 a1" data-id="c0">T</b><b class=" t0 a0 t1 a1" data-id="c1">h</b><b class=" t0 a0 t1 a1" data-id="c2">i</b><b class=" t0 a0 t1 a1" data-id="c3">s</b><b class=" t1 a1" data-id="c4"> </b><b class=" t1 a1" data-id="c5">i</b><b class=" t1 a1" data-id="c6">s</b><b class=" t1 a1" data-id="c7"> </b><b class=" t1 a1" data-id="c8">a</b><b class=" t1 a1" data-id="c9"> </b><b class=" t1 a1" data-id="c10">t</b><b class=" t1 a1" data-id="c11">e</b><b class=" t1 a1" data-id="c12">s</b><b class=" t1 a1" data-id="c13">t</b><b class=" t1 a1" data-id="c14">.</b></pre>
+    </div>
+    <div class="annotations"><pre class="t0" data-id="a0">Annotation:3 "This"
+  sofa: _InitialView
+  begin: 0
+  end: 4</pre><pre class="t1" data-id="a1">DocumentAnnotation:2 "This is a ..."
+  sofa: _InitialView
+  begin: 0
+  end: 15
+  language: "x-unspecified"</pre></div>
+  </div>
+</div>

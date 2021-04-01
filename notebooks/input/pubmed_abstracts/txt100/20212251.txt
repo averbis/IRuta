@@ -1,0 +1,22 @@
+PURPOSE Little is known about comparison of the activity of different purine
+nucleoside analogs in chronic lymphocytic leukemia (CLL). We conducted a
+randomized phase III trial to compare efficacy and safety of cladribine and
+fludarabine, each combined with cyclophosphamide, in previously untreated
+progressive CLL. PATIENTS AND METHODS Patients received cladribine at 0.12 mg/kg 
+combined with cyclophosphamide at 250 mg/m(2) for 3 days intravenously (CC
+regimen) or fludarabine at 25 mg/m(2) combined with cyclophosphamide at 250
+mg/m(2) for 3 days intravenously (FC regimen), every 28 days for up to six
+cycles. The primary end point was complete response (CR) rate. Secondary end
+points included overall response rate (ORR), progression-free survival (PFS),
+overall survival (OS), and treatment-related toxicity. RESULTS Of 423 randomly
+assigned patients (211 to CC and 212 to FC), 395 were evaluated in the final
+analysis. The CR and ORR reached 47% and 88% in the CC arm and 46% and 82% in the
+FC arm (P = .25 and P = .11, respectively). The median PFS was 2.34 years with CC
+and 2.27 years with FC (P = .51). OS and grade 3/4 treatment-related toxicity
+were also comparable. Moreover, we did not observe any significant differences in
+CC and FC efficacy across different patient prognostic subgroups that included
+patients with 17p13 (TP53 gene) deletion who had poor survival in both study
+arms. CONCLUSION Cladribine and fludarabine in combination with cyclophosphamide 
+are equally effective and safe first-line regimens for progressive CLL. Both
+combinations have unsatisfactory activity in patients with 17p13 (TP53 gene)
+deletion.

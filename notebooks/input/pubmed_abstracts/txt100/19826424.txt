@@ -1,0 +1,19 @@
+BACKGROUND: Sunitinib malate (SUTENT) has promising single-agent activity given
+on Schedule 4/2 (4 weeks on treatment followed by 2 weeks off treatment) in
+advanced non-small cell lung cancer (NSCLC).
+METHODS: We examined the activity of sunitinib on a continuous daily dosing (CDD)
+schedule in an open-label, multicentre phase II study in patients with previously
+treated, advanced NSCLC. Patients > or =18 years with stage IIIB/IV NSCLC after
+failure with platinum-based chemotherapy, received sunitinib 37.5 mg per day. The
+primary end point was objective response rate (ORR). Secondary end points
+included progression-free survival (PFS), overall survival (OS), 1-year survival 
+rate, and safety.
+RESULTS: Of 47 patients receiving sunitinib, one patient achieved a confirmed
+partial response (ORR 2.1% (95% confidence interval (CI) 0.1, 11.3)) and 11
+(23.4%) had stable disease (SD) > or =8 weeks. Five patients had SD>6 months.
+Median PFS was 11.9 weeks (95% CI 8.6, 14.1) and median OS was 37.1 weeks (95% CI
+31.1, 69.7). The 1-year survival probability was 38.4% (95% CI 24.2, 52.5).
+Treatment was generally well tolerated.
+CONCLUSIONS: The safety profile and time-to-event analyses, albeit relatively low
+response rate of 2%, suggest single-agent sunitinib on a CDD schedule may be a
+potential therapeutic agent for patients with advanced, refractory NSCLC.

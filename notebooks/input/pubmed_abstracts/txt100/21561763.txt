@@ -1,0 +1,19 @@
+BACKGROUND: Sunitinib monotherapy in pretreated patients with advanced gastric
+cancer (AGC) was investigated. Preplanned analyses of tumour biomarkers on
+treatment outcome were performed.
+PATIENTS AND METHODS: Patients received sunitinib 50mg/day for 4 weeks with 2
+weeks rest until disease progression or unacceptable toxicity. The primary
+end-point was objective response rate (ORR). Secondary end-points included
+progression-free survival (PFS), overall survival (OS) and safety.
+RESULTS: Fifty-two patients were enrolled and treated (safety population, SP). In
+the intention to treat population (n=51); the ORR was 3.9%, median PFS was 1.28
+months [95% CI, 1.18-1.90], median OS was 5.81 months [95% CI, 3.48-12.32], the
+estimated one-year survival rate was 23.7% [95%CI: 12.8-36.5]. In subgroup
+analyses, tumour VEGF-C expression compared with no expression was associated
+with significantly shorter median PFS (1.23 versus 2.86 months, logrank p=0.0119)
+but there was no difference in tumour control rate (p=0.142). In the SP, serious 
+adverse events occurred in 26 patients, leading to 13 deaths, all sunitinib
+unrelated. Thirty-eight patients died from progressive disease, nine died <60
+days after treatment start.
+CONCLUSION: Sunitinib monotherapy was associated with limited tumour response and
+good/moderate tolerability in this setting.

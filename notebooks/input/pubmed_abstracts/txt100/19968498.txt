@@ -1,0 +1,22 @@
+PURPOSE: To determine in patients, with locally advanced or metastatic pancreatic
+cancer (APC), efficacy and safety of treatment with intravenous paclitaxel loaded
+polymeric micelle (GPM).
+PATIENTS AND METHODS: This was a multicenter, open-label Phase II study. Patients
+with APC, ECOG performance status < or = 2, no prior chemotherapy and adequate
+organ function were treated with 3-hour GPM infusions every 3 weeks. Initial
+patients were treated with 435 mg/m(2) (n = 11). The dose was reduced for
+subsequent patients to 350 or 300 mg/m(2) (n = 45). Primary endpoint was time to 
+tumor progression (TTP).
+RESULTS: 56 patients were enrolled. Median TTP for patients treated with 300 or
+350 mg/m(2) doses was 3.2 months (95% CI, 2.6-4.2). Median progression free
+survival (PFS) was 2.8 months (95% CI, 1.4-4.0). Median overall survival (OS) was
+6.5 months (95% CI, 5.1-7.9). Among patients treated with above doses of GPM,
+there was 1 complete remission (CR) and 2 partial remissions (PR) with an overall
+response rate (ORR) of 6.7%. Disease control rate (CR + PR + stable disease) was 
+60.0%. Most common grade 3 toxicities were: neutropenia (40.0%), fatigue (17.8%),
+infection, dehydration, neuropathy (each 13.3%), and abdominal pain (11.1%).
+CONCLUSIONS: Treatment of APC with GPM at a dose of 300 mg/m(2) q 3 weeks was
+well tolerated and common toxicities were qualitatively similar to
+Cremophor-based paclitaxel. GPM monotherapy resulted in OS and other efficacy
+parameters preferable to that seen historically with gemcitabine. Future studies 
+of GPM in combination with other agents for treatment of APC are warranted.

@@ -1,0 +1,21 @@
+BACKGROUND: Metastatic breast cancer (MBC) patients with rapid disease relapse
+after neo/adjuvant chemotherapy including anthracyclines and taxanes have limited
+treatment options and their efficacy is marginal. Two phase III studies compared 
+ixabepilone plus capecitabine vs. capecitabine alone as first-line treatment in
+MBC patients pretreated with anthracyclines and taxanes in the neo/adjuvant
+setting. Here we report the efficacy and safety of these treatments in a
+prespecified subset of patients whose disease relapsed within 12 months.
+PATIENTS AND METHODS: Of 1973 patients across two studies, 293 relapsed within 12
+months of neo/adjuvant treatment and received ixabepilone plus capecitabine (n = 
+149) or capecitabine alone (n = 144) as first-line chemotherapy for MBC. Analysis
+included progression-free survival (PFS), overall survival (OS), objective
+response rate (ORR) and toxicity.
+RESULTS: In 293 patients, ixabepilone plus capecitabine, as compared to
+capecitabine alone, increased PFS (median: 5.6 months vs. 2.8 months; hazard
+ratio, 0.58; p < 0.0001), ORR (46% vs. 24%) and OS (median: 15.1 months vs. 12.5 
+months; hazard ratio, 0.84; p = 0.208). Major toxicities of this regimen included
+neuropathy, neutropenia and hand-foot syndrome, but were manageable.
+CONCLUSIONS: Patients with breast cancer with early relapse following
+neo/adjuvant treatment with anthracyclines and taxanes may benefit from
+ixabepilone plus capecitabine. (ClinicalTrials.gov identifiers: NCT00080301 and
+NCT00082433.).

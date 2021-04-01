@@ -1,0 +1,31 @@
+This study was designed to prospectively evaluate the efficacy and safety of
+first-line gefitinib treatment in patients with advanced pulmonary adenocarcinoma
+harboring epidermal growth factor receptor (EGFR) mutations and to explore the
+molecular factors affecting the efficacy of gefitinib. Tumor tissue, derived from
+either the original tumor or the metastatic or recurrent site was taken from
+chemo-naïve pts with advanced (stage IIIB, IV, and recurrent) pulmonary
+adenocarcinoma. Tumor genomic DNA underwent direct sequencing for EGFR exons 18, 
+19, 20, and 21. Patients with EGFR mutations received 250 mg of gefitinib daily
+until disease progression or unacceptable toxicity. The primary endpoint was
+objective response rate (ORR). Secondary endpoints were progression free survival
+(PFS), overall survival (OS) and tolerability. Out of 147 screened patients, 45
+pts (31%) had EGFR mutations and received gefitinib. The most common EGFR
+mutations were in-frame exon 19 deletions (29 pts, 64%) and L858R point mutation 
+in exon 21 (15 pts, 33%). One patient had atypical mutation of L861Q in exon 21. 
+The ORR was 53.3% (95% CI, 38.6-67.9) and disease control rate (DCR) including
+stable disease was 86.7%. The median progression free survival (PFS) was 398 days
+and the median overall survival (OS) was 819 days. Treatment was well tolerated. 
+Grade 3/4 adverse events (AEs) were reported by 6 patients and treatment-related 
+Grade 3 AEs by 3 patients. There were no treatment-related Grade 4 AEs.
+Exploratory subgroup analysis according to the EGFR mutation subtypes was carried
+out. The ORR and DCR were higher in patients with exon 19 deletions than those
+with L858R (62.1% vs 33.3%; P=0.0705 and 96.6% vs 66.7%; P=0.0062, respectively).
+All 4 patients with progressive disease had a L858R mutation. No secondary
+resistant mutations such as T790M mutation or insertions in exon 20 were found in
+those patients. In addition, OS was significantly better in patients with exon 19
+deletions than those with L858R (24-month OS rate was 72.1% vs 32.0%, P=0.0148). 
+Gefitinib as the first-line treatment for Korean patients with advanced pulmonary
+adenocarcinoma harboring EGFR mutations was effective and well tolerated.
+Subgroup analysis suggests that the benefit from gefitinib treatment was more
+prominent in patients with the exon 19 deletion mutations (ClinicalTrials.gov
+number, NCT00344773).

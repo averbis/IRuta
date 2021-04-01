@@ -1,0 +1,20 @@
+BACKGROUND: Patients with upper gastrointestinal cancers have a poor prognosis
+and only few treatment options. The epidermal growth factor receptor (EGFR) and
+vascular endothelial growth factor (VEGF) are valid targets in many solid
+tumours, and they have synergistic effects in preclinical studies.
+METHODS: In this multi-center phase II trial patients with chemoresistant,
+metastatic upper gastrointestinal cancer were treated with erlotinib (150 mg
+daily) and bevacizumab (10 mg/kg every two weeks). Primary endpoint was overall
+response rate (ORR). Secondary endpoints were progression free survival (PFS),
+overall survival (OS), toxicity and biomarker correlates. Plasma samples were
+analysed for EGFR and angiogenesis related markers using quantitative
+immunoassays.
+RESULTS: One hundred and two patients were enrolled in the trial between June
+2006 and October 2007. The most common toxicities were skin reaction, diarrhoea, 
+and fatigue. ORR was 6%, median PFS was 2.2 months, and OS 4.3 months. Low
+concentration of urokinase plasminogen activator receptor (uPAR) domain I was
+correlated to longer PFS and OS.
+DISCUSSION: The combination of erlotinib and bevacizumab is well tolerated,
+however, with low clinical activity in patients with chemoresistant UGI cancer.
+Some patients do benefit from the therapy, and uPAR forms are potential
+biomarkers in these patients.

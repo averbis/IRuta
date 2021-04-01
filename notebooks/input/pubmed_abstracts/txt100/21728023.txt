@@ -1,0 +1,24 @@
+PURPOSE: NK105 is a new drug delivery system formulation for paclitaxel (PTX)
+whose recommended dose (RD) is 150 mg PTX equivalent/m(2) administered every 3
+weeks, as determined in a phase I trial. This study aimed to evaluate the
+efficacy and safety of NK105 in patients with advanced gastric cancer after
+failure of first-line chemotherapy.
+EXPERIMENTAL DESIGN: Eligible patients had measurable disease and one
+chemotherapeutic regimen except taxane. NK105 (150 mg PTX equivalent/m(2)) was
+administered by a 30-minute intravenous infusion every 3 weeks without
+anti-allergic premedication until disease progression, unacceptable toxicity or
+patient refusal. The primary efficacy endpoint was best overall response rate
+(ORR) post baseline. The secondary endpoints were progression-free survival
+(PFS), time to treatment failure (TTF) and overall survival (OS). All adverse
+events were reported using CTCAE v3.0.
+RESULTS: Between November 2007 and July 2009, 57 patients were enrolled and 56
+were evaluable for efficacy. Two complete responses and 12 partial responses were
+observed for an ORR of 25%. The median PFS was 3.0 months, the median TTF was 2.8
+months, and the median OS was 14.4 months. Drug related toxicity was mainly mild 
+(grades 1-2) to severe (grades 3-4); other data: neutropenia (64.9%); leukopenia 
+(17.5%); lymphopenia (8.8%); neuropathy-sensory (1.8%); fatigue (3.5%); and
+stomatitis (1.8%). There were no treatment-related deaths.
+CONCLUSIONS: This study of NK105 (150 mg PTX equivalent/m(2)) proves the concept 
+for the modest activity and tolerability of a new drug delivery system
+formulation for PTX. A phase III trial will be evaluated to clarify survival
+benefit.

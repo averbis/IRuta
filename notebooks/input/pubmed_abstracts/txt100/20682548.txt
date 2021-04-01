@@ -1,0 +1,19 @@
+BACKGROUND: The second-line chemotherapeutic treatment for metastatic urothelial 
+cancer (UC) after failure of cisplatin-based first-line therapy needs to be
+improved. Based on encouraging phase II data of gemcitabine and paclitaxel
+(Taxol) (GP), this trial was designed to compare a short-term (arm A) versus a
+prolonged (arm B) second-line combination chemotherapy of GP.
+PATIENTS AND METHODS: Of 102 randomized patients, 96 were eligible for analysis. 
+Primary end point was overall survival (OS). Secondary end points were
+progression-free survival (PFS), objective response rates (ORR) and toxicity.
+RESULTS: Neither OS [arm A: 7.8 (95% CI: 4.2-11.4), arm B: 8.0 (95% CI: 4.9-11.1)
+months] and PFS [arm A: 4.0 (95% CI: 0-8.0), arm B: 3.1 (95% CI: 1.9-4.2) months]
+nor ORR (arm A: 37.5%, arm B: 41.5%) were significantly different. On prolonged
+treatment, more patients experienced severe anemia (arm A: 6.7% versus arm B:
+26.7% grade III/IV anemia; P = 0.011). In six patients, treatment was stopped
+during the first cycle due to disease progression or toxicity. Two patients died 
+due to treatment-related toxic effects.
+CONCLUSION: Due to rapid tumor progression and toxicity at this dosage and
+schedule in a multicenter setting, it was not feasible to deliver a prolonged
+regimen. However, a high response rate of ~40% makes GP a promising second-line
+treatment option for patients with metastatic UC.

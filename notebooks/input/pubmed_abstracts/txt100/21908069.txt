@@ -1,0 +1,24 @@
+This open label, single arm phase II study was designed to evaluate the efficacy 
+and safety of the addition of cetuximab to first line chemotherapy with
+carboplatin and weekly docetaxel in patients with advanced non small-cell lung
+cancer (NSCLC). From February 2007 to December 2008 74 patients with NSCLC (stage
+IIIB and IV), ECOG PS =2 and no prior systemic chemotherapy were enrolled and
+treated with carboplatin (area under the curve=5 on day 1) and docetaxel (35
+mg/m(2) on days 1, 8, and 15). Cycles were repeated every 4 weeks for a minimum
+of 4 and a maximum of 6 cycles. Cetuximab (400mg/m(2) on day 1 with subsequent
+doses of 250 mg/m(2) weekly) was administered until progression or intolerable
+toxicity up to a maximum treatment duration of 12 months. The primary endpoint
+was the overall response rate (CR+PR) according to RECIST. Secondary endpoints
+were progression-free survival (PFS), overall survival (OS) and toxicity.
+Patients received a median of 4 cycles of docetaxel-carboplatin-chemotherapy. The
+median number of administrations of cetuximab was 14. Sixty-seven patients were
+evaluable for response. Partial response was seen in 29/67 patients corresponding
+to an overall response rate (ORR) of 43.3% (95%CI, 28.5-53.7). No patient
+experienced complete response. The clinical benefit rate (PR+SD) was 79.1%. The
+1-year rates for PFS and OS were 11.2% and 64.4%, respectively. Median PFS was
+4.8 months (95%CI, 3.70-5.31) and median OS 12.9 months (95%CI 8.26-8). Adverse
+events were mainly grades 1-2. Skin toxicity (76% of pts), dyspnea (36.5%) and
+anemia (31.1%) were most frequent. Results from this phase II study suggest that 
+the addition of cetuximab to first-line doublet carboplatin and weekly docetaxel 
+results in a considerable clinical efficacy with an acceptable toxicity profile
+for patients with advanced or metastatic NSCLC.

@@ -1,0 +1,18 @@
+BACKGROUND: Carcinoembryonic antigen (CEA) flare may have a favourable response
+to chemotherapy, but its impact on survival is unknown. This study aimed to
+evaluate the incidence of CEA flare and its impact on objective response rate
+(ORR), progression-free survival (PFS) and overall survival (OS).
+PATIENTS AND METHODS: Patients with histologically proven advanced colorectal
+cancer undergoing first-line chemotherapy with three or more serial CEA
+measurements (one at baseline and two or more during treatment) were included.
+Patients were grouped according to CEA kinetic as flare (F), decreasing CEA,
+normal baseline CEA, stable CEA and increasing CEA (I).
+RESULTS: From January 2000 to February 2008, 837 patients were screened of whom
+670 were eligible. CEA flare occurred in 78 (11.6%) patients. On multivariate
+analysis, compared with patients with increasing CEA, patients with CEA flare had
+a significantly better ORR [I versus F: 11% versus 73%; risk ratio (RR): 27.96;
+95% confidence interval (CI): 9.55-81.88; P < 0.001], PFS (median 3.1 versus 8.3 
+months; RR: 0.38; 95% CI: 0.26-0.56; P < 0.001) and OS (median 10.9 versus 17.7
+months; RR: 0.53; 95% CI: 0.34-0.82; P < 0.001).
+CONCLUSIONS: Compared with patients with rising CEA, flare was an independent
+favourable predictive and prognostic factor for tumour response and survival.

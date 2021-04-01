@@ -1,0 +1,21 @@
+BACKGROUND: This prospective phase II study assessed the efficacy and safety of
+bevacizumab plus chemotherapy regimens commonly used in the second-line treatment
+of metastatic colorectal cancer (mCRC).
+METHODS: Patients with mCRC who progressed or relapsed after first-line
+oxaliplatin-based or irinotecan-based treatment received bevacizumab 2.5
+mg/kg/week plus chemotherapy until disease progression. The primary endpoint was 
+disease-control rate (DCR). Secondary endpoints included progression-free
+survival (PFS), overall survival (OS), objective response rate (ORR), and safety.
+RESULTS: Fifty-three patients (66% men; median age, 62 years old) received
+second-line bevacizumab plus folinic acid, fluorouracil, and irinotecan (FOLFIRI;
+57%), folinic acid, fluorouracil, oxaliplatin (FOLFOX; 26%), irinotecan (15%), or
+capecitabine plus irinotecan (XELIRI; 2%). The DCR was 87% (95% CI, 77%-97%); ORR
+was 32% (95% CI, 19%-46%). Median PFS was 6.5 months (95% CI, 5.8-7.8 months) and
+median OS 19.3 months, (95% CI, 14.2-25.1 months).The most frequent grade 3/4
+adverse events included neutropenia (21%), diarrhea (15%), asthenia, and vomiting
+(9% each). Five patients (9%) had grade 3/4 targeted toxicities: grade 3
+hypertension (n = 2), grade 3 venous thromboembolism (n = 2), and grade 4
+arterial thromboembolism (n = 1). None of these events led to death during the
+study.
+CONCLUSION: Bevacizumab plus standard second-line chemotherapy is highly active
+in patients with mCRC and has an acceptable safety profile.

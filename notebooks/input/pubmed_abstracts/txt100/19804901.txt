@@ -1,0 +1,21 @@
+OBJECTIVE: To determine efficacy, toxicity, and survival in patients with
+recurrent epithelial ovarian cancer (EOC) receiving combination of weekly
+paclitaxel and biweekly bevacizumab (PB).
+METHODS: We reviewed chemotherapy logs identifying all patients receiving
+combination PB. Toxicities were graded using CTCAEv3.0 criteria. Response rates
+(RR) were measured using RECIST criteria or by CA-125 levels per modified Rustin 
+criteria. RR and progression-free survival (PFS) were determined and plotted
+using Kaplan-Meier survival analysis.
+RESULTS: Fifty-one patients receiving at least two cycles of chemotherapy were
+evaluable for survival and 55 patients receiving one cycle of PB were evaluable
+in toxicity analysis. The mean number of previous regimens was four. The overall 
+median PFS was 7 months and median OS was 12 months. The overall response rate
+(ORR) was 60% (CR 25% and PR 35%). Median PFS for complete and partial responders
+were 14 and 5 months respectively. Stable disease was seen in 26% with median PFS
+of 6 months. Thirteen experienced treatment delays for a variety of factors. The 
+most G3/4 toxicities were fatigue (16%), hematologic (9%) and neurotoxicity (7%).
+Three patients (5%) experienced bowel perforations.
+CONCLUSIONS: Combination of paclitaxel and bevacizumab is feasible and
+demonstrates an acceptable toxicity profile and a high response rate. These
+observations should be useful in planning future clinical trials with this
+combination therapy.

@@ -1,0 +1,20 @@
+PURPOSE: This study was designed to confirm the efficacy and safety of amrubicin,
+a new anthracycline agent, in patients with previously treated non-small cell
+lung cancer (NSCLC) and small cell lung cancer (SCLC).
+METHODS: Eligible patients were required to have recurrent or refractory NSCLC
+and SCLC after one or two previous chemotherapy regimens. All patients received
+intravenous amrubicin 35 mg/m(2) on days 1-3 every 3 weeks. Overall response rate
+(ORR), progression-free survival (PFS), and overall survival (OS) were evaluated.
+RESULTS: Sixty-six patients (37 NSCLC and 29 SCLC) were assessable for efficacy
+and safety evaluation. Grade 3 or 4 neutropenia was observed in 39.4% of all
+patients (NSCLC, 37.8%; SCLC, 41.4%). Nonhematological toxicities were mild. No
+treatment-related death was observed. The ORRs were 13.5% (95% CI, 4.5-28.8%) in 
+NSCLC and 44.8% (95% CI, 26.4-64.3%) in SCLC. In SCLC, ORRs were 60.0% in the
+sensitive relapse and 36.8% in the refractory relapse (p=0.2332). In NSCLC, the
+PFS, OS, and 1-year survival were 3.3 months, 12.0 months, and 35.3%,
+respectively. In SCLC, the PFS, OS, and 1-year survival were 4.0 months, 12.0
+months, and 46.7%, respectively.
+CONCLUSIONS: Amrubicin is an active and well-tolerated regimen in patients with
+previously treated lung cancer. Amrubicin 35 mg/m(2) seems to achieve similar
+efficacy with less toxicity than amrubicin 40 mg/m(2) in this patient population.
+These results warrant further evaluation in previously treated lung cancer.

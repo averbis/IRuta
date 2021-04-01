@@ -1,0 +1,19 @@
+A phase II study was conducted to evaluate S-1 monotherapy in previously
+untreated elderly or frail metastatic colorectal cancer patients. A total of 48
+elderly (70-85 years old) and frail [Eastern Cooperative Oncology Group (ECOG)
+performance status (PS) 2 and 65-69 years old] patients were eligible for
+first-line S-1 of 35 mg/m(2) given twice daily for 2 weeks followed by 1 week of 
+rest. The overall response rate (ORR) for all patients was 19%. Similarly, the
+ORR for frail and elderly patients was 22% and 18%, respectively. Median
+progression-free survival (PFS) and overall survival (OS) for all patients were
+3.9 months (95% CI, 3.0-4.8) and 11.3 months (95% CI, 7.4-15.2), respectively.
+For frail patients, PFS was 1.4 (95% CI, 0.8-2.0) vs. 4.3 months (95% CI,
+3.0-5.4) for the elderly (P = 0.016). OS was significantly longer for elderly
+patients than for frail patients (13.1 months, 95% CI, 9.5-16.7) vs. (4.1 months,
+95% CI, 3.2-5.0; P = 0.01). Toxicity was mild to moderate, as only 29% of
+patients experienced grade 3 toxicity. Grade 4 toxicity and febrile neutropenia
+did not occur; however, two frail patients died from grade 5 treatment-related
+infections. Generally, S-1 monotherapy was well-tolerated and efficacious in the 
+elderly patient group, but not in the frail patient group. Considering
+performance status and co-morbidities in patients >70 years old, S-1 monotherapy 
+may be a first-line therapeutic option for elderly mCRC patients.

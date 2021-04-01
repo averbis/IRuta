@@ -1,0 +1,33 @@
+BACKGROUND: Both docetaxel-based and irinotecan-based chemotherapy has been
+demonstrated as active combination regimen in either first-line or second-line
+setting for metastatic gastric cancer. The purpose of this trial was to evaluate 
+the two active regimens, docetaxel/cisplatin and FOLFIRI, as first- and
+second-line chemotherapy and to compare the sequence of the two regimens in terms
+of efficacy and tolerability.
+PATIENTS AND METHODS: Eligible patients were randomized to receive one of the two
+treatment arms: Arm A-DP (docetaxel 75 mg/m(2) D1, cisplatin 75 mg/m(2) D1
+repeated every 3 weeks) until progression or unacceptable toxicity as the
+first-line treatment which was followed by FOLFIRI (irinotecan 150 mg/m(2) D1,
+leucovorin 100 mg/m(2) D1, 5-fluorouracil 3,000 mg/m(2) D1-2 for 48 h every
+2 weeks) upon disease progression as second-line chemotherapy; Arm B-FOLFIRI as
+the first-line treatment until disease progression or unacceptable toxicity then 
+followed by DP as the second-line treatment upon documented disease progression.
+RESULTS: Between April 2005 and Aug 2008, 58 patients were enrolled (Arm A,
+n = 28; Arm B, n = 30). Median follow-up was 38.2 months. The overall response
+rate (ORR) of the first-line chemotherapy was 25.0% with DP (Arm A1) and 13.3
+with FOLFIRI (Arm B1) (P = 0.322). The tumor control rate (TCR) of first-line
+chemotherapy was 82.1% with DP and 66.7% with FOLFIRI (P = 0.209). The median
+first progression-free survival (1st PFS) was 4.3 months with DP and 3.4 months
+with FOLFIRI (P = 0.547). The overall response rate of second-line chemotherapy
+was 20.0% with FOLFIRI (Arm A2) and 27.2% with DP (Arm B2) (P = 0.296). The tumor
+control rate of second-line chemotherapy was 46.7% with FOLFIRI and 50.0% with
+DP. The median second progression-free survival (2nd PFS) was 8.1 months with Arm
+A and 6.7 months with Arm B (P = 0.865). The median overall survival was
+12.5 months (95% CI 8.17-16.83) in Arm A and 13.4 months (95% CI 9.99-16.81) in
+Arm B (P = 0.674). In safety profile, the incidence of neutropenic fever was
+comparable among the 4 arms ranging from 0 to 3.9%.
+CONCLUSIONS: The ORR, TCR of Arm A (DP ? FOLFIRI) were not different from those
+of Arm B (FOLFIRI ? DP). There was no statistically significant difference in 1st
+PFS, 2nd PFS, and OS of both arms. Although the trial was terminated early due to
+poor patient accrual, we found that both DP and FOLFIRI regimens were tolerable
+with comparable efficacies regardless of the sequence administered.

@@ -1,0 +1,26 @@
+PURPOSE: The proteasome inhibitor bortezomib may enhance activity of
+chemoimmunotherapy in lymphoma. We evaluated dose-escalated bortezomib plus
+standard cyclophosphamide, doxorubicin, vincristine, and prednisone (CHOP) plus
+rituximab (R) in patients with diffuse large B-cell lymphoma (DLBCL) and mantle
+cell lymphoma (MCL).
+PATIENTS AND METHODS: Seventy-six subjects with untreated DLBCL (n = 40) and MCL 
+(n = 36) received standard CHOP every 21 days (CHOP-21) with R plus bortezomib at
+0.7 mg/m(2) (n = 4), 1.0 mg/m(2) (n = 9), or 1.3 mg/m(2) (n = 63) on days 1 and 4
+for six cycles.
+RESULTS: Median age was 63 years (range, 20 to 87), and International Prognostic 
+Index (IPI) scores were generally unfavorable (39% with IPI of 2, and 49% with
+IPI of 3 to 5), as were Mantle Cell Lymphoma International Prognostic Index
+scores in patients with MCL (28% intermediate risk and 39% high risk). Toxicity
+was manageable, including neuropathy in 49 subjects (8% grade 2 and 4% grade 3)
+and grade 3/4 anemia (13%), neutropenia (41%), and thrombocytopenia (25%). For
+DLBCL, the evaluable overall response rate (ORR) was 100% with 86% complete
+response (CR)/CR unconfirmed (CRu; n = 35). Intent-to-treat (ITT, n = 40) ORR was
+88% with 75% CR/CRu, 2-year progression-free survival (PFS) of 64% (95% CI, 47%
+to 77%) and 2-year overall survival (OS) of 70% (95% CI, 53% to 82%). For MCL,
+the evaluable ORR was 91% with 72% CR/CRu (n = 32). The ITT (n = 36) ORR was 81% 
+with 64% CR/CRu, 2-year PFS 44% (95% CI, 27% to 60%) and 2-year OS 86% (95% CI,
+70% to 94%). IPI and MIPI correlated with survival in DLBCL and MCL,
+respectively. Unlike in DLBCL treated with R-CHOP alone, nongerminal center B
+cell (non-GCB) and GCB subtypes had similar outcomes.
+CONCLUSION: Bortezomib with R-CHOP-21 can be safely administered and may enhance 
+outcomes, particularly in non-GCB DLBCL, justifying randomized studies.

@@ -1,0 +1,29 @@
+OBJECTIVE: Weekly paclitaxel has been shown to be an effective cytotoxic regimen 
+for recurrent epithelial ovarian cancer (EOC), and may act through inhibition of 
+angiogenesis. Bevacizumab, a potent angiogenesis inhibitor, has also been shown
+to have activity in patients with EOC. Therefore, we sought to determine if the
+addition of bevacizumab to weekly paclitaxel led to an increased survival
+compared to weekly paclitaxel alone.
+METHODS: A single institutional review was conducted for patients with recurrent 
+EOC treated with weekly paclitaxel (60-70mg/m(2)) on days 1, 8, 15, and 22 of a
+28day cycle and those treated with weekly paclitaxel and bevacizumab (10-15mg/kg 
+on day 1 and 15). Response rates (RR) were calculated, and progression-free
+survival (PFS), and overall survival (OS) were compared using Kaplan-Meier
+survival analysis.
+RESULTS: Twenty-nine patients treated with weekly paclitaxel and 41 patients
+treated with paclitaxel/bevacizumab were identified. The groups were similar in
+demographics, initial optimal cytoreduction, stage, histology, grade, platinum
+sensitivity, and median number of previous regimens (4 vs. 4, p=0.69).The overall
+response rate (ORR) was 63% (complete response (CR) 34% and partial response (PR)
+29%) for paclitaxel/bevacizumab and 48% (CR 17% and PR 31%) for weekly paclitaxel
+(p=0.23). Improvement in PFS was seen in those treated with
+paclitaxel/bevacizumab in comparison to weekly paclitaxel alone (median PFS 13.2 
+vs. 6.2months, p<.01). There was a trend towards improved OS for
+paclitaxel/bevacizumab (median OS 20.6 vs. 9.1months; p=0.12). Toxicities were
+similar between the two regimens although more bowel perforations (2 vs. 0) were 
+seen in the paclitaxel/bevacizumab group.
+CONCLUSION: A significant increase in PFS with a trend towards improved OS was
+demonstrated in this heavily pretreated population treated with
+paclitaxel/bevacizumab as compared to weekly paclitaxel alone. This data should
+be helpful in guiding future trials to determine the optimal care for women with 
+recurrent EOC.

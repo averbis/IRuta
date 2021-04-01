@@ -1,0 +1,24 @@
+BACKGROUND: We evaluated the efficacy and safety of cetuximab in combination with
+XELOX [XELoda® (capecitabine) and OXaliplatin] in advanced gastric cancer (AGC)
+patients. The objectives were to evaluate overall response rate (ORR),
+progression-free survival (PFS), overall survival (OS), and safety of cetuximab
+plus XELOX.
+METHODS: Previously untreated AGC patients received intravenous infusion of
+cetuximab 400 mg/m² on day 1 followed by weekly infusions of 250 mg/m².
+Oxaliplatin 130 mg/m² was administered intravenously on day 1 and capecitabine
+1,000 mg/m² bid was administered orally for 14 days of a 3-week cycle.
+Chemotherapy was given until disease progression or intolerable toxicities. On
+completing maximum 8 cycles of chemotherapy, patients were allowed weekly
+cetuximab until progression. Response evaluations were done every two cycles and 
+toxicities were assessed at each visit.
+RESULTS: Forty-four patients (29 male) were enrolled; median age was 57.5 years
+(range 36-70). In total, 253 cycles of XELOX chemotherapy (range 1-8, median 6.5 
+cycles) and 917 cetuximab infusions (range 1-58, median 19.0) were delivered.
+Overall RR was 52.3%. Median PFS and OS were 6.5 months (95% CI, 4.9-8.4) and
+11.8 months (95% CI, 6.7-16.8), respectively. The most common toxicities of all
+grades were anemia (81.8% of patients), asthenia (81.8%), anorexia (79.6%),
+hand-foot syndrome (79.6%), acneiform skin eruption (77.2%), and sensory
+neuropathy (75.0%), and they were mostly grade 1 or 2. Grade 3-4 hematologic
+toxicities were uncommon (anemia, 6.8%; thrombocytopenia, 2.3%).
+CONCLUSIONS: Cetuximab in combination with XELOX chemotherapy was active and safe
+as first-line treatment of metastatic and/or recurrent AGC patients.

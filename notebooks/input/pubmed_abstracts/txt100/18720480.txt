@@ -1,0 +1,29 @@
+BACKGROUND: Previous biochemotherapy regimens for metastatic melanoma have
+required attenuated dosages of interleukin 2 (IL-2) that may have compromised
+efficacy.
+METHODS: In a phase 2 study, the authors tested sequential temozolomide (75 mg/m2
+per day orally for 3 weeks) followed by high-dose, IL-2 (600,000 U/kg per dose
+intravenously; maximum, 14 doses over 5 days).
+RESULTS: Thirty-eight patients with treatment-naive American Joint Committee on
+Cancer stage IV melanoma (8 patients with M1a disease, 6 patients with M1b
+disease, and 24 patients with M1c disease) were enrolled. Ten patients had a
+history of treated brain metastases. Thirty-one patients who received at least 2 
+cycles of IL-2 were evaluable for response. Grade 3 toxicities included
+hyperbilirubinemia (9 patients), hematologic toxicities (leukopenia in 5
+patients, thrombocytopenia in 3 patients), diarrhea (2 patients), and oliguria (1
+patient). One patient had grade 4 nausea. The overall response rate (ORR) was 16%
+and included 3 complete responses that lasted 10.8 months, > or =32 months, and >
+or =36 months and 2 partial responses that lasted 13 months and 14 months.
+Responses were observed in patients with M1a disease and in patients with M1c
+disease. Sixteen patients had stable disease (15 patients progressed). The median
+progression-free survival (PFS) was 5.3 months (95% confidence interval [CI],
+3.7-7.5 months). The probability of PFS at 6 months was 0.52 (95% CI, 0.33-0.67).
+Among 38 enrolled patients, 16 patients remained alive at a median follow-up of
+6.7 months (range, 1.9-36.1 months). The median overall survival (OS) was 12.1
+months (95% CI, 9.1-16.4 months), and the probability of 12-month OS was 0.54
+(95% CI, 0.34-0.70 months).
+CONCLUSIONS: The current results indicated that it is safe to administer HD IL-2 
+sequentially with temozolomide and that this combination has lower toxicity than 
+previously used concurrent biochemotherapy regimens. However, The ORR and the
+durability of responses with this combination did not exceed those of
+single-agent HD IL-2.

@@ -1,0 +1,23 @@
+Gefiinib and erlotinib are two similar small molecules of selective and
+reversible epidermal growth factor receptor-tyrosine kinase inhibitors
+(EGFR-TKIs), which have been approved for second-line or third-line indication in
+previously treated advanced Non-small-cell lung cancer (NSCLC) patients. The
+results of comparing the EGFR-TKI with standard platinum-based doublet
+chemotherapy as the first-line treatment in advanced NSCLC patients with
+activated EGFR mutation were still controversial. A meta-analysis was performed
+to derive a more precise estimation of these regimens. Finally, six eligible
+trials involved 1,021 patients were identified. The patients receiving EGFR-TKI
+as front-line therapy had a significantly longer progression-free survival (PFS) 
+than patients treated with chemotherapy [median PFS was 9.5 versus 5.9 months;
+hazard ratio (HR)=0.37; 95% confidence intervals (CI)=0.27-0.52; p<0.001]. The
+overall response rate (ORR) of EGFR-TKI was 66.60%, whereas the ORR of
+chemotherapy regimen was 30.62%, which was also a statistically significant favor
+for EGFR-TKI [relative risk (RR)=5.68; 95% CI=3.17-10.18; p<0.001]. The overall
+survival (OS) was numerically longer in the patients received EGFR-TKI than
+patients treated by chemotherapy, although the difference did not reach a
+statistical significance (median OS was 30.5 vs. 23.6 months; HR=0.94; 95%
+CI=0.77-1.15; p=0.57). Comparing with first-line chemotherapy, treatment of
+EGFR-TKI achieved a statistical significantly longer PFS, higher ORR and
+numerically longer OS in the advanced NSCLC patients harboring activated EGFR
+mutations, thus, it should be the first choice in the previously untreated NSCLC 
+patients with activated EGFR mutation.

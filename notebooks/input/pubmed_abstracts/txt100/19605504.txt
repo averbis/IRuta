@@ -1,0 +1,19 @@
+BACKGROUND: The combination of irinotecan with 5-fluorouracil demonstrates
+efficacy with tolerable safety in the first-line treatment of metastatic
+gastroesophageal cancer (mGC). This randomized phase II trial compared for the
+first time capecitabine with irinotecan or cisplatin in this setting.
+PATIENTS AND METHODS: Patients were randomly assigned to receive 3-week cycles of
+capecitabine 1000 mg/m(2), twice daily for 14 days, with on day 1 either
+irinotecan 250 mg/m(2) (XI) or cisplatin 80 mg/m(2) (XP). The primary end point
+was overall response rate (ORR) and secondary end points included
+progression-free survival (PFS), overall survival (OS) and safety.
+RESULTS: Of 118 patients recruited, 112 were eligible for safety analysis and 103
+for efficacy analysis. In the XI and XP treatment arms, there were no marked
+differences in ORR, 37.7% versus 42.0%, and median PFS, 4.2 versus 4.8 months,
+although median OS was longer, 10.2 versus 7.9 months, respectively. Grade 3/4
+toxicity was higher in the XP regimen for thrombocytes (18.2% versus 1.8%),
+nausea (23.6% versus12.3%) and vomiting (16.4% versus 1.8%) and in the XI arm for
+diarrhea (22.8% versus 7.3%).
+CONCLUSION: The comparable activity and safety of the XI and XP regimens
+establish XI as a relevant platinum-free first-line treatment choice for patients
+with mGC.

@@ -1,0 +1,23 @@
+BACKGROUND: a(v) integrins are involved in angiogenesis and melanoma
+tumourigenesis. Intetumumab (CNTO 95) is a fully human anti-a(v)-integrin
+monoclonal antibody.
+METHODS: In a multicentre, randomised, phase II study, stage IV melanoma patients
+were randomised 1:1:1:1 to 1000 mg m(-2) dacarbazine+placebo (n=32), 1000 mg
+m(-2) dacarbazine+10 mg kg(-1) intetumumab (n=32), 10 mg kg(-1) intetumumab
+(n=33), or 5 mg kg(-1) intetumumab (n=32) q3w. The primary endpoint was
+progression-free survival (PFS). Secondary endpoints included overall survival
+(OS), objective response rate (ORR), adverse events, and pharmacokinetics.
+RESULTS: No statistically significant differences in efficacy were observed
+between groups. In the dacarbazine+placebo, dacarbazine+intetumumab, 10 mg kg(-1)
+intetumumab, and 5 mg kg(-1) intetumumab groups, median PFS was 1.8, 2.5, 1.4,
+and 1.4 months; median OS was 8, 11, 15, and 9.8 months; and ORR of
+complete+partial response was 10, 3, 6, and 0%. Nonlinear intetumumab
+pharmacokinetics and potential intetumumab-dacarbazine interactions were
+observed. Transient, asymptomatic, nonrecurring, grade 1-2, uveitic reactions
+that resolved spontaneously or with topical steroids were seen in 22-30% of
+intetumumab-treated patients. Low-grade infusion-reaction symptoms (headache,
+fatigue, nausea, vomiting, fever, chills) were observed, as expected, in 16-73%
+of dacarbazine-treated patients. No intetumumab-related myelosuppression,
+laboratory/electrocardiogram abnormalities, or deaths occurred.
+CONCLUSION: With its favourable safety profile and a nonsignificant trend towards
+improved OS, intetumumab merits further investigation in advanced melanoma.

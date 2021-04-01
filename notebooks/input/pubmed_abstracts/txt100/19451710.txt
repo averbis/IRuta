@@ -1,0 +1,21 @@
+BACKGROUND: The aim of this clinical study was to evaluate the efficacy of
+combination chemotherapy of oxaliplatin, leucovorin and continuous-infusion
+5-fluorouracil (5-FU) for advanced gastric cancer.
+METHODS: Patients with previously untreated gastric cancer with measurable
+disease received oxaliplatin (100 mg/m(2), day 1), followed by leucovorin (100
+mg/m(2), day 1) and 5-FU (2,400 mg/m(2), days 1-2), which was repeated every 2
+weeks. The primary endpoint was overall response rate (ORR) and secondary
+endpoints were progression-free survival (PFS), overall survival (OS) and
+toxicity.
+RESULTS: Forty-eight patients were enrolled, and 45 were evaluable for response. 
+A total of 320 cycles of chemotherapy were administered (median 6 cycles per
+patient). One complete response (2.1%) and 19 partial responses (39.6%) were
+noted, resulting in an ORR of 41.7% (95% confidence interval, CI: 27.7-55.6%) by 
+intent-to-treat analysis. With a median follow-up duration of 22 months, the
+median PFS was 5.3 (95% CI: 2.8-7.8) months and the median OS was 13.6 (95% CI:
+9.3-17.9) months. There was 1 treatment-related death, and the most common grade 
+3/4 toxicity was neutropenia (36.1%). Three patients discontinued treatment
+because of serum creatinine elevation.
+CONCLUSION: This study reaffirms the efficacy of oxaliplatin in advanced gastric 
+cancer, but its dose of 100 mg/m(2) remains to be reconsidered in Korean
+patients.

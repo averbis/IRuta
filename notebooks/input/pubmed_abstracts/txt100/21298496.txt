@@ -1,0 +1,21 @@
+The aim of this phase II study was to investigate the efficacy and safety of
+oxaliplatin plus 5-fluorouracil (5-FU) and leucovorin (LV) in metastatic breast
+cancer (MBC) patients heavily pretreated with anthracyclines, taxanes,
+vinorelbine, gemcitabine, and capecitabine. Sixty-two women who had received at
+least 3 above-mentioned drug classes were treated with oxaliplatin 85 mg/m(2) as 
+a 2-h infusion on day 1, LV 200 mg/m(2) as a 2-h infusion followed by bolus 5-FU 
+400 mg/m(2) on day 1, and a continuous infusion of 5-FU 1,200 mg/m(2) for 44 h.
+The median patient age was 52 years with a median of two involved organs, and the
+metastases were mostly in the lung (53.2%), lymph nodes (51.6%), and liver
+(45.2%). Patients had a median of three prior chemotherapy regimens. Forty-five
+patients (72.6%) had prior exposure to all 5 classes of drugs. Based on an
+intention-to-treat analysis, 60 patients were assessable for responses and 11
+patients achieved a partial response (PR), giving an overall response rate (ORR) 
+of 18.3%. Twenty-one (35%) patients had stable disease (SD), and of these, 8
+achieved long SD (13.3%). The median progression-free survival (PFS) was 3
+months, and the median overall survival (OS) was 10 months. Toxicity was mild to 
+moderate with grade 3 or 4 neutropenia, thrombocytopenia, and neuropathy
+occurring in 14 (22.6%), 9 (14.5%), and 3 (4.8%) patients, respectively. The
+study demonstrated that the combination of oxaliplatin plus 5-FU/LV was a
+well-tolerated salvage regimen with moderate activity in patients with heavily
+pretreated MBC.

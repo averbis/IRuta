@@ -1,0 +1,22 @@
+BACKGROUND: Prior to the 2008 advent of sorafenib, traditional cytotoxic agents
+were the therapeutic mainstay for patients with advanced hepatocellular carcinoma
+(HCC). We thus undertook a clinical study of sorafinib and conventional cytotoxic
+therapy for HCC, comparing efficacy and safety.
+METHODS: From January, 2002 to December, 2009, 173 patients with unresectable HCC
+were reviewed retrospectively. Among them, 44 (25.4%) had been treated with
+sorafenib, and the remainder had received cytotoxic therapy (CTX). We evaluated
+objective response rate (ORR), progression free survival (PFS), overall survival 
+(OS), and toxicity profiles.
+RESULTS: Median OS of sorafinib was 23.0 weeks (95% CI, 8.1-37.9) vs 43.6 weeks
+(95% CI, 34.0-53.2) for CTX. Likewise, median PFS was 11.1 weeks (95% CI,
+6.5-15.8) vs 12.4 weeks (95% CI, 8.1-16.7) for sorafenib and CTX, respectively.
+Neither parameter differed significantly (OS, p?=?0.105; PFS, p?=?0.496). ORR and
+disease control rate for sorafenib were 2.3% and 52.3% vs 6.2% and 43.4% for CTX.
+CTX-treated patients experienced more Grade 3/4 neutropenia (19.7% vs 0% for
+sorafenib), while sorafenib therapy was more often linked to dermatologic
+toxicities (all grades), such as hand-foot skin reaction, rash, and pruritus.
+CONCLUSION: Although sorafenib has become the treatment of choice for advanced
+HCC, there are still unsettled issues regarding the optimal use of sorafenib. Our
+analysis indicates that conventional CTX can be another option of treatment for
+advanced HCC. To improve clinical outcomes, further prospective investigations
+which define the role of CTX are needed.

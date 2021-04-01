@@ -1,0 +1,34 @@
+Cetuximab (Erbitux) is a human-mouse chimeric monoclonal antibody, which
+competitively binds to the accessible extracellular domain of the epidermal
+growth factor receptor (EGFR) to inhibit dimerisation and, subsequently, inhibit 
+tumour growth and metastasis. In the EU and the US, cetuximab has been approved
+for use with concomitant radiotherapy in patients with locally advanced squamous 
+cell carcinoma of the head and neck (SCCHN) and in combination with irinotecan
+for the treatment of metastatic colorectal cancer (mCRC) in patients with
+EGFR-expressing tumours who are refractory to irinotecan-based therapy. In the
+US, cetuximab has also been approved as monotherapy in patients with recurrent or
+metastatic SCCHN for whom platinum-based therapy has failed and in patients with 
+mCRC who are intolerant of irinotecan-based regimens.In treatment-naive patients 
+with locoregionally advanced SCCHN, cetuximab plus radiotherapy was more
+effective than radiation therapy alone in prolonging locoregional disease
+control. In addition, more limited noncomparative data from a large trial
+indicated a 13% overall objective response rate (ORR) in platinum-refractory
+patients with SCCHN. In patients with EGFR-expressing mCRC, cetuximab plus
+irinotecan improved ORR more than cetuximab monotherapy in a trial in
+irinotecan-refractory patients; however, there was no difference in overall
+survival (OS) between cetuximab plus irinotecan and cetuximab monotherapy in
+oxaliplatin-refractory recipients in another trial. In an ongoing trial,
+progression-free survival (PFS) exceeded 50% after 12 weeks in
+irinotecan-refractory patients receiving three different dosages of cetuximab
+plus irinotecan. In another large trial, cetuximab monotherapy prolonged OS
+compared with best supportive care (BSC) in heavily pretreated patients. Overall,
+cetuximab treatment had an acceptable tolerability profile, with the majority of 
+adverse events being mild or moderate in severity and clinically manageable. In
+particular, cetuximab therapy did not exacerbate toxicities commonly associated
+with chemo- or radiotherapeutic regimens. Albeit occurring with high incidence,
+adverse cutaneous reactions appear to be a marker for response. Results of
+ongoing head-to-head comparative trials comparing cetuximab with other biological
+agents will help to establish definitively the role of cetuximab in the
+management of SCCHN and mCRC. In the meantime, cetuximab, with its highly
+targeted mechanism of action and synergistic activity with current treatment
+modalities, is a valuable treatment option in patients with SCCHN and mCRC.

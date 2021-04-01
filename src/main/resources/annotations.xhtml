@@ -1,0 +1,24 @@
+<div class="annotation-viewer">
+  <script type="text/javascript">
+    var scriptBlock = document.currentScript;
+    var viewerBlock = $(scriptBlock).closest(".annotation-viewer");
+    require(["kernelspecs/ruta/annotations"], function (annotations) {
+      try {
+        annotations.onload(viewerBlock);
+      } catch (error) {
+        console.error(error);
+      }
+    });
+  </script>
+	<style data-id="colors" type="text/css"></style>
+  <div class="controls">
+    <button class="on">all on</button>
+    <button class="off">all off</button>
+  </div>
+  <div class="cas">
+    <div class="text-wrapper">
+    	<pre class="text"></pre>
+    </div>
+    <div class="annotations"></div>
+  </div>
+</div>

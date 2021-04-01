@@ -1,0 +1,26 @@
+PURPOSE: To investigate the efficacy and safety of axitinib, an oral, potent, and
+selective inhibitor of vascular endothelial growth factor (VEGF) receptors 1, 2, 
+and 3 in patients with metastatic renal cell carcinoma (mRCC) refractory to prior
+therapies that included, but were not limited to, sorafenib.
+PATIENTS AND METHODS: In this multicenter, open-label, phase II study, patients
+with sorafenib-refractory mRCC received a starting dose of axitinib 5 mg orally
+twice daily. A one-arm, single-stage design was used to estimate the primary end 
+point of objective response rate (ORR), defined by RECIST (Response Evaluation
+Criteria in Solid Tumors). Secondary end points included safety, duration of
+response, progression-free survival (PFS), overall survival (OS), and
+patient-reported outcomes.
+RESULTS: Of 62 patients recruited, 100% had received prior sorafenib, and 74.2%
+had received two or more prior systemic treatments. The axitinib dose was
+titrated to greater than 5 mg twice daily in 53.2% of patients, and 35.5% of
+patients had the dose modified to less than 5 mg twice daily. In 62 patients
+evaluable for response, the ORR was 22.6%, and the median duration of response
+was 17.5 months. Median PFS and OS times were 7.4 months (95% CI, 6.7 to 11.0
+months) and 13.6 months (95% CI, 8.4 to 18.8 months), respectively. All-causality
+grade 3 to 4 adverse events included hand-foot syndrome (16.1%), fatigue (16.1%),
+hypertension (16.1%), dyspnea (14.5%), diarrhea (14.5%), dehydration (8.1%), and 
+hypotension (6.5%).
+CONCLUSION: Axitinib has antitumor activity in patients with mRCC refractory to
+prior VEGF-targeted therapy, including sorafenib. Toxicities were mild to
+moderate and were manageable. A randomized, phase III trial to compare axitinib
+with sorafenib in patients who have mRCC refractory to one prior first-line
+therapy regimen is underway.

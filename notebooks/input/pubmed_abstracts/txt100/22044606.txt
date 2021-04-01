@@ -1,0 +1,24 @@
+OBJECTIVE: Carboplatin-based combinations are commonly used in platinum-sensitive
+ovarian cancer (PSOC). Pemetrexed in combination with carboplatin has been shown 
+to be feasible in a phase I study in PSOC. The primary objective of this
+subsequent phase II study was to determine the overall response rate (ORR;
+defined by Response Evaluation Criteria in Solid Tumors) of this combination in
+patients with recurrent PSOC. Secondary objectives included progression-free
+survival (PFS), overall survival (OS), and toxicity.
+METHODS: Patients with PSOC (defined by recurrence = 6 months after completion of
+up to two lines of prior platinum-based therapy), measurable disease, Eastern
+Cooperative Oncology Group performance status of 0 to 2, and adequate organ
+function were eligible. Pemetrexed 500 mg/m(2) was administered as a 10-minute
+infusion followed by carboplatin AUC 6 as a 30-minute infusion on day 1 of a
+21-day cycle.
+RESULTS: Sixty-six patients were treated. Of the 61 patients evaluable for
+response, there were 20 responders (one complete response and 19 partial
+responses), for an ORR of 32.8% (95% CI: 21.3%, 46.0%). For the intent-to-treat
+population (all 66 patients), the median PFS was 9.4 months (95% CI: 8.3, 11.1), 
+with 22.7% censoring. Median OS was not reached due to the high censoring rate.
+There was one drug-related death (multi-organ failure). The most common
+drug-related grade 3/4 toxicities were neutropenia (39.4%), thrombocytopenia
+(24.2%), carboplatin hypersensitivity (9.1%), nausea (6.1%), and vomiting (6.1%).
+CONCLUSIONS: Carboplatin AUC 6 and pemetrexed 500 mg/m(2) has a low incidence of 
+serious toxicities. Defining the platinum-based combination with the best
+therapeutic index would require a prospective phase III study.

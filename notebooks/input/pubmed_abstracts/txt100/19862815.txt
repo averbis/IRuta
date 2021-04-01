@@ -1,0 +1,25 @@
+BACKGROUND: The objective of this study was to independently evaluate the
+objective response rate of sorafenib and sorafenib plus low-dose interferon-alfa 
+2b (IFN) as frontline therapy in patients with metastatic renal cell carcinoma
+(mRCC).
+METHODS: Untreated patients with clear cell mRCC were randomized to receive
+sorafenib 400 mg orally twice daily or sorafenib 400 mg orally twice daily plus
+subcutaneous IFN 0.5 million U (MU) twice daily. Primary endpoints included the
+objective response rate (ORR) and safety. Secondary endpoints included
+progression-free survival (PFS) and overall survival (OS). Exploratory endpoints 
+included the predictive value of tumor tissue biomarkers.
+RESULTS: Eighty patients were enrolled. The median follow-up was 19.7 months
+(range, 0-34.2 months). The ORR was 30% (95% confidence interval [CI],
+16.6%-46.5%) in the sorafenib arm and 25% (95% CI, 12.7%-41.2%) in the
+combination arm. The median PFS was 7.39 months in the sorafenib-alone arm (95%
+CI, 5.52-9.20 months) and 7.56 months in the sorafenib plus IFN arm (95% CI,
+5.19-11.07 months). The median OS was 27.04 months in the combination arm (95%
+CI, from 22.31 to not attained) and was not reached in the sorafenib arm.
+Toxicities were comparable in both arms. In a multivariate model, increased
+phosphorylated protein kinase B (pAKT) levels were associated with poorer PFS
+(hazard ratio, 1.04; 95% CI, 1.00-1.08; P = .0411) and OS (hazard ratio, 1.15;
+95% CI, 1.02-1.29; P = .0173).
+CONCLUSIONS: The addition of low-dose IFN to sorafenib resulted in efficacy
+outcomes that were comparable to those achieved with sorafenib monotherapy. The
+current results indicated that pAKT levels may predict for clinical outcome, but 
+further mechanistic study is required.

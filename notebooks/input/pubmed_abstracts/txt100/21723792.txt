@@ -1,0 +1,26 @@
+BACKGROUND: The addition of bevacizumab to paclitaxel improved progression-free
+survival (PFS) of patients with metastatic breast cancer (MBC). We examined the
+efficacy and safety of adding gemcitabine to paclitaxel/bevacizumab (PB).
+PATIENTS AND METHODS: In this multicenter, open-label, randomized phase II trial,
+women with locally advanced or MBC were randomly assigned to receive paclitaxel
+90 mg/m(2) (days 1, 8, 15) and bevacizumab 10 mg/kg (days 1, 15) with or without 
+gemcitabine 1500 mg/m(2) (days 1, 15) in 28-day cycles. Patients with prior
+cytotoxic therapy for MBC were ineligible. The primary endpoint was
+investigator-assessed overall response rate (ORR); secondary endpoints were PFS, 
+overall survival (OS), safety, and quality of life.
+RESULTS: Ninety-four patients received PB, and 93 received
+paclitaxel/bevacizumab/gemcitabine (PB+G). The ORRs were 48.9% (95% confidence
+interval [CI], 38.5%-59.5%) and 58.7% (95% CI, 47.9%-68.9%; P = .117) with PB and
+PB+G, respectively. The median PFS was 8.8 months (95% CI, 8.1-10.4 months) and
+11.3 months (95% CI, 9.7-12.7 months; P = .247; hazard ratio, 0.82); the median
+OS was 25.0 months (95% CI, 18.8-not assessable [N/A] months) and 24.3 months
+(95% CI, 20.3-N/A months; P = .475; hazard ratio, 0.84), with PB and PB+G,
+respectively. There was significantly more grade 3-4 neutropenia (P = .001) and
+dyspnea (P = .014) with PB+G. Patients treated with PB experienced more
+improvement in total FACT-B (Functional Assessment of Cancer Therapy-Breast) (P =
+.021), FACT-B Social/Family Well-being (P = .041), and Breast Cancer-Additional
+Concerns (P = .008) scores than patients treated with PB+G.
+CONCLUSION: The addition of gemcitabine to PB was not associated with a
+statistically significant improvement in ORR. Treatment with PB+G increased the
+incidence of severe neutropenia and dyspnea, although the regimen generally was
+well tolerated.

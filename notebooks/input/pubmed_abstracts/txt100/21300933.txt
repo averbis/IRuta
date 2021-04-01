@@ -1,0 +1,24 @@
+PURPOSE: The AIO KRK-0104 randomized phase II trial investigated the efficacy and
+safety of cetuximab combined with capecitabine and irinotecan (CAPIRI) or
+capecitabine and oxaliplatin (CAPOX) in the first-line treatment of metastatic
+colorectal cancer (mCRC).
+PATIENTS AND METHODS: A total of 185 patients with mCRC were randomly assigned to
+cetuximab (400 mg/m(2) day 1, followed by 250 mg/m(2) weekly) plus CAPIRI
+(irinotecan 200 mg/m(2), day 1; capecitabine 800 mg/m(2) twice daily days 1
+through 14, every 3 weeks; or cetuximab plus CAPOX (oxaliplatin 130 mg/m(2) day
+1; capecitabine 1,000 mg/m(2) twice daily day 1 through 14, every 3 weeks). The
+primary study end point was objective response rate (ORR).
+RESULTS: In the intention-to-treat patient population (n = 177), ORR was 46% (95%
+CI, 35 to 57) for CAPIRI plus cetuximab versus 48% (95% CI, 37 to 59) for CAPOX
+plus cetuximab. Analysis of the KRAS gene mutation status was performed in 81.4% 
+of the intention to treat population. Patients with KRAS wild-type in the CAPIRI 
+plus cetuximab arm showed an ORR of 50.0%, a PFS of 6.2 months and an OS of 21.1 
+months. In the CAPOX plus cetuximab arm, an ORR of 44.9%, a PFS of 7.1 months and
+an OS of 23.5 months were observed. While ORR and PFS were comparable in KRAS
+wild-type and mutant subgroups, a trend toward longer survival was associated
+with KRAS wild-type. Both regimens had manageable toxicity profiles and were
+safe.
+CONCLUSION: This randomized trial demonstrates that the addition of cetuximab to 
+CAPIRI or CAPOX is effective and safe in first-line treatment of mCRC. In the
+analyzed regimens, ORR and PFS did not differ according to KRAS gene mutation
+status.

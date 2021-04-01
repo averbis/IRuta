@@ -1,0 +1,16 @@
+Arsenic trioxide (ATO) is synergistic with ascorbic acid (AA) and melphalan
+against myeloma both in vitro and in vivo. The aim of this randomized phase II
+trial was to determine the safety and efficacy of a combination of ATO,
+melphalan, and AA as preparative regimen in 48 patients undergoing autologous
+hematopoietic stem cell transplantation (ASCT) for multiple myeloma (MM).
+Forty-eight patients received melphalan 200 mg/m2 i.v. over 2 days and AA 1000 mg
+i.v. over 7 days in 3 treatment arms: no ATO (arm 1), ATO 0.15 mg/kg i.v. x 7
+days (arm 2), and ATO 0.25 mg/kg i.v. x 7 days (arm 3). No dose-limiting
+toxicity, engraftment failure, or nonrelapse mortality (NRM) was seen in the
+first 100 days post-ASCT. Complete responses (CR) were seen in 12 of 48 patients 
+(25%), with an overall response rate (ORR = CR + PR) of 85%. Median
+progression-free survival (PFS) was 25 months; median overall survival (OS) has
+not yet been reached. There was no significant difference in CR, PFS, or OS among
+the 3 treatment arms, and no adverse effect of ATO on melphalan pharmacokinetics.
+Addition of ATO + AA to high-dose melphalan is safe and well tolerated as a
+preparative regimen for MM.

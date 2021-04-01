@@ -1,0 +1,22 @@
+INTRODUCTION: Recombinant human endostatin is a novel inhibitor of tumor
+angiogenesis that acts specifically on neovascular endothelial cells. Studies
+have shown that endostar plus vinorelbine-cisplatin chemotherapy could improve
+objective response rates (ORR) and overall survival (OS) of advanced non-small
+cell lung cancer (NSCLC) patients. This study is to explore the clinical efficacy
+of endostar plus paclitaxel-carboplatin (TC) in advanced NSCLC patients.
+METHODS: A phase II, multicenter, randomized, double-blind, placebo-controlled
+study was carried out. Patients were randomly assigned to the treatment (TC +
+endostar) or the control group (TC + placebo). The efficacy was evaluated at the 
+end of each cycle. Follow-up continued until disease progression or death.
+RESULTS: A total of 126 patients were enrolled, of whom 122 were evaluable, with 
+61 in each group. ORR was 39.3% in the treatment group versus 23.0% in the
+control group (p = 0.078), and the disease control rate was 90.2% versus 67.2% (p
+= 0.004), respectively. The median progression-free survival (PFS) was 7.1 versus
+6.3 months (p = 0.522) in the treatment and control groups, the 24-week rate of
+PFS was 78% versus 59% (p = 0.017), and the median OS was 17.6 versus 15.8 months
+(p = 0.696), respectively. There were no significant differences, either in the
+incidence of adverse events or serious adverse events, between the two groups.
+CONCLUSIONS: In previously untreated, advanced NSCLC patients, treatment with TC 
+plus endostar seemed to improve ORR. However, the differences in PFS or OS
+between the two groups were not statistically significant. Treatment with TC plus
+endostar exhibited a good safety profile.

@@ -1,0 +1,23 @@
+PURPOSE: PTK787/ZK 222584 (PTK/ZK; vatalanib), an orally active, multitargeted
+angiogenesis inhibitor, has shown tolerability and promising activity in
+early-phase studies, which led to a phase III trial in combination with
+oxaliplatin, fluorouracil, and leucovorin (FOLFOX4).
+PATIENTS AND METHODS: Patients (N = 1,168) with previously untreated metastatic
+colorectal cancer were randomly assigned 1:1 to receive FOLFOX4 plus PTK/ZK or
+placebo (ClinicalTrials.gov identifier: NCT00056459). Stratification factors
+included WHO performance status (0 v 1 or 2) and serum lactate dehydrogenase
+(LDH; = v > 1.5× the upper limit of normal). The primary end point was
+progression-free survival (PFS). Secondary end points included overall survival
+(OS) and overall response rate (ORR).
+RESULTS: PFS, OS, and ORR were not statistically improved with PTK/ZK (P > .05). 
+Median PFS by central review was 7.7 months with PTK/ZK versus 7.6 months with
+placebo (hazard ratio [HR], 0.88; 95% CI, 0.74 to 1.03; P = .118); median OS was 
+21.4 months with PTK/ZK versus 20.5 months with placebo (HR, 1.08; 95% CI, 0.94
+to 1.24; P = .260). In an exploratory post hoc analysis of PFS in patients (n =
+158 per arm) with high serum LDH, a potential marker of hypoxia, PFS was longer
+with PTK/ZK versus placebo (7.7 v 5.8 months, respectively; HR, 0.67; 95% CI,
+0.49 to 0.91; P = .009).
+CONCLUSION: Although the efficacy objectives of this study were not met, a
+subgroup of patients who may potentially benefit from small-molecule vascular
+endothelial growth factor receptor inhibitor therapy has been identified and
+further research is warranted.

@@ -1,0 +1,23 @@
+PURPOSE: This phase III trial was conducted to test whether the novel vascular
+disrupting agent ASA404 (vadimezan), when combined with first-line platinum-based
+chemotherapy, improves survival in patients with advanced non-small-cell lung
+cancer (NSCLC) versus chemotherapy alone.
+PATIENTS AND METHODS: Patients with advanced stage IIIB or IV NSCLC, stratified
+by sex and tumor histology, were randomly assigned 1:1 to paclitaxel (200
+mg/m(2)) and carboplatin (area under the curve, 6.0) with or without ASA404
+(1,800 mg m(2)), given intravenously once every 3 weeks for six cycles followed
+by maintenance ASA404 or placebo. Primary end point was overall survival (OS);
+secondary end points included overall response rate (ORR) and progression-free
+survival (PFS).
+RESULTS: One thousand two hundred ninety-nine patients were randomly assigned.
+The trial was stopped for futility at interim analysis. At final analysis, there 
+was no difference in OS seen between ASA404 (n = 649) and placebo (n = 650) arms:
+median OS was 13.4 and 12.7 months respectively (hazard ratio [HR], 1.01; 95% CI,
+0.85 to 1.19; P = .535). Similarly, no OS difference was seen in the histologic
+(squamous or nonsquamous) and sex (male or female) strata. Median PFS was 5.5
+months in both arms (HR, 1.04; P = .727), while ORR was 25% in both arms (P =
+1.0). Overall rate of adverse events (AEs) was comparable between the ASA404 and 
+placebo arms. Grade 4 neutropenia (27% v 19%) and infusion site pain (10% v 0.5%)
+were reported more frequently in the ASA404 arm.
+CONCLUSION: The addition of ASA404 to carboplatin and paclitaxel, although
+generally well tolerated, failed to improve frontline efficacy in advanced NSCLC.

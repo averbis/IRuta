@@ -1,0 +1,26 @@
+BACKGROUND: Sequential treatment with azacitidine can induce re-expression of
+epigenetically silenced genes through genomic DNA hypomethylation and reverse
+carboplatin resistance of epithelial ovarian cancer cells. A phase 1b-2a clinical
+trial of this sequential combination of azacitidine and carboplatin was initiated
+in patients with platinum-resistant or platinum-refractory epithelial ovarian
+cancer.
+METHODS: Patients with pathologically confirmed intermediate-grade or high-grade 
+epithelial ovarian cancer who developed disease progression within 6 months
+(resistant disease, n = 18 patients) or during a platinum-based therapy
+(refractory disease, n = 12 patients) were eligible. All patients had measurable 
+disease.
+RESULTS: Thirty patients received a total of 163 cycles of treatment. This
+regimen produced 1 complete response, 3 partial responses (overall response rate 
+[ORR], 13.8%), and 10 cases of stable disease among 29 evaluable patients. For
+those patients who achieved clinical benefits, the median duration of the
+treatment was 7.5 months. The median progression-free survival (PFS) and overall 
+survival (OS) for all patients were 3.7 months and 14 months, respectively.
+Patients with platinum-resistant disease achieved an ORR of 22%, with a median
+PFS of 5.6 months and a median OS of 23 months. The predominant toxicities were
+fatigue and myelosuppression. Correlative studies indicated that DR4 methylation 
+in peripheral blood leukocytes was decreased during treatment in 3 of 4 objective
+responders (75%), but in only 5 of 13 nonresponders (38%).
+CONCLUSIONS: To the authors' knowledge, the results of the current study provide 
+the first clinical evidence that a hypomethylating agent may partially reverse
+platinum resistance in patients with ovarian cancer. Further clinical evaluation 
+of hypomethylating agents in combination with carboplatin is warranted.

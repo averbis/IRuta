@@ -1,0 +1,27 @@
+BACKGROUND: Vinflunine is a new microtubule inhibitor with preclinical activity
+in small cell lung cancer (SCLC). In this phase II trial, we evaluated vinflunine
+in patients with relapse-sensitive and refractory SCLC.
+METHODS: This trial aimed to achieve a 20% objective response rate (ORR) in
+platinum-sensitive patients. Patients with Eastern Cooperative Oncology Group
+performance status 0 to 2 and measurable disease received vinflunine (320 mg/m(2)
+IV) every 21 days (< or =6 cycles; response evaluation every 6 weeks).
+RESULTS: Patient characteristics (N = 51): median age 63 years (range, 37-85
+years); male, 55%; Eastern Cooperative Oncology Group performance status 2, 16%; 
+relapse-sensitive SCLC, 53%. The overall ORR was 19.6% (95% confidence interval
+[CI] 10-33%). Twelve (23.5%) patients had stable disease; 18 (35.3%) patients had
+progressive disease. Among relapse-sensitive patients, ORR was 22.2% (95% CI
+9-42%). Among relapse-refractory patients, ORR was 16.7% (95% CI 5-37%). Median
+follow-up was 15 months (range, 12-18 months); median progression-free survival
+(PFS) was 1.6 months (95% CI 1.3-3.9 months); median overall survival (OS) was
+4.9 months (95% CI 3.2- 6.5 months). Among relapse-sensitive patients, PFS and OS
+were 1.6 and 4.9 months, respectively. Among relapsed-refractory patients, PFS
+and OS were 1.4 and 4.0 months, respectively. In general, vinflunine was well
+tolerated, although neutropenia was a notable toxicity. Grade 3/4 toxicities
+(>5%): neutropenia (32%), arthralgia/myalgia (16%), fatigue (16%), hyponatremia
+(12%), leukopenia (12%), nausea/vomiting (12%), constipation (6%), and
+thrombocytopenia (6%). The rates of toxicities were relatively well balanced
+among relapse-sensitive and refractory patients; one patient died of sepsis that 
+was possibly treatment related.
+CONCLUSIONS: Vinflunine has activity in relapsed SCLC, including refractory
+relapsed patients. Neutropenia was common but associated with rare febrile
+episodes. Additional study in relapse-refractory SCLC is indicated.

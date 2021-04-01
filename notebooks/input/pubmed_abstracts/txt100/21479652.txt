@@ -1,0 +1,26 @@
+BACKGROUND: The objective was to demonstrate feasibility and therapeutic efficacy
+of routine clinical use of the bendamustine/rituximab combination in
+lymphoproliferative diseases.
+PATIENTS AND METHODS: Data were collected retrospectively from 71 patients
+treated with bendamustine/rituximab combination in Tyrol/Austria. Toxicities,
+therapeutic response, and survival outcome in the various lymphoma entities were 
+analyzed.
+RESULTS: There was considerable hematotoxicity, with neutropenia and
+thrombocytopenia of grade 3 or 4 in 33% and 18%, respectively. Interestingly,
+severe infection of grade 3 or 4 was observed in a remarkable percentage of
+patients with aggressive lymphoma and CLL (21% and 28%, respectively) but not in 
+indolent lymphoma (p = 0.027). Overall, the therapeutic efficacy of
+bendamustine/rituximab was encouraging. In CLL, an overall response rate (ORR) of
+65% was achieved. Notably, in the seven previously untreated CLL patients, ORR
+was 86%. The therapy was effective across all FISH-cytogenetic subgroups, except 
+for the five patients harboring 17p deletion with unfavorable prognosis (PFS 2.7 
+months, OS 9.3 months). In indolent lymphoma (n = 25), the bendamustine-rituximab
+combination induced a remarkable therapeutic effect (ORR 96%, median PFS and OS
+not reached). In aggressive lymphoma (n = 20), ORR was 50%; in International
+Prognostic Index high-risk patients (4 or 5 risk factors, n = 10), ORR was only
+20%, significantly inferior than in low/intermediate risk patients (ORR 70%; p = 
+0.025).
+CONCLUSIONS: In the routine setting aside clinical studies,
+bendamustine/rituximab therapy resulted in marked clinical responses, especially 
+in CLL and indolent lymphoma. In aggressive lymphoma, the combination of
+bendamustine and rituximab was effective in favorable risk patients.

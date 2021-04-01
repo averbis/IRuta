@@ -1,0 +1,23 @@
+BACKGROUND: To evaluate the efficacy and toxicity of a combination chemotherapy
+consisting of gemcitabine, carboplatin, and docetaxel (GCD) in patients with
+advanced urothelial carcinoma (UC) as a phase II trial.
+MATERIALS AND METHODS: Patients with metastatic or locally advanced unresectable 
+UC were eligible for this trial. All enrolled patients were considered to be
+"unfit" for cisplatin-based chemotherapy, or to have methotrexate, vinblastine,
+doxorubicin, cisplatin (MVAC)-refractory UC. The chemotherapy regimen consisted
+of gemcitabine 1000 mg/m(2) on days 1 and 8, and carboplatin (with a target area 
+under the curve of 5) and docetaxel 70 mg/m(2) on day 1; this was repeated every 
+21 days.
+RESULTS: Thirty-five patients were enrolled, with a median age of 68 years. A
+total of 89 cycles were administered (median, 2 cycles). Major toxicities were
+Grade 3/4 neutropenia in 28 (80.0%) patients and Grade 3/4 thrombocytopenia in 18
+(51.5%). An objective response rate (ORR) was 11 of 21 patients (52.4%),
+including a complete response in 1 (4.8%). The median overall survival (OS) was
+13.1 months (1-year survival rate, 60%) and the median progression-free survival 
+(PFS) was 5.0 months. Among 16 patients who had previously received MVAC, the
+ORR, the median PFS, the median OS and 1-year survival rate was 56.3%,
+5.0 months, 12.6 months and 54%, respectively.
+CONCLUSIONS: GCD chemotherapy is active and well tolerated as a first- or
+second-line therapy for patients with advanced UC. Response rate, duration and
+survival did not differ between those with and without a history of MVAC
+treatment.

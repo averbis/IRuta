@@ -1,0 +1,20 @@
+AIM: To investigate efficacy and safety of cetuximab combined with two
+chemotherapy regimens in patients with unresectable metastatic colorectal cancer 
+(mCRC).
+METHODS: Randomized patients received cetuximab with 5-fluorouracil (5-FU),
+folinic acid (FA) and oxaliplatin (FOLFOX) 6 (arm A, n = 74) or 5-FU, FA and
+irinotecan (FOLFIRI) (arm B, n = 77). KRAS mutation status was determined
+retrospectively in a subset of tumors (n = 117).
+RESULTS: No significant difference was found between treatment arms A and B in
+the progression-free survival (PFS) rate at 9 mo, 45% vs 34%; median PFS, 8.6 mo 
+vs 8.3 mo [hazard ratio (HR) = 1.06]; overall response rate (ORR) 43% vs 45%
+[odds ratio (OR) = 0.93] and median overall survival (OS), 17.4 mo vs 18.9 mo (HR
+= 0.98). Patients with KRAS wild-type tumors demonstrated improved PFS (HR =
+0.55, P = 0.0051), OS, (HR = 0.62, P = 0.0296) and ORR (53% vs 36%) and in arm A,
+improved PFS (HR = 0.49, P = 0.0196), OS (HR = 0.48, P = 0.0201) and ORR (56% vs 
+30%), compared with patients with KRAS mutated tumors. In arm B no significant
+differences were found in efficacy by KRAS mutation status. Treatment in arms A
+and B was generally well tolerated.
+CONCLUSION: This study confirms that combinations of cetuximab with FOLFOX6 or
+FOLFIRI are effective and significantly improve clinical outcome in KRAS
+wild-type compared with KRAS mutated mCRC.

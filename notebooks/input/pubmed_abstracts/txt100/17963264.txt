@@ -1,0 +1,21 @@
+BACKGROUND: Patients older than 75 years of age are usually excluded from
+metastatic colorectal cancer randomized studies. The OPTIMOX1 study evaluated
+FOLFOX7, a simplified (s) leucovorin (LV) and 5-fluorouracil (5FU) regimen
+(sLV5FU2) with high-dose oxaliplatin, in a new oxaliplatin stop-and-go strategy. 
+An exploratory cohort of patients aged 76 to 80 years was included in the study.
+METHODS: In all, 620 previously untreated patients were randomized between
+FOLFOX4 until progression (arm A), or FOLFOX7 for 6 cycles, maintenance without
+oxaliplatin for 12 cycles, and reintroduction of FOLFOX7 (arm B).
+RESULTS: A total of 37 patients aged 76 to 80 years were included, 20 in arm A
+and 17 in arm B. The overall response rate (ORR) was 59.4%, comparable to younger
+patients (59%). Median progression-free survival (PFS) was 9.0 months and median 
+overall survival (OS) was 20.7 months. These results did not differ from that in 
+younger patients < or =75 years in the OPTIMOX1 study with PFS 9.0 months (P =
+.63) and OS 20.2 months (P = .57). They experienced slightly more grade 3 of 4
+toxicity than younger patients: 65% versus 48% (P = .06), mainly with more
+neutropenia (41% vs 24%, P = .03) and neurotoxicity (22% vs 11%, P = .06).
+Tolerability, however, was manageable and no toxic death occurred in this elderly
+population.
+CONCLUSIONS: The efficacy of FOLFOX-based treatment was maintained in patients
+>75 years with both FOLFOX regimens. The oxaliplatin stop-and-go management
+strategy performed well in this population.

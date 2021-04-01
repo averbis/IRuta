@@ -1,0 +1,27 @@
+BACKGROUND: Lipoplatin is a new liposomal cisplatin designed to reduce cisplatin 
+toxicities without reducing efficacy. In the present randomized phase II study,
+we examined the efficacy and safety of a Lipoplatin-gemcitabine versus a
+cisplatin-gemcitabine combination as first line treatment in advanced NSCLC.
+PATIENTS AND METHODS: Patients with advanced (stages IIIB-IV) NSCLC received up
+to six 21-day cycles of Lipoplatin 120 mg/m(2) (days 1, 8, 15) and gemcitabine
+1000 mg/m(2) (days 1+8) (arm A; LipoGem) versus cisplatin 100mg/m(2) (day 1) and 
+gemcitabine 1000 mg/m(2) (days 1+8) (arm B; CisGem). The primary objective was
+objective response rate (ORR). Secondary objectives were disease control rate
+(DCR), progression-free survival (PFS), duration of response and overall survival
+(OS). Another secondary objective was safety and tolerability of the LipoGem
+combination.
+RESULTS: Eighty-eight patients (n=88) entered the study; 47 patients were treated
+with LipoGem versus 41 patients treated with CisGem. Efficacy was assessed in
+patients who completed at least 1 cycle of treatment; ORR was 31.7% in arm A
+versus 25.6% in arm B and DCR was 70.7% versus 56.4%, respectively. A preliminary
+efficacy of LipoGem versus CisGem in the adenocarcinoma histological subtype of
+NSCLC showed 16.7% versus 45.8% PD. Treatment in arm A was better tolerated with 
+myelotoxicity and a transient mild elevation of serum creatinine as the dominant 
+side effects; the only grade 4 adverse event was neutropenia noted in 2% of the
+patients. There was a significant reduction in nephrotoxicity in the LipoGem arm 
+(0% versus 5% grade III, p-value<0.001) as well as in nausea vomiting (2% versus 
+12% grade III, p-value<0.001). In addition, less antiemetics and G-CSF were
+administered in arm A.
+CONCLUSION: Overall, Lipoplatin appears to have lower toxicity, mainly renal
+toxicity as well as higher efficacy than cisplatin when combined with gemcitabine
+in advanced NSCLC.

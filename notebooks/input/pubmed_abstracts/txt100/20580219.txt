@@ -1,0 +1,20 @@
+The published data on the predictive and prognostic value of KRAS mutations in
+metastatic colorectal cancer (mCRC) treated with cetuximab seemed inconclusive.
+To derive a more precise estimation of the relationship, a meta-analysis was
+performed. Systematic computerised searches of the PubMed, EMBase, BIOSIS, and
+SCOPUS were performed. A total of 22 studies were identified. Random-effects
+model or fix-effects model was used according to between-study heterogeneity. A
+total of 2188 mCRC patients were included in the final meta-analysis. The rate of
+KRAS mutations was 38% (829/2188). The overall response rate (ORR) of mutant KRAS
+patients was 14% (119/829), whereas the ORR of wild-type KRAS patients was 39%
+(529/1359). The overall pooled relative ratio (RR) for ORR was 0.24 (95%
+confidence intervals (CI): 0.16-0.38; P<0.01) when mutant KRAS patients were
+compared with wild-type KRAS patients. Median PFS was significantly shorter in
+mutant KRAS patients compared with that in wild-type KRAS patients (3.0 versus
+5.8 months; HR=1.94; 95% CI: 1.62-2.33; P<0.01). Similarly, median OS was
+significantly shorter in mutant KRAS patients compared with that in wild-type
+KRAS patients (6.9 versus 13.5 months; HR=2.17; 95% CI: 1.72-2.74; P<0.01). The
+meta-analysis strongly suggests that KRAS mutations represent adverse predictive 
+and prognostic biomarkers for tumour response and survival in mCRC patients
+treated with cetuximab. Patients with tumours that harbour mutant-type KRAS are
+more likely to have a worse response, PFS, and OS when treated with cetuximab.

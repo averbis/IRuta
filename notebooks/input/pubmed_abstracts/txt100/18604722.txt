@@ -1,0 +1,13 @@
+Primary mediastinal large B-cell lymphoma (PMLCL) is an aggressive non-Hodgkin
+lymphoma with distinct clinical and gene expression profiles. Outcomes of salvage
+chemotherapy and autologous stem cell transplantation (ASCT) for relapsed or
+refractory disease (RR) have not been well characterised. We retrospectively
+identified 180 consecutive RR patients (37 PMLCL and a control group of 143
+DLBCL) that underwent salvage chemotherapy. The overall response rate (ORR) to
+salvage chemotherapy (25% vs. 48%, p = 0.01) and 2-year OS after diagnosis of RR 
+disease (15% vs. 34%, p = 0.018) was inferior in PMLCL patients. The 2-year
+post-ASCT OS (67% PMLCL vs. 53%, p = 0.78) and PFS (57% PMLCL vs. 36%, p = 0.64) 
+were similar. RR PMLCL had an inferior ORR and survival compared with DLBCL but
+chemosensitive PMLCL and DLBCL patients have similar outcomes post-ASCT.
+Strategies for PMLCL should focus on identifying poor risk patients to test novel
+induction and salvage strategies.

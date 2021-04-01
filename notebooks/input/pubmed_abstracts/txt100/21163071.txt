@@ -1,0 +1,29 @@
+OBJECTIVE: To study the efficacy and safety of cetuximab combined with
+chemotherapy for patients with advanced colorectal cancer (ACRC) and unclear
+K-ras status.
+METHODS: Clinical data of 102 ACRC patients, treated by cetuximab combined with
+chemotherapy in Sun Yat-sen Cancer Center from March 2005 to December 2008, were 
+collected. The cumulative survival rate, objective response rate (ORR), disease
+control rate (DCR), progression free survival (PFS) of the cases were calculated.
+The difference in ORR, DCR, PFS and oval survival (OS) between the regimens used 
+as first-line and non-first-line treatment, and between the regimens including
+oxaliplatin and irinotecan were compared.
+RESULTS: The overall ORR of cetuximab plus chemotherapy was 43.1%, DCR 73.5%,
+median PFS 4.0 months, OS 28.5 months, and the 1-year, 3-year, and 5-year
+survival rate was 89.2%, 50.9% and 27.5%, respectively. The differences in ORR
+(50.0% vs. 40.0%, P = 0.344), DCR (78.1% vs. 72.9%, P = 0.571) and OS (51.0
+months vs. 35.0 months, P = 0.396) between the regimens as first line and as
+non-first line treatment were not statistically significant. However, the PFS of 
+the regimen as first-line was longer than that as non-first-line treatment (PFS
+5.5 months vs. 3.0 months, P = 0.001). The differences in ORR (54.2% vs. 40.0%, P
+= 0.223), DCR (79.2% vs. 74.7%, P = 0.654), PFS (5.0 months vs. 3.0 months, P =
+0.726) and OS (36.0 months vs. 40.0 months, P = 0.759) between cetuximab plus
+oxliplatin and irinotecan were not statistically significant. The most common
+side effects of cetuximab plus chemotherapy were acneiform eruption (80.4%, grade
+3-4 in 9.8%), neutropenia (66.7%, grade 3-4 in 18.6%), and diarrhea (19.6%, grade
+3-4 in 5.9%). No treatment-related death was recorded.
+CONCLUSION: Patients with advanced colorectal cancer and unclear K-ras treated by
+cetuximab combined with chemotherapy have good ORR and OS, and the regimen is
+safe with less adverse events for them. There is no significant difference
+between the efficacies of regimens as first line and as non-first line treatment,
+and between cetuximab plus oxliplatin and cetuximab plus irinotecan regimens.

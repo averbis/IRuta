@@ -1,0 +1,7 @@
+
+
+logo-64x64.png:
+
+- Logo based on the Apache UIMA logo version from the Apache Lucene website.
+
+  https://lucene.apache.org/solr/features.html (Apache License 2.0)

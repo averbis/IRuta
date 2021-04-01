@@ -1,0 +1,17 @@
+BACKGROUND: To evaluate the efficacy and toxicity of erlotinib as the first-line 
+therapy for advanced non-small cell lung cancer (NSCLC).
+METHODS: A total of 28 pathologically-confirmed NSCLC patients who could not
+receive willingly or tolerate traditional cytotoxic drugs chemotherapy were
+enrolled. Erlotinib was orally administered 150 mg daily until disease
+progression or the occurrence of intolerable toxicity.
+RESULTS: Among a total of 28 patients, the objective response rate (ORR) of
+erlotinib was 28.6%. The disease control rate (DCR) was 60.7%. The rate of
+symptom relief was 53.6%. The median progression free survival (PFS) was 3.2
+(95%CI: 0.851-5.585) months. The median overall survival (OS) was 9.6 (95%CI:
+7.179-12.021) months. One-year survival rate was 32.1%. The therapeutic effect
+was better in patients with rash. Most of the toxicities were grade I and grade
+II toxicity. The most common adverse events were rash (46.4%), diarrhea (32.1%), 
+skin dry (25.0%), anorexia(17.9%), fatigue (10.7%) and increased transaminase
+(7.1%).
+CONCLUSIONS: Erlotinib provided another choice for the patients who could not
+willingly receive or tolerate chemotherapy.
