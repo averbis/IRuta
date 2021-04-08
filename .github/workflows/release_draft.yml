@@ -39,7 +39,7 @@ jobs:
           release_name: IRuta ${{ github.event.inputs.releaseVersion }}
           draft: true
           prerelease: true
-          owner: Averbis GmbH
+          owner: averbis
 
       - name: Upload IRuta.zip as Asset
         uses: actions/upload-release-asset@v1
