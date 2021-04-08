@@ -1,5 +1,5 @@
 # IRuta
-A Jupyter kernel for [APACHE UIMA Ruta](https://uima.apache.org/ruta.html), a powerful rule-based engine for annotating documents.
+A Jupyter kernel for Apache [UIMA Ruta](https://uima.apache.org/ruta.html), a powerful rule-based engine for annotating documents.
 
 ## Try IRuta in a Binder
 No installation required. You can immediately start experimenting with our example Ruta notebooks or write your own notebooks by clicking on the following link.
