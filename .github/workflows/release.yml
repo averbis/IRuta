@@ -1,0 +1,32 @@
+name: Release: Attach IRuta kernel as .zip to Release
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check out
+      uses: actions/checkout@v2
+    
+    - name: Set up JDK 1.8
+      uses: actions/setup-java@v1
+      with:
+        java-version: 1.8
+        
+    - name: Build IRuta kernel
+      uses: eskatos/gradle-command-action@v1
+      with:
+         gradle-version: 4.8.1
+         arguments: clean build zipKernel
+         
+    - name: Upload release binaries
+      uses: alexellis/upload-assets@0.2.2
+      env:
+        GITHUB_TOKEN: ${{ github.token }}
+      with:
+        asset_paths: '["./build/distributions/*.zip"]'
