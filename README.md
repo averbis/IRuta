@@ -27,7 +27,7 @@ Please be patient, as this launches a Docker container which may take a short ti
 4.  Check that it installed with `jupyter kernelspec list` which should contain `ruta`.
 
 ### Running IRuta in a Docker container.
-The repository contains a Dockerfile. You can simply execute it by running thw following two commands:
+The repository contains a Dockerfile. You can simply execute it by running the following two commands:
 * Build the docker image: `docker build -t iruta .`
 * Run the docker image: `docker run -p 8888:8888 iruta`
 
