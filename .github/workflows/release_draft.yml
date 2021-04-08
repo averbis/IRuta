@@ -1,0 +1,51 @@
+# Create a release draft for the IRuta kernel with a given release version
+# Workflow can be manually dispatched from "Actions" tab
+# Requires user to insert the Release version, e.g. "0.1.0". This version must match the version in build.gradle.
+name: Release Draft - Create Release Draft and attach IRuta kernel as .zip to Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      releaseVersion:
+        description: "Release Version"
+        required: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out
+        uses: actions/checkout@v2
+
+      - name: Set up JDK 1.8
+        uses: actions/setup-java@v1
+        with:
+          java-version: 1.8
+
+      - name: Build IRuta kernel
+        uses: eskatos/gradle-command-action@v1
+        with:
+          gradle-version: 4.8.1
+          arguments: clean build zipKernel
+
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.event.inputs.releaseVersion }}
+          release_name: IRuta ${{ github.event.inputs.releaseVersion }}
+          draft: true
+          prerelease: true
+
+      - name: Upload IRuta.zip as Asset
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }} # This pulls from the CREATE RELEASE step above, referencing it's ID to get its outputs object, which include a `upload_url`. See this blog post for more info: https://jasonet.co/posts/new-features-of-github-actions/#passing-data-to-future-steps
+          asset_path: ./build/distributions/
+          asset_name: IRuta-${{ github.event.inputs.releaseVersion }}.zip
+          asset_content_type: application/zip
