@@ -15,7 +15,7 @@ RUN python -m sos_notebook.install
 USER root
 
 # Download the kernel release
-ADD build/distributions/iruta-0.1.0.zip iruta.zip
+RUN curl -L https://github.com/averbis/IRuta/releases/download/0.1.0/IRuta-0.1.0.zip > iruta.zip
 
 # Unpack and install the kernel
 RUN unzip iruta.zip -d iruta \
