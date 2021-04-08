@@ -1,6 +1,11 @@
 # IRuta
-A UIMA Ruta kernel for Jupyter Notebook.
+A Jupyter kernel for [APACHE UIMA Ruta](https://uima.apache.org/ruta.html), a powerful rule-based engine for annotating documents.
 
+## Try IRuta in a Binder
+No installation required. You can immediately start experimenting with our example Ruta notebooks or write your own notebooks by clicking on the following link.
+Please be patient, as this launches a Docker container which may take a short time.
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/averbis/IRuta/HEAD)
 ## Installation
 ### Installing Ruta Kernel from our prepackaged releases
 0. **Note**: You first will need to remove an old installation by running `jupyter kernelspec remove ruta`. 
@@ -21,9 +26,15 @@ A UIMA Ruta kernel for Jupyter Notebook.
 
 4.  Check that it installed with `jupyter kernelspec list` which should contain `ruta`.
 
+### Running IRuta in a Docker container.
+The repository contains a Dockerfile. You can simply execute it by running thw following two commands:
+* Build the docker image: `docker build -t iruta .`
+* Run the docker image: `docker run -p 8888:8888 iruta`
+
 ### Building IRuta Kernel on OS X / Linux from source
 * Install SDKMAN: `curl -s "https://get.sdkman.io" | bash`
 * You may need to activate the `sdk` with `source .bashrc` or `source .zshrc` or set the path to it.
 * Install Gradle 4.8.1: `sdk install gradle 4.8.1`
 * Use Gradle 4.8.1: `sdk use gradle 4.8.1`
-* Install IRuta: `gradle clean installKernel -PinstallKernel.python=venv/bin/python
+* Optional, but strongly recommended: Create a virtual environment
+* Install IRuta: `gradle clean installKernel -PinstallKernel.python=venv/bin/python --user` 
