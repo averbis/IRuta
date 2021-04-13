@@ -1,0 +1,7 @@
+dog
+dogs
+cat
+cats
+mice
+zander
+tuna
