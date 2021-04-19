@@ -13,13 +13,27 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package de.averbis.textanalysis.jupyter.ruta;
+package de.averbis.textanalysis.jupyter.ruta.magic;
 
-/**
- *
- * @author entwicklerteam
- */
-public enum DisplayMode {
+import java.util.List;
 
-	NONE, RUTA_COLORING, DYNAMIC_HTML, CSV, EVALUATION
+import de.averbis.textanalysis.jupyter.ruta.IRuta;
+import io.github.spencerpark.jupyter.kernel.magic.registry.LineMagic;
+
+public class EvaluationMagics {
+
+	public EvaluationMagics() {
+
+		super();
+	}
+
+
+	@LineMagic(aliases = { "evalTypes" })
+	public String setEvalTypes(List<String> args) {
+
+		IRuta.getInstance().setEvaluationTypeNames(args);
+
+		return null;
+	}
+
 }

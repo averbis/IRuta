@@ -40,7 +40,6 @@ import java.util.UUID;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 
-import org.apache.commons.io.IOUtils;
 import org.apache.uima.cas.Type;
 import org.apache.uima.jcas.JCas;
 import org.apache.uima.jcas.tcas.Annotation;
@@ -471,7 +470,7 @@ public class CasToHtmlRenderer {
 			return;
 		}
 
-		StringBuffer pretty = new StringBuffer();
+		StringBuilder pretty = new StringBuilder();
 		annotation.prettyPrint(0, 2, pretty, true, getTeaser(annotation));
 		Element pre = createElementWithSameNamespace(annotations, HtmlConstants.ELEM_PRE);
 		pre.setAttribute(ATTR_CLASS, getTypeId(annotation.getType()));
@@ -593,20 +592,6 @@ public class CasToHtmlRenderer {
 
 		return this.getClass().getClassLoader()
 				.getResourceAsStream(CasToHtmlRenderer.TEMPLATE);
-	}
-
-
-	/**
-	 * Return the content from an UTF-8 encoded text file within the resources on the class path.
-	 *
-	 * @param name
-	 * @return file content
-	 * @throws IOException
-	 */
-	private String getResourceContent(String name) throws IOException {
-
-		InputStream input = this.getClass().getClassLoader().getResourceAsStream(name);
-		return input == null ? null : IOUtils.toString(input, "UTF-8");
 	}
 
 

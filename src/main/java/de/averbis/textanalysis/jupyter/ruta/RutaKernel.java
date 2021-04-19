@@ -1,6 +1,6 @@
 /*
  * Copyright (c) 2021, Averbis GmbH. All rights reserved.
- * 
+ *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -28,6 +28,7 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -66,6 +67,7 @@ import de.averbis.textanalysis.jupyter.ruta.html.CasToHtmlRenderer;
 import de.averbis.textanalysis.jupyter.ruta.magic.CASMagics;
 import de.averbis.textanalysis.jupyter.ruta.magic.DirectoryMagics;
 import de.averbis.textanalysis.jupyter.ruta.magic.DisplayModeMagics;
+import de.averbis.textanalysis.jupyter.ruta.magic.EvaluationMagics;
 import de.averbis.textanalysis.jupyter.ruta.magic.RelationalDataMagics;
 import de.averbis.textanalysis.jupyter.ruta.magic.RutaEngineMagics;
 import io.github.spencerpark.jupyter.kernel.BaseKernel;
@@ -105,11 +107,13 @@ public class RutaKernel extends BaseKernel {
 	private SerialFormat serialFormat = SerialFormat.XMI;
 	private DisplayMode displayMode = DisplayMode.RUTA_COLORING;
 	private List<String> csvConfig;
+	private List<String> evaluationTypeNames;
 
 	private JCas jcas;
 	private TypeSystemDescription typeSystemDescription;
 	private List<String[]> relationalData = new ArrayList<>();
 	private List<String[]> relationalDatawithHihglighting = new ArrayList<>();
+	private Map<String, Map<String, EvaluationResult>> evaluationData;
 
 	private TypeSystemDescription rutaTypeSystem;
 	private List<String> rutaTypeNames;
@@ -138,6 +142,7 @@ public class RutaKernel extends BaseKernel {
 		magics.registerMagics(new RutaEngineMagics());
 		magics.registerMagics(new DisplayModeMagics());
 		magics.registerMagics(new RelationalDataMagics());
+		magics.registerMagics(new EvaluationMagics());
 
 		initializeMagicNames();
 
@@ -218,6 +223,7 @@ public class RutaKernel extends BaseKernel {
 		// reset and do not append across cell runs
 		relationalData = new ArrayList<>();
 		relationalDatawithHihglighting = new ArrayList<>();
+		evaluationData = new LinkedHashMap<>();
 
 		if (inputDir != null) {
 			if (!inputDir.exists()) {
@@ -236,7 +242,7 @@ public class RutaKernel extends BaseKernel {
 			for (File file : files) {
 
 				System.out.print("Processed " + counter++ + "/" + files.size() + " files.\r");
-				RutaUtils.fillCas(jcas.getCas(), file, StandardCharsets.UTF_8);
+				RutaUtils.fillCas(jcas.getCas(), file, StandardCharsets.UTF_8, evaluationTypeNames);
 				process(file.getName(), analysisEngineDescription);
 			}
 			long end = System.currentTimeMillis();
@@ -249,6 +255,7 @@ public class RutaKernel extends BaseKernel {
 		}
 
 		printRelationalDataSummary();
+		printEvaluationSummary();
 
 		saveCsv();
 
@@ -263,6 +270,7 @@ public class RutaKernel extends BaseKernel {
 		RutaUtils.applyRuta(jcas, analysisEngineDescription, resourceManager);
 		saveCas(docName);
 		addRelationalData(docName);
+		addEvaluationData(docName);
 	}
 
 
@@ -272,14 +280,21 @@ public class RutaKernel extends BaseKernel {
 			int size = 0;
 			if (saveCsvFile != null) {
 				size = relationalData.size();
+				System.out.println(size + " rows stored.");
 			}
 			if (displayMode.equals(DisplayMode.CSV)) {
 				size = relationalDatawithHihglighting.size();
+				System.out.println(size + " rows created.");
 			}
-
-			System.out.println(size + " rows created.");
 		}
+	}
 
+
+	private void printEvaluationSummary() {
+
+		// TODO print to console?
+		// for (Entry<String, Map<String, EvaluationResult>> docEntry : evaluationData.entrySet()) {
+		// }
 	}
 
 
@@ -292,6 +307,8 @@ public class RutaKernel extends BaseKernel {
 				return createDynamicHtmlDisplayData();
 			case CSV:
 				return createCSVDisplayData();
+			case EVALUATION:
+				return createEvaluationDisplayData();
 			case NONE:
 			default:
 				return null;
@@ -316,6 +333,14 @@ public class RutaKernel extends BaseKernel {
 		DisplayData displayData = new DisplayData();
 		MIMEType mimeType = MIMEType.TEXT_HTML;
 		displayData.putData(mimeType, html);
+		return displayData;
+	}
+
+
+	private DisplayData createEvaluationDisplayData() {
+
+		DisplayData displayData = new DisplayData();
+		displayData.putHTML(EvaluationUtils.createHtmlTable(evaluationData));
 		return displayData;
 	}
 
@@ -370,6 +395,16 @@ public class RutaKernel extends BaseKernel {
 			result.add(row);
 		}
 		return result;
+	}
+
+
+	private void addEvaluationData(String currentDocumentName) {
+
+		if (evaluationTypeNames != null && !evaluationTypeNames.isEmpty()) {
+			Map<String, EvaluationResult> docResult = EvaluationUtils.evaluate(currentDocumentName,
+					evaluationTypeNames, jcas);
+			evaluationData.put(currentDocumentName, docResult);
+		}
 	}
 
 
@@ -709,7 +744,8 @@ public class RutaKernel extends BaseKernel {
 		// CAS was specificially set via %readCas line magic
 		if (loadCasFile != null) {
 			jcas.reset();
-			RutaUtils.fillCas(jcas.getCas(), loadCasFile, StandardCharsets.UTF_8);
+			RutaUtils.fillCas(jcas.getCas(), loadCasFile, StandardCharsets.UTF_8,
+					evaluationTypeNames);
 			documentName = loadCasFile.getName();
 			loadCasFile = null;
 			// This resets other input modalities
@@ -991,4 +1027,17 @@ public class RutaKernel extends BaseKernel {
 
 		return typeSystemDescription;
 	}
+
+
+	public void setEvaluationTypeNames(List<String> evalTypes) {
+
+		evaluationTypeNames = evalTypes;
+	}
+
+
+	public List<String> getEvaluationTypeNames() {
+
+		return evaluationTypeNames;
+	}
+
 }

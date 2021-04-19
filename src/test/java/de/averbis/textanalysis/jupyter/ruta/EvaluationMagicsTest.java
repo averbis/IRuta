@@ -15,11 +15,33 @@
  */
 package de.averbis.textanalysis.jupyter.ruta;
 
+import static org.assertj.core.api.Assertions.assertThat;
+
+import org.junit.Before;
+import org.junit.Test;
+
 /**
  *
  * @author entwicklerteam
  */
-public enum DisplayMode {
+public class EvaluationMagicsTest {
 
-	NONE, RUTA_COLORING, DYNAMIC_HTML, CSV, EVALUATION
+	private RutaKernel kernel = IRuta.getInstance();
+
+
+	@Before
+	public void resetKernel() {
+
+		kernel.clear();
+	}
+
+
+	@Test
+	public void setEvalTypes() throws Exception {
+
+		String cell = "%evalTypes CW SW";
+		kernel.eval(cell);
+		assertThat(kernel.getEvaluationTypeNames()).containsExactly("CW", "SW");
+	}
+
 }
