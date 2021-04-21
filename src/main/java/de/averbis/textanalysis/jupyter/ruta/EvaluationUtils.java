@@ -58,7 +58,7 @@ public class EvaluationUtils {
 		CAS cas = jcas.getCas();
 		CAS goldCas = cas.createView(GOLD);
 		// TODO set text
-		// goldCas.setDocumentText(cas.getDocumentText());
+		goldCas.setDocumentText(cas.getDocumentText());
 		CasCopier cc = new CasCopier(cas, goldCas);
 		TypeSystem typeSystem = cas.getTypeSystem();
 

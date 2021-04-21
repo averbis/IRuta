@@ -423,13 +423,14 @@ public class RutaKernelTest {
 
 
 	@Test
-	public void thatReferencesNotebookWorks() throws Exception {
+	public void thatCasUpgradeWithGoldDocumentText() throws Exception {
 
-		KERNEL.eval("%inputDir data/part1\n" +
-				"%outputDir out1\n" +
+		FileUtils.deleteDirectory(new File("target/test-ouput/references/out1"));
+
+		KERNEL.eval("%inputDir src/test/resources/test-data/references\n" +
+				"%outputDir target/test-ouput/references/out1\n" +
 				"%displayMode EVALUATION\n" +
 				"%evalTypes Date\n" +
-				"//%evalTypes Author Date Title Venue\n" +
 				"\n" +
 				"TYPESYSTEM ReferencesTypeSystem;\n" +
 				"\n" +
@@ -443,9 +444,9 @@ public class RutaKernelTest {
 				"    (@YearInd{-PARTOF(Date)} COMMA[0,2]){-> Date};\n" +
 				"    PERIOD (@YearInd{-PARTOF(Date)} PERIOD){-> Date};\n" +
 				"    SW d:@Date{-> UNMARK(Date)};\n" +
-				"}\n" +
-				"");
-		String cell = "%inputDir out1\n" +
+				"}\n");
+		String cell = "%inputDir target/test-ouput/references/out1\n" +
+				"%outputDir target/test-ouput/references/out2\n" +
 				"%displayMode CSV\n" +
 				"%csvConfig BadReference\n" +
 				"\n" +
