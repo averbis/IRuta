@@ -1,0 +1,48 @@
+//%inputDir data/train
+//%outputDir out_title_train
+//%displayMode EVALUATION
+//%evalTypes Title
+//%writescript ./Title.ruta
+//%saveTypeSystem ./TitleTypeSystem.xml
+
+TYPESYSTEM ReferencesTypeSystem;
+SCRIPT Date;
+SCRIPT Author;
+
+Document{-CONTAINS(Date)-> CALL(Date)};
+Document{-CONTAINS(Author)-> CALL(Author)};
+
+INT maxLength = 50;
+DECLARE TitleStart, TitleStop, Quote, Quoted;
+
+BLOCK(utils) Reference{}{
+    
+    SPECIAL{REGEXP("\"")->Quote};
+    (Quote ANY[1,maxLength]{-PARTOF(Quote)} Quote){-> Quoted};
+    
+    (Author Date?){-> MARKLAST(TitleStart)};
+    Reference{-CONTAINS(TitleStart), -CONTAINS(Author)} ->{
+        (AuthorStop Date?){-> MARKLAST(TitleStart)};
+    };
+    
+    PERIOD{-PARTOF(Author),-PARTOF(Title)-> TitleStop};
+    
+    NUM ts:@TitleStop{-> UNMARK(ts)} NUM;
+    ts:TitleStop{ENDSWITH(Reference)-> UNMARK(ts)};
+    ts:TitleStop{-> UNMARK(ts)} # TitleStart;
+    W{REGEXP("pp", true)} ts:@TitleStop{-> UNMARK(ts)};
+    sw1:SW ts:@TitleStop{sw1.end==ts.begin,ts.end==sw2.begin-> UNMARK(ts)} sw2:SW;
+    
+    Reference{-CONTAINS(TitleStop)} ->{
+        TitleStart # COMMA{->TitleStop};
+    };
+}
+
+BLOCK(Title) Reference{}{
+    TitleStart Quoted{-PARTOF(Title)-> Title};
+    TitleStart (ANY[1,maxLength]{-PARTOF(TitleStop),-PARTOF(Title)} TitleStop){-> Title};    
+    t:Title{->t.end=e.end} e:ANY{PARTOF({PERIOD,COMMA})};
+    
+    t1:Title{CONTAINS(Title,2,100)}->{t2:Title{t2!=t1-> UNMARK(t2)};};
+}
+

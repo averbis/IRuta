@@ -1,0 +1,44 @@
+//%inputDir data/test
+//%outputDir out_author_train
+//%displayMode EVALUATION
+//%evalTypes Author
+//%writescript ./Author.ruta
+//%saveTypeSystem ./AuthorTypeSystem.xml
+
+TYPESYSTEM ReferencesTypeSystem;
+SCRIPT Date;
+
+Document{-CONTAINS(Date)-> CALL(Date)};
+
+DECLARE FirstInRef, AuthorStopInd, AuthorStop;
+DECLARE Initial, EditorInd, NoAuthorInd;
+
+WORDLIST EditorList = "editor_ind.txt";
+MARKFAST(EditorInd, EditorList, true);
+WORDLIST NoAuthorList = "no_author.txt";
+MARKFAST(NoAuthorInd, NoAuthorList, true);
+
+BLOCK(utils) Document{}{
+    Reference{-> MARKFIRST(FirstInRef)};
+    
+    CW{REGEXP(".")-> Initial};
+    (CW{REGEXP("..")} PERIOD){-> Initial};
+    CAP{REGEXP(".{2,3}")-> Initial};
+    i:Initial{->i.end=p.end} p:PERIOD; 
+    
+    ANY{-> AuthorStopInd} @Date;
+    PERIOD{-PARTOF(Initial)-> AuthorStopInd};
+    COLON{-> AuthorStopInd};
+    as:AuthorStopInd{-> UNMARK(as)} Initial{ENDSWITH(PERIOD)};
+}
+
+BLOCK(Author) Reference{}{
+   
+    # AuthorStopInd{-> AuthorStop};
+    
+    (FirstInRef # AuthorStop){-> Author};
+    a:Author{CONTAINS(EditorInd)-> UNMARK(a)};
+    a:Author{CONTAINS(NoAuthorInd)-> UNMARK(a)};
+}
+
+

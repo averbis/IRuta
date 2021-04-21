@@ -2,12 +2,42 @@
 <typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
     <types>
         <typeDescription>
+            <name>AuthorStop</name>
+            <description>Type defined in unknown script.</description>
+            <supertypeName>uima.tcas.Annotation</supertypeName>
+        </typeDescription>
+        <typeDescription>
+            <name>AuthorStopInd</name>
+            <description>Type defined in unknown script.</description>
+            <supertypeName>uima.tcas.Annotation</supertypeName>
+        </typeDescription>
+        <typeDescription>
             <name>BadReference</name>
             <description>Type defined in unknown script.</description>
             <supertypeName>uima.tcas.Annotation</supertypeName>
         </typeDescription>
         <typeDescription>
+            <name>EditorInd</name>
+            <description>Type defined in unknown script.</description>
+            <supertypeName>uima.tcas.Annotation</supertypeName>
+        </typeDescription>
+        <typeDescription>
+            <name>FirstInRef</name>
+            <description>Type defined in unknown script.</description>
+            <supertypeName>uima.tcas.Annotation</supertypeName>
+        </typeDescription>
+        <typeDescription>
+            <name>Initial</name>
+            <description>Type defined in unknown script.</description>
+            <supertypeName>uima.tcas.Annotation</supertypeName>
+        </typeDescription>
+        <typeDescription>
             <name>MonthInd</name>
+            <description>Type defined in unknown script.</description>
+            <supertypeName>uima.tcas.Annotation</supertypeName>
+        </typeDescription>
+        <typeDescription>
+            <name>NoAuthorInd</name>
             <description>Type defined in unknown script.</description>
             <supertypeName>uima.tcas.Annotation</supertypeName>
         </typeDescription>

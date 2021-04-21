@@ -1,0 +1,17 @@
+//%inputDir data/train
+//%outputDir out_complete_train
+//%displayMode EVALUATION
+//%evalTypes Date
+//%writescript ./Complete.ruta
+//%saveTypeSystem ./CompleteTypeSystem.xml
+
+TYPESYSTEM ReferencesTypeSystem;
+SCRIPT Date;
+SCRIPT Author;
+SCRIPT Title;
+
+CALL(Date);
+CALL(Author);
+CALL(Title);
+
+ANY+{-PARTOF(ReferenceEntity) -> Venue};

@@ -1,5 +1,5 @@
-//%inputDir data/part1
-//%outputDir out1
+//%inputDir data/train
+//%outputDir out_date_train
 //%displayMode EVALUATION
 //%evalTypes Date
 //%writescript ./Date.ruta
@@ -45,4 +45,10 @@ BLOCK(Date) Reference{}{
     NUM SPECIAL d2:@Date{-> UNMARK(d2)};
 }
 
-
+// if there are several dates in one reference, try to remove some potetially false positive
+Reference{CONTAINS(Date,2,100)} -> {
+    CAP SPECIAL? d:@Date{-> UNMARK(d)};
+};
+Reference{CONTAINS(Date,2,100)} -> {
+     d:@Date{-> UNMARK(d)} SPECIAL? CAP;
+};

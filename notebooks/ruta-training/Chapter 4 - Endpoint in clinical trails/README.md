@@ -1,4 +1,4 @@
-# Unit 1 - Endpoints in clinical trails
+# Chapter 4 - Endpoints in clinical trails
 
 The goal of this unit is to create an prototypical application for extracting endpoint information from
 pubmed abstracts about clinical trials. Further information about clinical endpoints in general
