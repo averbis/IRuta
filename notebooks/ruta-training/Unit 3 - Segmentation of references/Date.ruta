@@ -1,0 +1,48 @@
+//%inputDir data/part1
+//%outputDir out1
+//%displayMode EVALUATION
+//%evalTypes Date
+//%writescript ./Date.ruta
+//%saveTypeSystem ./DateTypeSystem.xml
+
+TYPESYSTEM ReferencesTypeSystem;
+
+DECLARE MonthInd, YearInd;
+WORDLIST MonthList = "months.txt";
+MARKFAST(MonthInd, MonthList);
+
+DECLARE NoDatePrefix;
+WORDLIST NoDatePrefixList = "no_date_prefix.txt";
+MARKFAST(NoDatePrefix, NoDatePrefixList);
+
+BLOCK(Date) Reference{}{
+    
+    // some simple candidates for dates
+    NUM{REGEXP("19..|20..")-> YearInd};
+    // some dates also have an additional char
+    y:@YearInd{-> y.end=sw.end} sw:SW{REGEXP("[abc]")};
+    
+    // create dates using YearInd
+    (SPECIAL.ct=="(" @YearInd SPECIAL.ct==")" COMMA?){-> Date};
+    (@YearInd{-PARTOF(Date)} PERIOD){-> Date};
+    (@YearInd{-PARTOF(Date)} COMMA[0,2]){-> Date};
+    
+    // expand Dates based on context
+    m:MonthInd (NUM SPECIAL)? NUM COMMA? d:@Date{-> d.begin = m.begin};
+    s:NUM SPECIAL NUM MonthInd d:@Date{-> d.begin = s.begin};
+    m:MonthInd d:@Date{-> d.begin = m.begin};
+    w1:W{INLIST(MonthList, ""+w1.ct+w2.ct)} SPECIAL w2:W d:@Date{-> d.begin = w1.begin};
+    
+    //(MonthInd{-PARTOF(Date)} PERIOD?){-> Date};
+    
+    s1:SPECIAL.ct=="(" d:@Date{-> d.begin=s1.begin,d.end=s2.end} s2:SPECIAL.ct==")";
+    d:@Date{-> d.end=e.end} e:PERIOD;
+    b:NUM{REGEXP(".|[12].|3[01]")} d:@Date{STARTSWITH(YearInd)-> d.begin=b.begin};
+    
+    // remove some false positive dates
+    NoDatePrefix SPECIAL? d:@Date{-> UNMARK(d)};
+    d1:Date{-> UNMARK(d1)} SPECIAL NUM;
+    NUM SPECIAL d2:@Date{-> UNMARK(d2)};
+}
+
+
