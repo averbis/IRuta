@@ -29,6 +29,7 @@ import org.apache.uima.cas.TypeSystem;
 import org.apache.uima.cas.text.AnnotationFS;
 import org.apache.uima.fit.util.CasUtil;
 import org.apache.uima.jcas.JCas;
+import org.apache.uima.ruta.RutaBasicUtils;
 import org.apache.uima.ruta.type.EvalAnnotation;
 import org.apache.uima.ruta.type.FalseNegative;
 import org.apache.uima.ruta.type.FalsePositive;
@@ -52,14 +53,16 @@ public class EvaluationUtils {
 	}
 
 
-	public static void createGoldView(JCas jcas, List<String> evluationTypeNames) {
+	public static void createGoldView(JCas jcas, List<String> evaluationTypeNames) {
 
 		CAS cas = jcas.getCas();
 		CAS goldCas = cas.createView(GOLD);
+		// TODO set text
+		// goldCas.setDocumentText(cas.getDocumentText());
 		CasCopier cc = new CasCopier(cas, goldCas);
 		TypeSystem typeSystem = cas.getTypeSystem();
 
-		for (String typeName : evluationTypeNames) {
+		for (String typeName : evaluationTypeNames) {
 
 			Type type = CsvUtils.getTypeByName(typeName, typeSystem);
 			if (type == null) {
@@ -80,8 +83,7 @@ public class EvaluationUtils {
 	}
 
 
-	public static Map<String, EvaluationResult> evaluate(String name,
-			List<String> evaluationTypeNames,
+	public static Map<String, EvaluationResult> evaluate(List<String> evaluationTypeNames,
 			JCas jcas) {
 
 		Map<String, EvaluationResult> result = new TreeMap<>();
@@ -95,7 +97,7 @@ public class EvaluationUtils {
 						"Evaluation type '" + typeName + "' not defined in type system.");
 			}
 
-			EvaluationResult evalResult = evaluate(name + " [" + typeName + "]", type, jcas);
+			EvaluationResult evalResult = evaluate(typeName, type, jcas);
 			result.put(typeName, evalResult);
 		}
 
@@ -110,9 +112,10 @@ public class EvaluationUtils {
 		if (goldCas == null) {
 			throw new IllegalArgumentException("No gold view available for evaluation.");
 		}
+		Type goldType = goldCas.getTypeSystem().getType(type.getName());
 
 		Collection<AnnotationFS> annotations = CasUtil.select(cas, type);
-		Collection<AnnotationFS> goldAnnotations = CasUtil.select(goldCas, type);
+		Collection<AnnotationFS> goldAnnotations = CasUtil.select(goldCas, goldType);
 
 		Collection<AnnotationFS> tps = new ArrayList<>();
 		Collection<AnnotationFS> fps = new ArrayList<>();
@@ -179,6 +182,7 @@ public class EvaluationUtils {
 			AnnotationFS outcomeAnnotation = cas.createAnnotation(outcomeType, each.getBegin(),
 					each.getEnd());
 			outcomeAnnotation.setFeatureValue(feature, each);
+			RutaBasicUtils.addAnnotation(outcomeAnnotation);
 			cas.addFsToIndexes(outcomeAnnotation);
 		}
 
@@ -192,7 +196,8 @@ public class EvaluationUtils {
 		sb.append("<html>");
 		sb.append("<table>");
 		sb.append("<tr>");
-		sb.append("<th>Name</th>");
+		sb.append("<th>Document</th>");
+		sb.append("<th>Type</th>");
 		sb.append("<th>F1</th>");
 		sb.append("<th>Precision</th>");
 		sb.append("<th>Recall</th>");
@@ -202,19 +207,27 @@ public class EvaluationUtils {
 		sb.append("</tr>");
 		sb.append("\n");
 
+		EvaluationResult overallResult = new EvaluationResult("All");
 		for (Entry<String, Map<String, EvaluationResult>> docEntry : evaluationData.entrySet()) {
 
 			String docName = docEntry.getKey();
+			if (evaluationData.size() == 1) {
+				docName = null;
+			}
 			Map<String, EvaluationResult> typeMap = docEntry.getValue();
-			EvaluationResult docResult = new EvaluationResult(docName);
+
+			EvaluationResult docResult = new EvaluationResult("All");
 			for (Entry<String, EvaluationResult> typeEntry : typeMap.entrySet()) {
 				docResult.add(typeEntry.getValue());
 			}
-			docResult.appendHtmlRow(sb);
+			docResult.appendHtmlRow(docName, sb);
 			for (Entry<String, EvaluationResult> typeEntry : typeMap.entrySet()) {
-				typeEntry.getValue().appendHtmlRow(sb);
+				typeEntry.getValue().appendHtmlRow("", sb);
 			}
+
+			overallResult.add(docResult);
 		}
+		overallResult.appendHtmlRow("Overall", sb);
 		sb.append("</table>");
 		sb.append("</html>");
 		return sb.toString();

@@ -183,9 +183,14 @@ public class EvaluationResult {
 	}
 
 
-	public void appendHtmlRow(StringBuilder sb) {
+	public void appendHtmlRow(String docName, StringBuilder sb) {
 
 		sb.append("<tr>");
+		if (docName != null) {
+			sb.append("<td>");
+			sb.append(docName);
+			sb.append("</td>");
+		}
 		sb.append("<td>");
 		sb.append(name);
 		sb.append("</td>");

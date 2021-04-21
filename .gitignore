@@ -12,3 +12,4 @@ venv
 notebooks/output/
 test-output/
 notebooks/batch_incremental/stage*
+TypeSystem.xml

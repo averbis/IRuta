@@ -1,6 +1,6 @@
 /*
  * Copyright (c) 2021, Averbis GmbH. All rights reserved.
- * 
+ *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -408,4 +408,57 @@ public class RutaKernelTest {
 		assertThatExceptionOfType(MagicsProcessorException.class)
 				.isThrownBy(() -> KERNEL.eval("%DUMMY\n"));
 	}
+
+
+	@Test
+	public void thatEvaluateCreatesEvalAnnotations() throws Exception {
+
+		DisplayData eval = KERNEL.eval("%loadCas src/test/resources/test-input/xmi/example.xmi\" \n"
+				+ "%evalTypes CW \n"
+				+ "COLOR(FalsePositive,\"pink\");");
+
+		String html = (String) eval.getData(MIMEType.TEXT_HTML);
+		Assert.assertTrue(html.contains("'background:#ffc0cb'")); // pink
+	}
+
+
+	@Test
+	public void thatReferencesNotebookWorks() throws Exception {
+
+		KERNEL.eval("%inputDir data/part1\n" +
+				"%outputDir out1\n" +
+				"%displayMode EVALUATION\n" +
+				"%evalTypes Date\n" +
+				"//%evalTypes Author Date Title Venue\n" +
+				"\n" +
+				"TYPESYSTEM ReferencesTypeSystem;\n" +
+				"\n" +
+				"DECLARE YearInd;\n" +
+				"\n" +
+				"BLOCK(Date) Reference{}{\n" +
+				"    \n" +
+				"    NUM{REGEXP(\"19..|20..\")-> YearInd};\n" +
+				"    \n" +
+				"    (SPECIAL.ct==\"(\" @YearInd SPECIAL.ct==\")\" COMMA?){-> Date};\n" +
+				"    (@YearInd{-PARTOF(Date)} COMMA[0,2]){-> Date};\n" +
+				"    PERIOD (@YearInd{-PARTOF(Date)} PERIOD){-> Date};\n" +
+				"    SW d:@Date{-> UNMARK(Date)};\n" +
+				"}\n" +
+				"");
+		String cell = "%inputDir out1\n" +
+				"%displayMode CSV\n" +
+				"%csvConfig BadReference\n" +
+				"\n" +
+				"DECLARE BadReference;\n" +
+				"Reference{OR(CONTAINS(FalsePositive),CONTAINS(FalseNegative))};\n" +
+				"\n" +
+				"COLOR(TruePositive, \"lightgreen\");\n" +
+				"COLOR(FalsePositive, \"lightblue\");\n" +
+				"COLOR(FalseNegative, \"lightred\");";
+		DisplayData eval = KERNEL.eval(cell);
+
+		String html = (String) eval.getData(MIMEType.TEXT_HTML);
+		System.out.println(html);
+	}
+
 }

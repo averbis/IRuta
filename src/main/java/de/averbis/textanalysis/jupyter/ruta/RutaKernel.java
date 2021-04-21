@@ -51,10 +51,7 @@ import org.apache.uima.resource.ResourceInitializationException;
 import org.apache.uima.resource.ResourceManager;
 import org.apache.uima.resource.metadata.TypeDescription;
 import org.apache.uima.resource.metadata.TypeSystemDescription;
-import org.apache.uima.ruta.RutaProcessRuntimeException;
 import org.apache.uima.ruta.descriptor.RutaDescriptorInformation;
-import org.apache.uima.ruta.extensions.RutaParseException;
-import org.apache.uima.ruta.extensions.RutaParseRuntimeException;
 import org.apache.uima.ruta.resource.RutaResourceLoader;
 import org.apache.uima.util.CasCreationUtils;
 import org.apache.uima.util.CasIOUtils;
@@ -257,6 +254,9 @@ public class RutaKernel extends BaseKernel {
 		printRelationalDataSummary();
 		printEvaluationSummary();
 
+		// reset, only evaluate in one cell
+		evaluationTypeNames = null;
+
 		saveCsv();
 
 		DisplayData displayData = createDisplayData();
@@ -268,9 +268,9 @@ public class RutaKernel extends BaseKernel {
 			throws ResourceInitializationException, AnalysisEngineProcessException, IOException {
 
 		RutaUtils.applyRuta(jcas, analysisEngineDescription, resourceManager);
-		saveCas(docName);
 		addRelationalData(docName);
 		addEvaluationData(docName);
+		saveCas(docName);
 	}
 
 
@@ -383,7 +383,9 @@ public class RutaKernel extends BaseKernel {
 		for (AnnotationFS annotationFS : annotations) {
 			int index = 0;
 			String[] row = new String[2 + featurePaths.size()];
-			row[index++] = currentDocumentName;
+			if (currentDocumentName != null) {
+				row[index++] = currentDocumentName;
+			}
 			if (withHighlighting) {
 				row[index++] = RutaColoringUtils.createHighlightingHtml(annotationFS);
 			} else {
@@ -401,8 +403,8 @@ public class RutaKernel extends BaseKernel {
 	private void addEvaluationData(String currentDocumentName) {
 
 		if (evaluationTypeNames != null && !evaluationTypeNames.isEmpty()) {
-			Map<String, EvaluationResult> docResult = EvaluationUtils.evaluate(currentDocumentName,
-					evaluationTypeNames, jcas);
+			Map<String, EvaluationResult> docResult = EvaluationUtils.evaluate(evaluationTypeNames,
+					jcas);
 			evaluationData.put(currentDocumentName, docResult);
 		}
 	}
@@ -454,7 +456,10 @@ public class RutaKernel extends BaseKernel {
 	private void saveScript(String script) throws IOException {
 
 		if (writeScriptFile != null) {
-			writeScriptFile.getParentFile().mkdirs();
+			File parentFile = writeScriptFile.getParentFile();
+			if (parentFile != null) {
+				parentFile.mkdirs();
+			}
 			FileUtils.writeStringToFile(writeScriptFile, script, StandardCharsets.UTF_8);
 			writeScriptFile = null;
 		}
@@ -644,30 +649,30 @@ public class RutaKernel extends BaseKernel {
 	@Override
 	public List<String> formatError(Exception e) {
 
-		// return super.formatError(e);
-		Exception root = getRootException(e);
-		String message = root.getMessage();
-
-		// options to provide special logic
-		if (root instanceof RutaParseException) {
-			return Arrays.asList(message);
-		}
-		if (root instanceof RutaParseRuntimeException) {
-			return Arrays.asList(message);
-		}
-		if (root instanceof RutaProcessRuntimeException) {
-			return Arrays.asList(message);
-		}
-		if (root instanceof ResourceInitializationException) {
-			return Arrays.asList(message);
-		}
-
-		if (root instanceof RuntimeException && !StringUtils.isBlank(message)) {
-			return Arrays.asList(message);
-		}
-
-		// fallback to stacktrace
-		return super.formatError(root);
+		return super.formatError(e);
+		// Exception root = getRootException(e);
+		// String message = root.getMessage();
+		//
+		// // options to provide special logic
+		// if (root instanceof RutaParseException) {
+		// return Arrays.asList(message);
+		// }
+		// if (root instanceof RutaParseRuntimeException) {
+		// return Arrays.asList(message);
+		// }
+		// if (root instanceof RutaProcessRuntimeException) {
+		// return Arrays.asList(message);
+		// }
+		// if (root instanceof ResourceInitializationException) {
+		// return Arrays.asList(message);
+		// }
+		//
+		// if (root instanceof RuntimeException && !StringUtils.isBlank(message)) {
+		// return Arrays.asList(message);
+		// }
+		//
+		// // fallback to stacktrace
+		// return super.formatError(root);
 	}
 
 

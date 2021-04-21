@@ -44,7 +44,7 @@ public class EvaluationUtilsTest {
 
 		Ruta.apply(jcas.getCas(), "(CW SW){->Line} PERIOD; CW{->Line};");
 
-		Map<String, EvaluationResult> map = EvaluationUtils.evaluate("test", types, jcas);
+		Map<String, EvaluationResult> map = EvaluationUtils.evaluate(types, jcas);
 
 		Assert.assertEquals(1, map.size());
 
