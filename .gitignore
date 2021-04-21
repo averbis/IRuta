@@ -1,3 +1,4 @@
+# Dynamically generated files
 bin/
 target/
 .buildpath
@@ -7,9 +8,16 @@ target/
 .factorypath
 /.gradle/
 /build/
+.gradle/
+TypeSystem.xml
+
+# IDE-related
+.idea/
 venv
+
+# Notebook-related
 .ipynb_checkpoints
 notebooks/output/
-test-output/
 notebooks/batch_incremental/stage*
-TypeSystem.xml
+test-output/
+
