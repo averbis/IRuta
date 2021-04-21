@@ -51,7 +51,10 @@ import org.apache.uima.resource.ResourceInitializationException;
 import org.apache.uima.resource.ResourceManager;
 import org.apache.uima.resource.metadata.TypeDescription;
 import org.apache.uima.resource.metadata.TypeSystemDescription;
+import org.apache.uima.ruta.RutaProcessRuntimeException;
 import org.apache.uima.ruta.descriptor.RutaDescriptorInformation;
+import org.apache.uima.ruta.extensions.RutaParseException;
+import org.apache.uima.ruta.extensions.RutaParseRuntimeException;
 import org.apache.uima.ruta.resource.RutaResourceLoader;
 import org.apache.uima.util.CasCreationUtils;
 import org.apache.uima.util.CasIOUtils;
@@ -649,30 +652,30 @@ public class RutaKernel extends BaseKernel {
 	@Override
 	public List<String> formatError(Exception e) {
 
-		return super.formatError(e);
-		// Exception root = getRootException(e);
-		// String message = root.getMessage();
-		//
-		// // options to provide special logic
-		// if (root instanceof RutaParseException) {
-		// return Arrays.asList(message);
-		// }
-		// if (root instanceof RutaParseRuntimeException) {
-		// return Arrays.asList(message);
-		// }
-		// if (root instanceof RutaProcessRuntimeException) {
-		// return Arrays.asList(message);
-		// }
-		// if (root instanceof ResourceInitializationException) {
-		// return Arrays.asList(message);
-		// }
-		//
-		// if (root instanceof RuntimeException && !StringUtils.isBlank(message)) {
-		// return Arrays.asList(message);
-		// }
-		//
-		// // fallback to stacktrace
-		// return super.formatError(root);
+		// return super.formatError(e);
+		Exception root = getRootException(e);
+		String message = root.getMessage();
+
+		// options to provide special logic
+		if (root instanceof RutaParseException) {
+			return Arrays.asList(message);
+		}
+		if (root instanceof RutaParseRuntimeException) {
+			return Arrays.asList(message);
+		}
+		if (root instanceof RutaProcessRuntimeException) {
+			return Arrays.asList(message);
+		}
+		if (root instanceof ResourceInitializationException) {
+			return Arrays.asList(message);
+		}
+
+		if (root instanceof RuntimeException && !StringUtils.isBlank(message)) {
+			return Arrays.asList(message);
+		}
+
+		// fallback to stacktrace
+		return super.formatError(root);
 	}
 
 
@@ -809,11 +812,13 @@ public class RutaKernel extends BaseKernel {
 		displayMode = DisplayMode.RUTA_COLORING;
 		configurationParameters = null;
 		csvConfig = null;
+		evaluationTypeNames = null;
 
 		jcas = null;
 		typeSystemDescription = null;
 		relationalData = new ArrayList<>();
 		relationalDatawithHihglighting = new ArrayList<>();
+		evaluationData = null;
 	}
 
 
