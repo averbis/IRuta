@@ -2,19 +2,32 @@ FROM openjdk:11.0.3-jdk
 COPY --from=python:3.8 / /
 
 RUN apt-get update
-RUN apt-get install -y python3-pip
 
-# add requirements.txt, written this way to gracefully ignore a missing file
-# sos-notebooks is built on top of juypter notebook and brings all necessary dependencies
+# Copy content of IRuta directory into Docker container
 COPY . .
-RUN ([ -f requirements.txt ] \
-    && pip3 install --no-cache-dir -r requirements.txt) \
-        || pip3 install --no-cache-dir sos-notebook sos dkpro-cassis
+
+# Install python dependencies
+RUN apt-get install -y python3-pip
+RUN pip3 install --no-cache-dir -r jupyter_requirements.txt
 RUN python -m sos_notebook.install
 
-USER root
+# Install node.js which is required for building jupyterlab-sos addons
+ENV NODE_VERSION=12.6.0
+RUN apt install -y curl
+RUN curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash
+ENV NVM_DIR=/root/.nvm
+RUN . "$NVM_DIR/nvm.sh" && nvm install ${NODE_VERSION}
+RUN . "$NVM_DIR/nvm.sh" && nvm use v${NODE_VERSION}
+RUN . "$NVM_DIR/nvm.sh" && nvm alias default v${NODE_VERSION}
+ENV PATH="/root/.nvm/versions/node/v${NODE_VERSION}/bin/:${PATH}"
+RUN node --version
+RUN npm --version
 
-# Download the kernel release
+# Install jupyterlab extensions for sos
+# RUN jupyter labextension install transient-display-data # <-- optional
+RUN jupyter labextension install jupyterlab-sos
+
+# Download the IRuta release
 RUN curl -L https://github.com/averbis/IRuta/releases/download/0.1.0/IRuta-0.1.0.zip > iruta.zip
 
 # Unpack and install the kernel
@@ -23,6 +36,7 @@ RUN unzip iruta.zip -d iruta \
   && python3 install.py --sys-prefix
 
 # Set up the user environment
+USER root
 ENV NB_USER booker
 ENV NB_UID 1000
 ENV HOME /home/$NB_USER
@@ -32,10 +46,7 @@ RUN adduser --disabled-password \
     --uid $NB_UID \
     $NB_USER
 
-COPY notebooks $HOME
-COPY notebooks/input $HOME/input
-COPY notebooks/typesystems $HOME/typesystems
-COPY notebooks/wordlists $HOME/wordlists
+COPY notebooks/ $HOME/
 RUN chown -R $NB_UID $HOME
 
 USER $NB_USER

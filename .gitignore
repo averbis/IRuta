@@ -1,14 +1,16 @@
+# Dynamically generated files
 bin/
 target/
-.buildpath
-.project
-.settings/
-.classpath
-.factorypath
-/.gradle/
-/build/
+build/
+.gradle/
+
+# IDE-related
+.idea/
 venv
+
+# Notebook-related
 .ipynb_checkpoints
 notebooks/output/
-test-output/
 notebooks/batch_incremental/stage*
+test-output/
+
