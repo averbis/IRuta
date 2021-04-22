@@ -1,0 +1,6 @@
+verycommon
+common
+uncommon
+rare
+veryrare
+unknown

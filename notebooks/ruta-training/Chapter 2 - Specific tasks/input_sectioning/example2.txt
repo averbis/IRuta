@@ -1,0 +1,515 @@
+1 Introduction
+
+The accurate transformation of unstructured data into a structured representation
+for further processing is an active area of research with many interesting
+challenges. One central task for mining unstructured textual data is Information
+Extraction (IE), which tries to find well-defined entities and relations in textual
+data. Over the last decade, statistical sequence labeling models and especially
+Conditional Random Fields (CRFs) [10] became the dominant technique for IE
+tasks. CRFs are discriminative undirected probabilistic graphical models often
+trained in a supervised fashion. When applied on textual data, they are usually
+designed as a linear chain with the first order Markov assumption.
+In many scenarios, the entities in textual data are not independent and identically
+distributed. Recently, much effort went in new approaches that can be
+summarized under the term Collective IE [2, 4, 8, 9, 15]. They break the linearchain
+assumption and model also long-range dependencies in order to label related
+entities or instances collectively. One example is Named Entity Recognition
+(NER), a task that aims at the extraction of persons or similar entities. Here,
+the accuracy can be improved by the assumption that similar tokens should have
+the same label or by providing contextual evidence of related tokens.
+In semi-structured documents a different form of long-range dependency often
+occurs. Here, the context in which the textual data is created or written
+introduces a homogeneous composition of the entities. The reference section of
+this paper, for example, is generated using a style guide that defines the layout
+of the citation information. Thus, all author entities end with a colon. However,
+the reference sections of other publications follow different style guides in which
+the author possibly ends with a period. Another example for consistency introduced
+in a certain context is curricula vitae: Each author describes his or her
+employments homogeneously but possibly with an arrangement of the interesting
+entities different from other authors. If these long-range dependencies are not
+taken into account, then the IE system faces a heterogeneous and inconsistent
+composition of the entities in the complete dataset. However, by considering the
+similarities of entities within a context and processing those entities collectively,
+many labeling errors can be prevented. The accuracy for the detection of the
+author of a reference, for example, can be greatly increased when the model is
+encouraged that all authors in a reference section should end identically.
+In this work, we present two collective IE approaches based on CRFs that
+are able to exploit such context-specific consistencies. Both approaches consult
+a classifier, which detects consistent boundaries of an entity within one context.
+This classifier is trained during inference on an intermediate label sequence
+predicted by an additional model. The generalization of the classifier’s learning
+algorithm detects only equally shaped boundaries ignoring entities that break
+the consistency assumption. This evidence about the consistency is exploited
+in two different models. The first model extends linear-chain CRFs with additional
+unigram factors. The positions of the factors are given by the classification
+result of the classifier combined with the predicted label sequence. In a second
+approach, we investigate a variant of skip-chain CRFs [15]. Instead of adding dependencies
+for similar tokens, the boundaries of related entities are connected.
+These additional edges then transport evidence about the consistency of the entities’
+compositions at the positions indicated by the classifier. In an empirical
+study, we evaluate our approaches with real-word datasets, for the segmentation
+of references and for template extraction in curricula vitae. The results show
+the practical relevance of the presented work for real-world IE systems. Our
+approaches are able to achieve a substantial error reduction, up to 34%.
+The rest of the paper is structured as follows: In Section 2, we recap different
+variants of CRFs for information extraction. The two novel approaches for exploiting
+context-specific consistencies are described in Section 3. Their results in
+an empirical study are presented in Section 4. Section 5 gives a short overview
+of the related work and Section 6 concludes with a summary.
+
+2 Conditional Random Fields
+
+Conditional Random Fields (CRFs) [10] are undirected graphical models which
+model conditional distributions over random variables y and x. Given exponential
+potential functions Φ (yc, xc) = exp (P
+pθ(y|x) = 1. The feature functions fk can be real valued in general,
+however, we assume binary feature functions if not mentioned differently.
+When CRFs are applied for IE tasks, the model is adapted to the properties
+of sequential data or textual documents respectively. Therefore the graph structure
+is normally restricted to be a linear chain representing the sequence of labels
+that are assigned to a sequence of tokens. The entities of the IE tasks are identified
+by sequences of equal labels. If linear-chain CRFs also model long-range
+dependencies with additional edges between distant labels, then the models are
+called skip-chain CRFs [15]. Both models are shortly outlined in the following.
+
+2.1 Linear-Chain CRFs
+Linear chain CRFs [10] restrict the underlying graph structures to be linear
+sequences, typically with a first order Markov assumption. The assignment of
+yt given x and y − yt = (yt)t=1,...,t−1,t+1,...,T is then only dependent on yt−1,yt,
+yt+1 and x. The probability of a label sequence y given an token sequence x is
+modeled by
+The discriminative impact of the feature functions flk is weighted by the
+parameters θ = θl = {λlk}
+K
+k=1. The feature functions can typically be further
+factorized into indicator functions plk and observation functions qlk
+flk (yt, yt−1, x, t) = plk (yt, yt−1) · qlk(x, t) . (4)
+plk returns 1 for a certain label configuration and qlk relies only on the input
+sequence x. Thus, a feature function, e.g., that indicates capitalized tokens, can
+be separately weighted for each label transition. Figure 1 contains an example
+of a linear-chain CRF in factor graph representation, which is applied for the
+reference segmentation task. We added the label and token sequence for better
+understanding. Dependencies of the factors to tokens are omitted for simplicity.
+Author Author Author Author Author Title Title Title Title . . .
+y1 y2 y3 y4 y5 y6 y7 y8 y9 . . .
+Sutton , C . : GRMM : GRaphical Models . . .
+Fig. 1. A linear-chain CRF applied on the reference segmentation task, i.e., the 14th
+reference of this paper. The associated labels and tokens are depicted above and below
+the variables.
+
+2.2 Skip-Chain CRFs
+Skip-chain CRFs [15] break the first order Markov assumption of linear-chain
+CRFs by adding potentials to the graph that address dependencies between distant
+labels and tokens. A set Ix = {(u, v)} ⊂ {1, . . . , T} × {1, . . . , T} defines
+positions u, v for which yu, yv are connected by skip edges. We refer to components
+of skip-chain CRFs with the index x in order to point out their usage in
+previous publications, e.g., [15]. The set Ix unrolls skip edges based on token similarity
+and is therefore only dependent on the token sequence x. In NER tasks,
+for example, the accuracy can often be increased when the model is encouraged
+to label similar tokens identically. For controlling the computational cost, Ix has
+to be kept small. An extension of Equation 2 with additional skip edges results
+in the conditional probability
+extending the complete set of parameters θ = θl ∪ θx. The feature functions
+factorize again in an indicator function pxk and an observation function qxk:
+fxk (yu, yv, x, u, v) = pxk (yu, yv, u, v) · qxk (x, u, v) (7)
+The observation function enables the model to share observed information
+between the positions u and v and their neighborhoods, e.g., for providing local
+evidence at a position where such information is missing.
+
+3 CRFs with Context-specific Consistencies
+
+This section introduces two different approaches to exploit context consistencies.
+Both methods are divided into two different parts. When unrolling the graph during
+inference, we first have to detect the patterns that describe the consistency
+of the context. Secondly, we need to incorporate the gained knowledge into the
+graph structure for a better prediction. In the following, we first describe challenges
+of dependencies on the label sequence and the applied method to learn
+context-specific consistencies. Then, we explain the differences of the two approaches
+which only concern the structure and complexity of the models that
+exploit the context-specific patterns.
+
+3.1 Context-specific Consistencies
+Context-specific consistencies refer to a special kind of long-range dependencies
+that are often found in semi-structured documents. The interesting entities
+within a specific context or document share a similar composition caused by
+the process the document is created or written in. Examples for this process
+are authors that arrange the entities homogeneously or templates that enforce
+a specific layout. We call these consistencies context-specific, because the actual
+composition is unknown at application time and can strongly vary between
+contexts. There are many different ways to describe the composition of entities.
+In this work we take a closer look at the entity boundaries, that is, the first
+and the last label of the entity3
+. Other possibilities include the labels within the
+boundaries of an entity. More generally, this can be extended to any kind of label
+transition. However, the boundaries alone are very suitable to classify an entity
+independently of the actual label transition and allow to restrict the long-range
+dependencies to a minimal amount.
+
+3.2 Dependencies based on the label sequence
+In this paper, we investigate how these consistencies can be exploited with the
+idea of skip-chain CRFs or in general CRFs with additional potentials for longrange
+dependencies. In contrast to skip-chain CRFs, where the potentials are
+only based on the token sequence (cf. Equation 6), our additional potentials
+are mainly dependent on the label sequence. Our approaches need a prediction
+of the assignment in order to be able to link or relate the boundaries of the
+entities. The label sequence (hidden variables) is of course not available during
+inference when we unroll the graph on an instance with all potentials since it is
+the result of the computation of pθ (y|x). However, there are many different ways
+to provide a prediction of the label sequence during inference. Our initial choice
+was to incrementally unroll the graph: We first unrolled the potentials of the
+linear-chain part, computed the currently most likely label sequence and used
+this prediction to further unroll the additional potentials. However, we observed
+problems with the parameter estimation and inference mechanism applied in this
+work (cf. Section 3.6). While we sometimes achieved remarkable improvements,
+the approach frequently did not converge at all. Therefore, we utilize a separate
+static linear-chain model in order to provide a constant prediction of the label
+sequences, which corresponds to the approach of stacked graphical models [8, 9,
+7]. Here, an initial model is used to compute new features for a stacked model.
+In our approach, however, the predicted assignments of the initial model lead
+to additional potentials. Normally, cross-fold training is applied for the initial
+model in order to prevent unrealistic predictions during training of the stacked
+model. We neglect this improvement in the belief that the advantages of the
+presented models prevail.
+
+3.3 Learning Context-specific Consistencies
+When we try to exploit the context-specific consistencies, it is very helpful to
+acquire a description or model for the consistencies in each context or document.
+Thereby, one can distinguish consistent and inconsistent boundaries of
+the entities. As in previous work [7], we train and apply a binary classifier on
+the boundaries of an entity within one context. The learning task of the classifier
+for a boundary of one type of entity is defined as following: Each token
+of the context is a training example and the features of the CRF become binary
+attributes, possibly with an additional windowing. The intermediate label
+sequence (cf. 3.2), respectively the predicted boundaries, specifies the learning
+target of the classifier. The generalization capacity of the classifier’s learning algorithm
+is the key to gain knowledge about the context-specific consistency. We
+assume that the hypothesis space of the classifier is not sufficient to provide a
+perfectly accurate model and therefore only describes the dominant consistency.
+A suitable classifier for the tasks presented in this work has to provide following
+properties:
+– The classifier should be efficient with respect to its execution time since it
+is trained and applied on all emerging label sequences during inference.
+– The classifier should not tend to overfit since it is trained and applied on
+possibly erroneous data. These errors should not be reproduced. In general,
+overfitting can also be restrained by limiting the amount of attributes.
+– The classifier should not combine different hypotheses in order to solve the
+classification problem if only one consistency for the boundary exists in data
+as it is in our examples.
+– The classifier should handle label bias correctly, even if there are only a few
+true positives and thousands of true negatives.
+We decided to utilize a simple but efficient rule learner based on subgroup
+discovery [6], an exhaustive search for the best conjunctive pattern describing
+an target attribute, respectively the entity’s boundary. This technique fulfills all
+requirements with minimal efforts of configuration and is fast enough if the set
+of attributes is constrained. As an improvement to [7], a new quality function
+The left part of this measure describes the traditional F1-Measure, that is
+how well the pattern reproduces the predicted boundaries. The right factor is a
+penalty term for the divergence of the amount of instances classified as boundaries
+to a given variable Ey, the expected amount of boundaries in a context. Ey
+can simply be estimated using the token sequence and the feature functions in
+the data set applied in this work. In the domain of reference segmentation, for
+example, we expect that each reference contains exactly one author. Although
+this is not true in general, it provides for a valuable weighting of the hypothesis
+space and further reduces overfitting.
+
+3.4 Comb-Chain CRFs
+In a first approach, we extend the variables of a linear chain model with additional
+(unigram) factors dependent on the classification result (cf. Figure 2).
+Hence, we chose the name comb-chain CRFs for this approach because of the
+layout of the graph.
+Let Rb(y) and Re(y) be the set of positions, which are identified by the
+classifier as the beginning and end of an entity with the label y. We can now
+define the positions of additional factors:
+and the potentials for the unigram factor are given by
+4 The different usage of y for the predicted sequence and the label configuration of
+the parameters deduces from the context.
+Author Author Author Title . . . Author Author Author Title . . .
+yu-2 yu-1 yu yu+1 . . . yv-2 yv-1 yv yv+1 . . .
+: GRMM : GRaphical . . . A . : Collective . . .
+Fig. 2. An excerpt of a comb-chain graph with erroneous labeling whereas only additional
+factors for the end of the author are displayed. The output functions indicate a
+missing end at position yu-2, a surplus end at yu and a consistent end at yv
+whereas θc = {λck} is the set of additional parameters for the classifier
+template. We let the feature function factorize into an indicator function pck
+and an output function qck:
+The output functions qb-consistent, qb-project and qb-suppress are defined equivalently
+for the beginning of an entity. This reflects the meaning, that is the
+result of the classification combined with the intermediate labeling: qe-consistent
+indicates a true positive, qe-project a false positive and qe-suppress a false negative
+classification compared to the label sequence. Together these feature functions
+supply evidence, which parts of the label sequence agree with the consistency and
+which parts should be altered in order to gain a higher likelihood. The resulting
+graph of the model contains no loops and provides therefore less challenges for
+an inference mechanism.
+The idea of comb-chain CRFs is summarized with an example for the segmentation
+of references (cf. Figure 2). Let the reference section of this paper be
+the input sequence. When unrolling the graph, we ask the external model for
+an intermediate labeling specifying the entities. A classifier is trained to detect
+the boundaries of the entities. The descriptive result of the classifier for the end
+of the author is, for example, a pattern like “A period followed by a colon”.
+Now, the additional potentials with the output functions influence the model to
+assign a high likelihood to label sequences that confirm with the description of
+the classifier.
+
+3.5 Skyp-Chain CRFs
+Skyp-chain CRFs are a variant of skip-chain CRFs. But instead of creating additional
+edges between labels whose tokens are similar or identical, this approach
+adds long-range dependencies based on the patterns occurring in the predicted
+label sequence y and the classification result. Thus, the small modification of the
+name. When applying skyp-chain CRFs for exploiting context-specific consistencies,
+two additional differences to published approaches for skip-chain CRFs or
+similar collective IE models can be identified:
+1. There is no need to transfer local evidence to distant labels since we already
+assume a homogeneous composition of the entities.
+2. Useful observation functions for the skip edges cannot be specified, because
+the relevance of certain properties is unknown.
+We first define the set of additional edges that specify the positions of the
+long-range dependencies using the positions Ub and Ue of Equation 9.
+The set Eb contains edges that connect the start label of an entity with all
+other start labels of entities with the same type. The set Ee refers accordingly to
+the links between the end labels of entities. Further, we introduce a parameter
+me for controlling the model complexity that restricts the maximal amount of
+additional long-range dependencies for each variable. E.g., for me = 2, a label
+is only connected to the closest previous and following boundary of the same
+entity type.
+Our skyp-chain approach extends the linear-chain model with additional potentials
+for edges defined in Equation 14. The conditional probability for the
+assignment of the label sequence is given by
+An example of an unrolled graph of this model is depicted in Figure 3. Similar
+to Equation 6, the additional potentials factorize to
+Author Author Author Title . . . Author Author Author Title . . .
+yu-2 yu-1 yu yu+1 . . . yv-2 yv-1 yv yv+1 . . .
+: GRMM : GRaphical . . . A . : Collective . . .
+Fig. 3. An excerpt of a skyp-chain graph with erroneous labeling. Only one additional
+edge for the end of the author is displayed. The likelihood of the sequence is decreased
+because only position u − 2 and v but not u were identified as a boundary by the
+classifier.
+resulting in the complete parameter set θ = θl ∪ θy with θ = θy = {λyk}
+to be estimated for this model. In contrast to the skip-chain model, our feature
+functions depend on the complete (predicted) label sequence y. The feature
+functions consist again of an indicator function for the label configuration, but
+not of an observation function on the input sequence. Instead we apply the
+output functions of Equation 13 separately for the source and destination of the
+skip edge.
+Let us illustrate the skyp-chain model in an example for reference segmentation
+(cf. Figure 3). Let the input sequence be the reference section of this paper.
+When the graph of the model is unrolled during inference, the most probable
+label assignments are calculated. During this process we consider long-range
+dependencies, e.g., for the end of the author entities (cf. labels yu and yv in Figure
+3). Due to our additional potentials, label sequences with boundaries that
+are identified by the classifier as consistently structured become more likely. In
+Figure 3, the likelihood of the sequence is decreased in comparison to a graph
+with an additional edge between the labels yu−2 and yv.
+
+3.6 Parameter Estimation and Inference
+We compute pθ (y|x) to decide which label sequence y is most likely for the
+observed token sequence x, and to estimate the parameters θ of the model.
+The applied inference technique, tree based reparameterization (TRP) [17], is
+related to belief propagation and computes approximate marginals for loopy
+graphs. TRP is also used in [15] for the original skip-chain models. Unfortunately,
+severe convergence problems could be oberserved when applied on complex graph
+structures. The parameters θ of our models are obtained using training data
+i=1 and maximum a-rrposteriori estimation. The log likelihood
+L(θ|D) of the model parameters given the training examples is optimized with
+the quasi-Newton method L-BFGS and a Gaussian prior on the parameters as
+in [15].
+
+4 Experimental Results
+
+We demonstrate the advantages of the presented approach in a five-fold cross
+evaluation in two different real-world applications: The segmentation of references
+and the template extraction in curricula vitae. First, both domains and
+the real-world datasets are described and then we specify the settings of the
+evaluation. Finally, we present and discuss the empirical results.
+
+4.1 Datasets
+Two datasets are utilized in the evaluation of this work. The dataset References
+origins in a domain that is very popular for the evaluation of novel IE techniques
+(cf. [1, 11–13]), whereas the dataset Curricula Vitae belongs to classical
+IE problems of template extraction.
+References This dataset for the segmentation of references was introduced in
+previous work [7] and consists only of complete reference sections of real publications,
+mainly from the computer science domain. The application behind this
+dataset consists mainly in the identification of Bibtex fields in crawled publications,
+which can be used to improve scientific search engines or to analyze
+citation graphs. The dataset contains 566 references in 23 reference sections with
+overall 15 different labels and is comparable to datasets of previous publications
+with respect of size, label and feature set, e.g., Peng et al. [11]. For the evaluation
+in this paper, we reduced the label set for the identification of the entities
+Author, Date, Title and Venue, which are sufficient for the targeted application.
+The dataset can be freely downloaded5
+. We skip a detailed description
+of the features and refer to the archive because it contains all applied features.
+Curricula Vitae The IE task of this dataset is to identify the time span and
+company for which the author of these documents worked in a stage of his or
+her life (employments). This information can be used to improve the search
+for suitable future employees for certain projects. The data set consists of 68
+curricula vitae and is annotated with 896 companies or sectors6 and 937 time
+spans in overall 921 stages of life. We use the label Date for the time span
+and the label Client for the companies or sectors. The feature set extends the
+feature set of the dataset References with additional domain-specific features
+like the number of the line, the position within a line and keywords for company
+prefixes/suffixes and date indicators. Unfortunately, we can not publish this
+dataset due to non-disclosure agreements.
+
+4.2 Evaluation Measure
+The performance of the presented models is measured with the F1 score. Let tp
+be the number of true positive labeled tokens and fn and f p respectively the
+number of false negatives and false positives tokens. Precision, recall and F1 are
+then defined as:
+precision =
+tp
+tp + f p, recall =
+tp
+tp + fn, F1 =
+2 · precision · recall
+precision + recall .
+For the dataset References we present the F1 score combined for all labels,
+whereas we distinguish the labels Date and Client for Curricula Vitae.
+
+4.3 Settings
+All models are trained with identical settings and features. In order to minimize
+the model complexity of the skyp-chain approach, we set me = 2. We used 11
+(for References) and 12 (for Curricula Vitae) manually selected feature functions
+in a window of five tokens as attributes for the rule learner. The learned
+descriptions had a maximum of three attributes and a minimum quality score
+of 0.01. For the dataset References, only the boundaries for the labels Author,
+Date, Title are considered. Our implementation of the CRFs is based on the
+GRMM package [14].
+
+4.4 Results
+We compare the proposed models to a linear-chain CRF (base line). Additionally,
+we have applied the stacked approach with exact inference of [7] for a comparable
+model. However, its evaluated F1 score was surprisingly lower than our base line.
+An analysis revealed that the different implementations of CRFs and the varying
+definition of an instance influenced the results. We have also considered different
+variants of skip-chain CRFs, but none of them returned noteworthy results. As
+a consequence, we compare our models only with the base line.
+The results of the five-fold cross evaluation are depicted in Table 1 for the
+dataset References and in Table 2 for the dataset Curricula Vitae. The combchain
+models achieve overall an average error reduction of over 30% and increased
+the measured averaged F1 score by at least 1%, 9% for the label Client. The
+skyp-chain model provides more challenges for the inference technique and is only
+able surpass the comb-chain results for the label Date of the dataset Curricula
+Vitae. In the evaluation of the remaining label, the average error reduction is
+14%.
+If the comb-chain model is compared to the skyp-chain model, then it becomes
+apparent that the skyp-chain model with the applied inferencing technique
+TRP has no advantages when exploiting consistencies even at the cost of a computationally
+more expensive inference. Table 3 and Table 4 contain the average
+evaluation time for one fold. In general, it takes longer to train models with the
+larger dataset Curricula Vitae.
+Table 1. F1 scores for the segmentation
+of references
+References
+All
+Linear Chain 0.966
+Comb Chain 0.976
+Skyp Chain 0.972
+Table 2. F1 scores for template extraction in curricula
+vitae
+Curricula Vitae
+Date Client
+Linear Chain 0.944 0.725
+Comb Chain 0.962 0.814
+Skyp Chain 0.962 0.764
+Table 3. Average time for one fold
+(References)
+References
+Linear Chain 0.03h
+Comb Chain 0.17h
+Skyp Chain 0.53h
+Table 4. Average time for one fold
+(Curricula Vitae)
+Curricula Vitae
+Linear Chain 0.11h
+Comb Chain 0.27h
+Skyp Chain 0.97h
+
+4.5 Discussion
+The evaluated results of the presented IE models have a valuable influence on
+real-world applications. An error reduction of 30% considerably improves the
+quality of automatically extracted entities in the database and reduces the workload
+to correct possible IE errors. The reported increase of the accuracy and the
+corresponding error reduction of the presented models compete well with published
+approaches for Collective IE, joint inference in IE or other models that
+exploit long-range dependencies.
+The performance time of the presented models is in our opinion fast enough
+for the planned applications, but can still be increased with further optimizations
+or faster inference and learning techniques.
+
+5 Related Work
+
+In this section, we give a short overview of the related work, which can be
+categorized into Information Extraction (IE) publications about:
+– Collective IE for Named Entity Recognition (NER).
+– Collective IE with respect to structured texts.
+– Collective IE with context-specific consistencies.
+– Improved IE models in general, evaluated for the segmentation of references.
+Collective IE is an active and popular field of research and thus we can only
+discuss some representatives of each category.
+Models of collective approaches for NER are often motivated by two assumptions:
+The labeling of similar tokens is quite consistent within a given context
+or document since those mentions mostly refer to the same type of entity. The
+discriminative features to detect the entities are sparsely distributed over the
+document. Thus, the accuracy for different mentions of an entity can be improved
+by leveraging and transferring their local context to distant positions.
+Bunescu et al.[2] use Relational Markov Networks and model dependencies
+between distant entities. They apply special templates in order to assign equal
+labels if the text of the tokens is identical. The skip-chain approach introduced
+by Sutton et al.[15] extends linear-chain CRFs with additional factors for longrange
+dependencies. They link the labels of similar tokens and provide feature
+functions that combine evidence of both positions by which missing context can
+be transferred. Finkel et al. [4] criticize the usage of believe propagation and
+apply Gibbs sampling for enforcing label consistency and extraction template
+consistency constraints. All of these approaches with higher order structures
+fight the exponential increase in model complexity and are forced to apply approximate
+inference techniques instead of exact algorithms. Kou et al. [8] and
+Krishnan et al. [9] have shown that stacked graphical models with exact inference
+can compete with the accuracy of those complex models. They reduce the
+computational cost by applying an ensemble for two linear-chain CRFs where
+they aggregate the output of the first models in order to provide information
+about related instances or entities to a stacked model.
+Yang et al. [19] and Gulhane et al. [5] presented work about IE in webforums
+and websites. The first approach applies Markov Logic Networks to encode properties
+of a typical forum page like attribute similarities among different posts and
+sites. The second approach developed an Apriori-style algorithm and assumes
+that values of an attribute distributed over different pages are similar for equal
+entities and the pages of one website share a similar structure due to the creation
+template. In contrast to our models, both approaches are domain-dependent and
+rely on prior knowledge about the structure.
+In previous work [7], we proposed stacked CRFs in combination with rule
+learning techniques to exploit context-specific consistencies. The output of the
+first CRF was utilized to learn the manifestation of feature functions for the
+stacked CRF. The approach was evaluated only for the segmentation of references
+and achieved a significant error reduction compared to a linear-chain
+CRF. The stacked CRFs with feature induction during inference is similar to
+the comb-chain model. However, we developed a novel quality function and utilize
+the classification result to add new potentials instead of only normal features
+for a label transition. The skyp-chain approach further increases the model complexity
+and adds edges for long range dependencies.
+The segmentation of references is a widely used domain for the evaluation
+of novel machine learning and IE models. The work of Peng et al. [11] provides
+a deep analysis of different settings and established linear-chain CRFs as the
+state-of-the-art for the segmentation of references. Approaches for joint inference
+[12, 13] combine different tasks within a model. Here, the accuracy of the
+labeling can be increased when entity resolution and segmentation are jointly
+performed. Finally, Bellare et al. [1] present a semi-supervised approach for ref-
+erence segmentation by encoding expectations in higher-order constraints that
+cover more expressive and structural dependencies than the underlying model.
+
+6 Conclusions
+
+Exploiting context-specific consistencies can substantially increase the accuracy
+of sequence labeling in semi-structured documents. We presented two approaches
+based on CRFs, which combine ideas of stacked graphical models and higherorder
+models like skip-chain CRFs. Both approaches outperform the common
+models and have a valuable impact for real-world IE applications. The combchain
+CRFs are able to achieve an average error reduction of about 30% in two
+datasets.
+For future work, two interesting improvements can be identified: On a technical
+level, the usage of newer inference techniques for factor graphs like SampleRank
+[18] should be able to avoid some of the described problems. On a more
+conceptual level, a joint inference approach like [13] that combines labeling and
+consistency identification within a probabilistic graphical model has the potential
+to gain further advantages in the evaluated domains.

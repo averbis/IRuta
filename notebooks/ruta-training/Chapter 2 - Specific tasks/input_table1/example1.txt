@@ -1,0 +1,18 @@
+<html>
+<table>
+<tr><td>Metabolism and nutrition disorders</td></tr>
+<tr><td>very common</td><td>diabetes mellitus, hyperglycaemic conditions, hyperkalaemia</td></tr>
+<tr><td>common</td><td>metabolic acidoses, other electrolyte abnormalities, hyponatraemia, fluid overload,hyperuricaemia, hypomagnesaemia, hypokalaemia, hypocalcaemia, appetite decreased, hypercholesterolaemia, hyperlipidaemia, hypertriglyceridaemia, hypophosphataemia</td></tr>
+<tr><td>uncommon</td><td>dehydration, hypoglycaemia, hypoproteinaemia, hyperphosphataemia</td></tr>
+<tr><td>Psychiatric disorders</td></tr>
+<tr><td>very common</td><td>insomnia</td></tr>
+<tr><td>common</td><td>confusion and disorientation, depression, anxiety symptoms, hallucination, mental disorders, depressed mood, mood disorders and disturbances, nightmare</td></tr>
+<tr><td>uncommon</td><td>psychotic disorder</td></tr>
+<tr><td>Nervous system disorders</td></tr>
+<tr><td>very common</td><td>headache, tremor</td></tr>
+<tr><td>common</td><td>nervous system disorders seizures, disturbances in consciousness, peripheral neuropathies, dizziness, paraesthesias and dysaesthesias, writing impaired</td></tr>
+<tr><td>uncommon</td><td>encephalopathy, central nervous system haemorrhages and cerebrovascular accidents, coma, speech and language abnormalities, paralysis and paresis, amnesia</td></tr>
+<tr><td>rare</td><td>hypertonia</td></tr>
+<tr><td>very rare</td><td>myasthenia</td></tr>
+</table>
+</html>

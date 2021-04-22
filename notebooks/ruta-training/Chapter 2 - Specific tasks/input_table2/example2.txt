@@ -1,0 +1,10 @@
+<html>
+<table>
+<tr><td>System organ class</td><td>Very Common</td><td>Common</td><td>Uncommon</td><td>Rare</td></tr>
+<tr><td>Infections and infestations</td><td>-</td><td>Folliculitis</td><td>-</td><td>-</td></tr>
+<tr><td>Neoplasms benign, malignant and unspecified</td><td>SCC of the skin, seborrheic keratosis, skin papilloma</td><td>Basal cell carcinoma, new primary melanoma</td><td>Non-cuSCC</td><td>Chronic myelomonocytic leukaemia, pancreatic adenocarcinoma</td></tr>
+<tr><td>Blood and lymphatic system disorders</td><td>-</td><td>-</td><td>Neutropenia</td><td>-</td></tr>
+<tr><td>Metabolism and nutrition disorders</td><td>Decreased appetite</td><td>-</td><td>-</td><td>-</td></tr>
+<tr><td>Nervous system disorders</td><td>Headache, dysgeusia</td><td>7th nerve paralysis, dizziness</td><td>Neuropathy peripheral</td><td>-</td></tr>
+</table>
+</html>
