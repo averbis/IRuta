@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:cas="http:///uima/cas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:type="http:///org/apache/uima/trials/type.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="6" begin="0" end="1530" language="x-unspecified"/>
+    <type:ORR xmi:id="13" sofa="6" begin="837" end="842"/>
+    <type:ORR xmi:id="17" sofa="6" begin="878" end="883"/>
+    <type:ORR xmi:id="21" sofa="6" begin="933" end="938"/>
+    <type:ORR xmi:id="25" sofa="6" begin="969" end="974"/>
+    <type:PFSMean xmi:id="29" sofa="6" begin="1062" end="1072"/>
+    <type:PFSMean xmi:id="45" sofa="6" begin="1160" end="1170"/>
+    <type:OSMean xmi:id="33" sofa="6" begin="1074" end="1085"/>
+    <type:OSMean xmi:id="49" sofa="6" begin="1172" end="1184"/>
+    <type:OSTime xmi:id="37" sofa="6" begin="1041" end="1047"/>
+    <type:OSTime xmi:id="53" sofa="6" begin="1139" end="1145"/>
+    <type:OSRate xmi:id="41" sofa="6" begin="1091" end="1096"/>
+    <type:OSRate xmi:id="57" sofa="6" begin="1190" end="1195"/>
+    <cas:Sofa xmi:id="6" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="PURPOSE: This study was designed to confirm the efficacy and safety of amrubicin,&#13;&#10;a new anthracycline agent, in patients with previously treated non-small cell&#13;&#10;lung cancer (NSCLC) and small cell lung cancer (SCLC).&#13;&#10;METHODS: Eligible patients were required to have recurrent or refractory NSCLC&#13;&#10;and SCLC after one or two previous chemotherapy regimens. All patients received&#13;&#10;intravenous amrubicin 35 mg/m(2) on days 1-3 every 3 weeks. Overall response rate&#13;&#10;(ORR), progression-free survival (PFS), and overall survival (OS) were evaluated.&#13;&#10;RESULTS: Sixty-six patients (37 NSCLC and 29 SCLC) were assessable for efficacy&#13;&#10;and safety evaluation. Grade 3 or 4 neutropenia was observed in 39.4% of all&#13;&#10;patients (NSCLC, 37.8%; SCLC, 41.4%). Nonhematological toxicities were mild. No&#13;&#10;treatment-related death was observed. The ORRs were 13.5% (95% CI, 4.5-28.8%) in &#13;&#10;NSCLC and 44.8% (95% CI, 26.4-64.3%) in SCLC. In SCLC, ORRs were 60.0% in the&#13;&#10;sensitive relapse and 36.8% in the refractory relapse (p=0.2332). In NSCLC, the&#13;&#10;PFS, OS, and 1-year survival were 3.3 months, 12.0 months, and 35.3%,&#13;&#10;respectively. In SCLC, the PFS, OS, and 1-year survival were 4.0 months, 12.0&#13;&#10;months, and 46.7%, respectively.&#13;&#10;CONCLUSIONS: Amrubicin is an active and well-tolerated regimen in patients with&#13;&#10;previously treated lung cancer. Amrubicin 35 mg/m(2) seems to achieve similar&#13;&#10;efficacy with less toxicity than amrubicin 40 mg/m(2) in this patient population.&#13;&#10;These results warrant further evaluation in previously treated lung cancer."/>
+    <cas:View sofa="6" members="1 13 17 21 25 29 45 33 49 37 53 41 57"/>
+</xmi:XMI>

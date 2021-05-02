@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:cas="http:///uima/cas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:type="http:///org/apache/uima/trials/type.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="6" begin="0" end="1496" language="x-unspecified"/>
+    <type:ORR xmi:id="13" sofa="6" begin="622" end="625"/>
+    <type:ORR xmi:id="17" sofa="6" begin="644" end="647"/>
+    <type:PFSMean xmi:id="21" sofa="6" begin="839" end="842"/>
+    <type:PFSMean xmi:id="25" sofa="6" begin="872" end="875"/>
+    <type:OSMean xmi:id="29" sofa="6" begin="847" end="850"/>
+    <type:OSMean xmi:id="33" sofa="6" begin="880" end="883"/>
+    <cas:Sofa xmi:id="6" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="BACKGROUND: Treatment for refractory lymphoma in frail patients (older, poor&#13;&#10;performance status, or concomitant diseases) has not been defined.&#13;&#10;PATIENTS AND METHODS: A total of 100 frail patients naive to rituximab therapy&#13;&#10;were allocated to be treated with ESHAP (etoposide, methylprednisolone, cytosine &#13;&#10;arabinoside, and platinum; 53 patients) or RESHAP (rituximab plus ESHAP; 47&#13;&#10;patients). Granulocyte colony-stimulating factor was used to ameliorate the&#13;&#10;presence of severe granulocytopenia.&#13;&#10;RESULTS: Overall response rate (ORR) and complete response (CR) were similar&#13;&#10;among ESHAP and R-ESHAP (ORR, 33 patients [62%] and 28 patients [60%],&#13;&#10;respectively; CR, 20 patients [37%] and 18 patients [36%], respectively).&#13;&#10;Actuarial curves at 5 years showed that progression-free survival (PFS) and&#13;&#10;overall survival (OS) were similar: 51% and 31% in the ESHAP arm and 50% and 26%,&#13;&#10;respectively, in R-ESHAP. Toxicity was severe in both groups; grade 4&#13;&#10;granulocytopenia was observed in 30% and 32% of ESHAP and R-ESHAP arms,&#13;&#10;respectively. Viral infections were more frequent in R-ESHAP (52 cases) than in&#13;&#10;ESHAP (3 cases).&#13;&#10;CONCLUSION: Frail patients, who generally have not been accepted in controlled&#13;&#10;clinical trials, can be treated with aggressive chemotherapy because tolerance is&#13;&#10;well and improvement in outcome is feasible. Although ESHAP retains the clinical &#13;&#10;efficacy previously reported in nonfrail patients, the addition of rituximab did &#13;&#10;not improve response rate, PFS, or OS."/>
+    <cas:View sofa="6" members="1 13 17 21 25 29 33"/>
+</xmi:XMI>

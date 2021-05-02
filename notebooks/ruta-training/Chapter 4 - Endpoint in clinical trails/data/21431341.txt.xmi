@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:cas="http:///uima/cas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:type="http:///org/apache/uima/trials/type.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="6" begin="0" end="1633" language="x-unspecified"/>
+    <type:ORR xmi:id="13" sofa="6" begin="1022" end="1027"/>
+    <type:ORR xmi:id="37" sofa="6" begin="1338" end="1343"/>
+    <type:OSMean xmi:id="17" sofa="6" begin="1112" end="1123"/>
+    <type:OSMean xmi:id="45" sofa="6" begin="1358" end="1369"/>
+    <type:OSTime xmi:id="21" sofa="6" begin="1125" end="1131"/>
+    <type:OSTime xmi:id="33" sofa="6" begin="1313" end="1319"/>
+    <type:OSRate xmi:id="25" sofa="6" begin="1147" end="1150"/>
+    <type:OSRate xmi:id="49" sofa="6" begin="1374" end="1377"/>
+    <type:PFSMean xmi:id="29" sofa="6" begin="1205" end="1215"/>
+    <type:PFSMean xmi:id="41" sofa="6" begin="1346" end="1356"/>
+    <cas:Sofa xmi:id="6" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="BACKGROUND: To evaluate the efficacy and toxicity of a combination chemotherapy&#13;&#10;consisting of gemcitabine, carboplatin, and docetaxel (GCD) in patients with&#13;&#10;advanced urothelial carcinoma (UC) as a phase II trial.&#13;&#10;MATERIALS AND METHODS: Patients with metastatic or locally advanced unresectable &#13;&#10;UC were eligible for this trial. All enrolled patients were considered to be&#13;&#10;&quot;unfit&quot; for cisplatin-based chemotherapy, or to have methotrexate, vinblastine,&#13;&#10;doxorubicin, cisplatin (MVAC)-refractory UC. The chemotherapy regimen consisted&#13;&#10;of gemcitabine 1000 mg/m(2) on days 1 and 8, and carboplatin (with a target area &#13;&#10;under the curve of 5) and docetaxel 70 mg/m(2) on day 1; this was repeated every &#13;&#10;21 days.&#13;&#10;RESULTS: Thirty-five patients were enrolled, with a median age of 68 years. A&#13;&#10;total of 89 cycles were administered (median, 2 cycles). Major toxicities were&#13;&#10;Grade 3/4 neutropenia in 28 (80.0%) patients and Grade 3/4 thrombocytopenia in 18&#13;&#10;(51.5%). An objective response rate (ORR) was 11 of 21 patients (52.4%),&#13;&#10;including a complete response in 1 (4.8%). The median overall survival (OS) was&#13;&#10;13.1 months (1-year survival rate, 60%) and the median progression-free survival &#13;&#10;(PFS) was 5.0 months. Among 16 patients who had previously received MVAC, the&#13;&#10;ORR, the median PFS, the median OS and 1-year survival rate was 56.3%,&#13;&#10;5.0 months, 12.6 months and 54%, respectively.&#13;&#10;CONCLUSIONS: GCD chemotherapy is active and well tolerated as a first- or&#13;&#10;second-line therapy for patients with advanced UC. Response rate, duration and&#13;&#10;survival did not differ between those with and without a history of MVAC&#13;&#10;treatment."/>
+    <cas:View sofa="6" members="1 13 37 17 45 21 33 25 49 29 41"/>
+</xmi:XMI>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:cas="http:///uima/cas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:type="http:///org/apache/uima/trials/type.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="6" begin="0" end="1719" language="x-unspecified"/>
+    <type:PFSMean xmi:id="13" sofa="6" begin="819" end="826"/>
+    <type:PFSMean xmi:id="33" sofa="6" begin="932" end="940"/>
+    <type:PFSTime xmi:id="17" sofa="6" begin="833" end="835"/>
+    <type:PFSTime xmi:id="21" sofa="6" begin="840" end="847"/>
+    <type:PFSTime xmi:id="37" sofa="6" begin="947" end="949"/>
+    <type:PFSTime xmi:id="41" sofa="6" begin="954" end="961"/>
+    <type:PFSRate xmi:id="25" sofa="6" begin="871" end="874"/>
+    <type:PFSRate xmi:id="29" sofa="6" begin="879" end="882"/>
+    <type:PFSRate xmi:id="45" sofa="6" begin="984" end="987"/>
+    <type:PFSRate xmi:id="49" sofa="6" begin="992" end="995"/>
+    <type:OSMean xmi:id="53" sofa="6" begin="1148" end="1156"/>
+    <type:OSMean xmi:id="57" sofa="6" begin="1169" end="1179"/>
+    <cas:Sofa xmi:id="6" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="PURPOSE: Sarcomas are among the most proangiogenic malignancies in preclinical&#13;&#10;models. Phase I study results for ABT-510, which inhibits angiogenesis via a&#13;&#10;novel thrombospondin-mimetic mechanism, suggested activity in soft tissue sarcoma&#13;&#10;(STS) patients. This phase II study further evaluated the safety and efficacy of &#13;&#10;ABT-510 in advanced STS patients.&#13;&#10;PATIENTS AND METHODS: Patients with metastatic or unresectable STS were randomly &#13;&#10;assigned to treatment with one of two ABT-510 dose schedules (20 mg once a day&#13;&#10;[20 mg], n = 42; or 100 mg twice a day [200 mg], n = 46), which were&#13;&#10;self-administered subcutaneously in 28-day treatment periods. End points included&#13;&#10;progression-free survival (PFS), objective response rate (ORR), overall survival &#13;&#10;(OS), and safety.&#13;&#10;RESULTS: Median PFS for the 20-mg arm was 94 days, with 4- and 6-month PFS rate&#13;&#10;estimates of 42% and 24%, respectively. Median PFS for the 200-mg arm was 64&#13;&#10;days, with 4- and 6-month PFS rate estimates of 41% and 32%, respectively.&#13;&#10;Although only one objective response was noted, stable disease was observed in&#13;&#10;52% (20 mg) and 48% (200 mg) of patients. Median OS was 431 days (20 mg) and 295 &#13;&#10;days (200 mg). ABT-510 was well tolerated. Rare treatment-related grade 3 or 4&#13;&#10;adverse events were one event each of hypotension, deep vein thrombosis, and&#13;&#10;hypophosphatemia. ABT-510 pharmacokinetics were dose proportional, time&#13;&#10;independent, and consistent with those in previous studies.&#13;&#10;CONCLUSION: ABT-510 had a favorable safety profile, and the rate of disease&#13;&#10;control and OS times were encouraging. However, with low ORR and lack of dose&#13;&#10;response, the study failed to yield compelling evidence of strong single-agent&#13;&#10;activity in STS."/>
+    <cas:View sofa="6" members="1 13 33 17 21 37 41 25 29 45 49 53 57"/>
+</xmi:XMI>

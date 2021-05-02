@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:cas="http:///uima/cas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:type="http:///org/apache/uima/trials/type.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="6" begin="0" end="1406" language="x-unspecified"/>
+    <type:PFSMean xmi:id="29" sofa="6" begin="598" end="604"/>
+    <type:PFSMean xmi:id="33" sofa="6" begin="610" end="616"/>
+    <type:PFSTime xmi:id="17" sofa="6" begin="568" end="572"/>
+    <type:PFSRate xmi:id="21" sofa="6" begin="574" end="577"/>
+    <type:PFSRate xmi:id="25" sofa="6" begin="581" end="584"/>
+    <type:ORR xmi:id="37" sofa="6" begin="673" end="676"/>
+    <type:ORR xmi:id="41" sofa="6" begin="680" end="683"/>
+    <type:ORR xmi:id="53" sofa="6" begin="902" end="905"/>
+    <type:ORR xmi:id="57" sofa="6" begin="909" end="912"/>
+    <type:ORR xmi:id="61" sofa="6" begin="1003" end="1006"/>
+    <type:ORR xmi:id="65" sofa="6" begin="1012" end="1015"/>
+    <type:OSMean xmi:id="45" sofa="6" begin="744" end="751"/>
+    <type:OSMean xmi:id="49" sofa="6" begin="755" end="762"/>
+    <cas:Sofa xmi:id="6" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="AIM: To investigate efficacy and safety of cetuximab combined with two&#13;&#10;chemotherapy regimens in patients with unresectable metastatic colorectal cancer &#13;&#10;(mCRC).&#13;&#10;METHODS: Randomized patients received cetuximab with 5-fluorouracil (5-FU),&#13;&#10;folinic acid (FA) and oxaliplatin (FOLFOX) 6 (arm A, n = 74) or 5-FU, FA and&#13;&#10;irinotecan (FOLFIRI) (arm B, n = 77). KRAS mutation status was determined&#13;&#10;retrospectively in a subset of tumors (n = 117).&#13;&#10;RESULTS: No significant difference was found between treatment arms A and B in&#13;&#10;the progression-free survival (PFS) rate at 9 mo, 45% vs 34%; median PFS, 8.6 mo &#13;&#10;vs 8.3 mo [hazard ratio (HR) = 1.06]; overall response rate (ORR) 43% vs 45%&#13;&#10;[odds ratio (OR) = 0.93] and median overall survival (OS), 17.4 mo vs 18.9 mo (HR&#13;&#10;= 0.98). Patients with KRAS wild-type tumors demonstrated improved PFS (HR =&#13;&#10;0.55, P = 0.0051), OS, (HR = 0.62, P = 0.0296) and ORR (53% vs 36%) and in arm A,&#13;&#10;improved PFS (HR = 0.49, P = 0.0196), OS (HR = 0.48, P = 0.0201) and ORR (56% vs &#13;&#10;30%), compared with patients with KRAS mutated tumors. In arm B no significant&#13;&#10;differences were found in efficacy by KRAS mutation status. Treatment in arms A&#13;&#10;and B was generally well tolerated.&#13;&#10;CONCLUSION: This study confirms that combinations of cetuximab with FOLFOX6 or&#13;&#10;FOLFIRI are effective and significantly improve clinical outcome in KRAS&#13;&#10;wild-type compared with KRAS mutated mCRC."/>
+    <cas:View sofa="6" members="1 29 33 17 21 25 37 41 53 57 61 65 45 49"/>
+</xmi:XMI>

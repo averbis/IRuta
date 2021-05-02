@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:cas="http:///uima/cas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:type="http:///org/apache/uima/trials/type.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="6" begin="0" end="1364" language="x-unspecified"/>
+    <type:ORR xmi:id="13" sofa="6" begin="752" end="757"/>
+    <type:PFSTime xmi:id="17" sofa="6" begin="810" end="817"/>
+    <type:PFSRate xmi:id="21" sofa="6" begin="856" end="861"/>
+    <type:OSTime xmi:id="25" sofa="6" begin="871" end="879"/>
+    <type:OSRate xmi:id="29" sofa="6" begin="906" end="911"/>
+    <cas:Sofa xmi:id="6" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="BACKGROUND: Src inhibitors sensitise melanoma cells to chemotherapy in&#13;&#10;preclinical models. The combination of dasatinib and dacarbazine was tested in a &#13;&#10;phase I trial in melanoma.&#13;&#10;METHODS: Patients had ECOG performance status 0-2 and normal organ function.&#13;&#10;Dacarbazine was administered on day 1 and dasatinib on day 2 through 19 of each&#13;&#10;21-day cycle. Both were escalated from 50 mg b.i.d. of dasatinib and 800 mg m(-2)&#13;&#10;of dacarbazine. Available pre-treatment biopsies were sequenced for BRAF, NRAS,&#13;&#10;and C-Kit mutations.&#13;&#10;RESULTS: Dose-limiting toxicity was reached at dasatinib 70 mg b.i.d./dacarbazine&#13;&#10;1000 mg m(-2), and was predominantly haematological. In 29 patients receiving&#13;&#10;dasatinib 70 mg b.i.d., the objective response rate (ORR) was 13.8%, the clinical&#13;&#10;benefit rate (ORR+SD) was 72.4%, the 6-month progression-free survival (PFS) was &#13;&#10;20.7%, and the 12-month overall survival (OS) was 34.5%. Two out of three&#13;&#10;patients who were wild type for BRAF, NRAS, and c-KIT mutations had confirmed&#13;&#10;partial responses, and one had a minor response.&#13;&#10;CONCLUSION: The recommended phase II dose is dasatinib 70 mg b.i.d with&#13;&#10;dacarbazine 800 mg m(-2). PFS and OS data for dasatinib at 70 mg b.i.d. with&#13;&#10;dacarbazine compared favourably with historical controls. Preliminary data&#13;&#10;support evaluating tumour mutation status further as a biomarker of response."/>
+    <cas:View sofa="6" members="1 13 17 21 25 29"/>
+</xmi:XMI>

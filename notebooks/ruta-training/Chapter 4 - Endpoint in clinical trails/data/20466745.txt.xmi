@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:cas="http:///uima/cas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:type="http:///org/apache/uima/trials/type.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="6" begin="0" end="1468" language="x-unspecified"/>
+    <type:ORR xmi:id="13" sofa="6" begin="724" end="727"/>
+    <type:ORR xmi:id="17" sofa="6" begin="753" end="756"/>
+    <type:ORR xmi:id="37" sofa="6" begin="1195" end="1198"/>
+    <type:PFSMean xmi:id="21" sofa="6" begin="931" end="934"/>
+    <type:PFSMean xmi:id="25" sofa="6" begin="939" end="949"/>
+    <type:PFSMean xmi:id="41" sofa="6" begin="1200" end="1203"/>
+    <type:OSMean xmi:id="29" sofa="6" begin="1028" end="1032"/>
+    <type:OSMean xmi:id="33" sofa="6" begin="1037" end="1048"/>
+    <type:OSMean xmi:id="45" sofa="6" begin="1208" end="1219"/>
+    <cas:Sofa xmi:id="6" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="BACKGROUND: Patients with B-cell chronic lymphocytic leukemia (CLL) with 17p&#13;&#10;deletion respond poorly to chemotherapy. This retrospective study evaluated the&#13;&#10;benefit of alemtuzumab monotherapy in unselected patients with advanced CLL in&#13;&#10;the various cytogenetic subgroups.&#13;&#10;PATIENTS AND METHODS: Data were collected from 105 consecutive, pretreated,&#13;&#10;cytogenetically defined patients who had received alemtuzumab. Response,&#13;&#10;progression-free survival (PFS), and overall survival (OS) were assessed.&#13;&#10;RESULTS: The hierarchic incidence of cytogenetic abnormalities was: 13q deletion &#13;&#10;(as sole abnormality), 18%; trisomy 12, 13%; 11q deletion, 19%; 17p deletion,&#13;&#10;33%; and none of these, 16%. Overall response rate (ORR) was 43% in the total&#13;&#10;cohort and 49% in the subgroup of 17p-deleted patients (n = 35). From the start&#13;&#10;of alemtuzumab monotherapy, median PFS in the total cohort and in the subgroup of&#13;&#10;17p-deleted patients was 7.0 and 7.1 months, respectively. Median OS in the total&#13;&#10;cohort and in 17p-deleted patients was 32.8 and 19.1 months, respectively. The&#13;&#10;poor-risk group of patients with CLL (i.e. fludarabine resistant, 17p deletion; n&#13;&#10;= 20) showed encouraging ORR, PFS, and OS (35%, 7.0 and 19.2 months,&#13;&#10;respectively).&#13;&#10;CONCLUSIONS: Alemtuzumab was effective in treating patients with CLL across the&#13;&#10;cytogenetic categories evaluated, but there were differences. In patients with&#13;&#10;CLL with 17p deletion quite favorable ORR, PFS, and OS were achieved."/>
+    <cas:View sofa="6" members="1 13 17 37 21 25 41 29 33 45"/>
+</xmi:XMI>

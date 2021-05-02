@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:cas="http:///uima/cas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:type="http:///org/apache/uima/trials/type.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="6" begin="0" end="2194" language="x-unspecified"/>
+    <type:ORR xmi:id="13" sofa="6" begin="759" end="764"/>
+    <type:ORR xmi:id="49" sofa="6" begin="934" end="939"/>
+    <type:ORR xmi:id="53" sofa="6" begin="944" end="949"/>
+    <type:ORR xmi:id="73" sofa="6" begin="1315" end="1320"/>
+    <type:ORR xmi:id="77" sofa="6" begin="1325" end="1330"/>
+    <type:PFSMean xmi:id="17" sofa="6" begin="789" end="799"/>
+    <type:PFSMean xmi:id="65" sofa="6" begin="1252" end="1262"/>
+    <type:PFSMean xmi:id="69" sofa="6" begin="1267" end="1277"/>
+    <type:PFSMean xmi:id="81" sofa="6" begin="1384" end="1394"/>
+    <type:PFSMean xmi:id="85" sofa="6" begin="1399" end="1409"/>
+    <type:OSMean xmi:id="21" sofa="6" begin="804" end="815"/>
+    <type:OSMean xmi:id="57" sofa="6" begin="1004" end="1016"/>
+    <type:OSMean xmi:id="61" sofa="6" begin="1021" end="1032"/>
+    <type:OSMean xmi:id="89" sofa="6" begin="1431" end="1442"/>
+    <type:OSMean xmi:id="93" sofa="6" begin="1447" end="1458"/>
+    <type:OSTime xmi:id="25" sofa="6" begin="825" end="831"/>
+    <type:OSTime xmi:id="29" sofa="6" begin="833" end="839"/>
+    <type:OSTime xmi:id="33" sofa="6" begin="845" end="851"/>
+    <type:OSRate xmi:id="37" sofa="6" begin="871" end="876"/>
+    <type:OSRate xmi:id="41" sofa="6" begin="878" end="883"/>
+    <type:OSRate xmi:id="45" sofa="6" begin="888" end="893"/>
+    <cas:Sofa xmi:id="6" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="OBJECTIVE: To study the efficacy and safety of cetuximab combined with&#13;&#10;chemotherapy for patients with advanced colorectal cancer (ACRC) and unclear&#13;&#10;K-ras status.&#13;&#10;METHODS: Clinical data of 102 ACRC patients, treated by cetuximab combined with&#13;&#10;chemotherapy in Sun Yat-sen Cancer Center from March 2005 to December 2008, were &#13;&#10;collected. The cumulative survival rate, objective response rate (ORR), disease&#13;&#10;control rate (DCR), progression free survival (PFS) of the cases were calculated.&#13;&#10;The difference in ORR, DCR, PFS and oval survival (OS) between the regimens used &#13;&#10;as first-line and non-first-line treatment, and between the regimens including&#13;&#10;oxaliplatin and irinotecan were compared.&#13;&#10;RESULTS: The overall ORR of cetuximab plus chemotherapy was 43.1%, DCR 73.5%,&#13;&#10;median PFS 4.0 months, OS 28.5 months, and the 1-year, 3-year, and 5-year&#13;&#10;survival rate was 89.2%, 50.9% and 27.5%, respectively. The differences in ORR&#13;&#10;(50.0% vs. 40.0%, P = 0.344), DCR (78.1% vs. 72.9%, P = 0.571) and OS (51.0&#13;&#10;months vs. 35.0 months, P = 0.396) between the regimens as first line and as&#13;&#10;non-first line treatment were not statistically significant. However, the PFS of &#13;&#10;the regimen as first-line was longer than that as non-first-line treatment (PFS&#13;&#10;5.5 months vs. 3.0 months, P = 0.001). The differences in ORR (54.2% vs. 40.0%, P&#13;&#10;= 0.223), DCR (79.2% vs. 74.7%, P = 0.654), PFS (5.0 months vs. 3.0 months, P =&#13;&#10;0.726) and OS (36.0 months vs. 40.0 months, P = 0.759) between cetuximab plus&#13;&#10;oxliplatin and irinotecan were not statistically significant. The most common&#13;&#10;side effects of cetuximab plus chemotherapy were acneiform eruption (80.4%, grade&#13;&#10;3-4 in 9.8%), neutropenia (66.7%, grade 3-4 in 18.6%), and diarrhea (19.6%, grade&#13;&#10;3-4 in 5.9%). No treatment-related death was recorded.&#13;&#10;CONCLUSION: Patients with advanced colorectal cancer and unclear K-ras treated by&#13;&#10;cetuximab combined with chemotherapy have good ORR and OS, and the regimen is&#13;&#10;safe with less adverse events for them. There is no significant difference&#13;&#10;between the efficacies of regimens as first line and as non-first line treatment,&#13;&#10;and between cetuximab plus oxliplatin and cetuximab plus irinotecan regimens."/>
+    <cas:View sofa="6" members="1 13 49 53 73 77 17 65 69 81 85 21 57 61 89 93 25 29 33 37 41 45"/>
+</xmi:XMI>

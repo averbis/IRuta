@@ -1,0 +1,13 @@
+median time treatment failure
+median time to treatment failure
+median time to failure
+time treatment failure
+time to treatment failure
+time to failure
+partial response
+partial responses
+complete response
+complete responses
+stable disease
+disease progression
+median DR

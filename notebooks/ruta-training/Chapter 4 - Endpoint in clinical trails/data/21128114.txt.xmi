@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:cas="http:///uima/cas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:type="http:///org/apache/uima/trials/type.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="6" begin="0" end="1755" language="x-unspecified"/>
+    <type:OSMean xmi:id="13" sofa="6" begin="977" end="981"/>
+    <type:OSMean xmi:id="17" sofa="6" begin="986" end="996"/>
+    <type:OSMean xmi:id="37" sofa="6" begin="1220" end="1224"/>
+    <type:OSMean xmi:id="41" sofa="6" begin="1232" end="1243"/>
+    <type:PFSMean xmi:id="21" sofa="6" begin="1035" end="1038"/>
+    <type:PFSMean xmi:id="25" sofa="6" begin="1043" end="1053"/>
+    <type:PFSMean xmi:id="45" sofa="6" begin="1283" end="1286"/>
+    <type:PFSMean xmi:id="49" sofa="6" begin="1294" end="1304"/>
+    <type:ORR xmi:id="29" sofa="6" begin="1087" end="1089"/>
+    <type:ORR xmi:id="33" sofa="6" begin="1094" end="1097"/>
+    <type:ORR xmi:id="53" sofa="6" begin="1341" end="1343"/>
+    <type:ORR xmi:id="57" sofa="6" begin="1351" end="1354"/>
+    <cas:Sofa xmi:id="6" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="Patients with metastatic breast cancer (MBC) previously treated with&#13;&#10;anthracyclines and taxanes often have decreased performance status secondary to&#13;&#10;extensive tumor involvement. Here, we report the pooled analysis of efficacy and &#13;&#10;safety data from two similarly designed phase III studies to provide a more&#13;&#10;precise estimate of benefit of ixabepilone plus capecitabine in MBC patients with&#13;&#10;Karnofsky's performance status (KPS) 70-80. Across the studies,&#13;&#10;anthracycline/taxane-pretreated MBC patients were randomized to receive&#13;&#10;ixabepilone plus capecitabine or capecitabine alone. Individual patient data for &#13;&#10;KPS 70-80 subset (n = 606) or KPS 90-100 subset (n = 1349) from the two studies&#13;&#10;were pooled by treatment. Analysis included overall survival (OS),&#13;&#10;progression-free survival (PFS), objective response rate (ORR), and safety. In&#13;&#10;patients with reduced performance status (KPS 70-80), ixabepilone plus&#13;&#10;capecitabine was associated with improvements in OS (median: 12.3 vs. 9.5 months;&#13;&#10;HR, 0.75; P = 0.0015), PFS (median: 4.6 vs. 3.1 months; HR, 0.76; P = 0.0021) and&#13;&#10;ORR (35 vs. 19%) over capecitabine alone. Corresponding results in patients with &#13;&#10;high performance status (KPS 90-100) were median OS of 16.7 versus 16.2 months&#13;&#10;(HR, 0.98; P = 0.8111), median PFS of 6.0 versus 4.4 months (HR, 0.58;&#13;&#10;P = 0.0009), and ORR of 45 versus 28%. The safety profile of combination therapy &#13;&#10;was similar between the subgroups. Ixabepilone plus capecitabine appeared to show&#13;&#10;superior efficacy compared to capecitabine alone in MBC patients previously&#13;&#10;treated with anthracyclines and taxanes, regardless of performance status, with a&#13;&#10;possible OS benefit favoring KPS 70-80 patients (ClinicalTrials.gov identifiers: &#13;&#10;NCT00080301 and NCT00082433)."/>
+    <cas:View sofa="6" members="1 13 17 37 41 21 25 45 49 29 33 53 57"/>
+</xmi:XMI>

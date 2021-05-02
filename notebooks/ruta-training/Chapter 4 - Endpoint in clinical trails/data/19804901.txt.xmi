@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:cas="http:///uima/cas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:type="http:///org/apache/uima/trials/type.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="6" begin="0" end="1503" language="x-unspecified"/>
+    <type:PFSMean xmi:id="13" sofa="6" begin="808" end="816"/>
+    <type:PFSMean xmi:id="25" sofa="6" begin="961" end="963"/>
+    <type:PFSMean xmi:id="29" sofa="6" begin="968" end="976"/>
+    <type:PFSMean xmi:id="33" sofa="6" begin="1042" end="1050"/>
+    <type:OSMean xmi:id="17" sofa="6" begin="835" end="844"/>
+    <type:ORR xmi:id="21" sofa="6" begin="883" end="886"/>
+    <cas:Sofa xmi:id="6" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="OBJECTIVE: To determine efficacy, toxicity, and survival in patients with&#13;&#10;recurrent epithelial ovarian cancer (EOC) receiving combination of weekly&#13;&#10;paclitaxel and biweekly bevacizumab (PB).&#13;&#10;METHODS: We reviewed chemotherapy logs identifying all patients receiving&#13;&#10;combination PB. Toxicities were graded using CTCAEv3.0 criteria. Response rates&#13;&#10;(RR) were measured using RECIST criteria or by CA-125 levels per modified Rustin &#13;&#10;criteria. RR and progression-free survival (PFS) were determined and plotted&#13;&#10;using Kaplan-Meier survival analysis.&#13;&#10;RESULTS: Fifty-one patients receiving at least two cycles of chemotherapy were&#13;&#10;evaluable for survival and 55 patients receiving one cycle of PB were evaluable&#13;&#10;in toxicity analysis. The mean number of previous regimens was four. The overall &#13;&#10;median PFS was 7 months and median OS was 12 months. The overall response rate&#13;&#10;(ORR) was 60% (CR 25% and PR 35%). Median PFS for complete and partial responders&#13;&#10;were 14 and 5 months respectively. Stable disease was seen in 26% with median PFS&#13;&#10;of 6 months. Thirteen experienced treatment delays for a variety of factors. The &#13;&#10;most G3/4 toxicities were fatigue (16%), hematologic (9%) and neurotoxicity (7%).&#13;&#10;Three patients (5%) experienced bowel perforations.&#13;&#10;CONCLUSIONS: Combination of paclitaxel and bevacizumab is feasible and&#13;&#10;demonstrates an acceptable toxicity profile and a high response rate. These&#13;&#10;observations should be useful in planning future clinical trials with this&#13;&#10;combination therapy."/>
+    <cas:View sofa="6" members="1 13 25 29 33 17 21"/>
+</xmi:XMI>

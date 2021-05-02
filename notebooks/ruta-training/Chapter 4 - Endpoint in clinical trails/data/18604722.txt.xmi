@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:cas="http:///uima/cas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:type="http:///org/apache/uima/trials/type.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="6" begin="0" end="990" language="x-unspecified"/>
+    <type:ORR xmi:id="13" sofa="6" begin="498" end="501"/>
+    <type:ORR xmi:id="17" sofa="6" begin="506" end="509"/>
+    <type:OSTime xmi:id="21" sofa="6" begin="525" end="531"/>
+    <type:OSTime xmi:id="37" sofa="6" begin="628" end="634"/>
+    <type:OSRate xmi:id="25" sofa="6" begin="568" end="571"/>
+    <type:OSRate xmi:id="29" sofa="6" begin="576" end="579"/>
+    <type:OSRate xmi:id="41" sofa="6" begin="650" end="653"/>
+    <type:OSRate xmi:id="45" sofa="6" begin="664" end="667"/>
+    <type:PFSRate xmi:id="49" sofa="6" begin="688" end="691"/>
+    <type:PFSRate xmi:id="53" sofa="6" begin="702" end="705"/>
+    <type:PFSTime xmi:id="61" sofa="6" begin="628" end="634"/>
+    <cas:Sofa xmi:id="6" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="Primary mediastinal large B-cell lymphoma (PMLCL) is an aggressive non-Hodgkin&#13;&#10;lymphoma with distinct clinical and gene expression profiles. Outcomes of salvage&#13;&#10;chemotherapy and autologous stem cell transplantation (ASCT) for relapsed or&#13;&#10;refractory disease (RR) have not been well characterised. We retrospectively&#13;&#10;identified 180 consecutive RR patients (37 PMLCL and a control group of 143&#13;&#10;DLBCL) that underwent salvage chemotherapy. The overall response rate (ORR) to&#13;&#10;salvage chemotherapy (25% vs. 48%, p = 0.01) and 2-year OS after diagnosis of RR &#13;&#10;disease (15% vs. 34%, p = 0.018) was inferior in PMLCL patients. The 2-year&#13;&#10;post-ASCT OS (67% PMLCL vs. 53%, p = 0.78) and PFS (57% PMLCL vs. 36%, p = 0.64) &#13;&#10;were similar. RR PMLCL had an inferior ORR and survival compared with DLBCL but&#13;&#10;chemosensitive PMLCL and DLBCL patients have similar outcomes post-ASCT.&#13;&#10;Strategies for PMLCL should focus on identifying poor risk patients to test novel&#13;&#10;induction and salvage strategies."/>
+    <cas:View sofa="6" members="1 13 17 21 37 25 29 41 45 49 53 61"/>
+</xmi:XMI>

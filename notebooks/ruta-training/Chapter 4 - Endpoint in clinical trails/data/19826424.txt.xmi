@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:cas="http:///uima/cas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:type="http:///org/apache/uima/trials/type.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="6" begin="0" end="1383" language="x-unspecified"/>
+    <type:ORR xmi:id="13" sofa="6" begin="812" end="816"/>
+    <type:PFSMean xmi:id="17" sofa="6" begin="961" end="971"/>
+    <type:OSMean xmi:id="21" sofa="6" begin="1009" end="1019"/>
+    <type:OSTime xmi:id="25" sofa="6" begin="1046" end="1052"/>
+    <type:OSRate xmi:id="29" sofa="6" begin="1078" end="1083"/>
+    <cas:Sofa xmi:id="6" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="BACKGROUND: Sunitinib malate (SUTENT) has promising single-agent activity given&#13;&#10;on Schedule 4/2 (4 weeks on treatment followed by 2 weeks off treatment) in&#13;&#10;advanced non-small cell lung cancer (NSCLC).&#13;&#10;METHODS: We examined the activity of sunitinib on a continuous daily dosing (CDD)&#13;&#10;schedule in an open-label, multicentre phase II study in patients with previously&#13;&#10;treated, advanced NSCLC. Patients &gt; or =18 years with stage IIIB/IV NSCLC after&#13;&#10;failure with platinum-based chemotherapy, received sunitinib 37.5 mg per day. The&#13;&#10;primary end point was objective response rate (ORR). Secondary end points&#13;&#10;included progression-free survival (PFS), overall survival (OS), 1-year survival &#13;&#10;rate, and safety.&#13;&#10;RESULTS: Of 47 patients receiving sunitinib, one patient achieved a confirmed&#13;&#10;partial response (ORR 2.1% (95% confidence interval (CI) 0.1, 11.3)) and 11&#13;&#10;(23.4%) had stable disease (SD) &gt; or =8 weeks. Five patients had SD&gt;6 months.&#13;&#10;Median PFS was 11.9 weeks (95% CI 8.6, 14.1) and median OS was 37.1 weeks (95% CI&#13;&#10;31.1, 69.7). The 1-year survival probability was 38.4% (95% CI 24.2, 52.5).&#13;&#10;Treatment was generally well tolerated.&#13;&#10;CONCLUSIONS: The safety profile and time-to-event analyses, albeit relatively low&#13;&#10;response rate of 2%, suggest single-agent sunitinib on a CDD schedule may be a&#13;&#10;potential therapeutic agent for patients with advanced, refractory NSCLC."/>
+    <cas:View sofa="6" members="1 13 17 21 25 29"/>
+</xmi:XMI>

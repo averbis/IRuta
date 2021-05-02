@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:cas="http:///uima/cas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:type="http:///org/apache/uima/trials/type.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="6" begin="0" end="1895" language="x-unspecified"/>
+    <type:OSMean xmi:id="13" sofa="6" begin="691" end="693"/>
+    <type:OSMean xmi:id="17" sofa="6" begin="695" end="697"/>
+    <type:OSMean xmi:id="21" sofa="6" begin="703" end="712"/>
+    <type:OSMean xmi:id="25" sofa="6" begin="850" end="852"/>
+    <type:OSMean xmi:id="29" sofa="6" begin="854" end="856"/>
+    <type:OSMean xmi:id="33" sofa="6" begin="862" end="871"/>
+    <type:OSMean xmi:id="41" sofa="6" begin="1159" end="1169"/>
+    <type:OSMean xmi:id="73" sofa="6" begin="1445" end="1456"/>
+    <type:OSMean xmi:id="77" sofa="6" begin="1460" end="1477"/>
+    <type:ORR xmi:id="37" sofa="6" begin="1126" end="1131"/>
+    <type:ORR xmi:id="65" sofa="6" begin="1406" end="1411"/>
+    <type:ORR xmi:id="69" sofa="6" begin="1415" end="1420"/>
+    <type:PFSMean xmi:id="45" sofa="6" begin="1175" end="1192"/>
+    <type:PFSMean xmi:id="81" sofa="6" begin="1507" end="1517"/>
+    <type:PFSMean xmi:id="85" sofa="6" begin="1521" end="1538"/>
+    <type:OSTime xmi:id="49" sofa="6" begin="1212" end="1214"/>
+    <type:OSTime xmi:id="53" sofa="6" begin="1219" end="1226"/>
+    <type:OSRate xmi:id="57" sofa="6" begin="1235" end="1238"/>
+    <type:OSRate xmi:id="61" sofa="6" begin="1243" end="1246"/>
+    <cas:Sofa xmi:id="6" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="OBJECTIVE: To explore the applicability of Durie Salmon (DS) and International&#13;&#10;Staging System (ISS) for Chinese patients with multiple myeloma (MM) and to&#13;&#10;evaluate the efficacy of major therapeutic options and the influence of various&#13;&#10;prognostic factors on survival were also evaluated.&#13;&#10;METHODS: The patient survival was compared with regards to DS and ISS. Fourteen&#13;&#10;clinical and laboratory parameters were analyzed by univariate and multivariate&#13;&#10;process. Response rate, overall survival (OS) and progression-free survival (PFS)&#13;&#10;of 182 patients treated with different regimens were retrospectively analyzed.&#13;&#10;RESULTS: The median survival of patients with DS stages I, II and III were 79, 82&#13;&#10;and 43 months, respectively. There was no significance between stage I and&#13;&#10;II/III. The median survival of patients with ISS stages I, II and III were 79, 49&#13;&#10;and 43 months, respectively. Multivariate analysis suggested that age, percentage&#13;&#10;of plasma cell in bone marrow, C-reactive protein (CRP) and beta2-microglobulin&#13;&#10;(2-MG) were independent prognostic factors for OS. The overall response rate&#13;&#10;(ORR) of 182 patients was 69.2% and median OS and PFS were 49.0+/-5.0 and&#13;&#10;19.0+/-2.1 months, respectively. The 5- and 10-year OS were 34% and 19%,&#13;&#10;respectively. Compared with those not receiving thalidomide induction, the&#13;&#10;patients on a VAD-like regimen combined with thalidomide showed a superior ORR&#13;&#10;(81.5% vs 59.7%, P=0.008), a longer OS (79.0+/-29.5 vs 37.0+/-4.8 months,&#13;&#10;P=0.001) and a longer PFS (24.0+/-6.0 vs 14.0+/-2.7 months, P=0.033).&#13;&#10;CONCLUSION: ISS is more applicable than DS, especially for low risk patients. The&#13;&#10;efficacy of VAD-like regimen combined Thal as first-line treatment is proven to&#13;&#10;be reliable. Induction therapy including thalidomide can not only improve the&#13;&#10;ORR, but also delay the relapse or progression of disease. It may even prolong&#13;&#10;the patient survival."/>
+    <cas:View sofa="6" members="1 13 17 21 25 29 33 41 73 77 37 65 69 45 81 85 49 53 57 61"/>
+</xmi:XMI>

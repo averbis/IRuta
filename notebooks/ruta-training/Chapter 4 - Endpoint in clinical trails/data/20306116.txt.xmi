@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:cas="http:///uima/cas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:type="http:///org/apache/uima/trials/type.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="6" begin="0" end="1484" language="x-unspecified"/>
+    <type:ORR xmi:id="13" sofa="6" begin="452" end="455"/>
+    <type:ORR xmi:id="17" sofa="6" begin="512" end="515"/>
+    <type:ORR xmi:id="21" sofa="6" begin="520" end="523"/>
+    <type:PFSMean xmi:id="25" sofa="6" begin="628" end="638"/>
+    <type:PFSMean xmi:id="33" sofa="6" begin="736" end="739"/>
+    <type:PFSMean xmi:id="37" sofa="6" begin="762" end="772"/>
+    <type:OSMean xmi:id="29" sofa="6" begin="661" end="672"/>
+    <type:OSMean xmi:id="41" sofa="6" begin="896" end="907"/>
+    <type:OSMean xmi:id="45" sofa="6" begin="932" end="942"/>
+    <cas:Sofa xmi:id="6" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="A phase II study was conducted to evaluate S-1 monotherapy in previously&#13;&#10;untreated elderly or frail metastatic colorectal cancer patients. A total of 48&#13;&#10;elderly (70-85 years old) and frail [Eastern Cooperative Oncology Group (ECOG)&#13;&#10;performance status (PS) 2 and 65-69 years old] patients were eligible for&#13;&#10;first-line S-1 of 35 mg/m(2) given twice daily for 2 weeks followed by 1 week of &#13;&#10;rest. The overall response rate (ORR) for all patients was 19%. Similarly, the&#13;&#10;ORR for frail and elderly patients was 22% and 18%, respectively. Median&#13;&#10;progression-free survival (PFS) and overall survival (OS) for all patients were&#13;&#10;3.9 months (95% CI, 3.0-4.8) and 11.3 months (95% CI, 7.4-15.2), respectively.&#13;&#10;For frail patients, PFS was 1.4 (95% CI, 0.8-2.0) vs. 4.3 months (95% CI,&#13;&#10;3.0-5.4) for the elderly (P = 0.016). OS was significantly longer for elderly&#13;&#10;patients than for frail patients (13.1 months, 95% CI, 9.5-16.7) vs. (4.1 months,&#13;&#10;95% CI, 3.2-5.0; P = 0.01). Toxicity was mild to moderate, as only 29% of&#13;&#10;patients experienced grade 3 toxicity. Grade 4 toxicity and febrile neutropenia&#13;&#10;did not occur; however, two frail patients died from grade 5 treatment-related&#13;&#10;infections. Generally, S-1 monotherapy was well-tolerated and efficacious in the &#13;&#10;elderly patient group, but not in the frail patient group. Considering&#13;&#10;performance status and co-morbidities in patients &gt;70 years old, S-1 monotherapy &#13;&#10;may be a first-line therapeutic option for elderly mCRC patients."/>
+    <cas:View sofa="6" members="1 13 17 21 25 33 37 29 41 45"/>
+</xmi:XMI>
