@@ -4,4 +4,3 @@ sos-ruta==0.1.0
 dkpro-cassis==0.5.2
 ipykernel==5.4.3
 ipython==7.22.0
-jupyterlab-sos==0.8.1
