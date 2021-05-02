@@ -6,8 +6,14 @@ time to treatment failure
 time to failure
 partial response
 partial responses
+PR
 complete response
 complete responses
+CR
 stable disease
 disease progression
+DCR
+disease control rate
+disease control rates
+disease-free interval
 median DR
