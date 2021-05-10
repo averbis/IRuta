@@ -25,3 +25,7 @@ median F/U
 median duration of response
 median follow-up
 CRR (CR + PR + SD)
+hazard ratio
+HR
+VGPR rate
+VGPR
