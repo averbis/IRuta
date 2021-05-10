@@ -22,3 +22,5 @@ notebooks/batch_incremental/stage*
 test-output/
 
 notebooks/ruta-training/Chapter 4 - Endpoint in clinical trails/temp/
+notebooks/ruta-training/Chapter 4 - Endpoint in clinical trails/EndpointsTypeSystem.xml
+notebooks/ruta-training/Chapter 4 - Endpoint in clinical trails/Endpoints.ruta

@@ -1,7 +1,11 @@
 OS
 OS rate
 OS rates
+OS time
+OS times
 overall survival
+overall survival rate
+overall survival rate (OS)
 median OS
 survival
 survival rate

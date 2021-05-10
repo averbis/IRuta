@@ -5,7 +5,7 @@
     <type8:OSMean xmi:id="3" sofa="1" begin="686" end="696"/>
     <type8:OSMean xmi:id="4" sofa="1" begin="719" end="729"/>
     <type8:PFSMean xmi:id="5" sofa="1" begin="785" end="795"/>
-    <type8:PFSRate xmi:id="6" sofa="1" begin="819" end="829"/>
+    <type8:PFSMean xmi:id="6" sofa="1" begin="819" end="829"/>
     <type8:ORR xmi:id="7" sofa="1" begin="1010" end="1014"/>
     <type8:ORR xmi:id="8" sofa="1" begin="1028" end="1032"/>
     <type5:Token xmi:id="9" sofa="1" begin="0" end="10" pos="397" order="0"/>

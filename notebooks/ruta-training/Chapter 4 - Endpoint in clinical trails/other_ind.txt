@@ -29,3 +29,6 @@ hazard ratio
 HR
 VGPR rate
 VGPR
+median response duration
+median TTF
+TTF
