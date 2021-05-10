@@ -43,8 +43,8 @@ public class EvaluationUtilsTest {
 		EvaluationUtils.createGoldView(jcas, types);
 
 		Ruta.apply(jcas.getCas(), "(CW SW){->Line} PERIOD; CW{->Line};");
-
-		Map<String, EvaluationResult> map = EvaluationUtils.evaluate(types, jcas);
+		EvaluationUtils.evaluate(types, jcas);
+		Map<String, EvaluationResult> map = EvaluationUtils.createEvaluationResult(jcas);
 
 		Assert.assertEquals(1, map.size());
 

@@ -17,3 +17,11 @@ disease control rate
 disease control rates
 disease-free interval
 median DR
+rate of disease stabilization
+response duration
+clinical
+benefit rate (ORR+SD)
+median F/U
+median duration of response
+median follow-up
+CRR (CR + PR + SD)

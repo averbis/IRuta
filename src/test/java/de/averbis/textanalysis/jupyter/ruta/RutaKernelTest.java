@@ -423,43 +423,28 @@ public class RutaKernelTest {
 
 
 	@Test
-	public void thatCasUpgradeWithGoldDocumentText() throws Exception {
+	public void thatDebugInfoCanBeCSVOutput() throws Exception {
 
-		FileUtils.deleteDirectory(new File("target/test-ouput/references/out1"));
-
-		KERNEL.eval("%inputDir src/test/resources/test-data/references\n" +
-				"%outputDir target/test-ouput/references/out1\n" +
-				"%displayMode EVALUATION\n" +
-				"%evalTypes Date\n" +
-				"\n" +
-				"TYPESYSTEM ReferencesTypeSystem;\n" +
-				"\n" +
-				"DECLARE YearInd;\n" +
-				"\n" +
-				"BLOCK(Date) Reference{}{\n" +
-				"    \n" +
-				"    NUM{REGEXP(\"19..|20..\")-> YearInd};\n" +
-				"    \n" +
-				"    (SPECIAL.ct==\"(\" @YearInd SPECIAL.ct==\")\" COMMA?){-> Date};\n" +
-				"    (@YearInd{-PARTOF(Date)} COMMA[0,2]){-> Date};\n" +
-				"    PERIOD (@YearInd{-PARTOF(Date)} PERIOD){-> Date};\n" +
-				"    SW d:@Date{-> UNMARK(Date)};\n" +
-				"}\n");
-		String cell = "%inputDir target/test-ouput/references/out1\n" +
-				"%outputDir target/test-ouput/references/out2\n" +
-				"%displayMode CSV\n" +
-				"%csvConfig BadReference\n" +
-				"\n" +
-				"DECLARE BadReference;\n" +
-				"Reference{OR(CONTAINS(FalsePositive),CONTAINS(FalseNegative))};\n" +
-				"\n" +
-				"COLOR(TruePositive, \"lightgreen\");\n" +
-				"COLOR(FalsePositive, \"lightblue\");\n" +
-				"COLOR(FalseNegative, \"lightred\");";
-		DisplayData eval = KERNEL.eval(cell);
-
-		String html = (String) eval.getData(MIMEType.TEXT_HTML);
-		System.out.println(html);
+		KERNEL.eval("%documentText \"This is a test.\"\n"
+				+ "%displayMode NONE\n"
+				+ "%configParams --debug=true --debugWithMatches=true --debugAddToIndexes=true --createdBy=true --profile=true --statistics=true\n"
+				+ "CW;\n"
+				+ "ANY{REGEXP(\"abc\")};\n");
+		DisplayData displayData = KERNEL.eval("%displayMode CSV\n"
+				+ "%csvConfig ProfiledRule element applied tried\n"
+				+ "CW;\n"
+				+ "ANY{REGEXP(\"abc\")};\n"
+				+ "DECLARE ProfiledRule(STRING element, INT applied, INT tried);\n"
+				+ "rule:DebugRuleApply{ -> CREATE(ProfiledRule, \"element\"=rule.element,\"applied\"=rule.applied,\"tried\"=rule.tried)};");
+		String html = (String) displayData.getData(MIMEType.TEXT_HTML);
+		Assert.assertEquals("<html><table>\n" +
+				"<tr><td>This is a test.</td><td>BLOCK() Document;</td><td>1</td><td>1</td></tr>\n"
+				+
+				"<tr><td>This is a test.</td><td>ANY{REGEXP(\"abc\", false)};</td><td>0</td><td>5</td></tr>\n"
+				+
+				"<tr><td>This is a test.</td><td>Document;</td><td>1</td><td>1</td></tr>\n" +
+				"<tr><td>This</td><td>CW;</td><td>1</td><td>1</td></tr>\n" +
+				"</table></html>", html);
 	}
 
 }

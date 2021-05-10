@@ -110,6 +110,8 @@ public class RutaKernel extends BaseKernel {
 	private TypeSystemDescription typeSystemDescription;
 	private List<String[]> relationalData = new ArrayList<>();
 	private List<String[]> relationalDatawithHihglighting = new ArrayList<>();
+
+	// stores evaluation results across documents: document -> type -> outcomes
 	private Map<String, Map<String, EvaluationResult>> evaluationData;
 
 	private TypeSystemDescription rutaTypeSystem;
@@ -200,7 +202,7 @@ public class RutaKernel extends BaseKernel {
 		String script = magicsProcessor.process(cell);
 
 		if (script == null) {
-			// do not try to process CAS if the magics say there are no rules, e.g., it was a cell
+			// do not try to process CAS if the magics say there are no rules, e.g., it was a
 			// document cell magic
 			return null;
 		}
@@ -252,7 +254,6 @@ public class RutaKernel extends BaseKernel {
 		}
 
 		printRelationalDataSummary();
-		printEvaluationSummary();
 
 		// reset, only evaluate in one cell
 		evaluationTypeNames = null;
@@ -287,14 +288,6 @@ public class RutaKernel extends BaseKernel {
 				System.out.println(size + " rows created.");
 			}
 		}
-	}
-
-
-	private void printEvaluationSummary() {
-
-		// TODO print to console?
-		// for (Entry<String, Map<String, EvaluationResult>> docEntry : evaluationData.entrySet()) {
-		// }
 	}
 
 
@@ -370,9 +363,21 @@ public class RutaKernel extends BaseKernel {
 
 		List<String[]> result = new ArrayList<>();
 		String typeName = csvConfig.get(0);
+		boolean addCoveredText = true;
+		if (typeName.startsWith("-")) {
+			typeName = typeName.substring(1);
+			addCoveredText = false;
+		}
 		List<String> featurePaths = Collections.emptyList();
 		if (csvConfig.size() > 1) {
 			featurePaths = csvConfig.subList(1, csvConfig.size());
+		}
+		int columns = featurePaths.size();
+		if (currentDocumentName != null) {
+			columns++;
+		}
+		if (addCoveredText) {
+			columns++;
 		}
 		TypeSystem typeSystem = jcas.getTypeSystem();
 		Type type = CsvUtils.getTypeByName(typeName, typeSystem);
@@ -382,14 +387,16 @@ public class RutaKernel extends BaseKernel {
 		Collection<AnnotationFS> annotations = CasUtil.select(jcas.getCas(), type);
 		for (AnnotationFS annotationFS : annotations) {
 			int index = 0;
-			String[] row = new String[2 + featurePaths.size()];
+			String[] row = new String[columns];
 			if (currentDocumentName != null) {
 				row[index++] = currentDocumentName;
 			}
-			if (withHighlighting) {
-				row[index++] = RutaColoringUtils.createHighlightingHtml(annotationFS);
-			} else {
-				row[index++] = annotationFS.getCoveredText();
+			if (addCoveredText) {
+				if (withHighlighting) {
+					row[index++] = RutaColoringUtils.createHighlightingHtml(annotationFS);
+				} else {
+					row[index++] = annotationFS.getCoveredText();
+				}
 			}
 			for (String path : featurePaths) {
 				row[index++] = CsvUtils.getFeatureValue(annotationFS, path, withHighlighting);
@@ -403,8 +410,10 @@ public class RutaKernel extends BaseKernel {
 	private void addEvaluationData(String currentDocumentName) {
 
 		if (evaluationTypeNames != null && !evaluationTypeNames.isEmpty()) {
-			Map<String, EvaluationResult> docResult = EvaluationUtils.evaluate(evaluationTypeNames,
-					jcas);
+			EvaluationUtils.evaluate(evaluationTypeNames, jcas);
+		}
+		if (displayMode.equals(DisplayMode.EVALUATION)) {
+			Map<String, EvaluationResult> docResult = EvaluationUtils.createEvaluationResult(jcas);
 			evaluationData.put(currentDocumentName, docResult);
 		}
 	}

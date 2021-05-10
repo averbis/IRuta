@@ -28,6 +28,7 @@ import org.apache.uima.cas.Type;
 import org.apache.uima.cas.TypeSystem;
 import org.apache.uima.cas.text.AnnotationFS;
 import org.apache.uima.fit.util.CasUtil;
+import org.apache.uima.fit.util.JCasUtil;
 import org.apache.uima.jcas.JCas;
 import org.apache.uima.ruta.RutaBasicUtils;
 import org.apache.uima.ruta.type.EvalAnnotation;
@@ -57,7 +58,6 @@ public class EvaluationUtils {
 
 		CAS cas = jcas.getCas();
 		CAS goldCas = cas.createView(GOLD);
-		// TODO set text
 		goldCas.setDocumentText(cas.getDocumentText());
 		CasCopier cc = new CasCopier(cas, goldCas);
 		TypeSystem typeSystem = cas.getTypeSystem();
@@ -83,10 +83,7 @@ public class EvaluationUtils {
 	}
 
 
-	public static Map<String, EvaluationResult> evaluate(List<String> evaluationTypeNames,
-			JCas jcas) {
-
-		Map<String, EvaluationResult> result = new TreeMap<>();
+	public static void evaluate(List<String> evaluationTypeNames, JCas jcas) {
 
 		TypeSystem typeSystem = jcas.getTypeSystem();
 
@@ -97,15 +94,40 @@ public class EvaluationUtils {
 						"Evaluation type '" + typeName + "' not defined in type system.");
 			}
 
-			EvaluationResult evalResult = evaluate(typeName, type, jcas);
-			result.put(typeName, evalResult);
+			evaluate(typeName, type, jcas);
 		}
+
+	}
+
+
+	public static Map<String, EvaluationResult> createEvaluationResult(JCas jcas) {
+
+		Map<String, EvaluationResult> result = new TreeMap<>();
+
+		addToGroupedMap(result, JCasUtil.select(jcas, TruePositive.class), Outcome.TP);
+		addToGroupedMap(result, JCasUtil.select(jcas, FalsePositive.class), Outcome.FP);
+		addToGroupedMap(result, JCasUtil.select(jcas, FalseNegative.class), Outcome.FN);
 
 		return result;
 	}
 
 
-	public static EvaluationResult evaluate(String name, Type type, JCas jcas) {
+	private static void addToGroupedMap(Map<String, EvaluationResult> result,
+			Collection<? extends EvalAnnotation> annotations, Outcome outcome) {
+
+		for (EvalAnnotation evalAnnotation : annotations) {
+			String group = evalAnnotation.getGroup();
+			EvaluationResult evaluationResult = result.get(group);
+			if (evaluationResult == null) {
+				evaluationResult = new EvaluationResult(group);
+				result.put(group, evaluationResult);
+			}
+			evaluationResult.increment(outcome);
+		}
+	}
+
+
+	public static void evaluate(String name, Type type, JCas jcas) {
 
 		CAS cas = jcas.getCas();
 		CAS goldCas = cas.getView(GOLD);
@@ -148,16 +170,9 @@ public class EvaluationUtils {
 			}
 		}
 
-		createEvaluationAnnotations(tps, TruePositive._TypeName, cas);
-		createEvaluationAnnotations(fps, FalsePositive._TypeName, cas);
-		createEvaluationAnnotations(fns, FalseNegative._TypeName, cas);
-
-		EvaluationResult result = new EvaluationResult(name);
-		result.add(tps.size(), Outcome.TP);
-		result.add(fps.size(), Outcome.FP);
-		result.add(fns.size(), Outcome.FN);
-
-		return result;
+		createEvaluationAnnotations(tps, TruePositive._TypeName, name, cas);
+		createEvaluationAnnotations(fps, FalsePositive._TypeName, name, cas);
+		createEvaluationAnnotations(fns, FalseNegative._TypeName, name, cas);
 	}
 
 
@@ -172,16 +187,19 @@ public class EvaluationUtils {
 
 
 	private static void createEvaluationAnnotations(Collection<AnnotationFS> annotations,
-			String typeName,
-			CAS cas) {
+			String typeName, String group, CAS cas) {
 
 		Type outcomeType = cas.getTypeSystem().getType(typeName);
-		Feature feature = outcomeType
+		Feature originalFeature = outcomeType
 				.getFeatureByBaseName(EvalAnnotation._FeatName_original);
+		Feature groupFeature = outcomeType
+				.getFeatureByBaseName(EvalAnnotation._FeatName_group);
+
 		for (AnnotationFS each : annotations) {
 			AnnotationFS outcomeAnnotation = cas.createAnnotation(outcomeType, each.getBegin(),
 					each.getEnd());
-			outcomeAnnotation.setFeatureValue(feature, each);
+			outcomeAnnotation.setFeatureValue(originalFeature, each);
+			outcomeAnnotation.setStringValue(groupFeature, group);
 			RutaBasicUtils.addAnnotation(outcomeAnnotation);
 			cas.addFsToIndexes(outcomeAnnotation);
 		}
@@ -195,19 +213,32 @@ public class EvaluationUtils {
 		StringBuilder sb = new StringBuilder();
 		sb.append("<html>");
 		sb.append("<table>");
-		sb.append("<tr>");
-		sb.append("<th>Document</th>");
-		sb.append("<th>Type</th>");
-		sb.append("<th>F1</th>");
-		sb.append("<th>Precision</th>");
-		sb.append("<th>Recall</th>");
-		sb.append("<th>TP</th>");
-		sb.append("<th>FP</th>");
-		sb.append("<th>FN</th>");
-		sb.append("</tr>");
-		sb.append("\n");
+		// appendHeaderRow(sb);
 
+		// aggregate overall and label micro
+		Map<String, EvaluationResult> labelMicroAverage = new TreeMap<>();
 		EvaluationResult overallResult = new EvaluationResult("All");
+		for (Entry<String, Map<String, EvaluationResult>> docEntry : evaluationData.entrySet()) {
+			Map<String, EvaluationResult> typeMap = docEntry.getValue();
+			for (Entry<String, EvaluationResult> typeEntry : typeMap.entrySet()) {
+				String typeName = typeEntry.getKey();
+				EvaluationResult typeResult = typeEntry.getValue();
+				EvaluationResult typeMicro = labelMicroAverage.get(typeName);
+				if (typeMicro == null) {
+					typeMicro = new EvaluationResult(typeName);
+					labelMicroAverage.put(typeName, typeMicro);
+				}
+				typeMicro.add(typeResult);
+				overallResult.add(typeResult);
+			}
+		}
+		overallResult.appendHtmlRow("Overall", sb);
+		appendHeaderRow(sb);
+		for (Entry<String, EvaluationResult> entry : labelMicroAverage.entrySet()) {
+			entry.getValue().appendHtmlRow("Overall", sb);
+		}
+		appendHeaderRow(sb);
+		// new details for each document
 		for (Entry<String, Map<String, EvaluationResult>> docEntry : evaluationData.entrySet()) {
 
 			String docName = docEntry.getKey();
@@ -225,12 +256,27 @@ public class EvaluationUtils {
 				typeEntry.getValue().appendHtmlRow("", sb);
 			}
 
-			overallResult.add(docResult);
 		}
-		overallResult.appendHtmlRow("Overall", sb);
+
 		sb.append("</table>");
 		sb.append("</html>");
 		return sb.toString();
+	}
+
+
+	private static void appendHeaderRow(StringBuilder sb) {
+
+		sb.append("<tr>");
+		sb.append("<th>Document</th>");
+		sb.append("<th>Type</th>");
+		sb.append("<th>F1</th>");
+		sb.append("<th>Precision</th>");
+		sb.append("<th>Recall</th>");
+		sb.append("<th>TP</th>");
+		sb.append("<th>FP</th>");
+		sb.append("<th>FN</th>");
+		sb.append("</tr>");
+		sb.append("\n");
 	}
 
 }
