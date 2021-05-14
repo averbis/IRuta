@@ -1,55 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+    <name>TypeSystem</name>
     <types>
         <typeDescription>
-            <name>AuthorStop</name>
-            <description>Type defined in unknown script.</description>
-            <supertypeName>uima.tcas.Annotation</supertypeName>
-        </typeDescription>
-        <typeDescription>
-            <name>AuthorStopInd</name>
-            <description>Type defined in unknown script.</description>
-            <supertypeName>uima.tcas.Annotation</supertypeName>
-        </typeDescription>
-        <typeDescription>
-            <name>BadReference</name>
-            <description>Type defined in unknown script.</description>
-            <supertypeName>uima.tcas.Annotation</supertypeName>
-        </typeDescription>
-        <typeDescription>
-            <name>EditorInd</name>
-            <description>Type defined in unknown script.</description>
-            <supertypeName>uima.tcas.Annotation</supertypeName>
-        </typeDescription>
-        <typeDescription>
-            <name>FirstInRef</name>
-            <description>Type defined in unknown script.</description>
-            <supertypeName>uima.tcas.Annotation</supertypeName>
-        </typeDescription>
-        <typeDescription>
-            <name>Initial</name>
-            <description>Type defined in unknown script.</description>
-            <supertypeName>uima.tcas.Annotation</supertypeName>
-        </typeDescription>
-        <typeDescription>
-            <name>MonthInd</name>
-            <description>Type defined in unknown script.</description>
-            <supertypeName>uima.tcas.Annotation</supertypeName>
-        </typeDescription>
-        <typeDescription>
-            <name>NoAuthorInd</name>
-            <description>Type defined in unknown script.</description>
-            <supertypeName>uima.tcas.Annotation</supertypeName>
-        </typeDescription>
-        <typeDescription>
-            <name>NoDatePrefix</name>
-            <description>Type defined in unknown script.</description>
-            <supertypeName>uima.tcas.Annotation</supertypeName>
-        </typeDescription>
-        <typeDescription>
-            <name>YearInd</name>
-            <description>Type defined in unknown script.</description>
-            <supertypeName>uima.tcas.Annotation</supertypeName>
+            <name>org.apache.uima.ruta.type.NBSP</name>
+            <description/>
+            <supertypeName>org.apache.uima.ruta.type.SPACE</supertypeName>
         </typeDescription>
         <typeDescription>
             <name>org.apache.uima.references.type.Address</name>
@@ -57,89 +13,70 @@
             <supertypeName>org.apache.uima.references.type.ReferenceEntity</supertypeName>
         </typeDescription>
         <typeDescription>
-            <name>org.apache.uima.references.type.Author</name>
+            <name>org.apache.uima.ruta.type.TruePositive</name>
             <description/>
-            <supertypeName>org.apache.uima.references.type.ReferenceEntity</supertypeName>
+            <supertypeName>org.apache.uima.ruta.type.EvalAnnotation</supertypeName>
         </typeDescription>
         <typeDescription>
-            <name>org.apache.uima.references.type.Booktitle</name>
+            <name>org.apache.uima.ruta.type.DebugScriptApply</name>
             <description/>
-            <supertypeName>org.apache.uima.references.type.ReferenceEntity</supertypeName>
+            <supertypeName>org.apache.uima.ruta.type.ProfiledAnnotation</supertypeName>
+            <features>
+                <featureDescription>
+                    <name>element</name>
+                    <description/>
+                    <rangeTypeName>uima.cas.String</rangeTypeName>
+                </featureDescription>
+                <featureDescription>
+                    <name>timestamp</name>
+                    <description/>
+                    <rangeTypeName>uima.cas.Long</rangeTypeName>
+                </featureDescription>
+            </features>
         </typeDescription>
         <typeDescription>
-            <name>org.apache.uima.references.type.Date</name>
+            <name>org.apache.uima.ruta.type.Statistics</name>
             <description/>
-            <supertypeName>org.apache.uima.references.type.ReferenceEntity</supertypeName>
+            <supertypeName>uima.cas.TOP</supertypeName>
+            <features>
+                <featureDescription>
+                    <name>name</name>
+                    <description/>
+                    <rangeTypeName>uima.cas.StringArray</rangeTypeName>
+                </featureDescription>
+                <featureDescription>
+                    <name>total</name>
+                    <description/>
+                    <rangeTypeName>uima.cas.DoubleArray</rangeTypeName>
+                </featureDescription>
+                <featureDescription>
+                    <name>amount</name>
+                    <description/>
+                    <rangeTypeName>uima.cas.IntegerArray</rangeTypeName>
+                </featureDescription>
+                <featureDescription>
+                    <name>part</name>
+                    <description/>
+                    <rangeTypeName>uima.cas.DoubleArray</rangeTypeName>
+                </featureDescription>
+            </features>
         </typeDescription>
         <typeDescription>
-            <name>org.apache.uima.references.type.Editor</name>
+            <name>org.apache.uima.ruta.type.FalsePositive</name>
             <description/>
-            <supertypeName>org.apache.uima.references.type.ReferenceEntity</supertypeName>
+            <supertypeName>org.apache.uima.ruta.type.EvalAnnotation</supertypeName>
         </typeDescription>
         <typeDescription>
-            <name>org.apache.uima.references.type.Institution</name>
-            <description/>
-            <supertypeName>org.apache.uima.references.type.ReferenceEntity</supertypeName>
-        </typeDescription>
-        <typeDescription>
-            <name>org.apache.uima.references.type.Journal</name>
-            <description/>
-            <supertypeName>org.apache.uima.references.type.ReferenceEntity</supertypeName>
-        </typeDescription>
-        <typeDescription>
-            <name>org.apache.uima.references.type.Location</name>
-            <description/>
-            <supertypeName>org.apache.uima.references.type.ReferenceEntity</supertypeName>
-        </typeDescription>
-        <typeDescription>
-            <name>org.apache.uima.references.type.Note</name>
-            <description/>
-            <supertypeName>org.apache.uima.references.type.ReferenceEntity</supertypeName>
-        </typeDescription>
-        <typeDescription>
-            <name>org.apache.uima.references.type.Pages</name>
-            <description/>
-            <supertypeName>org.apache.uima.references.type.ReferenceEntity</supertypeName>
-        </typeDescription>
-        <typeDescription>
-            <name>org.apache.uima.references.type.Publisher</name>
-            <description/>
-            <supertypeName>org.apache.uima.references.type.ReferenceEntity</supertypeName>
-        </typeDescription>
-        <typeDescription>
-            <name>org.apache.uima.references.type.Reference</name>
+            <name>org.apache.uima.ruta.type.RutaBasic</name>
             <description/>
             <supertypeName>uima.tcas.Annotation</supertypeName>
-        </typeDescription>
-        <typeDescription>
-            <name>org.apache.uima.references.type.ReferenceEntity</name>
-            <description/>
-            <supertypeName>uima.tcas.Annotation</supertypeName>
-        </typeDescription>
-        <typeDescription>
-            <name>org.apache.uima.references.type.Tech</name>
-            <description/>
-            <supertypeName>org.apache.uima.references.type.ReferenceEntity</supertypeName>
-        </typeDescription>
-        <typeDescription>
-            <name>org.apache.uima.references.type.Title</name>
-            <description/>
-            <supertypeName>org.apache.uima.references.type.ReferenceEntity</supertypeName>
-        </typeDescription>
-        <typeDescription>
-            <name>org.apache.uima.references.type.Venue</name>
-            <description/>
-            <supertypeName>org.apache.uima.references.type.ReferenceEntity</supertypeName>
-        </typeDescription>
-        <typeDescription>
-            <name>org.apache.uima.references.type.Volume</name>
-            <description/>
-            <supertypeName>org.apache.uima.references.type.ReferenceEntity</supertypeName>
-        </typeDescription>
-        <typeDescription>
-            <name>org.apache.uima.ruta.type.ALL</name>
-            <description/>
-            <supertypeName>org.apache.uima.ruta.type.TokenSeed</supertypeName>
+            <features>
+                <featureDescription>
+                    <name>replacement</name>
+                    <description/>
+                    <rangeTypeName>uima.cas.String</rangeTypeName>
+                </featureDescription>
+            </features>
         </typeDescription>
         <typeDescription>
             <name>org.apache.uima.ruta.type.AMP</name>
@@ -147,14 +84,9 @@
             <supertypeName>org.apache.uima.ruta.type.ANY</supertypeName>
         </typeDescription>
         <typeDescription>
-            <name>org.apache.uima.ruta.type.ANY</name>
+            <name>org.apache.uima.ruta.type.RutaFrame</name>
             <description/>
-            <supertypeName>org.apache.uima.ruta.type.ALL</supertypeName>
-        </typeDescription>
-        <typeDescription>
-            <name>org.apache.uima.ruta.type.BREAK</name>
-            <description/>
-            <supertypeName>org.apache.uima.ruta.type.WS</supertypeName>
+            <supertypeName>uima.tcas.Annotation</supertypeName>
         </typeDescription>
         <typeDescription>
             <name>org.apache.uima.ruta.type.CAP</name>
@@ -162,19 +94,84 @@
             <supertypeName>org.apache.uima.ruta.type.W</supertypeName>
         </typeDescription>
         <typeDescription>
-            <name>org.apache.uima.ruta.type.COLON</name>
-            <description/>
-            <supertypeName>org.apache.uima.ruta.type.PM</supertypeName>
+            <name>EditorInd</name>
+            <description>Type defined in unknown script.</description>
+            <supertypeName>uima.tcas.Annotation</supertypeName>
         </typeDescription>
         <typeDescription>
-            <name>org.apache.uima.ruta.type.COMMA</name>
+            <name>org.apache.uima.ruta.type.WS</name>
             <description/>
-            <supertypeName>org.apache.uima.ruta.type.PM</supertypeName>
+            <supertypeName>org.apache.uima.ruta.type.ANY</supertypeName>
         </typeDescription>
         <typeDescription>
-            <name>org.apache.uima.ruta.type.CW</name>
+            <name>org.apache.uima.ruta.type.QUESTION</name>
+            <description/>
+            <supertypeName>org.apache.uima.ruta.type.SENTENCEEND</supertypeName>
+        </typeDescription>
+        <typeDescription>
+            <name>org.apache.uima.references.type.Publisher</name>
+            <description/>
+            <supertypeName>org.apache.uima.references.type.ReferenceEntity</supertypeName>
+        </typeDescription>
+        <typeDescription>
+            <name>org.apache.uima.ruta.type.DebugRuleElementMatches</name>
+            <description/>
+            <supertypeName>uima.cas.TOP</supertypeName>
+            <features>
+                <featureDescription>
+                    <name>matches</name>
+                    <description/>
+                    <rangeTypeName>uima.cas.FSArray</rangeTypeName>
+                    <elementType>org.apache.uima.ruta.type.DebugRuleElementMatch</elementType>
+                </featureDescription>
+                <featureDescription>
+                    <name>element</name>
+                    <description/>
+                    <rangeTypeName>uima.cas.String</rangeTypeName>
+                </featureDescription>
+                <featureDescription>
+                    <name>ruleAnchor</name>
+                    <description/>
+                    <rangeTypeName>uima.cas.Boolean</rangeTypeName>
+                </featureDescription>
+                <featureDescription>
+                    <name>inlinedActionBlocks</name>
+                    <description/>
+                    <rangeTypeName>uima.cas.FSArray</rangeTypeName>
+                    <elementType>org.apache.uima.ruta.type.DebugInlinedBlock</elementType>
+                    <multipleReferencesAllowed>false</multipleReferencesAllowed>
+                </featureDescription>
+            </features>
+        </typeDescription>
+        <typeDescription>
+            <name>org.apache.uima.ruta.type.SW</name>
             <description/>
             <supertypeName>org.apache.uima.ruta.type.W</supertypeName>
+        </typeDescription>
+        <typeDescription>
+            <name>AuthorStopInd</name>
+            <description>Type defined in unknown script.</description>
+            <supertypeName>uima.tcas.Annotation</supertypeName>
+        </typeDescription>
+        <typeDescription>
+            <name>org.apache.uima.ruta.type.TokenSeed</name>
+            <description/>
+            <supertypeName>uima.tcas.Annotation</supertypeName>
+        </typeDescription>
+        <typeDescription>
+            <name>AuthorStop</name>
+            <description>Type defined in unknown script.</description>
+            <supertypeName>uima.tcas.Annotation</supertypeName>
+        </typeDescription>
+        <typeDescription>
+            <name>org.apache.uima.references.type.Journal</name>
+            <description/>
+            <supertypeName>org.apache.uima.references.type.ReferenceEntity</supertypeName>
+        </typeDescription>
+        <typeDescription>
+            <name>NoAuthorInd</name>
+            <description>Type defined in unknown script.</description>
+            <supertypeName>uima.tcas.Annotation</supertypeName>
         </typeDescription>
         <typeDescription>
             <name>org.apache.uima.ruta.type.DebugBlockApply</name>
@@ -190,46 +187,59 @@
             </features>
         </typeDescription>
         <typeDescription>
-            <name>org.apache.uima.ruta.type.DebugCreatedBy</name>
+            <name>org.apache.uima.ruta.type.COLON</name>
             <description/>
-            <supertypeName>uima.cas.TOP</supertypeName>
-            <features>
-                <featureDescription>
-                    <name>rule</name>
-                    <description/>
-                    <rangeTypeName>uima.cas.String</rangeTypeName>
-                </featureDescription>
-                <featureDescription>
-                    <name>annotation</name>
-                    <description/>
-                    <rangeTypeName>uima.tcas.Annotation</rangeTypeName>
-                </featureDescription>
-                <featureDescription>
-                    <name>script</name>
-                    <description/>
-                    <rangeTypeName>uima.cas.String</rangeTypeName>
-                </featureDescription>
-                <featureDescription>
-                    <name>id</name>
-                    <description/>
-                    <rangeTypeName>uima.cas.Integer</rangeTypeName>
-                </featureDescription>
-            </features>
+            <supertypeName>org.apache.uima.ruta.type.PM</supertypeName>
         </typeDescription>
         <typeDescription>
-            <name>org.apache.uima.ruta.type.DebugEvaluatedCondition</name>
+            <name>org.apache.uima.ruta.type.DebugMatchedRuleMatch</name>
             <description/>
-            <supertypeName>uima.cas.TOP</supertypeName>
+            <supertypeName>org.apache.uima.ruta.type.DebugRuleMatch</supertypeName>
+        </typeDescription>
+        <typeDescription>
+            <name>org.apache.uima.references.type.Pages</name>
+            <description/>
+            <supertypeName>org.apache.uima.references.type.ReferenceEntity</supertypeName>
+        </typeDescription>
+        <typeDescription>
+            <name>org.apache.uima.ruta.type.COMMA</name>
+            <description/>
+            <supertypeName>org.apache.uima.ruta.type.PM</supertypeName>
+        </typeDescription>
+        <typeDescription>
+            <name>org.apache.uima.references.type.Editor</name>
+            <description/>
+            <supertypeName>org.apache.uima.references.type.ReferenceEntity</supertypeName>
+        </typeDescription>
+        <typeDescription>
+            <name>org.apache.uima.ruta.type.BREAK</name>
+            <description/>
+            <supertypeName>org.apache.uima.ruta.type.WS</supertypeName>
+        </typeDescription>
+        <typeDescription>
+            <name>org.apache.uima.references.type.Booktitle</name>
+            <description/>
+            <supertypeName>org.apache.uima.references.type.ReferenceEntity</supertypeName>
+        </typeDescription>
+        <typeDescription>
+            <name>org.apache.uima.ruta.type.ANY</name>
+            <description/>
+            <supertypeName>org.apache.uima.ruta.type.ALL</supertypeName>
+        </typeDescription>
+        <typeDescription>
+            <name>org.apache.uima.ruta.type.SENTENCEEND</name>
+            <description/>
+            <supertypeName>org.apache.uima.ruta.type.PM</supertypeName>
+        </typeDescription>
+        <typeDescription>
+            <name>org.apache.uima.ruta.type.DebugRuleElementMatch</name>
+            <description/>
+            <supertypeName>org.apache.uima.ruta.type.ProfiledAnnotation</supertypeName>
             <features>
                 <featureDescription>
-                    <name>element</name>
+                    <name>baseCondition</name>
                     <description/>
-                    <rangeTypeName>uima.cas.String</rangeTypeName>
-                </featureDescription>
-                <featureDescription>
-                    <name>value</name>
-                    <description/>
-                    <rangeTypeName>uima.cas.Boolean</rangeTypeName>
+                    <rangeTypeName>org.apache.uima.ruta.type.DebugEvaluatedCondition</rangeTypeName>
                 </featureDescription>
                 <featureDescription>
                     <name>conditions</name>
@@ -237,12 +247,21 @@
                     <rangeTypeName>uima.cas.FSArray</rangeTypeName>
                     <elementType>org.apache.uima.ruta.type.DebugEvaluatedCondition</elementType>
                 </featureDescription>
+                <featureDescription>
+                    <name>elements</name>
+                    <description/>
+                    <rangeTypeName>uima.cas.FSArray</rangeTypeName>
+                    <elementType>org.apache.uima.ruta.type.DebugRuleElementMatches</elementType>
+                    <multipleReferencesAllowed>false</multipleReferencesAllowed>
+                </featureDescription>
+                <featureDescription>
+                    <name>inlinedConditionBlocks</name>
+                    <description/>
+                    <rangeTypeName>uima.cas.FSArray</rangeTypeName>
+                    <elementType>org.apache.uima.ruta.type.DebugInlinedBlock</elementType>
+                    <multipleReferencesAllowed>false</multipleReferencesAllowed>
+                </featureDescription>
             </features>
-        </typeDescription>
-        <typeDescription>
-            <name>org.apache.uima.ruta.type.DebugFailedRuleMatch</name>
-            <description/>
-            <supertypeName>org.apache.uima.ruta.type.DebugRuleMatch</supertypeName>
         </typeDescription>
         <typeDescription>
             <name>org.apache.uima.ruta.type.DebugInlinedBlock</name>
@@ -274,9 +293,138 @@
             </features>
         </typeDescription>
         <typeDescription>
-            <name>org.apache.uima.ruta.type.DebugMatchedRuleMatch</name>
+            <name>org.apache.uima.ruta.type.DebugRuleMatch</name>
+            <description/>
+            <supertypeName>org.apache.uima.ruta.type.ProfiledAnnotation</supertypeName>
+            <features>
+                <featureDescription>
+                    <name>elements</name>
+                    <description/>
+                    <rangeTypeName>uima.cas.FSArray</rangeTypeName>
+                    <elementType>org.apache.uima.ruta.type.DebugRuleElementMatches</elementType>
+                </featureDescription>
+                <featureDescription>
+                    <name>matched</name>
+                    <description/>
+                    <rangeTypeName>uima.cas.Boolean</rangeTypeName>
+                </featureDescription>
+                <featureDescription>
+                    <name>delegates</name>
+                    <description/>
+                    <rangeTypeName>uima.cas.FSArray</rangeTypeName>
+                    <elementType>org.apache.uima.ruta.type.DebugScriptApply</elementType>
+                </featureDescription>
+            </features>
+        </typeDescription>
+        <typeDescription>
+            <name>org.apache.uima.references.type.Reference</name>
+            <description/>
+            <supertypeName>uima.tcas.Annotation</supertypeName>
+        </typeDescription>
+        <typeDescription>
+            <name>FirstInRef</name>
+            <description>Type defined in unknown script.</description>
+            <supertypeName>uima.tcas.Annotation</supertypeName>
+        </typeDescription>
+        <typeDescription>
+            <name>Initial</name>
+            <description>Type defined in unknown script.</description>
+            <supertypeName>uima.tcas.Annotation</supertypeName>
+        </typeDescription>
+        <typeDescription>
+            <name>org.apache.uima.references.type.Title</name>
+            <description/>
+            <supertypeName>org.apache.uima.references.type.ReferenceEntity</supertypeName>
+        </typeDescription>
+        <typeDescription>
+            <name>org.apache.uima.ruta.type.DebugFailedRuleMatch</name>
             <description/>
             <supertypeName>org.apache.uima.ruta.type.DebugRuleMatch</supertypeName>
+        </typeDescription>
+        <typeDescription>
+            <name>org.apache.uima.ruta.type.SPACE</name>
+            <description/>
+            <supertypeName>org.apache.uima.ruta.type.WS</supertypeName>
+        </typeDescription>
+        <typeDescription>
+            <name>org.apache.uima.references.type.Tech</name>
+            <description/>
+            <supertypeName>org.apache.uima.references.type.ReferenceEntity</supertypeName>
+        </typeDescription>
+        <typeDescription>
+            <name>org.apache.uima.references.type.Venue</name>
+            <description/>
+            <supertypeName>org.apache.uima.references.type.ReferenceEntity</supertypeName>
+        </typeDescription>
+        <typeDescription>
+            <name>org.apache.uima.ruta.type.NUM</name>
+            <description/>
+            <supertypeName>org.apache.uima.ruta.type.ANY</supertypeName>
+        </typeDescription>
+        <typeDescription>
+            <name>org.apache.uima.ruta.type.DebugCreatedBy</name>
+            <description/>
+            <supertypeName>uima.cas.TOP</supertypeName>
+            <features>
+                <featureDescription>
+                    <name>rule</name>
+                    <description/>
+                    <rangeTypeName>uima.cas.String</rangeTypeName>
+                </featureDescription>
+                <featureDescription>
+                    <name>annotation</name>
+                    <description/>
+                    <rangeTypeName>uima.tcas.Annotation</rangeTypeName>
+                </featureDescription>
+                <featureDescription>
+                    <name>script</name>
+                    <description/>
+                    <rangeTypeName>uima.cas.String</rangeTypeName>
+                </featureDescription>
+                <featureDescription>
+                    <name>id</name>
+                    <description/>
+                    <rangeTypeName>uima.cas.Integer</rangeTypeName>
+                </featureDescription>
+            </features>
+        </typeDescription>
+        <typeDescription>
+            <name>org.apache.uima.references.type.Location</name>
+            <description/>
+            <supertypeName>org.apache.uima.references.type.ReferenceEntity</supertypeName>
+        </typeDescription>
+        <typeDescription>
+            <name>org.apache.uima.ruta.type.DebugEvaluatedCondition</name>
+            <description/>
+            <supertypeName>uima.cas.TOP</supertypeName>
+            <features>
+                <featureDescription>
+                    <name>element</name>
+                    <description/>
+                    <rangeTypeName>uima.cas.String</rangeTypeName>
+                </featureDescription>
+                <featureDescription>
+                    <name>value</name>
+                    <description/>
+                    <rangeTypeName>uima.cas.Boolean</rangeTypeName>
+                </featureDescription>
+                <featureDescription>
+                    <name>conditions</name>
+                    <description/>
+                    <rangeTypeName>uima.cas.FSArray</rangeTypeName>
+                    <elementType>org.apache.uima.ruta.type.DebugEvaluatedCondition</elementType>
+                </featureDescription>
+            </features>
+        </typeDescription>
+        <typeDescription>
+            <name>org.apache.uima.ruta.type.SPECIAL</name>
+            <description/>
+            <supertypeName>org.apache.uima.ruta.type.ANY</supertypeName>
+        </typeDescription>
+        <typeDescription>
+            <name>org.apache.uima.ruta.type.PERIOD</name>
+            <description/>
+            <supertypeName>org.apache.uima.ruta.type.SENTENCEEND</supertypeName>
         </typeDescription>
         <typeDescription>
             <name>org.apache.uima.ruta.type.DebugRuleApply</name>
@@ -312,124 +460,49 @@
             </features>
         </typeDescription>
         <typeDescription>
-            <name>org.apache.uima.ruta.type.DebugRuleElementMatch</name>
+            <name>org.apache.uima.ruta.type.MARKUP</name>
             <description/>
-            <supertypeName>org.apache.uima.ruta.type.ProfiledAnnotation</supertypeName>
-            <features>
-                <featureDescription>
-                    <name>baseCondition</name>
-                    <description/>
-                    <rangeTypeName>org.apache.uima.ruta.type.DebugEvaluatedCondition</rangeTypeName>
-                </featureDescription>
-                <featureDescription>
-                    <name>conditions</name>
-                    <description/>
-                    <rangeTypeName>uima.cas.FSArray</rangeTypeName>
-                    <elementType>org.apache.uima.ruta.type.DebugEvaluatedCondition</elementType>
-                </featureDescription>
-                <featureDescription>
-                    <name>elements</name>
-                    <description/>
-                    <rangeTypeName>uima.cas.FSArray</rangeTypeName>
-                    <elementType>org.apache.uima.ruta.type.DebugRuleElementMatches</elementType>
-                    <multipleReferencesAllowed>false</multipleReferencesAllowed>
-                </featureDescription>
-                <featureDescription>
-                    <name>inlinedConditionBlocks</name>
-                    <description/>
-                    <rangeTypeName>uima.cas.FSArray</rangeTypeName>
-                    <elementType>org.apache.uima.ruta.type.DebugInlinedBlock</elementType>
-                    <multipleReferencesAllowed>false</multipleReferencesAllowed>
-                </featureDescription>
-            </features>
+            <supertypeName>org.apache.uima.ruta.type.ALL</supertypeName>
         </typeDescription>
         <typeDescription>
-            <name>org.apache.uima.ruta.type.DebugRuleElementMatches</name>
+            <name>org.apache.uima.references.type.Volume</name>
             <description/>
-            <supertypeName>uima.cas.TOP</supertypeName>
-            <features>
-                <featureDescription>
-                    <name>matches</name>
-                    <description/>
-                    <rangeTypeName>uima.cas.FSArray</rangeTypeName>
-                    <elementType>org.apache.uima.ruta.type.DebugRuleElementMatch</elementType>
-                </featureDescription>
-                <featureDescription>
-                    <name>element</name>
-                    <description/>
-                    <rangeTypeName>uima.cas.String</rangeTypeName>
-                </featureDescription>
-                <featureDescription>
-                    <name>ruleAnchor</name>
-                    <description/>
-                    <rangeTypeName>uima.cas.Boolean</rangeTypeName>
-                </featureDescription>
-                <featureDescription>
-                    <name>inlinedActionBlocks</name>
-                    <description/>
-                    <rangeTypeName>uima.cas.FSArray</rangeTypeName>
-                    <elementType>org.apache.uima.ruta.type.DebugInlinedBlock</elementType>
-                    <multipleReferencesAllowed>false</multipleReferencesAllowed>
-                </featureDescription>
-            </features>
+            <supertypeName>org.apache.uima.references.type.ReferenceEntity</supertypeName>
         </typeDescription>
         <typeDescription>
-            <name>org.apache.uima.ruta.type.DebugRuleMatch</name>
+            <name>org.apache.uima.references.type.Note</name>
             <description/>
-            <supertypeName>org.apache.uima.ruta.type.ProfiledAnnotation</supertypeName>
-            <features>
-                <featureDescription>
-                    <name>elements</name>
-                    <description/>
-                    <rangeTypeName>uima.cas.FSArray</rangeTypeName>
-                    <elementType>org.apache.uima.ruta.type.DebugRuleElementMatches</elementType>
-                </featureDescription>
-                <featureDescription>
-                    <name>matched</name>
-                    <description/>
-                    <rangeTypeName>uima.cas.Boolean</rangeTypeName>
-                </featureDescription>
-                <featureDescription>
-                    <name>delegates</name>
-                    <description/>
-                    <rangeTypeName>uima.cas.FSArray</rangeTypeName>
-                    <elementType>org.apache.uima.ruta.type.DebugScriptApply</elementType>
-                </featureDescription>
-            </features>
+            <supertypeName>org.apache.uima.references.type.ReferenceEntity</supertypeName>
         </typeDescription>
         <typeDescription>
-            <name>org.apache.uima.ruta.type.DebugScriptApply</name>
+            <name>org.apache.uima.references.type.Institution</name>
             <description/>
-            <supertypeName>org.apache.uima.ruta.type.ProfiledAnnotation</supertypeName>
-            <features>
-                <featureDescription>
-                    <name>element</name>
-                    <description/>
-                    <rangeTypeName>uima.cas.String</rangeTypeName>
-                </featureDescription>
-                <featureDescription>
-                    <name>timestamp</name>
-                    <description/>
-                    <rangeTypeName>uima.cas.Long</rangeTypeName>
-                </featureDescription>
-            </features>
+            <supertypeName>org.apache.uima.references.type.ReferenceEntity</supertypeName>
         </typeDescription>
         <typeDescription>
-            <name>org.apache.uima.ruta.type.EXCLAMATION</name>
+            <name>org.apache.uima.references.type.Author</name>
             <description/>
-            <supertypeName>org.apache.uima.ruta.type.SENTENCEEND</supertypeName>
+            <supertypeName>org.apache.uima.references.type.ReferenceEntity</supertypeName>
         </typeDescription>
         <typeDescription>
-            <name>org.apache.uima.ruta.type.EvalAnnotation</name>
-            <description/>
+            <name>YearInd</name>
+            <description>Type defined in unknown script.</description>
             <supertypeName>uima.tcas.Annotation</supertypeName>
-            <features>
-                <featureDescription>
-                    <name>original</name>
-                    <description/>
-                    <rangeTypeName>uima.tcas.Annotation</rangeTypeName>
-                </featureDescription>
-            </features>
+        </typeDescription>
+        <typeDescription>
+            <name>org.apache.uima.references.type.Date</name>
+            <description/>
+            <supertypeName>org.apache.uima.references.type.ReferenceEntity</supertypeName>
+        </typeDescription>
+        <typeDescription>
+            <name>NoDatePrefix</name>
+            <description>Type defined in unknown script.</description>
+            <supertypeName>uima.tcas.Annotation</supertypeName>
+        </typeDescription>
+        <typeDescription>
+            <name>org.apache.uima.ruta.type.SEMICOLON</name>
+            <description/>
+            <supertypeName>org.apache.uima.ruta.type.PM</supertypeName>
         </typeDescription>
         <typeDescription>
             <name>org.apache.uima.ruta.type.FalseNegative</name>
@@ -437,51 +510,9 @@
             <supertypeName>org.apache.uima.ruta.type.EvalAnnotation</supertypeName>
         </typeDescription>
         <typeDescription>
-            <name>org.apache.uima.ruta.type.FalsePositive</name>
+            <name>org.apache.uima.ruta.type.CW</name>
             <description/>
-            <supertypeName>org.apache.uima.ruta.type.EvalAnnotation</supertypeName>
-        </typeDescription>
-        <typeDescription>
-            <name>org.apache.uima.ruta.type.MARKUP</name>
-            <description/>
-            <supertypeName>org.apache.uima.ruta.type.ALL</supertypeName>
-        </typeDescription>
-        <typeDescription>
-            <name>org.apache.uima.ruta.type.NBSP</name>
-            <description/>
-            <supertypeName>org.apache.uima.ruta.type.SPACE</supertypeName>
-        </typeDescription>
-        <typeDescription>
-            <name>org.apache.uima.ruta.type.NUM</name>
-            <description/>
-            <supertypeName>org.apache.uima.ruta.type.ANY</supertypeName>
-        </typeDescription>
-        <typeDescription>
-            <name>org.apache.uima.ruta.type.PERIOD</name>
-            <description/>
-            <supertypeName>org.apache.uima.ruta.type.SENTENCEEND</supertypeName>
-        </typeDescription>
-        <typeDescription>
-            <name>org.apache.uima.ruta.type.PM</name>
-            <description/>
-            <supertypeName>org.apache.uima.ruta.type.ANY</supertypeName>
-        </typeDescription>
-        <typeDescription>
-            <name>org.apache.uima.ruta.type.ProfiledAnnotation</name>
-            <description/>
-            <supertypeName>uima.tcas.Annotation</supertypeName>
-            <features>
-                <featureDescription>
-                    <name>time</name>
-                    <description/>
-                    <rangeTypeName>uima.cas.Long</rangeTypeName>
-                </featureDescription>
-            </features>
-        </typeDescription>
-        <typeDescription>
-            <name>org.apache.uima.ruta.type.QUESTION</name>
-            <description/>
-            <supertypeName>org.apache.uima.ruta.type.SENTENCEEND</supertypeName>
+            <supertypeName>org.apache.uima.ruta.type.W</supertypeName>
         </typeDescription>
         <typeDescription>
             <name>org.apache.uima.ruta.type.RutaAnnotation</name>
@@ -497,18 +528,6 @@
                     <name>annotation</name>
                     <description/>
                     <rangeTypeName>uima.tcas.Annotation</rangeTypeName>
-                </featureDescription>
-            </features>
-        </typeDescription>
-        <typeDescription>
-            <name>org.apache.uima.ruta.type.RutaBasic</name>
-            <description/>
-            <supertypeName>uima.tcas.Annotation</supertypeName>
-            <features>
-                <featureDescription>
-                    <name>replacement</name>
-                    <description/>
-                    <rangeTypeName>uima.cas.String</rangeTypeName>
                 </featureDescription>
             </features>
         </typeDescription>
@@ -540,8 +559,57 @@
             </features>
         </typeDescription>
         <typeDescription>
-            <name>org.apache.uima.ruta.type.RutaFrame</name>
+            <name>org.apache.uima.ruta.type.W</name>
             <description/>
+            <supertypeName>org.apache.uima.ruta.type.ANY</supertypeName>
+        </typeDescription>
+        <typeDescription>
+            <name>org.apache.uima.ruta.type.PM</name>
+            <description/>
+            <supertypeName>org.apache.uima.ruta.type.ANY</supertypeName>
+        </typeDescription>
+        <typeDescription>
+            <name>org.apache.uima.references.type.ReferenceEntity</name>
+            <description/>
+            <supertypeName>uima.tcas.Annotation</supertypeName>
+        </typeDescription>
+        <typeDescription>
+            <name>org.apache.uima.ruta.type.EvalAnnotation</name>
+            <description/>
+            <supertypeName>uima.tcas.Annotation</supertypeName>
+            <features>
+                <featureDescription>
+                    <name>original</name>
+                    <description>The annotation that caused this outcome.</description>
+                    <rangeTypeName>uima.tcas.Annotation</rangeTypeName>
+                </featureDescription>
+                <featureDescription>
+                    <name>group</name>
+                    <description>Identifier for the group of annotations and types in the evaluation.</description>
+                    <rangeTypeName>uima.cas.String</rangeTypeName>
+                </featureDescription>
+            </features>
+        </typeDescription>
+        <typeDescription>
+            <name>org.apache.uima.ruta.type.ProfiledAnnotation</name>
+            <description/>
+            <supertypeName>uima.tcas.Annotation</supertypeName>
+            <features>
+                <featureDescription>
+                    <name>time</name>
+                    <description/>
+                    <rangeTypeName>uima.cas.Long</rangeTypeName>
+                </featureDescription>
+            </features>
+        </typeDescription>
+        <typeDescription>
+            <name>org.apache.uima.ruta.type.ALL</name>
+            <description/>
+            <supertypeName>org.apache.uima.ruta.type.TokenSeed</supertypeName>
+        </typeDescription>
+        <typeDescription>
+            <name>MonthInd</name>
+            <description>Type defined in unknown script.</description>
             <supertypeName>uima.tcas.Annotation</supertypeName>
         </typeDescription>
         <typeDescription>
@@ -550,76 +618,9 @@
             <supertypeName>uima.tcas.Annotation</supertypeName>
         </typeDescription>
         <typeDescription>
-            <name>org.apache.uima.ruta.type.SEMICOLON</name>
+            <name>org.apache.uima.ruta.type.EXCLAMATION</name>
             <description/>
-            <supertypeName>org.apache.uima.ruta.type.PM</supertypeName>
-        </typeDescription>
-        <typeDescription>
-            <name>org.apache.uima.ruta.type.SENTENCEEND</name>
-            <description/>
-            <supertypeName>org.apache.uima.ruta.type.PM</supertypeName>
-        </typeDescription>
-        <typeDescription>
-            <name>org.apache.uima.ruta.type.SPACE</name>
-            <description/>
-            <supertypeName>org.apache.uima.ruta.type.WS</supertypeName>
-        </typeDescription>
-        <typeDescription>
-            <name>org.apache.uima.ruta.type.SPECIAL</name>
-            <description/>
-            <supertypeName>org.apache.uima.ruta.type.ANY</supertypeName>
-        </typeDescription>
-        <typeDescription>
-            <name>org.apache.uima.ruta.type.SW</name>
-            <description/>
-            <supertypeName>org.apache.uima.ruta.type.W</supertypeName>
-        </typeDescription>
-        <typeDescription>
-            <name>org.apache.uima.ruta.type.Statistics</name>
-            <description/>
-            <supertypeName>uima.cas.TOP</supertypeName>
-            <features>
-                <featureDescription>
-                    <name>name</name>
-                    <description/>
-                    <rangeTypeName>uima.cas.StringArray</rangeTypeName>
-                </featureDescription>
-                <featureDescription>
-                    <name>total</name>
-                    <description/>
-                    <rangeTypeName>uima.cas.DoubleArray</rangeTypeName>
-                </featureDescription>
-                <featureDescription>
-                    <name>amount</name>
-                    <description/>
-                    <rangeTypeName>uima.cas.IntegerArray</rangeTypeName>
-                </featureDescription>
-                <featureDescription>
-                    <name>part</name>
-                    <description/>
-                    <rangeTypeName>uima.cas.DoubleArray</rangeTypeName>
-                </featureDescription>
-            </features>
-        </typeDescription>
-        <typeDescription>
-            <name>org.apache.uima.ruta.type.TokenSeed</name>
-            <description/>
-            <supertypeName>uima.tcas.Annotation</supertypeName>
-        </typeDescription>
-        <typeDescription>
-            <name>org.apache.uima.ruta.type.TruePositive</name>
-            <description/>
-            <supertypeName>org.apache.uima.ruta.type.EvalAnnotation</supertypeName>
-        </typeDescription>
-        <typeDescription>
-            <name>org.apache.uima.ruta.type.W</name>
-            <description/>
-            <supertypeName>org.apache.uima.ruta.type.ANY</supertypeName>
-        </typeDescription>
-        <typeDescription>
-            <name>org.apache.uima.ruta.type.WS</name>
-            <description/>
-            <supertypeName>org.apache.uima.ruta.type.ANY</supertypeName>
+            <supertypeName>org.apache.uima.ruta.type.SENTENCEEND</supertypeName>
         </typeDescription>
     </types>
 </typeSystemDescription>

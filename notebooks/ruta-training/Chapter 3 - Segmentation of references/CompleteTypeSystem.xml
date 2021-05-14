@@ -8,11 +8,6 @@
             <supertypeName>org.apache.uima.ruta.type.SPACE</supertypeName>
         </typeDescription>
         <typeDescription>
-            <name>BadReference</name>
-            <description>Type defined in unknown script.</description>
-            <supertypeName>uima.tcas.Annotation</supertypeName>
-        </typeDescription>
-        <typeDescription>
             <name>org.apache.uima.references.type.Address</name>
             <description/>
             <supertypeName>org.apache.uima.references.type.ReferenceEntity</supertypeName>
@@ -117,18 +112,6 @@
             <name>org.apache.uima.references.type.Publisher</name>
             <description/>
             <supertypeName>org.apache.uima.references.type.ReferenceEntity</supertypeName>
-        </typeDescription>
-        <typeDescription>
-            <name>org.apache.uima.ruta.type.EvalAnnotation</name>
-            <description/>
-            <supertypeName>uima.tcas.Annotation</supertypeName>
-            <features>
-                <featureDescription>
-                    <name>original</name>
-                    <description/>
-                    <rangeTypeName>uima.tcas.Annotation</rangeTypeName>
-                </featureDescription>
-            </features>
         </typeDescription>
         <typeDescription>
             <name>org.apache.uima.ruta.type.DebugRuleElementMatches</name>
@@ -609,6 +592,23 @@
             <name>org.apache.uima.references.type.ReferenceEntity</name>
             <description/>
             <supertypeName>uima.tcas.Annotation</supertypeName>
+        </typeDescription>
+        <typeDescription>
+            <name>org.apache.uima.ruta.type.EvalAnnotation</name>
+            <description/>
+            <supertypeName>uima.tcas.Annotation</supertypeName>
+            <features>
+                <featureDescription>
+                    <name>original</name>
+                    <description>The annotation that caused this outcome.</description>
+                    <rangeTypeName>uima.tcas.Annotation</rangeTypeName>
+                </featureDescription>
+                <featureDescription>
+                    <name>group</name>
+                    <description>Identifier for the group of annotations and types in the evaluation.</description>
+                    <rangeTypeName>uima.cas.String</rangeTypeName>
+                </featureDescription>
+            </features>
         </typeDescription>
         <typeDescription>
             <name>org.apache.uima.ruta.type.ProfiledAnnotation</name>

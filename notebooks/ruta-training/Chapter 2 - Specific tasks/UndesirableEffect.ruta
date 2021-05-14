@@ -1,8 +1,13 @@
 //%inputDir input_table1
+//%outputDir output
 //%displayMode CSV
 //%csvConfig UndesirableEffect frequency class 
 //%writescript ./UndesirableEffect.ruta
 //%saveTypeSystem ./UndesirableEffectTypeSystem.xml
+//%saveTypeSystem ./../../../TypeSystem.xml
+// we want to use the DefaultSeeder for MARKUP annoations
+//%configParams --seeders=org.apache.uima.ruta.seed.DefaultSeeder
+//%configParams --debug=true --debugWithMatches=true --createdBy=true --profile=true --statistics=true
 
 TYPESYSTEM org.apache.uima.ruta.engine.HtmlTypeSystem;
 UIMAFIT org.apache.uima.ruta.engine.HtmlAnnotator;
@@ -38,17 +43,16 @@ Chunk{CONTAINS(COMMA)-> SPLIT(COMMA)};
 DECLARE Header;
 "System organ class"-> Header;
 
-c:TD{PARTOF(FirstColumn),-PARTOF(Header), -PARTOF(FrequencyCell)} # 
-    f:FrequencyCell # e:@Chunk{-PARTOF(UndesirableEffect) -> UE(c,e,f)};
+c:TD{PARTOF(FirstColumn),-PARTOF(Header), -PARTOF(FrequencyCell)};
+f:FrequencyCell;
+e:@Chunk;
+
+c:TD{PARTOF(FirstColumn),-PARTOF(Header), -PARTOF(FrequencyCell)} 
+    # f:FrequencyCell 
+    # e:@Chunk{-PARTOF(UndesirableEffect) -> UE(c,e,f)};
 
 // a rule for format 2
 fc:Cell{PARTOF(FirstRow),PARTOF(FrequencyCell),fc.column==c.column}
     # cc:Cell{PARTOF(FirstColumn), -PARTOF(FrequencyCell)}
     # c:@Cell{CONTAINS(Chunk),-PARTOF(UndesirableEffect)}
     ->{e:@Chunk{-PARTOF(UndesirableEffect)-> UE(cc,e,fc)};};
-
-ANNOTATION fa, ca;
-//f:FrequencyCell{PARTOF(FirstRow), CONTEXTCOUNT(TR,index-1,index-1) -> fa = f} 
-//    # c:TD{PARTOF(FirstColumn), -PARTOF(FrequencyCell) ->  ca=c}
-//    # @TD{CONTAINS(Chunk),-PARTOF(UndesirableEffect), CONTEXTCOUNT(TR,0,100,index)}
-//    ->{e:@Chunk{-PARTOF(UndesirableEffect)-> UE(ca,e,fa)};};

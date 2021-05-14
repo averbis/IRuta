@@ -1,7 +1,7 @@
 //%inputDir data/train
 //%outputDir out_complete_train
 //%displayMode EVALUATION
-//%evalTypes Date
+//%evalTypes Author Date Title Venue
 //%writescript ./Complete.ruta
 //%saveTypeSystem ./CompleteTypeSystem.xml
 

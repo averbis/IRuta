@@ -8,6 +8,7 @@
 TYPESYSTEM ReferencesTypeSystem;
 SCRIPT Date;
 
+// only try to find dates if there aren't any yet
 Document{-CONTAINS(Date)-> CALL(Date)};
 
 DECLARE FirstInRef, AuthorStopInd, AuthorStop;
