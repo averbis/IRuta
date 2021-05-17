@@ -51,7 +51,10 @@ import org.apache.uima.resource.ResourceInitializationException;
 import org.apache.uima.resource.ResourceManager;
 import org.apache.uima.resource.metadata.TypeDescription;
 import org.apache.uima.resource.metadata.TypeSystemDescription;
+import org.apache.uima.ruta.RutaProcessRuntimeException;
 import org.apache.uima.ruta.descriptor.RutaDescriptorInformation;
+import org.apache.uima.ruta.extensions.RutaParseException;
+import org.apache.uima.ruta.extensions.RutaParseRuntimeException;
 import org.apache.uima.ruta.resource.RutaResourceLoader;
 import org.apache.uima.util.CasCreationUtils;
 import org.apache.uima.util.CasIOUtils;
@@ -105,6 +108,7 @@ public class RutaKernel extends BaseKernel {
 	private DisplayMode displayMode = DisplayMode.RUTA_COLORING;
 	private List<String> csvConfig;
 	private List<String> evaluationTypeNames;
+	private List<String> dynamicHtmlAllowedTypeNames;
 
 	private JCas jcas;
 	private TypeSystemDescription typeSystemDescription;
@@ -314,6 +318,8 @@ public class RutaKernel extends BaseKernel {
 
 		DisplayData displayData = new DisplayData();
 		CasToHtmlRenderer casToHtmlRenderer = new CasToHtmlRenderer();
+		casToHtmlRenderer.setAllowedTypes(
+				CsvUtils.resolveTypeNames(dynamicHtmlAllowedTypeNames, jcas.getTypeSystem()));
 		String casAsHtml = casToHtmlRenderer.render(true, jcas);
 		displayData.putHTML(casAsHtml);
 		return displayData;
@@ -658,30 +664,30 @@ public class RutaKernel extends BaseKernel {
 	@Override
 	public List<String> formatError(Exception e) {
 
-		return super.formatError(e);
-		// Exception root = getRootException(e);
-		// String message = root.getMessage();
-		//
-		// // options to provide special logic
-		// if (root instanceof RutaParseException) {
-		// return Arrays.asList(message);
-		// }
-		// if (root instanceof RutaParseRuntimeException) {
-		// return Arrays.asList(message);
-		// }
-		// if (root instanceof RutaProcessRuntimeException) {
-		// return Arrays.asList(message);
-		// }
-		// if (root instanceof ResourceInitializationException) {
-		// return Arrays.asList(message);
-		// }
-		//
-		// if (root instanceof RuntimeException && !StringUtils.isBlank(message)) {
-		// return Arrays.asList(message);
-		// }
-		//
-		// // fallback to stacktrace
-		// return super.formatError(root);
+		// return super.formatError(e);
+		Exception root = getRootException(e);
+		String message = root.getMessage();
+
+		// options to provide special logic
+		if (root instanceof RutaParseException) {
+			return Arrays.asList(message);
+		}
+		if (root instanceof RutaParseRuntimeException) {
+			return Arrays.asList(message);
+		}
+		if (root instanceof RutaProcessRuntimeException) {
+			return Arrays.asList(message);
+		}
+		if (root instanceof ResourceInitializationException) {
+			return Arrays.asList(message);
+		}
+
+		if (root instanceof RuntimeException && !StringUtils.isBlank(message)) {
+			return Arrays.asList(message);
+		}
+
+		// fallback to stacktrace
+		return super.formatError(root);
 	}
 
 
@@ -825,6 +831,7 @@ public class RutaKernel extends BaseKernel {
 		configurationParameters = null;
 		csvConfig = null;
 		evaluationTypeNames = null;
+		dynamicHtmlAllowedTypeNames = null;
 
 		jcas = null;
 		typeSystemDescription = null;
@@ -1060,6 +1067,18 @@ public class RutaKernel extends BaseKernel {
 	public List<String> getEvaluationTypeNames() {
 
 		return evaluationTypeNames;
+	}
+
+
+	public void setDynamicHtmlAllowedTypeNames(List<String> typeNames) {
+
+		dynamicHtmlAllowedTypeNames = typeNames;
+	}
+
+
+	public List<String> getDynamicHtmlAllowedTypeNames() {
+
+		return dynamicHtmlAllowedTypeNames;
 	}
 
 }

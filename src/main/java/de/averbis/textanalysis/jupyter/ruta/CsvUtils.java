@@ -21,6 +21,7 @@ import java.io.IOException;
 import java.io.Writer;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
@@ -119,6 +120,23 @@ public class CsvUtils {
 		}
 		String remainingFeaturePath = indexOf > 0 ? featurePath.substring(indexOf + 1) : null;
 		return getFeatureValue(fs.getFeatureValue(feature), remainingFeaturePath, withHighlighting);
+	}
+
+
+	public static List<String> resolveTypeNames(List<String> typeNames, TypeSystem typeSystem) {
+
+		if (typeNames == null) {
+			return null;
+		}
+		List<String> result = new ArrayList<>();
+		for (String typeName : typeNames) {
+			Type type = getTypeByName(typeName, typeSystem);
+			if (type == null) {
+				throw new IllegalArgumentException("Configured type name not known: " + typeName);
+			}
+			result.add(type.getName());
+		}
+		return result;
 	}
 
 

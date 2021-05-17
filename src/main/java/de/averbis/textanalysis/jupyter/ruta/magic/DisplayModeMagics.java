@@ -1,6 +1,6 @@
 /*
  * Copyright (c) 2021, Averbis GmbH. All rights reserved.
- * 
+ *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -38,6 +38,19 @@ public class DisplayModeMagics {
 		}
 		DisplayMode displayMode = DisplayMode.valueOf(args.get(0));
 		IRuta.getInstance().setDisplayMode(displayMode);
+
+		return null;
+	}
+
+
+	@LineMagic(aliases = { "dynamicHtmlAllowedTypes" })
+	public String setDynamicHtmlAllowedTypes(List<String> args) {
+
+		if (args.isEmpty()) {
+			IRuta.getInstance().setDynamicHtmlAllowedTypeNames(null);
+		} else {
+			IRuta.getInstance().setDynamicHtmlAllowedTypeNames(args);
+		}
 
 		return null;
 	}

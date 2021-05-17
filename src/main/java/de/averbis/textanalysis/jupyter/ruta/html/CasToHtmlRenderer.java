@@ -27,6 +27,7 @@ import static org.apache.uima.fit.util.JCasUtil.select;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Iterator;
 import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
@@ -156,7 +157,7 @@ public class CasToHtmlRenderer {
 	/**
 	 * List of types that are permitted to appear in the output document.
 	 */
-	private Set<String> allowedTypes;
+	private Collection<String> allowedTypes;
 
 	/**
 	 * Lookup index for accessing DOM elements by id.
@@ -188,7 +189,7 @@ public class CasToHtmlRenderer {
 	 *            Types that are permitted to occur in the output. {@code null} means that all types
 	 *            are permitted.
 	 */
-	public void setAllowedTypes(Set<String> allowedTypes) {
+	public void setAllowedTypes(Collection<String> allowedTypes) {
 
 		this.allowedTypes = allowedTypes;
 	}
@@ -208,6 +209,7 @@ public class CasToHtmlRenderer {
 	 * <p>
 	 *
 	 * @param type
+	 * @param jcas
 	 * @return {@code true} if the type is allowed and {@code false} otherwise.
 	 */
 	private boolean isAllowedType(Type type) {
