@@ -132,7 +132,7 @@ public class RutaKernel extends BaseKernel {
 		super();
 
 		languageInfo = new LanguageInfo.Builder("UIMA Ruta")
-				.version("3.0.1") // TODO
+				.version("3.1.0")
 				.mimetype("text/ruta")
 				.fileExtension(".ruta")
 				.codemirror("ruta")
