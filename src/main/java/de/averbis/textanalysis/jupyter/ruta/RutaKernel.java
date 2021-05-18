@@ -107,6 +107,7 @@ public class RutaKernel extends BaseKernel {
 	private SerialFormat serialFormat = SerialFormat.XMI;
 	private DisplayMode displayMode = DisplayMode.RUTA_COLORING;
 	private List<String> csvConfig;
+	private List<String> actualCsvHeaders;
 	private List<String> evaluationTypeNames;
 	private List<String> dynamicHtmlAllowedTypeNames;
 
@@ -328,7 +329,8 @@ public class RutaKernel extends BaseKernel {
 
 	private DisplayData createCSVDisplayData() {
 
-		String html = CsvUtils.convertRelationalDataToHtml(relationalDatawithHihglighting);
+		String html = CsvUtils.convertRelationalDataToHtml(relationalDatawithHihglighting,
+				actualCsvHeaders);
 		DisplayData displayData = new DisplayData();
 		MIMEType mimeType = MIMEType.TEXT_HTML;
 		displayData.putData(mimeType, html);
@@ -374,6 +376,8 @@ public class RutaKernel extends BaseKernel {
 			typeName = typeName.substring(1);
 			addCoveredText = false;
 		}
+		actualCsvHeaders = new ArrayList<>();
+
 		List<String> featurePaths = Collections.emptyList();
 		if (csvConfig.size() > 1) {
 			featurePaths = csvConfig.subList(1, csvConfig.size());
@@ -381,10 +385,14 @@ public class RutaKernel extends BaseKernel {
 		int columns = featurePaths.size();
 		if (currentDocumentName != null) {
 			columns++;
+			actualCsvHeaders.add("Document");
 		}
 		if (addCoveredText) {
 			columns++;
+			actualCsvHeaders.add(typeName);
 		}
+		actualCsvHeaders.addAll(featurePaths);
+
 		TypeSystem typeSystem = jcas.getTypeSystem();
 		Type type = CsvUtils.getTypeByName(typeName, typeSystem);
 		if (type == null) {
@@ -484,7 +492,7 @@ public class RutaKernel extends BaseKernel {
 	private void saveCsv() throws IOException {
 
 		if (saveCsvFile != null) {
-			CsvUtils.writeCsvToFile(relationalData, saveCsvFile);
+			CsvUtils.writeCsvToFile(relationalData, saveCsvFile, actualCsvHeaders);
 		}
 	}
 

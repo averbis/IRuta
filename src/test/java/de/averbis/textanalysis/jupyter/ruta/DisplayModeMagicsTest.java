@@ -74,6 +74,7 @@ public class DisplayModeMagicsTest {
 		DisplayData eval = kernel.eval(cell);
 		MIMEType mimeType = MIMEType.TEXT_HTML;
 		Assert.assertEquals("<html><table>\n" +
+				"<tr><th>Document</th><th>SW</th></tr>\n" +
 				"<tr><td>doc1</td><td>a</td></tr>\n" +
 				"<tr><td>doc1</td><td>b</td></tr>\n" +
 				"<tr><td>doc1</td><td>c</td></tr>\n" +

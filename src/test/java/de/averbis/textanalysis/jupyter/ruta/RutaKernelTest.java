@@ -438,6 +438,7 @@ public class RutaKernelTest {
 				+ "rule:DebugRuleApply{ -> CREATE(ProfiledRule, \"element\"=rule.element,\"applied\"=rule.applied,\"tried\"=rule.tried)};");
 		String html = (String) displayData.getData(MIMEType.TEXT_HTML);
 		Assert.assertEquals("<html><table>\n" +
+				"<tr><th>ProfiledRule</th><th>element</th><th>applied</th><th>tried</th></tr>\n" +
 				"<tr><td>This is a test.</td><td>BLOCK() Document;</td><td>1</td><td>1</td></tr>\n"
 				+
 				"<tr><td>This is a test.</td><td>ANY{REGEXP(\"abc\", false)};</td><td>0</td><td>5</td></tr>\n"

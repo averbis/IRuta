@@ -47,21 +47,27 @@ public class CsvUtils {
 	}
 
 
-	public static void writeCsvToFile(final List<String[]> data, File file) throws IOException {
+	public static void writeCsvToFile(final List<String[]> data, File file, List<String> csvConfig)
+			throws IOException {
 
 		try (BufferedWriter writer = Files.newBufferedWriter(file.toPath(),
 				StandardCharsets.UTF_8)) {
-			writeCsv(data, writer);
+			writeCsv(data, writer, csvConfig);
 		}
 	}
 
 
-	public static String convertRelationalDataToHtml(final List<String[]> data) {
+	public static String convertRelationalDataToHtml(final List<String[]> data,
+			List<String> csvHeaders) {
 
 		StringBuilder sb = new StringBuilder();
 		sb.append("<html>");
 		sb.append("<table>");
 		sb.append("\n");
+		if (!data.isEmpty()) {
+			CsvUtils.appendHeaderHtmlRow(sb, csvHeaders);
+		}
+
 		for (String[] row : data) {
 			sb.append("<tr>");
 			for (String cell : row) {
@@ -158,11 +164,12 @@ public class CsvUtils {
 	}
 
 
-	public static void writeCsv(final List<String[]> data, Writer writer) throws IOException {
+	public static void writeCsv(final List<String[]> data, Writer writer, List<String> csvHeaders)
+			throws IOException {
 
 		try (CSVPrinter csvPrinter = new CSVPrinter(writer,
 				CSVFormat.DEFAULT.withRecordSeparator("\n"));) {
-			// TODO add header
+			appendHeaderRow(csvPrinter, csvHeaders);
 			for (String[] row : data) {
 				csvPrinter.printRecord(Arrays.asList(row));
 			}
@@ -171,4 +178,30 @@ public class CsvUtils {
 		}
 	}
 
+
+	private static void appendHeaderHtmlRow(StringBuilder sb, List<String> csvHeaders) {
+
+		if (csvHeaders == null || csvHeaders.isEmpty()) {
+			return;
+		}
+
+		sb.append("<tr>");
+		for (String each : csvHeaders) {
+			sb.append("<th>");
+			sb.append(each);
+			sb.append("</th>");
+		}
+		sb.append("</tr>");
+		sb.append("\n");
+	}
+
+
+	private static void appendHeaderRow(CSVPrinter csvPrinter, List<String> csvHeaders)
+			throws IOException {
+
+		if (csvHeaders == null || csvHeaders.isEmpty()) {
+			return;
+		}
+		csvPrinter.printRecord(csvHeaders);
+	}
 }
