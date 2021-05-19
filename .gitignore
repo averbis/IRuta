@@ -1,6 +1,7 @@
 # Dynamically generated files
 bin/
 target/
+temp/
 .buildpath
 .project
 .settings/
