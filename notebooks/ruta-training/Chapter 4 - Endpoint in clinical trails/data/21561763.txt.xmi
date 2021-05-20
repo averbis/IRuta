@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:cas="http:///uima/cas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:type="http:///org/apache/uima/trials/type.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="6" begin="0" end="1367" language="x-unspecified"/>
+    <type:ORR xmi:id="13" sofa="6" begin="627" end="631"/>
+    <type:PFSMean xmi:id="17" sofa="6" begin="648" end="660"/>
+    <type:PFSMean xmi:id="33" sofa="6" begin="929" end="933"/>
+    <type:PFSMean xmi:id="37" sofa="6" begin="941" end="952"/>
+    <type:OSMean xmi:id="21" sofa="6" begin="696" end="707"/>
+    <type:OSTime xmi:id="25" sofa="6" begin="745" end="753"/>
+    <type:OSRate xmi:id="29" sofa="6" begin="772" end="777"/>
+    <cas:Sofa xmi:id="6" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="BACKGROUND: Sunitinib monotherapy in pretreated patients with advanced gastric&#13;&#10;cancer (AGC) was investigated. Preplanned analyses of tumour biomarkers on&#13;&#10;treatment outcome were performed.&#13;&#10;PATIENTS AND METHODS: Patients received sunitinib 50mg/day for 4 weeks with 2&#13;&#10;weeks rest until disease progression or unacceptable toxicity. The primary&#13;&#10;end-point was objective response rate (ORR). Secondary end-points included&#13;&#10;progression-free survival (PFS), overall survival (OS) and safety.&#13;&#10;RESULTS: Fifty-two patients were enrolled and treated (safety population, SP). In&#13;&#10;the intention to treat population (n=51); the ORR was 3.9%, median PFS was 1.28&#13;&#10;months [95% CI, 1.18-1.90], median OS was 5.81 months [95% CI, 3.48-12.32], the&#13;&#10;estimated one-year survival rate was 23.7% [95%CI: 12.8-36.5]. In subgroup&#13;&#10;analyses, tumour VEGF-C expression compared with no expression was associated&#13;&#10;with significantly shorter median PFS (1.23 versus 2.86 months, logrank p=0.0119)&#13;&#10;but there was no difference in tumour control rate (p=0.142). In the SP, serious &#13;&#10;adverse events occurred in 26 patients, leading to 13 deaths, all sunitinib&#13;&#10;unrelated. Thirty-eight patients died from progressive disease, nine died &lt;60&#13;&#10;days after treatment start.&#13;&#10;CONCLUSION: Sunitinib monotherapy was associated with limited tumour response and&#13;&#10;good/moderate tolerability in this setting."/>
+    <cas:View sofa="6" members="1 13 17 33 37 21 25 29"/>
+</xmi:XMI>

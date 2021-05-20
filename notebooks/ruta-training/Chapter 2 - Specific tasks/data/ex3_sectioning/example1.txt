@@ -1,0 +1,77 @@
+source: https://uima.apache.org/ruta.html
+
+OVERVIEW
+This Apache UIMA™ component consists of two major parts: An Analysis Engine, which interprets and executes the rule-based scripting language, and the Eclipse-based tooling (Workbench), which provides various support for developing rules.
+
+This page only contains a short overview. A more detailed introduction can be found in the documentation (html, pdf) or in the slides of the tutorial in conjunction with GSCL 2013.
+
+The UIMA Ruta Workbench can be installed via our Eclipse update site: http://www.apache.org/dist/uima/eclipse-update-site/
+
+The UIMA Ruta Workbench 2.3.0 is tested with Eclipse 4.3 (Kepler) and Eclipse 4.4 (Luna). The UIMA Ruta Workbench 2.2.1 requires Eclipse 4.3.2
+
+RULE LANGUAGE
+The UIMA Ruta language is an imperative rule language extended with scripting elements. A rule defines a pattern of annotations with additional conditions. If this pattern applies, then the actions of the rule are performed on the matched annotations. A rule is composed of a sequence of rule elements and a rule element essentially consists of four parts: A matching condition, an optional quantifier, a list of conditions and a list of actions. The matching condition is typically a type of an annotation by which the rule element matches on the covered text of one of those annotations. The quantifier specifies, whether it is necessary that the rule element successfully matches and how often the rule element may match. The list of conditions specifies additional constraints that the matched text or annotations need to fulfill. The list of actions defines the consequences of the rule and often creates new annotations or modifies existing annotations.
+
+The following example rule consists of three rule elements. The first one (ANY...) matches on every token, which has a covered text that occurs in a word lists, named MonthsList. The second rule element (PERIOD?) is optional and does not need to be fulfilled, which is indicated by the quantifier ?. The last rule element (NUM...) matches on numbers that fulfill the regular expression REGEXP(".{2,4}" and are therefore at least two characters to a maximum of four characters long. If this rule successfully matches on a text passage, then its three actions are executed: An annotation of the type Month is created for the first rule element, an annotation of the type Year is created for the last rule element and an annotation of the type Date is created for the span of all three rule elements. If the word list contains the correct entries, then this rule matches on strings like Dec. 2004, July 85 or 11.2008 and creates the corresponding annotations.
+
+ANY{INLIST(MonthsList) -> MARK(Month), MARK(Date,1,3)} 
+    PERIOD? NUM{REGEXP(".{2,4}") -> MARK(Year)};
+Here is a short overview of additional features of the rule language:
+
+Expressions and variables
+Import and execution of external components
+Flexible matching with filtering
+Modularization in different files or blocks
+Control structures, e.g., for windowing
+Score-based extraction
+Modification
+Html support
+Dictionaries
+Extensible language definition
+
+WORKBENCH
+The UIMA Ruta Workbench was created to facilitate all steps in creating Analysis Engines based on the UIMA Ruta language. Here is a short overview of included features:
+
+Editing support: The full-featured editor for the UIMA Ruta language provides syntax and semantic highlighting, syntax checking, context-sensitive auto-completion, template-based completion, open declaration and more.
+
+Rule Explanation: Each step in the matching process can be explained: This includes how often a rule was applied, which condition was not fulfilled, or by which rule a specific annotation was created. Additionally, profile information about the runtime performance can be accessed.
+
+Automatic Validation: UIMA Ruta scripts can automatically validated against a set of annotated documents (F1 score, test-driven development) and even against unlabeled documents (constraint-driven evaluation).
+
+Rule learning: The supervised learning algorithms of the included TextRuler framework are able to induce rules and, therefore, enable semi-automatic development of rule-based components.
+
+Query: Rules can be used as query statements in order to investigate annotated documents.
+
+UIMA Ruta Workbench
+
+DEVELOPER INFORMATION
+The latest version of UIMA Ruta is available via Maven Central. If you use Maven as your build tool, then you can add the basic UIMA Ruta functionality as a dependency in your pom.xml file (additionally to other UIMA dependencies):
+
+<dependency>
+  <groupId>org.apache.uima</groupId>
+  <artifactId>ruta-core</artifactId>
+  <version>2.4.0</version>
+</dependency>
+  
+For building the UIMA Ruta projects from sources, follow the instructions for building UIMA, but exchange the command for SVN checkout:
+svn checkout https://svn.apache.org/repos/asf/uima/ruta/trunk c:/myWorkingDirectory
+The sources of the current release are available at the download page.
+
+REFERENCE
+If you use UIMA Ruta to support academic research, then please consider citing the following paper as appropriate:
+
+@article{NLE:10051335,
+  author = {Kluegl, Peter and Toepfer, Martin and Beck, Philip-Daniel and Fette, Georg and Puppe, Frank},
+  title = {UIMA Ruta: Rapid development of rule-based information extraction applications},
+  journal = {Natural Language Engineering},
+  volume = {22},
+  issue = {01},
+  month = {1},
+  year = {2016},
+  issn = {1469-8110},
+  pages = {1--40},
+  numpages = {40},
+  doi = {10.1017/S1351324914000114},
+  URL = {http://journals.cambridge.org/article_S1351324914000114},
+}
+  

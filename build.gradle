@@ -35,7 +35,7 @@ repositories {
 dependencies {
 		shade group: 'org.apache.commons', name: 'commons-csv', version: '1.5'
 		shade group: 'commons-codec', name: 'commons-codec', version: '1.10'
-		shade group: 'org.apache.uima', name: 'ruta-core', version: '3.0.1'
+		shade group: 'org.apache.uima', name: 'ruta-core', version: '3.1.0'
 		
     shade group: 'io.github.spencerpark', name: 'jupyter-jvm-basekernel', version: '2.3.0'
 

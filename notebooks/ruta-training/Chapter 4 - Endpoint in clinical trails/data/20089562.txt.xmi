@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:cas="http:///uima/cas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:type="http:///org/apache/uima/trials/type.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="6" begin="0" end="1343" language="x-unspecified"/>
+    <type:ORR xmi:id="13" sofa="6" begin="667" end="670"/>
+    <type:ORR xmi:id="17" sofa="6" begin="676" end="679"/>
+    <type:PFSMean xmi:id="21" sofa="6" begin="718" end="722"/>
+    <type:PFSMean xmi:id="25" sofa="6" begin="730" end="741"/>
+    <type:OSMean xmi:id="29" sofa="6" begin="795" end="799"/>
+    <type:OSMean xmi:id="33" sofa="6" begin="807" end="818"/>
+    <cas:Sofa xmi:id="6" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="BACKGROUND: This randomised phase III trial was carried out to compare the&#13;&#10;efficacy and safety of epirubicin and cyclophosphamide (EC) with epirubicin and&#13;&#10;docetaxel (Taxotere) (ED) as first-line chemotherapy for metastatic breast&#13;&#10;cancer.&#13;&#10;PATIENTS AND METHODS: Patients (n = 240) were randomly assigned to receive either&#13;&#10;ED (epirubicin 75 mg/m(2) and docetaxel 75 mg/m(2)) or EC (epirubicin 90 mg/m(2) &#13;&#10;and cyclophosphamide 600 mg/m(2)). The primary end point was objective response&#13;&#10;rate (ORR). Secondary end points were progression-free survival (PFS), overall&#13;&#10;survival (OS), and safety.&#13;&#10;RESULTS: ORR for patients randomly assigned to receive EC and ED were 42% and&#13;&#10;47%, respectively (P = 0.63). Median PFS [10.1 versus 10.3 months; hazard ratio&#13;&#10;(HR) 0.98; log-rank P = 0.38] and OS (19.9 versus 30.0 months; HR 0.663; log-rank&#13;&#10;P = 0.21) were comparable in both arms. Although grade 3/4 leucopenia occurred&#13;&#10;more frequently with ED (81% versus 73%; P = 0.01), there were no significant&#13;&#10;differences in the incidence of febrile neutropenia and grade 3/4 infections.&#13;&#10;Grade 3/4 non-haematologic toxicity was infrequent in both arms. Congestive heart&#13;&#10;failure was observed in one patient in each arm.&#13;&#10;CONCLUSION: In this randomised trial, no differences in the efficacy study end&#13;&#10;points were observed between the two treatment arms."/>
+    <cas:View sofa="6" members="1 13 17 21 25 29 33"/>
+</xmi:XMI>

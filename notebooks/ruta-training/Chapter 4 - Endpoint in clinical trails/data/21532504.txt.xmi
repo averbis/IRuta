@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:cas="http:///uima/cas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:type="http:///org/apache/uima/trials/type.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="6" begin="0" end="1721" language="x-unspecified"/>
+    <type:ORR xmi:id="13" sofa="6" begin="897" end="902"/>
+    <type:ORR xmi:id="17" sofa="6" begin="933" end="938"/>
+    <type:PFSMean xmi:id="21" sofa="6" begin="1101" end="1104"/>
+    <type:PFSMean xmi:id="25" sofa="6" begin="1113" end="1123"/>
+    <type:PFSTime xmi:id="29" sofa="6" begin="1177" end="1184"/>
+    <type:PFSRate xmi:id="33" sofa="6" begin="1202" end="1205"/>
+    <type:PFSRate xmi:id="37" sofa="6" begin="1213" end="1216"/>
+    <type:OSMean xmi:id="41" sofa="6" begin="1252" end="1256"/>
+    <type:OSMean xmi:id="45" sofa="6" begin="1264" end="1275"/>
+    <cas:Sofa xmi:id="6" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="INTRODUCTION: Recombinant human endostatin is a novel inhibitor of tumor&#13;&#10;angiogenesis that acts specifically on neovascular endothelial cells. Studies&#13;&#10;have shown that endostar plus vinorelbine-cisplatin chemotherapy could improve&#13;&#10;objective response rates (ORR) and overall survival (OS) of advanced non-small&#13;&#10;cell lung cancer (NSCLC) patients. This study is to explore the clinical efficacy&#13;&#10;of endostar plus paclitaxel-carboplatin (TC) in advanced NSCLC patients.&#13;&#10;METHODS: A phase II, multicenter, randomized, double-blind, placebo-controlled&#13;&#10;study was carried out. Patients were randomly assigned to the treatment (TC +&#13;&#10;endostar) or the control group (TC + placebo). The efficacy was evaluated at the &#13;&#10;end of each cycle. Follow-up continued until disease progression or death.&#13;&#10;RESULTS: A total of 126 patients were enrolled, of whom 122 were evaluable, with &#13;&#10;61 in each group. ORR was 39.3% in the treatment group versus 23.0% in the&#13;&#10;control group (p = 0.078), and the disease control rate was 90.2% versus 67.2% (p&#13;&#10;= 0.004), respectively. The median progression-free survival (PFS) was 7.1 versus&#13;&#10;6.3 months (p = 0.522) in the treatment and control groups, the 24-week rate of&#13;&#10;PFS was 78% versus 59% (p = 0.017), and the median OS was 17.6 versus 15.8 months&#13;&#10;(p = 0.696), respectively. There were no significant differences, either in the&#13;&#10;incidence of adverse events or serious adverse events, between the two groups.&#13;&#10;CONCLUSIONS: In previously untreated, advanced NSCLC patients, treatment with TC &#13;&#10;plus endostar seemed to improve ORR. However, the differences in PFS or OS&#13;&#10;between the two groups were not statistically significant. Treatment with TC plus&#13;&#10;endostar exhibited a good safety profile."/>
+    <cas:View sofa="6" members="1 13 17 21 25 29 33 37 41 45"/>
+</xmi:XMI>

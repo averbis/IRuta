@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:cas="http:///uima/cas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:type="http:///org/apache/uima/trials/type.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="6" begin="0" end="1579" language="x-unspecified"/>
+    <type:ORR xmi:id="13" sofa="6" begin="544" end="549"/>
+    <type:ORR xmi:id="33" sofa="6" begin="815" end="820"/>
+    <type:ORR xmi:id="37" sofa="6" begin="869" end="874"/>
+    <type:PFSMean xmi:id="17" sofa="6" begin="598" end="608"/>
+    <type:PFSMean xmi:id="45" sofa="6" begin="1104" end="1112"/>
+    <type:OSMean xmi:id="21" sofa="6" begin="648" end="659"/>
+    <type:OSMean xmi:id="41" sofa="6" begin="1009" end="1021"/>
+    <type:OSTime xmi:id="25" sofa="6" begin="669" end="675"/>
+    <type:OSRate xmi:id="29" sofa="6" begin="694" end="699"/>
+    <cas:Sofa xmi:id="6" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="BACKGROUND: The purpose of this study was to evaluate the efficacy of erlotinib&#13;&#10;as front-line treatment in clinically selected patients with non-small-cell lung &#13;&#10;cancer (NSCLC).&#13;&#10;PATIENTS AND METHODS: Forty-nine previously untreated white patients who had&#13;&#10;stage IIIB/IV pulmonary adenocarcinoma or bronchoalveolar carcinoma and who were &#13;&#10;nonsmokers or former light smokers were treated with erlotinib 150 mg daily,&#13;&#10;irrespective of the EGFR mutation status.&#13;&#10;RESULTS: In an intention-to-treat analysis, the overall response rate (ORR) was&#13;&#10;24.5%. The median progression-free survival (PFS) was 6.7 months, the median&#13;&#10;overall survival (OS) was 15.5 months, and the 1-year survival rate was 61.3%.&#13;&#10;Among the 36 patients for whom tumor material was available, 9 (25%) had&#13;&#10;activating EGFR mutations. The ORR was 66.7% in patients with activating EGFR&#13;&#10;mutations and 14.8% in patients with wild-type EGFR (2P = .006). In patients with&#13;&#10;activating EGFR mutations, the OS has not been reached, whereas it was 12.9&#13;&#10;months in patients with EGFR wild type (2P = .045). Twenty-four patients had a&#13;&#10;PFS of &gt; 6 months; 11 (45.8%) of them had EGFR wild type and 7 (29.1%) had EGFR&#13;&#10;mutation.&#13;&#10;CONCLUSIONS: The selection of patients for treatment with EGFR-directed tyrosine &#13;&#10;kinase inhibitors (TKIs) should be based on mutation testing. However use of&#13;&#10;clinical (smoking status) and pathologic (adenocarcinoma) criteria may identify a&#13;&#10;subgroup of patients with advanced/metastatic NSCLC who can benefit from&#13;&#10;front-line treatment with erlotinib when mutation testing is not feasible."/>
+    <cas:View sofa="6" members="1 13 33 37 17 45 21 41 25 29"/>
+</xmi:XMI>

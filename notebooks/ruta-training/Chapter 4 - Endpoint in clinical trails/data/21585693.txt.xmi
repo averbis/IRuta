@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:cas="http:///uima/cas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:type="http:///org/apache/uima/trials/type.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="6" begin="0" end="1720" language="x-unspecified"/>
+    <type:ORR xmi:id="13" sofa="6" begin="720" end="723"/>
+    <type:ORR xmi:id="17" sofa="6" begin="725" end="728"/>
+    <type:ORR xmi:id="21" sofa="6" begin="834" end="836"/>
+    <type:PFSMean xmi:id="25" sofa="6" begin="1012" end="1022"/>
+    <type:PFSMean xmi:id="33" sofa="6" begin="1175" end="1185"/>
+    <type:PFSMean xmi:id="37" sofa="6" begin="1189" end="1199"/>
+    <type:OSMean xmi:id="29" sofa="6" begin="1062" end="1073"/>
+    <type:OSMean xmi:id="41" sofa="6" begin="1247" end="1258"/>
+    <type:OSMean xmi:id="45" sofa="6" begin="1262" end="1272"/>
+    <cas:Sofa xmi:id="6" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="AIM: To evaluate the efficacy and safety of radioimmunotherapy (RIT) with&#13;&#10;radioiodinated human/murine chimeric anti-CD20 monoclonal antibody rituximab&#13;&#10;((131)I-rituximab) for treating Korean patients with relapsed or refractory&#13;&#10;B-cell non-Hodgkin's lymphomas (NHL).&#13;&#10;METHODS: All patients received unlabeled rituximab 70 mg immediately prior to the&#13;&#10;administration of a therapeutic dose (median dose: 7.3 GBq) of (131)I-rituximab. &#13;&#10;The tumor response was evaluated 1 month later by contrast enhanced (18)&#13;&#10;F-fludeoxyglucose positron emission tomography-computed tomography.&#13;&#10;RESULTS: Between May 2004 and October 2006, 24 patients received single treatment&#13;&#10;with (131)I-rituximab. The overall response rate (ORR) was 29%; 46% (three&#13;&#10;complete responses, two partial responses (PR) for patients with low grade B-cell&#13;&#10;NHL (LGL) and 9% (one PR) for patients with diffuse large B-cell lymphoma&#13;&#10;(DLBCL). After a median follow-up of 55 months, the median progression-free&#13;&#10;survival (PFS) for all the patients was 2.2 months. The median overall survival&#13;&#10;(OS) was 11.3 months. There were statistically significant differences between&#13;&#10;the LGL and the DLBCL for the median PFS (4.5 months vs 1.3 months, respectively,&#13;&#10;P = 0.0007) and the median OS (30.3 months vs 6.5 months, respectively, P =&#13;&#10;0.0295). Grades 3-4 thrombocytopenia and neutropenia occurred in 33% (8/24) and&#13;&#10;21% (5/24) of the patients, respectively.&#13;&#10;CONCLUSION: RIT with (131)I-rituximab seems to be effective and tolerable for&#13;&#10;patients with refractory LGL, although this treatment had modest activity in&#13;&#10;patients with refractory DLBCL. Further studies are warranted to determine the&#13;&#10;efficacy of (131)I-rituximab for treating the patients with DLBCL."/>
+    <cas:View sofa="6" members="1 13 17 21 25 33 37 29 41 45"/>
+</xmi:XMI>

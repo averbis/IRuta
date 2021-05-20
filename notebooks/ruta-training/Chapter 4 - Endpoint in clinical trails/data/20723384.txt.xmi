@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:cas="http:///uima/cas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:type="http:///org/apache/uima/trials/type.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="6" begin="0" end="1188" language="x-unspecified"/>
+    <type:ORR xmi:id="13" sofa="6" begin="515" end="520"/>
+    <type:PFSMean xmi:id="17" sofa="6" begin="650" end="682"/>
+    <type:OSMean xmi:id="21" sofa="6" begin="721" end="754"/>
+    <type:OSTime xmi:id="25" sofa="6" begin="756" end="764"/>
+    <type:OSRate xmi:id="29" sofa="6" begin="783" end="788"/>
+    <cas:Sofa xmi:id="6" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="BACKGROUND: To evaluate the efficacy and toxicity of erlotinib as the first-line &#13;&#10;therapy for advanced non-small cell lung cancer (NSCLC).&#13;&#10;METHODS: A total of 28 pathologically-confirmed NSCLC patients who could not&#13;&#10;receive willingly or tolerate traditional cytotoxic drugs chemotherapy were&#13;&#10;enrolled. Erlotinib was orally administered 150 mg daily until disease&#13;&#10;progression or the occurrence of intolerable toxicity.&#13;&#10;RESULTS: Among a total of 28 patients, the objective response rate (ORR) of&#13;&#10;erlotinib was 28.6%. The disease control rate (DCR) was 60.7%. The rate of&#13;&#10;symptom relief was 53.6%. The median progression free survival (PFS) was 3.2&#13;&#10;(95%CI: 0.851-5.585) months. The median overall survival (OS) was 9.6 (95%CI:&#13;&#10;7.179-12.021) months. One-year survival rate was 32.1%. The therapeutic effect&#13;&#10;was better in patients with rash. Most of the toxicities were grade I and grade&#13;&#10;II toxicity. The most common adverse events were rash (46.4%), diarrhea (32.1%), &#13;&#10;skin dry (25.0%), anorexia(17.9%), fatigue (10.7%) and increased transaminase&#13;&#10;(7.1%).&#13;&#10;CONCLUSIONS: Erlotinib provided another choice for the patients who could not&#13;&#10;willingly receive or tolerate chemotherapy."/>
+    <cas:View sofa="6" members="1 13 17 21 25 29"/>
+</xmi:XMI>

@@ -1,6 +1,6 @@
 /*
  * Copyright (c) 2021, Averbis GmbH. All rights reserved.
- * 
+ *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -408,4 +408,44 @@ public class RutaKernelTest {
 		assertThatExceptionOfType(MagicsProcessorException.class)
 				.isThrownBy(() -> KERNEL.eval("%DUMMY\n"));
 	}
+
+
+	@Test
+	public void thatEvaluateCreatesEvalAnnotations() throws Exception {
+
+		DisplayData eval = KERNEL.eval("%loadCas src/test/resources/test-input/xmi/example.xmi\" \n"
+				+ "%evalTypes CW \n"
+				+ "COLOR(FalsePositive,\"pink\");");
+
+		String html = (String) eval.getData(MIMEType.TEXT_HTML);
+		Assert.assertTrue(html.contains("'background:#ffc0cb'")); // pink
+	}
+
+
+	@Test
+	public void thatDebugInfoCanBeCSVOutput() throws Exception {
+
+		KERNEL.eval("%documentText \"This is a test.\"\n"
+				+ "%displayMode NONE\n"
+				+ "%configParams --debug=true --debugWithMatches=true --debugAddToIndexes=true --createdBy=true --profile=true --statistics=true\n"
+				+ "CW;\n"
+				+ "ANY{REGEXP(\"abc\")};\n");
+		DisplayData displayData = KERNEL.eval("%displayMode CSV\n"
+				+ "%csvConfig ProfiledRule element applied tried\n"
+				+ "CW;\n"
+				+ "ANY{REGEXP(\"abc\")};\n"
+				+ "DECLARE ProfiledRule(STRING element, INT applied, INT tried);\n"
+				+ "rule:DebugRuleApply{ -> CREATE(ProfiledRule, \"element\"=rule.element,\"applied\"=rule.applied,\"tried\"=rule.tried)};");
+		String html = (String) displayData.getData(MIMEType.TEXT_HTML);
+		Assert.assertEquals("<html><table>\n" +
+				"<tr><th>ProfiledRule</th><th>element</th><th>applied</th><th>tried</th></tr>\n" +
+				"<tr><td>This is a test.</td><td>BLOCK() Document;</td><td>1</td><td>1</td></tr>\n"
+				+
+				"<tr><td>This is a test.</td><td>ANY{REGEXP(\"abc\", false)};</td><td>0</td><td>5</td></tr>\n"
+				+
+				"<tr><td>This is a test.</td><td>Document;</td><td>1</td><td>1</td></tr>\n" +
+				"<tr><td>This</td><td>CW;</td><td>1</td><td>1</td></tr>\n" +
+				"</table></html>", html);
+	}
+
 }

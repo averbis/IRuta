@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+  <name>TrialsTypeSystem</name>
+  <description />
+  <version>1.0</version>
+  <vendor />
+  <types>
+    <typeDescription>
+      <name>org.apache.uima.trials.type.TrialsEntity</name>
+      <description />
+      <supertypeName>uima.tcas.Annotation</supertypeName>
+      <features>
+        <featureDescription>
+	        <name>name</name>
+	        <description>Name of the endpoint entity.</description>
+	        <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+    <typeDescription>
+      <name>org.apache.uima.trials.type.ORR</name>
+      <description />
+      <supertypeName>org.apache.uima.trials.type.TrialsEntity</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>org.apache.uima.trials.type.OS</name>
+      <description />
+      <supertypeName>org.apache.uima.trials.type.TrialsEntity</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>org.apache.uima.trials.type.OSMean</name>
+      <description />
+      <supertypeName>org.apache.uima.trials.type.OS</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>org.apache.uima.trials.type.OSTime</name>
+      <description />
+      <supertypeName>org.apache.uima.trials.type.OS</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>org.apache.uima.trials.type.OSRate</name>
+      <description />
+      <supertypeName>org.apache.uima.trials.type.OS</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>org.apache.uima.trials.type.PFS</name>
+      <description />
+      <supertypeName>org.apache.uima.trials.type.TrialsEntity</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>org.apache.uima.trials.type.PFSMean</name>
+      <description />
+      <supertypeName>org.apache.uima.trials.type.PFS</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>org.apache.uima.trials.type.PFSTime</name>
+      <description />
+      <supertypeName>org.apache.uima.trials.type.PFS</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>org.apache.uima.trials.type.PFSRate</name>
+      <description />
+      <supertypeName>org.apache.uima.trials.type.PFS</supertypeName>
+    </typeDescription>
+  </types>
+</typeSystemDescription>

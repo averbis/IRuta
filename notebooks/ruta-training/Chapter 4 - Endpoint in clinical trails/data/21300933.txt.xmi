@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:cas="http:///uima/cas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:type="http:///org/apache/uima/trials/type.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="6" begin="0" end="1709" language="x-unspecified"/>
+    <type:ORR xmi:id="13" sofa="6" begin="795" end="798"/>
+    <type:ORR xmi:id="17" sofa="6" begin="852" end="855"/>
+    <type:ORR xmi:id="21" sofa="6" begin="1088" end="1093"/>
+    <type:ORR xmi:id="33" sofa="6" begin="1186" end="1191"/>
+    <type:PFSMean xmi:id="25" sofa="6" begin="1104" end="1114"/>
+    <type:PFSMean xmi:id="37" sofa="6" begin="1202" end="1212"/>
+    <type:OSMean xmi:id="29" sofa="6" begin="1128" end="1141"/>
+    <type:OSMean xmi:id="41" sofa="6" begin="1227" end="1238"/>
+    <cas:Sofa xmi:id="6" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="PURPOSE: The AIO KRK-0104 randomized phase II trial investigated the efficacy and&#13;&#10;safety of cetuximab combined with capecitabine and irinotecan (CAPIRI) or&#13;&#10;capecitabine and oxaliplatin (CAPOX) in the first-line treatment of metastatic&#13;&#10;colorectal cancer (mCRC).&#13;&#10;PATIENTS AND METHODS: A total of 185 patients with mCRC were randomly assigned to&#13;&#10;cetuximab (400 mg/m(2) day 1, followed by 250 mg/m(2) weekly) plus CAPIRI&#13;&#10;(irinotecan 200 mg/m(2), day 1; capecitabine 800 mg/m(2) twice daily days 1&#13;&#10;through 14, every 3 weeks; or cetuximab plus CAPOX (oxaliplatin 130 mg/m(2) day&#13;&#10;1; capecitabine 1,000 mg/m(2) twice daily day 1 through 14, every 3 weeks). The&#13;&#10;primary study end point was objective response rate (ORR).&#13;&#10;RESULTS: In the intention-to-treat patient population (n = 177), ORR was 46% (95%&#13;&#10;CI, 35 to 57) for CAPIRI plus cetuximab versus 48% (95% CI, 37 to 59) for CAPOX&#13;&#10;plus cetuximab. Analysis of the KRAS gene mutation status was performed in 81.4% &#13;&#10;of the intention to treat population. Patients with KRAS wild-type in the CAPIRI &#13;&#10;plus cetuximab arm showed an ORR of 50.0%, a PFS of 6.2 months and an OS of 21.1 &#13;&#10;months. In the CAPOX plus cetuximab arm, an ORR of 44.9%, a PFS of 7.1 months and&#13;&#10;an OS of 23.5 months were observed. While ORR and PFS were comparable in KRAS&#13;&#10;wild-type and mutant subgroups, a trend toward longer survival was associated&#13;&#10;with KRAS wild-type. Both regimens had manageable toxicity profiles and were&#13;&#10;safe.&#13;&#10;CONCLUSION: This randomized trial demonstrates that the addition of cetuximab to &#13;&#10;CAPIRI or CAPOX is effective and safe in first-line treatment of mCRC. In the&#13;&#10;analyzed regimens, ORR and PFS did not differ according to KRAS gene mutation&#13;&#10;status."/>
+    <cas:View sofa="6" members="1 13 17 21 33 25 37 29 41"/>
+</xmi:XMI>

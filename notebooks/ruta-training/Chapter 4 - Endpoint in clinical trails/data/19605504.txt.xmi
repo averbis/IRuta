@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:cas="http:///uima/cas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:type="http:///org/apache/uima/trials/type.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="6" begin="0" end="1352" language="x-unspecified"/>
+    <type:ORR xmi:id="13" sofa="6" begin="855" end="860"/>
+    <type:ORR xmi:id="17" sofa="6" begin="868" end="873"/>
+    <type:PFSMean xmi:id="21" sofa="6" begin="891" end="894"/>
+    <type:PFSMean xmi:id="25" sofa="6" begin="902" end="912"/>
+    <type:OSMean xmi:id="29" sofa="6" begin="946" end="950"/>
+    <type:OSMean xmi:id="33" sofa="6" begin="958" end="968"/>
+    <cas:Sofa xmi:id="6" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="BACKGROUND: The combination of irinotecan with 5-fluorouracil demonstrates&#13;&#10;efficacy with tolerable safety in the first-line treatment of metastatic&#13;&#10;gastroesophageal cancer (mGC). This randomized phase II trial compared for the&#13;&#10;first time capecitabine with irinotecan or cisplatin in this setting.&#13;&#10;PATIENTS AND METHODS: Patients were randomly assigned to receive 3-week cycles of&#13;&#10;capecitabine 1000 mg/m(2), twice daily for 14 days, with on day 1 either&#13;&#10;irinotecan 250 mg/m(2) (XI) or cisplatin 80 mg/m(2) (XP). The primary end point&#13;&#10;was overall response rate (ORR) and secondary end points included&#13;&#10;progression-free survival (PFS), overall survival (OS) and safety.&#13;&#10;RESULTS: Of 118 patients recruited, 112 were eligible for safety analysis and 103&#13;&#10;for efficacy analysis. In the XI and XP treatment arms, there were no marked&#13;&#10;differences in ORR, 37.7% versus 42.0%, and median PFS, 4.2 versus 4.8 months,&#13;&#10;although median OS was longer, 10.2 versus 7.9 months, respectively. Grade 3/4&#13;&#10;toxicity was higher in the XP regimen for thrombocytes (18.2% versus 1.8%),&#13;&#10;nausea (23.6% versus12.3%) and vomiting (16.4% versus 1.8%) and in the XI arm for&#13;&#10;diarrhea (22.8% versus 7.3%).&#13;&#10;CONCLUSION: The comparable activity and safety of the XI and XP regimens&#13;&#10;establish XI as a relevant platinum-free first-line treatment choice for patients&#13;&#10;with mGC."/>
+    <cas:View sofa="6" members="1 13 17 21 25 29 33"/>
+</xmi:XMI>

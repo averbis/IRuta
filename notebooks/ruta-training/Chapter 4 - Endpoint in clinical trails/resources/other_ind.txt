@@ -1,0 +1,34 @@
+median time treatment failure
+median time to treatment failure
+median time to failure
+time treatment failure
+time to treatment failure
+time to failure
+partial response
+partial responses
+PR
+complete response
+complete responses
+CR
+stable disease
+disease progression
+DCR
+disease control rate
+disease control rates
+disease-free interval
+median DR
+rate of disease stabilization
+response duration
+clinical
+benefit rate (ORR+SD)
+median F/U
+median duration of response
+median follow-up
+CRR (CR + PR + SD)
+hazard ratio
+HR
+VGPR rate
+VGPR
+median response duration
+median TTF
+TTF

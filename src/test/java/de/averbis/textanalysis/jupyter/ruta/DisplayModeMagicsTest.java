@@ -1,6 +1,6 @@
 /*
  * Copyright (c) 2021, Averbis GmbH. All rights reserved.
- * 
+ *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -14,6 +14,8 @@
  * limitations under the License.
  */
 package de.averbis.textanalysis.jupyter.ruta;
+
+import static org.assertj.core.api.Assertions.assertThat;
 
 import java.io.File;
 import java.nio.charset.StandardCharsets;
@@ -72,6 +74,7 @@ public class DisplayModeMagicsTest {
 		DisplayData eval = kernel.eval(cell);
 		MIMEType mimeType = MIMEType.TEXT_HTML;
 		Assert.assertEquals("<html><table>\n" +
+				"<tr><th>Document</th><th>SW</th></tr>\n" +
 				"<tr><td>doc1</td><td>a</td></tr>\n" +
 				"<tr><td>doc1</td><td>b</td></tr>\n" +
 				"<tr><td>doc1</td><td>c</td></tr>\n" +
@@ -104,6 +107,26 @@ public class DisplayModeMagicsTest {
 				StandardCharsets.UTF_8);
 
 		Assert.assertEquals(expected, actual);
+	}
+
+
+	@Test
+	public void setDynamicHtmlAllowedTypes() throws Exception {
+
+		kernel.eval("%documentText \"This is a test\"\n"
+				+ "%displayMode DYNAMIC_HTML");
+		DisplayData eval1 = kernel.eval("%dynamicHtmlAllowedTypes SW SPACE");
+		assertThat(kernel.getDynamicHtmlAllowedTypeNames())
+				.contains("SW", "SPACE");
+		String html1 = (String) eval1.getData(MIMEType.TEXT_HTML);
+		Assert.assertTrue(html1.contains("SW"));
+		Assert.assertFalse(html1.contains("CW"));
+
+		DisplayData eval2 = kernel.eval("%dynamicHtmlAllowedTypes");
+		assertThat(kernel.getDynamicHtmlAllowedTypeNames()).isNull();
+		String html2 = (String) eval2.getData(MIMEType.TEXT_HTML);
+		Assert.assertTrue(html2.contains("CW"));
+
 	}
 
 }

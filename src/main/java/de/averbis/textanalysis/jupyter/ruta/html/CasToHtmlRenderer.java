@@ -27,6 +27,7 @@ import static org.apache.uima.fit.util.JCasUtil.select;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Iterator;
 import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
@@ -40,7 +41,6 @@ import java.util.UUID;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 
-import org.apache.commons.io.IOUtils;
 import org.apache.uima.cas.Type;
 import org.apache.uima.jcas.JCas;
 import org.apache.uima.jcas.tcas.Annotation;
@@ -157,7 +157,7 @@ public class CasToHtmlRenderer {
 	/**
 	 * List of types that are permitted to appear in the output document.
 	 */
-	private Set<String> allowedTypes;
+	private Collection<String> allowedTypes;
 
 	/**
 	 * Lookup index for accessing DOM elements by id.
@@ -189,7 +189,7 @@ public class CasToHtmlRenderer {
 	 *            Types that are permitted to occur in the output. {@code null} means that all types
 	 *            are permitted.
 	 */
-	public void setAllowedTypes(Set<String> allowedTypes) {
+	public void setAllowedTypes(Collection<String> allowedTypes) {
 
 		this.allowedTypes = allowedTypes;
 	}
@@ -209,6 +209,7 @@ public class CasToHtmlRenderer {
 	 * <p>
 	 *
 	 * @param type
+	 * @param jcas
 	 * @return {@code true} if the type is allowed and {@code false} otherwise.
 	 */
 	private boolean isAllowedType(Type type) {
@@ -471,7 +472,7 @@ public class CasToHtmlRenderer {
 			return;
 		}
 
-		StringBuffer pretty = new StringBuffer();
+		StringBuilder pretty = new StringBuilder();
 		annotation.prettyPrint(0, 2, pretty, true, getTeaser(annotation));
 		Element pre = createElementWithSameNamespace(annotations, HtmlConstants.ELEM_PRE);
 		pre.setAttribute(ATTR_CLASS, getTypeId(annotation.getType()));
@@ -593,20 +594,6 @@ public class CasToHtmlRenderer {
 
 		return this.getClass().getClassLoader()
 				.getResourceAsStream(CasToHtmlRenderer.TEMPLATE);
-	}
-
-
-	/**
-	 * Return the content from an UTF-8 encoded text file within the resources on the class path.
-	 *
-	 * @param name
-	 * @return file content
-	 * @throws IOException
-	 */
-	private String getResourceContent(String name) throws IOException {
-
-		InputStream input = this.getClass().getClassLoader().getResourceAsStream(name);
-		return input == null ? null : IOUtils.toString(input, "UTF-8");
 	}
 
 

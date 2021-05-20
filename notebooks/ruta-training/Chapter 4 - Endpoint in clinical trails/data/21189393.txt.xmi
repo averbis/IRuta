@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:cas="http:///uima/cas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:type="http:///org/apache/uima/trials/type.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="6" begin="0" end="1922" language="x-unspecified"/>
+    <type:ORR xmi:id="13" sofa="6" begin="1132" end="1136"/>
+    <type:ORR xmi:id="17" sofa="6" begin="1239" end="1242"/>
+    <type:ORR xmi:id="37" sofa="6" begin="1422" end="1425"/>
+    <type:ORR xmi:id="41" sofa="6" begin="1477" end="1480"/>
+    <type:PFSTime xmi:id="21" sofa="6" begin="1260" end="1266"/>
+    <type:PFSTime xmi:id="45" sofa="6" begin="1500" end="1506"/>
+    <type:PFSRate xmi:id="25" sofa="6" begin="1302" end="1305"/>
+    <type:PFSRate xmi:id="49" sofa="6" begin="1511" end="1514"/>
+    <type:OSTime xmi:id="29" sofa="6" begin="1332" end="1338"/>
+    <type:OSTime xmi:id="53" sofa="6" begin="1540" end="1546"/>
+    <type:OSRate xmi:id="33" sofa="6" begin="1364" end="1367"/>
+    <type:OSRate xmi:id="57" sofa="6" begin="1550" end="1553"/>
+    <cas:Sofa xmi:id="6" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="PURPOSE: The proteasome inhibitor bortezomib may enhance activity of&#13;&#10;chemoimmunotherapy in lymphoma. We evaluated dose-escalated bortezomib plus&#13;&#10;standard cyclophosphamide, doxorubicin, vincristine, and prednisone (CHOP) plus&#13;&#10;rituximab (R) in patients with diffuse large B-cell lymphoma (DLBCL) and mantle&#13;&#10;cell lymphoma (MCL).&#13;&#10;PATIENTS AND METHODS: Seventy-six subjects with untreated DLBCL (n = 40) and MCL &#13;&#10;(n = 36) received standard CHOP every 21 days (CHOP-21) with R plus bortezomib at&#13;&#10;0.7 mg/m(2) (n = 4), 1.0 mg/m(2) (n = 9), or 1.3 mg/m(2) (n = 63) on days 1 and 4&#13;&#10;for six cycles.&#13;&#10;RESULTS: Median age was 63 years (range, 20 to 87), and International Prognostic &#13;&#10;Index (IPI) scores were generally unfavorable (39% with IPI of 2, and 49% with&#13;&#10;IPI of 3 to 5), as were Mantle Cell Lymphoma International Prognostic Index&#13;&#10;scores in patients with MCL (28% intermediate risk and 39% high risk). Toxicity&#13;&#10;was manageable, including neuropathy in 49 subjects (8% grade 2 and 4% grade 3)&#13;&#10;and grade 3/4 anemia (13%), neutropenia (41%), and thrombocytopenia (25%). For&#13;&#10;DLBCL, the evaluable overall response rate (ORR) was 100% with 86% complete&#13;&#10;response (CR)/CR unconfirmed (CRu; n = 35). Intent-to-treat (ITT, n = 40) ORR was&#13;&#10;88% with 75% CR/CRu, 2-year progression-free survival (PFS) of 64% (95% CI, 47%&#13;&#10;to 77%) and 2-year overall survival (OS) of 70% (95% CI, 53% to 82%). For MCL,&#13;&#10;the evaluable ORR was 91% with 72% CR/CRu (n = 32). The ITT (n = 36) ORR was 81% &#13;&#10;with 64% CR/CRu, 2-year PFS 44% (95% CI, 27% to 60%) and 2-year OS 86% (95% CI,&#13;&#10;70% to 94%). IPI and MIPI correlated with survival in DLBCL and MCL,&#13;&#10;respectively. Unlike in DLBCL treated with R-CHOP alone, nongerminal center B&#13;&#10;cell (non-GCB) and GCB subtypes had similar outcomes.&#13;&#10;CONCLUSION: Bortezomib with R-CHOP-21 can be safely administered and may enhance &#13;&#10;outcomes, particularly in non-GCB DLBCL, justifying randomized studies."/>
+    <cas:View sofa="6" members="1 13 17 37 41 21 45 25 49 29 53 33 57"/>
+</xmi:XMI>

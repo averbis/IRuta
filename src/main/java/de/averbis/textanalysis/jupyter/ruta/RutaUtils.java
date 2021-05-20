@@ -1,6 +1,6 @@
 /*
  * Copyright (c) 2021, Averbis GmbH. All rights reserved.
- * 
+ *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -21,7 +21,7 @@ import java.io.File;
 import java.io.IOException;
 import java.net.URISyntaxException;
 import java.nio.charset.Charset;
-import java.nio.charset.StandardCharsets;
+import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 
@@ -38,6 +38,7 @@ import org.apache.uima.analysis_engine.AnalysisEngine;
 import org.apache.uima.analysis_engine.AnalysisEngineDescription;
 import org.apache.uima.analysis_engine.AnalysisEngineProcessException;
 import org.apache.uima.cas.CAS;
+import org.apache.uima.cas.CASException;
 import org.apache.uima.cas.TypeSystem;
 import org.apache.uima.cas.impl.CASCompleteSerializer;
 import org.apache.uima.cas.impl.CASImpl;
@@ -91,48 +92,8 @@ public class RutaUtils {
 	}
 
 
-	public static CAS applyRuta(File inputFile, AnalysisEngineDescription description,
-			String datapath)
-			throws ResourceInitializationException, IOException, AnalysisEngineProcessException {
-
-		// new resource manager for extended CAS with new types
-		ResourceManager resourceManager = UIMAFramework.newDefaultResourceManager();
-		resourceManager.setDataPath(datapath);
-
-		AnalysisEngine analysisEngine = UIMAFramework.produceAnalysisEngine(description,
-				resourceManager, null);
-		CAS cas = analysisEngine.newCAS();
-
-		fillCas(cas, inputFile, StandardCharsets.UTF_8);
-
-		analysisEngine.process(cas);
-
-		return cas;
-	}
-
-
-	public static CAS applyRuta(String documentText, String documentLanguage,
-			AnalysisEngineDescription description,
-			String datapath)
-			throws ResourceInitializationException, IOException, AnalysisEngineProcessException {
-
-		// new resource manager for extended CAS with new types
-		ResourceManager resourceManager = UIMAFramework.newDefaultResourceManager();
-		resourceManager.setDataPath(datapath);
-
-		AnalysisEngine analysisEngine = UIMAFramework.produceAnalysisEngine(description,
-				resourceManager, null);
-		CAS cas = analysisEngine.newCAS();
-		cas.setDocumentText(documentText);
-		cas.setDocumentLanguage(documentLanguage);
-
-		analysisEngine.process(cas);
-
-		return cas;
-	}
-
-
-	public static void fillCas(CAS cas, File file, Charset encoding) throws IOException {
+	public static void fillCas(CAS cas, File file, Charset encoding,
+			List<String> evaluationTypeNames) throws IOException, CASException {
 
 		cas.reset();
 		String extension = FilenameUtils.getExtension(file.getName());
@@ -141,6 +102,9 @@ public class RutaUtils {
 			cas.setDocumentText(document);
 		} else {
 			CasIOUtils.load(file.toURI().toURL(), null, cas, true);
+			if (evaluationTypeNames != null && !evaluationTypeNames.isEmpty()) {
+				EvaluationUtils.createGoldView(cas.getJCas(), evaluationTypeNames);
+			}
 		}
 
 	}

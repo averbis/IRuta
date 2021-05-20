@@ -1,8 +1,16 @@
 # Dynamically generated files
 bin/
 target/
-build/
+temp/
+.buildpath
+.project
+.settings/
+.classpath
+.factorypath
+/.gradle/
+/build/
 .gradle/
+TypeSystem.xml
 
 # IDE-related
 .idea/
@@ -14,3 +22,16 @@ notebooks/output/
 notebooks/batch_incremental/stage*
 test-output/
 
+notebooks/ruta-training/Chapter 4 - Endpoint in clinical trails/temp/
+notebooks/ruta-training/Chapter 4 - Endpoint in clinical trails/EndpointsTypeSystem.xml
+notebooks/ruta-training/Chapter 4 - Endpoint in clinical trails/Endpoints.ruta
+notebooks/ruta-training/Chapter 2 - Specific tasks/output/
+notebooks/ruta-training/Chapter 3 - Segmentation of references/out_author_train/
+notebooks/ruta-training/Chapter 3 - Segmentation of references/out_author_validation/
+notebooks/ruta-training/Chapter 3 - Segmentation of references/out_complete_train/
+notebooks/ruta-training/Chapter 3 - Segmentation of references/out_complete_validation/
+notebooks/ruta-training/Chapter 3 - Segmentation of references/out_date_train/
+notebooks/ruta-training/Chapter 3 - Segmentation of references/out_date_validation/
+notebooks/ruta-training/Chapter 3 - Segmentation of references/out_title_train/
+notebooks/ruta-training/Chapter 3 - Segmentation of references/out_title_validation/
+notebooks/ruta-training/Chapter 3 - Segmentation of references/trash/

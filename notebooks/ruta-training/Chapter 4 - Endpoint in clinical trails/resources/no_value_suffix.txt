@@ -1,0 +1,6 @@
+patient
+patients
+confidence interval
+confidence intervals
+censoring
+chemotherapy

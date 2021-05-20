@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:cas="http:///uima/cas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:type="http:///org/apache/uima/trials/type.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="6" begin="0" end="1365" language="x-unspecified"/>
+    <type:ORR xmi:id="13" sofa="6" begin="954" end="957"/>
+    <type:ORR xmi:id="17" sofa="6" begin="965" end="968"/>
+    <type:PFSMean xmi:id="21" sofa="6" begin="1061" end="1064"/>
+    <type:PFSMean xmi:id="25" sofa="6" begin="1072" end="1084"/>
+    <type:OSMean xmi:id="29" sofa="6" begin="1141" end="1145"/>
+    <type:OSMean xmi:id="33" sofa="6" begin="1153" end="1165"/>
+    <cas:Sofa xmi:id="6" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="BACKGROUND: Carcinoembryonic antigen (CEA) flare may have a favourable response&#13;&#10;to chemotherapy, but its impact on survival is unknown. This study aimed to&#13;&#10;evaluate the incidence of CEA flare and its impact on objective response rate&#13;&#10;(ORR), progression-free survival (PFS) and overall survival (OS).&#13;&#10;PATIENTS AND METHODS: Patients with histologically proven advanced colorectal&#13;&#10;cancer undergoing first-line chemotherapy with three or more serial CEA&#13;&#10;measurements (one at baseline and two or more during treatment) were included.&#13;&#10;Patients were grouped according to CEA kinetic as flare (F), decreasing CEA,&#13;&#10;normal baseline CEA, stable CEA and increasing CEA (I).&#13;&#10;RESULTS: From January 2000 to February 2008, 837 patients were screened of whom&#13;&#10;670 were eligible. CEA flare occurred in 78 (11.6%) patients. On multivariate&#13;&#10;analysis, compared with patients with increasing CEA, patients with CEA flare had&#13;&#10;a significantly better ORR [I versus F: 11% versus 73%; risk ratio (RR): 27.96;&#13;&#10;95% confidence interval (CI): 9.55-81.88; P &lt; 0.001], PFS (median 3.1 versus 8.3 &#13;&#10;months; RR: 0.38; 95% CI: 0.26-0.56; P &lt; 0.001) and OS (median 10.9 versus 17.7&#13;&#10;months; RR: 0.53; 95% CI: 0.34-0.82; P &lt; 0.001).&#13;&#10;CONCLUSIONS: Compared with patients with rising CEA, flare was an independent&#13;&#10;favourable predictive and prognostic factor for tumour response and survival."/>
+    <cas:View sofa="6" members="1 13 17 21 25 29 33"/>
+</xmi:XMI>

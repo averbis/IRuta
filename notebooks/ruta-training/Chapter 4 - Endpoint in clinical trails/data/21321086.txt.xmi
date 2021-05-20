@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:cas="http:///uima/cas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:type="http:///org/apache/uima/trials/type.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="6" begin="0" end="1617" language="x-unspecified"/>
+    <type:ORR xmi:id="13" sofa="6" begin="744" end="747"/>
+    <type:ORR xmi:id="17" sofa="6" begin="794" end="797"/>
+    <type:ORR xmi:id="21" sofa="6" begin="823" end="826"/>
+    <type:PFSMean xmi:id="25" sofa="6" begin="866" end="876"/>
+    <type:PFSMean xmi:id="29" sofa="6" begin="884" end="894"/>
+    <type:PFSMean xmi:id="33" sofa="6" begin="906" end="916"/>
+    <type:OSMean xmi:id="37" sofa="6" begin="943" end="954"/>
+    <type:OSMean xmi:id="41" sofa="6" begin="962" end="973"/>
+    <type:OSMean xmi:id="45" sofa="6" begin="985" end="996"/>
+    <cas:Sofa xmi:id="6" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="BACKGROUND: This phase II study estimated the difference in objective response&#13;&#10;rate (ORR) among patients with advanced nonsquamous non-small-cell lung cancer&#13;&#10;(NSCLC) receiving paclitaxel-carboplatin (CP) plus motesanib or bevacizumab.&#13;&#10;PATIENTS AND METHODS: Chemotherapy-naive patients (N = 186) were randomized 1:1:1&#13;&#10;to receive CP plus motesanib 125 mg once daily (qd) (arm A), motesanib 75 mg&#13;&#10;twice daily (b.i.d.) 5 days on/2 days off (arm B), or bevacizumab 15 mg/kg every &#13;&#10;3 weeks (q3w) (arm C). The primary end point was ORR (per RECIST). Other end&#13;&#10;points included progression-free survival (PFS), overall survival (OS), motesanib&#13;&#10;pharmacokinetics, and adverse events (AEs).&#13;&#10;RESULTS: ORRs in the three arms were as follows: arm A, 30% (95% confidence&#13;&#10;interval 18% to 43%); arm B, 23% (13% to 36%); and arm C, 37% (25% to 50%).&#13;&#10;Median PFS in arm A was 7.7 months, arm B 5.8 months, and arm C 8.3 months;&#13;&#10;median OS for arm A was 14.0 months, arm B 12.8 months, and arm C 14.0 months.&#13;&#10;Incidence of AEs was greater in arms A and B than in arm C. More grade 5 AEs not &#13;&#10;attributable to disease progression occurred in arm B (n = 10) than in arms A (n &#13;&#10;= 4) and C (n = 4). Motesanib plasma C(max) and C(min) values were consistent&#13;&#10;with its pharmacokinetic properties observed in previous studies.&#13;&#10;CONCLUSIONS: The efficacy of 125 mg qd motesanib or bevacizumab plus CP was&#13;&#10;estimated to be comparable. Toxicity was higher but manageable in both motesanib &#13;&#10;arms. Efficacy and tolerability of motesanib 125 mg qd plus CP in advanced&#13;&#10;nonsquamous NSCLC are being further investigated in a phase III study."/>
+    <cas:View sofa="6" members="1 13 17 21 25 29 33 37 41 45"/>
+</xmi:XMI>
