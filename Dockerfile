@@ -12,7 +12,7 @@ RUN pip3 install --no-cache-dir -r jupyter_requirements.txt
 RUN python -m sos_notebook.install
 
 # Download the IRuta release
-RUN curl -L https://github.com/averbis/IRuta/releases/download/0.1.0/IRuta-0.1.0.zip > iruta.zip
+RUN curl -L https://github.com/averbis/IRuta/releases/download/0.2.0/IRuta-0.2.0.zip > iruta.zip
 
 # Unpack and install the kernel
 RUN unzip iruta.zip -d iruta \
