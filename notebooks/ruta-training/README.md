@@ -6,7 +6,7 @@ the complexity up to more real world use cases.
 
 ## About the Exercises
 
-The exercises are grouped into unit with increasing degree of complexity. 
+The exercises are grouped into chapters with increasing degree of complexity. 
 The reader is encouraged to practice in the order they are given in this 
 document with one exception. 
 
