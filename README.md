@@ -26,7 +26,7 @@ Please be patient, as this launches a Docker container which may take a short ti
 
 #### Actual installation
 
-1. Download the prepackaged distribution *IRuta-{release-version}.zip* from the latest Release in the [Releases](https://github.com/averbis/IRuta/releasesreleases) tab. 
+1. Download the prepackaged distribution *IRuta-{release-version}.zip* from the latest Release in the [Releases](https://github.com/averbis/IRuta/releases) tab. 
 
 2. Unzip it into a temporary location and change into the unzipped directory.
 
