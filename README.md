@@ -13,16 +13,20 @@ Please be patient, as this launches a Docker container which may take a short ti
 ### Option 1: Installing Ruta Kernel from our prepackaged releases
 #### Preparation
 
-1. You will need to install the jupyter requirements by running the following command.
+1. Install a Java JDK 8 or newer. You may download a JDK from [AdoptOpenJDK](https://adoptopenjdk.net/).
+
+2. Install Python3 with its package manager pip.
+
+3. Once Python is installed, you will need to install the jupyter requirements by running the following command.
 
     ```bash
     # Installing jupyter notebook requirements
-    pip install -r jupyter_requirements.txt --user
+    pip install -r jupyter_requirements.txt
     ```
 
-    It is recommended to install the packages into a [virtual enviroment](https://docs.python.org/3/tutorial/venv.html).
+    It is recommended to install the packages into a [virtual enviroment](https://docs.python.org/3/tutorial/venv.html). You may also use Anaconda for the purpose of installing Python and managing its packages.
 
-2. You need to remove an old IRuta installation by running `jupyter kernelspec remove ruta`. 
+4. In case you are upgrading the IRuta version, you need to remove an old IRuta installation by running `jupyter kernelspec remove ruta`. 
 
 #### Actual installation
 
@@ -44,7 +48,10 @@ The repository contains a Dockerfile. You can simply execute it by running the f
 * Build the docker image: `docker build -t iruta .`
 * Run the docker image: `docker run -p 8888:8888 iruta`
 
-### Building IRuta Kernel on OS X / Linux from source
+---
+## Building IRuta Kernel on OS X / Linux from source
+If you want to develop the kernel, then the following steps help you compiling the kernel from source using Gradle.
+
 * Install SDKMAN: `curl -s "https://get.sdkman.io" | bash`
 * You may need to activate the `sdk` with `source .bashrc` or `source .zshrc` or set the path to it.
 * Install Gradle 4.8.1: `sdk install gradle 4.8.1`
