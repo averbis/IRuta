@@ -41,7 +41,7 @@ Please be patient, as this launches a Docker container which may take a short ti
 
     ```bash
     
-    python3 install.py
+    python3 install.py --user
     ```
 
 4. Check that it installed with `jupyter kernelspec list` which should contain `ruta`.
