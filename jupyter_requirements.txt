@@ -1,6 +1,8 @@
-sos-notebook==0.22.4
-sos==0.22.5
+dkpro-cassis==0.6.1
+ipykernel==6.6.0
+ipython==7.30.1
+jupyter-client==7.1.0
+sos-notebook==0.22.9
 sos-ruta==0.1.0
-dkpro-cassis==0.5.2
-ipykernel==5.4.3
-ipython==7.22.0
+sos==0.22.5
+tornado==6.1.0
