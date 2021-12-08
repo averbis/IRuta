@@ -19,7 +19,7 @@ Please be patient, as this launches a Docker container which may take a short ti
 
 2. Install Python3 with its package manager pip.
 
-3. Once Python is installed, you will need to install the jupyter requirements. It is recommended to install everything into a [virtual environment](https://docs.python.org/3/library/venv.html) by running the following commands:
+3. Once Python is installed, you will need to install the jupyter requirements. Download the [jupyter_requirements.txt](https://github.com/averbis/IRuta/blob/main/jupyter_requirements.txt) from this repository first, navigate to the download directory and open a terminal. It is recommended to install everything into a [virtual environment](https://docs.python.org/3/library/venv.html) by running the following commands:
 
     ```bash
     # 1. Navigate to the IRuta directory
