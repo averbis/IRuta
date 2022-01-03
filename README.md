@@ -12,7 +12,14 @@ Please be patient, as this launches a Docker container which may take a short ti
 - The integration from Python with IRuta using [SoS-notebooks](https://vatlab.github.io/sos-docs/) is not yet stable due to a race condition when starting the sos-kernel [(bug #9)](https://github.com/averbis/IRuta/issues/9) and problems when restarting the kernel [(bug #8)](https://github.com/averbis/IRuta/issues/8)
 
 ## Installation
-### Option 1: Installing Ruta Kernel from our prepackaged releases
+### Option 1: Running IRuta in a Docker container.
+We provide a Docker Image containing a Jupyter Notebook with IRuta Kernel installed. You can simply download & run it by running the following two commands:
+* Run the docker image: `docker pull averbis/iruta:latest && docker run -p 8888:8888 averbis/iruta:latest`. Then, you only need to open `localhost:8888` in a browser. Please note that all code changes are **not** persistent.
+
+Optonally, you can build the image yourself by executing:
+* Build the docker image: `docker build -t averbis/iruta:latest .`
+
+### Option 2: Installing Ruta Kernel from our prepackaged releases
 #### Preparation
 
 1. Install a Java JDK 8 or newer (up to JDK 15). You may download a JDK from [AdoptOpenJDK](https://adoptopenjdk.net/).
@@ -63,10 +70,7 @@ Available kernels:
 #### Run a Notebook
 Start a notebook by executing `jupyter-notebook` inside the virtual environment. Have a look at the example notebooks and tutorials in [notebooks](notebooks/).
 
-### Option 2: Running IRuta in a Docker container.
-The repository contains a Dockerfile. You can simply execute it by running the following two commands:
-* Build the docker image: `docker build -t iruta .`
-* Run the docker image: `docker run -p 8888:8888 iruta`
+
 
 ---
 ## Building IRuta Kernel on OS X / Linux from source
