@@ -50,6 +50,7 @@ public class CsvUtils {
 	public static void writeCsvToFile(final List<String[]> data, File file, List<String> csvConfig)
 			throws IOException {
 
+		file.getParentFile().mkdirs();
 		try (BufferedWriter writer = Files.newBufferedWriter(file.toPath(),
 				StandardCharsets.UTF_8)) {
 			writeCsv(data, writer, csvConfig);
