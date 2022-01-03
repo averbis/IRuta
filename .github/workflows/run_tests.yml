@@ -25,8 +25,8 @@ jobs:
         distribution: 'zulu'
         java-version: 8
         
-    - name: Build IRuta (with JUnit tests)
-      uses: eskatos/gradle-command-action@v1
+    - name: Build IRuta using Gradle (with JUnit tests)
+      uses: gradle/gradle-build-action@v2
       with:
          gradle-version: 4.8.1
-         arguments: build
+         arguments: build --info
