@@ -39,6 +39,10 @@ RUN chown -R $NB_UID $HOME
 
 USER $NB_USER
 
-# Launch the notebook server
-WORKDIR $HOME
-CMD ["jupyter", "notebook", "--ip", "0.0.0.0", "--no-browser","--NotebookApp.token=''","--NotebookApp.password=''"]
+# List of settings for the notebook that can be overwritten by the run command or by a docker-compose file
+ENV IRUTA_NOTEBOOK_PW_HASH=""
+ENV IRUTA_BASE_URL=""
+ENV IRUTA_NOTEBOOK_PORT=8888
+
+# List of settings for the notebook that can be overwritten by the run command or by a docker-compose file
+CMD ["sh", "-c", "jupyter notebook --ip=0.0.0.0 --port=$IRUTA_NOTEBOOK_PORT --no-browser --NotebookApp.token='' --notebook-dir=$HOME --NotebookApp.password=$IRUTA_NOTEBOOK_PW_HASH --NotebookApp.base_url=$IRUTA_BASE_URL"]
