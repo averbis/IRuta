@@ -45,14 +45,15 @@ Optonally, you can build the image yourself by executing:
 
 2. Unzip it into a temporary location and change into the unzipped directory.
 
-3. Run the installer with the following command. The installer is a python script and has the same options as `jupyter kernelspec install`.
+3. Run the installer with the following command. The installer is a python script and has the same options as `jupyter kernelspec install`. Please execute the command as it is and do **not** replace `--user` by your username.
 
     ```sh
     python install.py --user
     ```
 
 #### Install sos kernel
-The SoS Notebook kernel is a Jupyter kernel that allows the use of multiple kernels in one Jupyter notebook. The kernel itself is in Python. We use it to support Python and Ruta in the same notebook using [sos-ruta](https://github.com/averbis/sos-ruta). After you have installed SoS as part of the `jupyter_requirements.txt` in the step above, you can run the following command to install the SoS kernel.
+The SoS Notebook kernel is a Jupyter kernel that allows the use of multiple kernels in one Jupyter notebook. The kernel itself is in Python. We use it to support Python and Ruta in the same notebook using [sos-ruta](https://github.com/averbis/sos-ruta). After you have installed SoS as part of the `jupyter_requirements.txt` in the step above, you can run the following command to install the SoS kernel. Please execute the command as it is and do **not** replace `--user` by your username.
+
 
  ```sh
   python -m sos_notebook.install --user
@@ -69,7 +70,6 @@ Available kernels:
 
 #### Run a Notebook
 Start a notebook by executing `jupyter-notebook` inside the virtual environment. Have a look at the example notebooks and tutorials in [notebooks](notebooks/).
-
 
 
 ---
